@@ -1,0 +1,16 @@
+---
+layout: default
+title: Home
+description: Jack Mottram's weblog 
+keywords: art, photography, design, fashion, web development, mottram
+---
+
+<ul>
+{% for post in site.posts limit: 5 %}
+<li class="{{ post.type }}">
+<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+<p class="meta">Posted by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on {{ post.date | date_to_long_string }}</p>
+{{ post.content }}
+</li>
+{% endfor %}
+</ul>

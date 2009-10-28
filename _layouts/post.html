@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% if page.type == 'link' %}
+<h2 class="link"><a href="{{ page.link_to }}">{{ page.title }}</a></h2>
+{{ content }}
+
+{% endif %}
+
+{% unless page.type == 'link' %}
+<h2><a href="{{ page.url }}" title="{{ page.title }}">
+{{ page.title }}</a></h2>
+
+{{ content }}
+{% endunless %}
