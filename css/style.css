@@ -1,103 +1,331 @@
 /* The old CSS, which I need to strip down */
 
-
-html{font-size:100%;}
-body{background-color:#fff;color:#333;font:normal 1em/1.5em georgia, "times new roman", times, serif;}
-#wrapper{width:36em;margin:6em auto;}
-#nav-below{margin:3em 0 3em 0;padding:0 0 3em 0;}
-.nav-previous{font-size:.8em;width:45%;float:left;margin:0;}
-.nav-next{font-size:.8em;text-align:right;width:45%;float:right;margin:0;}
-.post{margin:9em 0 9em 0;}
-code{font-family:Courier, "Courier New", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", monospace;}
-strong{font-weight:bold;}
-a:link,a:visited,a:active{color:#03c;}
-a:hover{color:#333;text-decoration:underline;}
-h1,h2,h3{color:#444;font:2em/1.5em "palatino linotype", palatino, georgia, "times new roman", times, serif;margin-bottom:1.5em;}
-.main-archive h3,h4,h5,h6{font:1.5em/1.5em "palatino linotype", palatino, georgia, "times new roman", times, serif;margin-bottom:1.5em;}
-ol li{list-style:decimal;}
-.entry-meta{font:.8em/1.875em "palatino linotype", palatino, georgia, "times new roman", times, serif;font-weight:lighter;font-style:italic;margin-top:-3.75em;margin-bottom:1.875em;}
-.car-list li{list-style-type:none;}
-.car-monthlisting{margin:1.5em 0;}
-/* .category-post p + p,.category-post ol + p,.category-post ul + p,.category-post pre + p{text-indent:1.5em;} */
-.category-post p + p:before,.category-post ol + p:before,.category-post ul + p:before,.category-post pre + p:before, .category-post div.dean_ch + p:before {content: "\2761";padding-right:0.3em;color:#cfcfcf;}
-.category-post p:last-child {text-indent:0em;}
-/*.category-post p:first-line {font-variant:small-caps;}
-.category p + p:first-line, .category-post ol + p:first-line, .category-post ul + p:first-line, .category-post pre + p:first-line, .category-post img + p:first-line {font-variant:normal;} */
-.category-post img {margin-top:1.5em;}
-.category-post blockquote {margin:0 3em; padding:1.5em; text-align:justify;}
-.category-post blockquote p {color:#555;font-size:0.9em;}
-.category-link h2{font-size:1.5em;line-height:2em;margin-bottom:2em;}
-.category-link h2:hover{color:#333;}
-.category-link h2:after{color:#03c;content:"\2192";}
-.category-link .entry-content p {font-size:0.9em;line-height:1.666em;margin-top:-1.666em;}
-img, .category-image img{background:#eee;border:1px solid #aaa;padding:.75em;}
-.category-image cite{display:block;font-style:italic;}
-.category-quote{color:#777;}
-.category-quote blockquote{font:2em/1.333333em "palatino linotype", 
-palatino, georgia, "times new roman", times, 
-serif;font-weight:lighter;margin-bottom:1.333333em;}
-.category-quote cite{display:block;text-align:right;line-height:1.5em;margin-top:-3em;}
-.category-quote cite:before{content:"\2014";}
-
-/*
-#comments h3,#respond h3{color:#444;}
-#respond h3{margin-top:3em;}
-li.comment{margin-bottom:1.5em;list-style-type:lower-roman;}
-p.comment,#comment-notes{font-size:.8em;line-height:1.875em;font-style:italic;margin-top:-1.875em;}
-.form-label{float:left;width:10em;margin:1.5em 0 0;}
-.form-input{float:right;width:14em;margin:1.5em 0 0;}
-.form-input input.text{color:#777;width:13.5em;}
-.form-textarea textarea{color:#777;width:100%;}
-.form-submit{margin:1.5em 0 0;}
-*/
-
-.form-textarea {margin-bottom:1.5em;}
-
-
-
-
-
-
-.skip-link, .invisible{display:none;}
-#nav-below a,#nav-below a:active,#nav-below a:link,#nav-below a:visited{color:#aaa;}
-#nav-below a:hover{text-decoration:none;color:#333;}
-.caps{font-variant:small-caps;}
-.amp{font-family:Baskerville, Palatino, "Book Antiqua", serif;font-style:italic;}
-.dean_ch .amp {font-family:monospace;font-style:normal;}
-#search{margin:6em 0 1.5em;}
-#search label{width:7em;float:left;margin-right:.5em;display:block;}
-#search input{margin-left:.5em;}
-.edit a{color:red;}
-.vvqbox{background:#eee;border:1px solid #aaa;padding:.5em;}
-br{clear:both;}
-p,ul,ol{margin-bottom:1.5em;}
-em,.category-link cite, .category-audio cite, .category-post cite {font-style:italic;}
-ul li,.car-monthlisting li{list-style-type:circle;}
-.archive-meta,.edit{font-size:.8em;}
-
-/* tidy up */
-
-.navigation {margin-bottom:3em; clear:both;}
-.category-list {margin-top:-1.5em;}
-.car-container {margin-top:-1.5em}
-pre {margin-bottom:1.5em;}
-.caps {font-variant:small-caps;}
-.dean_ch ol li {
-	list-style-type:decimal;
-	color:black ! important;
+html
+{
+	font-size:100%;
 }
-abbr, acronym {cursor:help;border-bottom:1px dotted #aaa;}
 
-/* short url stuff - make prettier */
+body
+{
+	background-color:#fff;
+	color:#333;
+	font:normal 1em/1.5em georgia, "times new roman", times, serif;
+	width:36em;
+	margin:6em auto;
+}
 
-#shorturl {
+
+#nav-below
+{
+	margin:3em 0;
+	padding:0 0 3em;
+}
+
+.nav-previous
+{
+	font-size:.8em;
+	width:45%;
+	float:left;
+	margin:0;
+}
+
+.nav-next
+{
+	font-size:.8em;
+	text-align:right;
+	width:45%;
+	float:right;
+	margin:0;
+}
+
+.post
+{
+	margin:9em 0;
+}
+
+code
+{
+	font-family:Courier, "Courier New", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", monospace;
+}
+
+strong
+{
+	font-weight:700;
+}
+
+a:link,a:visited,a:active
+{
+	color:#03c;
+}
+
+a:hover
+{
+	color:#333;
+	text-decoration:underline;
+}
+
+h1,h2,h3
+{
+	color:#444;
+	font:2em/1.5em "palatino linotype", palatino, georgia, "times new roman", times, serif;
+	margin-bottom:1.5em;
+}
+
+.main-archive h3,h4,h5,h6
+{
+	font:1.5em/1.5em "palatino linotype", palatino, georgia, "times new roman", times, serif;
+	margin-bottom:1.5em;
+}
+
+ol li
+{
+	list-style:decimal;
+}
+
+.entry-meta
+{
+	font:.8em/1.875em "palatino linotype", palatino, georgia, "times new roman", times, serif;
+	font-weight:lighter;
+	font-style:italic;
+	margin-top:-3.75em;
+	margin-bottom:1.875em;
+}
+
+.car-list li
+{
+	list-style-type:none;
+}
+
+.car-monthlisting
+{
+	margin:1.5em 0;
+}
+
+.category-post p + p:before,.category-post ol + p:before,.category-post ul + p:before,.category-post pre + p:before,.category-post div.dean_ch + p:before
+{
+	content:"\2761";
+	padding-right:.3em;
+	color:#cfcfcf;
+}
+
+.category-post p:last-child
+{
+	text-indent:0;
+}
+
+.category-post img
+{
+	margin-top:1.5em;
+}
+
+.category-post blockquote
+{
+	text-align:justify;
+	margin:0 3em;
+	padding:1.5em;
+}
+
+.category-post blockquote p
+{
+	color:#555;
+	font-size:.9em;
+}
+
+.category-link h2
+{
+	font-size:1.5em;
+	line-height:2em;
+	margin-bottom:2em;
+}
+
+.category-link h2:hover
+{
+	color:#333;
+}
+
+.category-link h2:after
+{
+	color:#03c;
+	content:"\2192";
+}
+
+.category-link .entry-content p
+{
+	font-size:.9em;
+	line-height:1.666em;
+	margin-top:-1.666em;
+}
+
+img,.category-image img
+{
+	background:#eee;
+	border:1px solid #aaa;
+	padding:.75em;
+}
+
+.category-image cite
+{
+	display:block;
+	font-style:italic;
+}
+
+.category-quote
+{
+	color:#777;
+}
+
+.category-quote blockquote
+{
+	font:2em/1.333333em "palatino linotype", palatino, georgia, "times new roman", times, serif;
+	font-weight:lighter;
+	margin-bottom:1.333333em;
+}
+
+.category-quote cite
+{
+	display:block;
+	text-align:right;
+	line-height:1.5em;
+	margin-top:-3em;
+}
+
+.category-quote cite:before
+{
+	content:"\2014";
+}
+
+.skip-link,.invisible
+{
+	display:none;
+}
+
+#nav-below a,#nav-below a:active,#nav-below a:link,#nav-below a:visited
+{
+	color:#aaa;
+}
+
+#nav-below a:hover
+{
+	text-decoration:none;
+	color:#333;
+}
+
+.caps
+{
+	font-variant:small-caps;
+}
+
+.amp
+{
+	font-family:Baskerville, Palatino, "Book Antiqua", serif;
+	font-style:italic;
+}
+
+.dean_ch .amp
+{
+	font-family:monospace;
+	font-style:normal;
+}
+
+#search
+{
+	margin:6em 0 1.5em;
+}
+
+#search label
+{
+	width:7em;
+	float:left;
+	margin-right:.5em;
+	display:block;
+}
+
+#search input
+{
+	margin-left:.5em;
+}
+
+.edit a
+{
+	color:red;
+}
+
+.vvqbox
+{
+	background:#eee;
+	border:1px solid #aaa;
+	padding:.5em;
+}
+
+br
+{
+	clear:both;
+}
+
+em,.category-link cite,.category-audio cite,.category-post cite
+{
+	font-style:italic;
+}
+
+ul li,.car-monthlisting li
+{
+	list-style-type:circle;
+}
+
+.archive-meta,.edit
+{
+	font-size:.8em;
+}
+
+.navigation
+{
+	margin-bottom:3em;
+	clear:both;
+}
+
+.dean_ch ol li
+{
+	list-style-type:decimal;
+	color:#000!important;
+}
+
+abbr,acronym
+{
+	cursor:help;
+	border-bottom:1px dotted #aaa;
+}
+
+#shorturl
+{
 	font-style:italic;
 	border:none;
 }
 
-input:focus {
+input:focus
+{
 	outline:none;
 }
 
-.footnotes {font-size:0.9em;padding-right:2em;}
-.footnotes hr {border:0;color:#eaeaea;background-color:#eaeaea;height:1px;}
+.footnotes
+{
+	font-size:.9em;
+	padding-right:2em;
+}
+
+.footnotes hr
+{
+	border:0;
+	color:#eaeaea;
+	background-color:#eaeaea;
+	height:1px;
+}
+
+.form-textarea,p,ul,ol,pre
+{
+	margin-bottom:1.5em;
+}
+
+.category-list,.car-container
+{
+	margin-top:-1.5em;
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Mottr.am</title>
+ <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
+ <link href="http://mottr.am/"/>
+ <updated>2009-10-29T13:25:53+00:00</updated>
+ <id>http://mottr.am</id>
+ <author>
+   <name>Jack Mottram</name>
+   <email>j@ck.mottr.am</email>
+ </author>
+ 
+ 
+ <entry>
+   <title>Todo List for the Redesign</title>
+   <link href="http://mottr.am/2009/10/29/Todo-List/"/>
+   <updated>2009-10-29T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/10/29/Todo-List</id>
+   <content type="html">&lt;p&gt;Stuff I need to do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Check Atom feed works&lt;/li&gt;
+&lt;li&gt;Er, the whole design!&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>This is a test post</title>
+   <link href="http://mottr.am/2009/10/28/first/"/>
+   <updated>2009-10-28T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/10/28/first</id>
+   <content type="html">&lt;p&gt;This is a test of jekyll. Is it  really suitable for a weblog?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mottr.am/wp-content/uploads/2009/10/black-panthers.jpg&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>This is the second post</title>
+   <link href="http://mottr.am/2009/10/27/second/"/>
+   <updated>2009-10-27T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/10/27/second</id>
+   <content type="html">&lt;p&gt;This is a test of the link layout.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bueller Durden</title>
+   <link href="http://mottr.am/2009/04/29/bueller-durden/"/>
+   <updated>2009-04-29T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/04/29/bueller-durden</id>
+   <content type="html">&lt;blockquote&gt;&lt;p&gt;Ferris Bueller, the person, is just a figment of Cameron's imagination, like Tyler Durden, and Sloane is the girl Cameron secretly loves.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;cite&gt;&lt;a href=&quot;http://metatalk.metafilter.com/17671/Bueller#641748&quot;&gt;Cool Papa Bell&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

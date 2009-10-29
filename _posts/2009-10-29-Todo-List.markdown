@@ -1,0 +1,11 @@
+---
+title: Todo List for the Redesign
+layout: post
+type: basic
+keywords: todo
+description: A todo list for the redesign of Mottr.am
+---
+Stuff I need to do:
+
+* Check Atom feed works
+* Er, the whole design!
