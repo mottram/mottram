@@ -4,7 +4,7 @@
  <title>Mottr.am</title>
  <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
  <link href="http://mottr.am/"/>
- <updated>2009-10-29T13:25:53+00:00</updated>
+ <updated>2009-10-29T14:12:04+00:00</updated>
  <id>http://mottr.am</id>
  <author>
    <name>Jack Mottram</name>
@@ -33,8 +33,6 @@
    <updated>2009-10-28T00:00:00+00:00</updated>
    <id>http://mottr.am/2009/10/28/first</id>
    <content type="html">&lt;p&gt;This is a test of jekyll. Is it  really suitable for a weblog?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://mottr.am/wp-content/uploads/2009/10/black-panthers.jpg&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
