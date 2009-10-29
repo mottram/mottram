@@ -5,10 +5,6 @@ type: link
 link_to: http://example.com
 keywords: test, meta, design
 description: This is the second post on my jekyll site.
-categories:
-topics:
-- monkey
-- chicken
 ---
 
 This is a test of the link layout.

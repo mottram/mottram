@@ -3,13 +3,16 @@ layout: default
 ---
 {% if page.type == 'link' %}
 <h2 class="link"><a href="{{ page.link_to }}">{{ page.title }}</a></h2>
+
+<p class="meta">Posted by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on {{ post.date | date_to_long_string }}</p>
+
 {{ content }}
 
 {% endif %}
 
 {% unless page.type == 'link' %}
-<h2><a href="{{ page.url }}" title="{{ page.title }}">
-{{ page.title }}</a></h2>
+<h2><a href="{{ page.url }}" title="{{ page.title }}"{{ page.title }}</a></h2>
 
+<p class="meta">Posted by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on {{ page.date | date_to_long_string }}</p>
 {{ content }}
 {% endunless %}
