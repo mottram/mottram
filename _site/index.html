@@ -1,58 +1,218 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html dir="ltr" lang="en-GB">
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>Mottr.am | Home</title>
-   <meta name="author" content="Jack Mottram" />
-   <meta name="description" content="Jack Mottram's weblog" />
-   <meta name="keywords" content="art, photography, design, fashion, web development, mottram" />
-   <link rel="alternate" type="application/rss+xml" href="/feed/atom/" title="Mottr.am latest posts" />
-   <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection" />
-   <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+   	<meta charset="utf-8" />
+   	<title>Mottr.am | Home</title>
+   	<meta name="author" content="Jack Mottram" />
+   	<meta name="description" content="Jack Mottram's weblog" />
+   	<meta name="keywords" content="art, photography, design, fashion, web development, mottram" />
+   	<link rel="alternate" type="application/rss+xml" href="/feed/atom/" title="Mottr.am latest posts" />
+   	<!--[if IE]>
+   	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   	<![endif]-->
+   	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+   	<link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection" />
+   	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+   	<link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection" />
 </head>
-<body>
+<body class="mottram index">
   
   
-<ul>
+<ol class="home">
 
-<li class="basic">
-<h2><a href="/2009/10/29/Todo-List/" title="Todo List for the Redesign">Todo List for the Redesign</a></h2>
-<p class="meta">Posted by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on 29 October 2009</p>
+
+
+
+
+
+
+
+
+
+<li>
+	<article>
+		<h2>Testing An Embedded Video</h2>
+		<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a href="/2009/10/30/testing-video/" title="Permanent link to 'Testing An Embedded Video'">30 October 2009</a>. Tagged meta and test.</p>
+		<object type="application/x-shockwave-flash" style="width:465px; height:384px;" data="">
+		<param name="movie" value="" />
+		</object>
+		<p>This is a test of automatic video embedding!</p>
+
+	</article>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<article>
+<h2>Goodbye WordPress, Hello Jekyll</h2>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a href="/2009/10/29/goodbye-wordpress-hello-jekyll/" title="Permanent link to 'Goodbye WordPress, Hello Jekyll'">29 October 2009</a>. Tagged meta, jekyll, and wordpress.</p>
+<p>The number one reason: no more updating WordPress. Sure, it's easy enough to click through the [Automatic Upgrade] process for WordPress itself, and any plugings you have installed, but it's time-consuming.</p>
+
+</article>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<article>
+<h2>Todo List for the Redesign</h2>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a href="/2009/10/29/Todo-List/" title="Permanent link to 'Todo List for the Redesign'">29 October 2009</a>. Tagged todo.</p>
 <p>Stuff I need to do:</p>
 
 <ul>
 <li>Check Atom feed works</li>
+<li>Sitemap</li>
 <li>Er, the whole design!</li>
+<li>fix time tag - should have datetime="2009-10-"</li>
 </ul>
 
 
+<p>Posts types:</p>
+
+<ul>
+<li>basic</li>
+<li>photo</li>
+<li>link</li>
+</ul>
+
+
+<p>Add <a href="http://www.brucelawson.co.uk/2009/html-5-flash-embedding-and-other-validation-erors/">video</a>:</p>
+
+<div class="highlight"><pre><span class="nt">&lt;object</span> <span class="na">width=</span><span class="s">&quot;425&quot;</span> <span class="na">height=</span><span class="s">&quot;344&quot;</span> <span class="na">data=</span><span class="s">&quot;http://www.youtube.com/v/8-pFwbHMuwA&amp;amp;hl=en&amp;amp;fs=1&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;movie&quot;</span> <span class="na">value=</span><span class="s">&quot;http://www.youtube.com/v/8-pFwbHMuwA&amp;amp;hl=en&amp;amp;fs=1&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;allowFullScreen&quot;</span> <span class="na">value=</span><span class="s">&quot;true&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;allowscriptaccess&quot;</span> <span class="na">value=</span><span class="s">&quot;always&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;embed</span> <span class="na">src=</span><span class="s">&quot;http://www.youtube.com/v/8-pFwbHMuwA&amp;amp;hl=en&amp;amp;fs=1&quot;</span> <span class="na">type=</span><span class="s">&quot;application/x-shockwave-flash&quot;</span> <span class="na">allowscriptaccess=</span><span class="s">&quot;always&quot;</span> <span class="na">allowfullscreen=</span><span class="s">&quot;true&quot;</span> <span class="na">width=</span><span class="s">&quot;425&quot;</span> <span class="na">height=</span><span class="s">&quot;344&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/object&gt;</span>
+</pre>
+</div>
+
+
+</article>
 </li>
 
-<li class="photo">
-<h2><a href="/2009/10/28/first/" title="This is a test post">This is a test post</a></h2>
-<p class="meta">Posted by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on 28 October 2009</p>
+
+
+
+
+
+
+
+<li>
+<article class="link">
+<h2><a title="This is a test post" href="/images/black-panthers.jpg">This is a test post</a></h2>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a href="/2009/10/28/first-copy/" title="Permanent link to 'This is a test post'">28 October 2009</a>. Tagged 1960s, photography, and politics.</p>
+<p>This is a test of my broken link post style.</p>
+
+</article>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<article class="photo">
+<h2>This is a test post</h2>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a href="/2009/10/28/first/" title="Permanent link to 'This is a test post'">28 October 2009</a>. Tagged 1960s, photography, and politics.</p>
+<img alt="Home" title="Home" src="/images/black-panthers.jpg" width="500px" />
 <p>This is a test of jekyll. Is it  really suitable for a weblog?</p>
 
+</article>
 </li>
 
-<li class="link">
-<h2><a href="/2009/10/27/second/" title="This is the second post">This is the second post</a></h2>
-<p class="meta">Posted by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on 27 October 2009</p>
-<p>This is a test of the link layout.</p>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<article class="link">
+<h2><a title="Another Test, for Testing (A Link)" href="http://example.com">Another Test, for Testing (A Link)</a></h2>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a href="/2009/10/21/another-testing/" title="Permanent link to 'Another Test, for Testing (A Link)'">21 October 2009</a>. Tagged test and monkey.</p>
+<p>This is the other link</p>
+
+</article>
 </li>
 
-<li class="quote">
-<h2><a href="/2009/04/29/bueller-durden/" title="Bueller Durden">Bueller Durden</a></h2>
-<p class="meta">Posted by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on 29 April 2009</p>
-<blockquote><p>Ferris Bueller, the person, is just a figment of Cameron's imagination, like Tyler Durden, and Sloane is the girl Cameron secretly loves.</p></blockquote>
 
-<p><cite><a href="http://metatalk.metafilter.com/17671/Bueller#641748">Cool Papa Bell</a></cite></p>
 
-</li>
 
-</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ol>
 
   
 </body>

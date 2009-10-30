@@ -1,16 +1,70 @@
 ---
 layout: default
 title: Home
+type: index
 description: Jack Mottram's weblog 
 keywords: art, photography, design, fashion, web development, mottram
 ---
 
-<ul>
-{% for post in site.posts limit: 5 %}
-<li class="{{ post.type }}">
-<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-<p class="meta">Posted by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on {{ post.date | date_to_long_string }}</p>
+<ol class="home">
+{% for post in site.posts limit: 20 %}
+
+
+{% if post.type == 'photo' %}
+<li>
+<article class="photo">
+<h2>{{ post.title }}</h2>
+{% include home_meta.html %}
+<img alt="{{ page.title }}" title="{{ page.title }}" src="{{ post.image_url }}" width="500px" />
 {{ post.content }}
+</article>
 </li>
+{% endif %}
+
+
+{% if post.type == 'link' %}
+<li>
+<article class="link">
+<h2><a title="{{ post.title }}" href="{{ post.link_to }}">{{ post.title }}</a></h2>
+{% include home_meta.html %}
+{{ post.content }}
+</article>
+</li>
+{% endif %}
+
+
+{% if post.type == 'youtube' %}
+<li>
+	<article>
+		<h2>{{ post.title }}</h2>
+		{% include home_meta.html %}
+		<object type="application/x-shockwave-flash" style="width:465px; height:384px;" data="{{ page.video_url }}">
+		<param name="movie" value="{{ page.video_url }}" />
+		</object>
+		{{ post.content }}
+	</article>
+</li>
+{% endif %}
+
+{% if post.type == 'vimeo' %}
+<li>
+	<article>
+		<h2>{{ post.title }}</h2>
+		{% include home_meta.html %}
+		{{ post.content }}
+	</article>
+</li>
+{% endif %}
+
+
+{% if post.type == 'basic'%}
+<li>
+<article>
+<h2>{{ post.title }}</h2>
+{% include home_meta.html %}
+{{ post.content }}
+</article>
+</li>
+{% endif %}
 {% endfor %}
-</ul>
+</ol>

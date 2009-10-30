@@ -2,28 +2,51 @@
 layout: default
 ---
 {% if page.type == 'link' %}
-<h2 class="link"><a href="{{ page.link_to }}">{{ page.title }}</a></h2>
+<article class="link">
+<h2><a href="{{ page.link_to }}">{{ page.title }}</a></h2>
 
-<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on {{ post.date | date_to_long_string }}.</p>
+{% include meta.html %}
 
 {{ content }}
+
+</article>
+
+{% include related.html %}
 
 {% endif %}
 
 {% if page.type == 'photo' %}
+<article class="photo">
 <h2>{{ page.title }}</h2>
-<p class="meta">Posted by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a href="{{ page.url }}" title="Permanent link to '{{ page.title }}'">{{ page.date | date_to_long_string }}</a>. Tags: {% for topic in page.topics %}
-{{ topic }}
-{% endfor %}</p>
 
-<img alt="{{ page.title }}" title="{{ page.title }}" src="{{ page.image_url }}" width="500px" />
+{% include meta.html %}
+
+<img alt="{{ page.title }}" title="{{ page.title }}" src="{{ page.image_url }}" width="500" />
 
 {{ content }}
+</article>
+{% include related.html %}
+{% endif %}
 
-<h4>Related posts:</h4>
-<ul class="related">
-{% for post in site.related_posts limit:3 %}
-<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+{% if page.type == 'youtube' %}
+<article>
+<h2>{{ page.title }}</h2>
+{% include meta.html %}
+<object type="application/x-shockwave-flash" style="width:600px; height:492px;" data="{{ page.video_url }}">
+<param name="movie" value="{{ page.video_url }}" />
+</object>
+</article>
+{% include related.html %}
+{% endif %}
+
+{% if page.type == 'basic' %}
+<article>
+<h2>{{ page.title }}</h2>
+
+{% include meta.html %}
+
+{{ content }}
+</article>
+
+{% include related.html %}
 {% endif %}

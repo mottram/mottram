@@ -1,35 +1,24 @@
 /* The old CSS, which I need to strip down */
 
-html
-{
-	font-size:100%;
-}
-
-body
-{
-	background-color:#fff;
-	color:#333;
-	font:normal 1em/1.5em georgia, "times new roman", times, serif;
-	width:36em;
-	margin:6em auto;
-}
-
-
-.meta
-{
-	font:.8em/1.875em "palatino linotype", palatino, georgia, "times new roman", times, serif;
-	font-weight:lighter;
-	font-style:italic;
-	margin-top:-3.75em;
-	margin-bottom:1.875em;
+body {
+	background:#fff;
+	color:#555;
+	font:normal 16px/24px georgia, "times new roman", times, serif;
+	width:600px;
+	margin:96px auto;
 }
 
 h1,h2,h3 {
-	color:#444;font:2em/1.5em "palatino linotype", palatino, georgia, "times new roman", times, serif;margin-bottom:1.5em;
+	font:28px/24px normal "palatino linotype", palatino, georgia, "times new roman", times, serif;
+	margin-bottom:24px;
 	}
 	
-p {
-	margin-bottom:1.5em;
+h4 {
+	font:16px/24px normal;
+}
+	
+p, cite, quote, blockquote, object {
+	margin-bottom:24px;
 }
 
 a:link, a:visited, a:active{
@@ -38,13 +27,86 @@ a:link, a:visited, a:active{
 	}
 	
 a:hover {
-	color:#333;text-decoration:underline;
+	color:#333;
+	}
+	
+aside {
+	margin-top:48px;
+	padding:21px 0;
+}
+
+.related {
+	color:#777;
+	font-size:0.9em;
+}
+
+.related a {
+	color:#777;
+}
+
+.meta {
+	font:14px "palatino linotype", palatino, georgia, "times new roman", times, serif;
+	font-weight:lighter;
+	font-style:italic;
+	margin:-16px 0 24px 0;
+}
+
+/* Home page */
+
+ol.home li {
+	margin:0 0 72px 0;
+}
+
+/* Links */
+
+.link p  {
+	font-size:16px;
+}
+
+.link p.meta {
+	font-size:14px;
+	margin:-16 0 14px 0px;
+}
+
+.link p + p {
+	margin-top:-24px;
+}
+
+.link h2 {
+	font-size:18px;
+}
+
+.link h2:after {
+	color:#03c;
+	content:"\2192";
 	}
 
+/* Photos */
 
 img {
-	margin:0 0 1.5em 0;
+	margin:0 0 24px 0;
 	border:1px solid #fff;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+}
+
+
+/* Fix for ordered lists in posts on the homepage - whoops! */
+
+ol.home li ul {
+	margin-bottom:24px;
+}
+
+ol.home li ul li {
+	margin:0;
+	list-style-type:circle;
+}
+
+/* code highlighting */
+
+div.highlight {
+	font-size:12px;
+	width:600px;
+	overflow:auto;
+	margin-bottom:21px;
 }

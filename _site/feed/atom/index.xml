@@ -4,13 +4,31 @@
  <title>Mottr.am</title>
  <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
  <link href="http://mottr.am/"/>
- <updated>2009-10-29T14:12:04+00:00</updated>
+ <updated>2009-10-30T14:16:35+00:00</updated>
  <id>http://mottr.am</id>
  <author>
    <name>Jack Mottram</name>
    <email>j@ck.mottr.am</email>
  </author>
  
+ 
+ <entry>
+   <title>Testing An Embedded Video</title>
+   <link href="http://mottr.am/2009/10/30/testing-video/"/>
+   <updated>2009-10-30T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/10/30/testing-video</id>
+   <content type="html">&lt;p&gt;This is a test of automatic video embedding!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Goodbye WordPress, Hello Jekyll</title>
+   <link href="http://mottr.am/2009/10/29/goodbye-wordpress-hello-jekyll/"/>
+   <updated>2009-10-29T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/10/29/goodbye-wordpress-hello-jekyll</id>
+   <content type="html">&lt;p&gt;The number one reason: no more updating WordPress. Sure, it's easy enough to click through the [Automatic Upgrade] process for WordPress itself, and any plugings you have installed, but it's time-consuming.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Todo List for the Redesign</title>
@@ -21,9 +39,41 @@
 
 &lt;ul&gt;
 &lt;li&gt;Check Atom feed works&lt;/li&gt;
+&lt;li&gt;Sitemap&lt;/li&gt;
 &lt;li&gt;Er, the whole design!&lt;/li&gt;
+&lt;li&gt;fix time tag - should have datetime=&quot;2009-10-&quot;&lt;/li&gt;
 &lt;/ul&gt;
 
+
+&lt;p&gt;Posts types:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;basic&lt;/li&gt;
+&lt;li&gt;photo&lt;/li&gt;
+&lt;li&gt;link&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Add &lt;a href=&quot;http://www.brucelawson.co.uk/2009/html-5-flash-embedding-and-other-validation-erors/&quot;&gt;video&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;object&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;425&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;344&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://www.youtube.com/v/8-pFwbHMuwA&amp;amp;amp;hl=en&amp;amp;amp;fs=1&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;param&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;movie&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://www.youtube.com/v/8-pFwbHMuwA&amp;amp;amp;hl=en&amp;amp;amp;fs=1&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;param&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;allowFullScreen&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;param&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;allowscriptaccess&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;always&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;embed&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://www.youtube.com/v/8-pFwbHMuwA&amp;amp;amp;hl=en&amp;amp;amp;fs=1&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;application/x-shockwave-flash&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowscriptaccess=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;always&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;425&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;344&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/object&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>This is a test post</title>
+   <link href="http://mottr.am/2009/10/28/first-copy/"/>
+   <updated>2009-10-28T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/10/28/first-copy</id>
+   <content type="html">&lt;p&gt;This is a test of my broken link post style.&lt;/p&gt;
 </content>
  </entry>
  
@@ -37,11 +87,11 @@
  </entry>
  
  <entry>
-   <title>This is the second post</title>
-   <link href="http://mottr.am/2009/10/27/second/"/>
-   <updated>2009-10-27T00:00:00+00:00</updated>
-   <id>http://mottr.am/2009/10/27/second</id>
-   <content type="html">&lt;p&gt;This is a test of the link layout.&lt;/p&gt;
+   <title>Another Test, for Testing (A Link)</title>
+   <link href="http://mottr.am/2009/10/21/another-testing/"/>
+   <updated>2009-10-21T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/21/another-testing</id>
+   <content type="html">&lt;p&gt;This is the other link&lt;/p&gt;
 </content>
  </entry>
  
