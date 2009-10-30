@@ -1,0 +1,13 @@
+---
+title: Nice Bag
+layout: post
+type: photo
+image_url: /u/2009/09/reversible-bag.jpg
+keywords: bags, fashion, uk
+description: A nice reversible shopping bag
+topics: 
+ - bags
+ - fashion
+---
+
+Nice bags by Demelza Hill at _It's Nice That_--terribly sensible, until you turn them [inside out](http://www.itsnicethat.com/articles/1685-demelza-hills-reversible-bag "Only thirty quid, too.").

@@ -1,0 +1,7 @@
+define_webjump("ps", function (url) {
+    if (url) {
+        return "http://pinboard.in/add?next=same&url=" + url;
+    } else {
+        return "javascript:document.location.href='http://pinboard.in/add?next=same&url='+encodeURIComponent(document.location.href)+'&description='+encodeURIComponent(document.getSelection())+'&title='+encodeURIComponent(document.title);";
+   }
+}, $argument = "optional");

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Mottr.am</title>
+ <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
+ <link href="http://mottr.am/"/>
+ <updated>2009-10-30T18:51:26+00:00</updated>
+ <id>http://mottr.am</id>
+ <author>
+   <name>Jack Mottram</name>
+   <email>j@ck.mottr.am</email>
+ </author>
+ 
+ 
+ <entry>
+   <title>Goodbye WordPress, Hello Jekyll</title>
+   <link href="http://mottr.am/2009/10/29/goodbye-wordpress-hello-jekyll/"/>
+   <updated>2009-10-29T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/10/29/goodbye-wordpress-hello-jekyll</id>
+   <content type="html">&lt;p&gt;The number one reason: no more updating WordPress. Sure, it&amp;#8217;s easy enough to click through the Automatic Upgrade process for WordPress itself, and any plugings you have installed, but it&amp;#8217;s time-consuming.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Todo List for the Redesign</title>
+   <link href="http://mottr.am/2009/10/29/Todo-List/"/>
+   <updated>2009-10-29T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/10/29/Todo-List</id>
+   <content type="html">&lt;p&gt;Stuff I need to do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Check Atom feed works, add .htaccess redirect from /feed/atom/ to /atom.xml&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Sitemap&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Er, the whole design!&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;fix time tag - should have datetime=&amp;#8221;2009-10-&amp;#8221;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;fix blockquote css&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;basic&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;link&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;photo&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;youtube&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;vimeo&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;basic&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Life with the Black Panthers</title>
+   <link href="http://mottr.am/2009/10/25/life-with-the-black-panthers/"/>
+   <updated>2009-10-25T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/25/life-with-the-black-panthers</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Kathleen Cleaver and Black Panther co-founder Bobby Seale (right) at a &amp;#8220;Free Huey&amp;#8221; rally in Oakland, California, in the summer of 1968.&lt;/em&gt;, taken from a &lt;a href='http://www.guardian.co.uk/artanddesign/2009/oct/25/black-panthers-photographs-howard-bingham'&gt;new book&lt;/a&gt; by Howard Bingham.&lt;/p&gt;
+
+&lt;p&gt;See also: The Black Panther&amp;#8217;s &lt;a href='http://www.blackpanther.org/TenPoint.htm'&gt;Ten Point Program&lt;/a&gt;&amp;#8211;I was surprised to find that, separatism aside, it&amp;#8217;s a pretty reasonable manifesto.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Data Newspaper</title>
+   <link href="http://mottr.am/2009/10/23/data-newspaper/"/>
+   <updated>2009-10-23T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/23/data-newspaper</id>
+   <content type="html">&lt;p&gt;&amp;#8220;We’ve been thinking about the beta Data.gov.uk repository, and wanted to explore putting some of the information contained within into people’s hands in a form that is accessible, timely, and relevant. And perhaps unsurprisingly, we thought a good way to do that was with a newspaper. So here it is, the &lt;em&gt;Postcode Paper&lt;/em&gt;.&amp;#8221; Wonderful. I can&amp;#8217;t wait for &lt;a href='http://www.newspaperclub.co.uk/'&gt;Newspaper Club&lt;/a&gt; to launch, and have an idea for a hyper-local newspaper of my own brewing.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Cassetteboy Does Griffin</title>
+   <link href="http://mottr.am/2009/10/23/cassetteboy-does-griffin/"/>
+   <updated>2009-10-23T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/23/cassetteboy-does-griffin</id>
+   <content type="html">&lt;hr /&gt;
+&lt;p&gt;layout: post title: Cassetteboy does Griffin type: youtube video_url: http://www.youtube.com/v/_QAvkFS_cgk keywords: cassetteboy, nick griffin, bnp description: Cassetteboy edits the truth into Nick Griffin topics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;meta&lt;/li&gt;
+
+&lt;li&gt;test&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Neo-Polaroid</title>
+   <link href="http://mottr.am/2009/10/22/neo-polaroid/"/>
+   <updated>2009-10-22T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/22/neo-polaroid</id>
+   <content type="html">&lt;p&gt;In Tehran, you can buy a &amp;#8220;Polaroid&amp;#8221; memento from a man with a digital camera and portable printer. Jan Chipchase points out the significance of &lt;a href='http://www.janchipchase.com/blog/archives/2009/10/everyday-forensics.html'&gt;photographing the printing of the photograph&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Markdown for Gedit</title>
+   <link href="http://mottr.am/2009/10/21/markdown-for-gedit/"/>
+   <updated>2009-10-21T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/21/markdown-for-gedit</id>
+   <content type="html">&lt;p&gt;Markdown syntax highlighting for &lt;code&gt;gedit&lt;/code&gt;. (I&amp;#8217;m mostly linking to it because I just found out that the French for &lt;em&gt;download&lt;/em&gt; is &lt;em&gt;téléchargement&lt;/em&gt;. Lovely.)&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Vimeo Tester</title>
+   <link href="http://mottr.am/2009/10/20/testing-vimeo/"/>
+   <updated>2009-10-20T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/20/testing-vimeo</id>
+   <content type="html">&lt;p&gt;This is a test of automatic viMeo embedding!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Capote's Ball</title>
+   <link href="http://mottr.am/2009/10/20/capotes-ball/"/>
+   <updated>2009-10-20T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/20/capotes-ball</id>
+   <content type="html">&lt;p&gt;Candace Bergen, bored at Truman Capote&amp;#8217;s masked ball, by &lt;a href='http://www.elliotterwitt.com/lang/index.html'&gt;Elliot Erwitt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Via &lt;a href='http://iconicphotos.wordpress.com/'&gt;Iconic Photos&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Finland Makes Broadband Access A Legal Right</title>
+   <link href="http://mottr.am/2009/10/18/finland-makes-broadband-access-a-legal-right/"/>
+   <updated>2009-10-18T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/18/finland-makes-broadband-access-a-legal-right</id>
+   <content type="html">&lt;hr /&gt;
+&lt;p&gt;title: Finland makes broadband access a legal right layout: post type: link link_to: http://www.guardian.co.uk/technology/2009/oct/14/finland-broadband keywords: broadband, finland description: Finland makes broadband access a legal right topics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;broadband&lt;/li&gt;
+
+&lt;li&gt;finland&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Neo-Polaroid</title>
+   <link href="http://mottr.am/2009/10/11/ashtray/"/>
+   <updated>2009-10-11T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/11/ashtray</id>
+   <content type="html">&lt;p&gt;By &lt;a href='http://www.burakkaynak.com/works/fire-alarmashtray/'&gt;Burak Kaynak&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Surly</title>
+   <link href="http://mottr.am/2009/10/10/surly/"/>
+   <updated>2009-10-10T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/10/surly</id>
+   <content type="html">&lt;p&gt;Surly by name, surly by&amp;#8230; no, that&amp;#8217;s not right. Anyway, if you need a website, click on through!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>See Ya</title>
+   <link href="http://mottr.am/2009/10/09/see-ya/"/>
+   <updated>2009-10-09T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/09/see-ya</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Via &lt;a href='http://www.liverpoolecho.co.uk/sport/tranmere-rovers/tranmere-rovers-news/2009/08/29/trevor-s-final-wash-and-go-100252-24556189/'&gt;Mark&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Flag of the Benin Empire</title>
+   <link href="http://mottr.am/2009/10/07/the-flag-of-the-benin-empire/"/>
+   <updated>2009-10-07T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/07/the-flag-of-the-benin-empire</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Via &lt;a href='http://notes.torrez.org/2009/09/this-is-a-flag.html'&gt;Andre Torrez&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Clinic</title>
+   <link href="http://mottr.am/2009/10/01/the-clinic/"/>
+   <updated>2009-10-01T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/01/the-clinic</id>
+   <content type="html">&lt;p&gt;Beautiful medical interiors and equipment by &lt;a href='http://www.neilpardington.com/work/_gallery/id_17/the_clinic.html'&gt;Neil Pardington&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Via &lt;a href='http://butdoesitfloat.com/96582'&gt;But Does It Float?&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Idea of a Tree</title>
+   <link href="http://mottr.am/2009/09/27/the-idea-of-a-tree/"/>
+   <updated>2009-09-27T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/27/the-idea-of-a-tree</id>
+   <content type="html">&lt;p&gt;&lt;a href='http://www.mischertraxler.com/systems_concepts_the_idea_of_a_tree2.html'&gt;The Idea of a Tree&lt;/a&gt; is:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8230;an autonomous mechanical production process which is a hybrid combination of natural input and mechanical process. It involves the translation of natural inputs through a mechanical apparatus in order to create one object a day. The recorder is totally dependent on sun light. Driven by solar energy, it reacts and incorporates the light intensity into an object.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The outcoming object reflects the various sunshine conditions that occur during a day. Like a tree the object becomes a three dimensional recording of its process and time of creation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Via &lt;a href='http://infosthetics.com/archives/2009/09/the_idea_of_a_tree.html'&gt;Information Aesthetics&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Intubator</title>
+   <link href="http://mottr.am/2009/09/17/the-intubator/"/>
+   <updated>2009-09-17T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/17/the-intubator</id>
+   <content type="html">&lt;p&gt;A stream of youtube &amp;#8220;videos that no-one bothered to tag, title, or describe&amp;#8221;. Occasionally fascinating, usually mundane, faintly sad; best with the sound off. &lt;em&gt;Via &lt;a href='http://b3ta.com/newsletter/issue395/'&gt;b3ta&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Lash out and cover up</title>
+   <link href="http://mottr.am/2009/09/17/lash-out-and-cover-up/"/>
+   <updated>2009-09-17T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/17/lash-out-and-cover-up</id>
+   <content type="html">&lt;p&gt;&amp;#8220;Austerity nostalgia and ironic authoritarianism in recession Britain.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Matchbox Pinhole</title>
+   <link href="http://mottr.am/2009/09/16/matchbox-pinhole/"/>
+   <updated>2009-09-16T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/16/matchbox-pinhole</id>
+   <content type="html">&lt;hr /&gt;
+&lt;p&gt;title: Matchbox Pinhole layout: post type: link link_to: http://www.matchboxpinhole.com/ keywords: matchbox, pinhole, photography description: Make your own matchbox pinhole camera topics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;photography&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Tranmere Tweets</title>
+   <link href="http://mottr.am/2009/09/14/tranmere-tweets/"/>
+   <updated>2009-09-14T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/14/tranmere-tweets</id>
+   <content type="html">&lt;p&gt;Officially &lt;em&gt;the&lt;/em&gt; most depressing Twitter account. And yet I keep device updates on. Update: the &lt;a href='http://twitter.com/tranmere_scores'&gt;official Tranmere Twitter&lt;/a&gt; is a much more pleasant read than the onslaught of defeat provided by the live scores.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>German Matchbox Design</title>
+   <link href="http://mottr.am/2009/09/13/german-matchbox-design/"/>
+   <updated>2009-09-13T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/13/german-matchbox-design</id>
+   <content type="html">&lt;p&gt;More &lt;a href='http://www.flickr.com/photos/shaileshc/sets/72157622177325808/detail/'&gt;here&lt;/a&gt;, by Flickr user Shailesh Chavda. Via &lt;a href='http://www.swisslegacy.com/index.php/2009/09/10/vintage-german-machtbox-design/'&gt;Swiss Legacy&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Holiday Reading</title>
+   <link href="http://mottr.am/2009/09/06/holiday-reading/"/>
+   <updated>2009-09-06T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/06/holiday-reading</id>
+   <content type="html">&lt;p&gt;Next week, in France, I will read these books:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href='http://www.amazon.co.uk/gp/product/0571241026?ie=UTF8&amp;tag=submirespo-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0571241026'&gt;Bicycle Diaries&lt;/a&gt;&lt;img src='http://www.assoc-amazon.co.uk/e/ir?t=submirespo-21&amp;l=as2&amp;o=2&amp;a=0571241026' border='0' height='1' alt='' width='1' style='border:none !important; margin:0px !important; padding:0px !important;' /&gt;&lt;/em&gt; by David Byrne.&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;&lt;a href='http://www.amazon.co.uk/gp/product/0262512408?ie=UTF8&amp;tag=submirespo-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0262512408'&gt;The Grid Book&lt;/a&gt;&lt;img src='http://www.assoc-amazon.co.uk/e/ir?t=submirespo-21&amp;l=as2&amp;o=2&amp;a=0262512408' border='0' height='1' alt='' width='1' style='border:none !important; margin:0px !important; padding:0px !important;' /&gt;&lt;/em&gt; by H.B. Higgins.&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;&lt;a href='http://www.amazon.co.uk/gp/product/0241142164?ie=UTF8&amp;tag=submirespo-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0241142164'&gt;Hackney, That Rose-Red Empire: A Confidential Report&lt;/a&gt;&lt;img src='http://www.assoc-amazon.co.uk/e/ir?t=submirespo-21&amp;l=as2&amp;o=2&amp;a=0241142164' border='0' height='1' alt='' width='1' style='border:none !important; margin:0px !important; padding:0px !important;' /&gt;&lt;/em&gt; by Iain Sinclair.&lt;/li&gt;
+&lt;/ol&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Wormpress</title>
+   <link href="http://mottr.am/2009/09/05/wormpress/"/>
+   <updated>2009-09-05T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/05/wormpress</id>
+   <content type="html">&lt;p&gt;If you&amp;#8217;re running an old version of Wordpress, you might want to upgrade. Sharpish. &amp;#8216;Old&amp;#8217; means anything prior to the current version, or the one before that, &lt;a href='http://wordpress.org/development/2009/09/keep-wordpress-secure/'&gt;according to Matt Mullenweg&lt;/a&gt;. It&amp;#8217;ll be interesting to see if folk jump ship over this. (Where to, I don&amp;#8217;t know&amp;#8211;Movable Type is nice enough, but too much faff for folk used to Wordpress&amp;#8217; 5-minute installs and automatic upgrades; and the other self-hosted options are geekier still.)&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Sentimental Dancehall</title>
+   <link href="http://mottr.am/2009/09/05/sentimental-dancehall/"/>
+   <updated>2009-09-05T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/05/sentimental-dancehall</id>
+   <content type="html">&lt;p&gt;Jamaican music isn&amp;#8217;t all guns, gay-bashing and daggering, you know. Here&amp;#8217;s a couple of sentimental odes to Moms and Dads.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Letter to Mommy &amp;amp; Daddy&lt;/em&gt;&amp;#8211;Chaka Demus &amp;amp; Yellowman&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Love Mom &amp;amp; Dad&lt;/em&gt;&amp;#8211;White Mice&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
+&lt;p&gt;I hadn&amp;#8217;t listened to White Mice in a long while&amp;#8211;such a &lt;em&gt;strange&lt;/em&gt; voice.&lt;/p&gt;
+&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Nice Bag</title>
+   <link href="http://mottr.am/2009/09/05/nice-bag/"/>
+   <updated>2009-09-05T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/05/nice-bag</id>
+   <content type="html">&lt;p&gt;Nice bags by Demelza Hill at &lt;em&gt;It&amp;#8217;s Nice That&lt;/em&gt;&amp;#8211;terribly sensible, until you turn them &lt;a href='http://www.itsnicethat.com/articles/1685-demelza-hills-reversible-bag' title='Only thirty quid, too.'&gt;inside out&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Bueller Durden</title>
+   <link href="http://mottr.am/2009/04/29/bueller-durden/"/>
+   <updated>2009-04-29T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/04/29/bueller-durden</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Ferris Bueller, the person, is just a figment of Cameron&amp;#8217;s imagination, like Tyler Durden, and Sloane is the girl Cameron secretly loves.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href='http://metatalk.metafilter.com/17671/Bueller#641748'&gt;Cool Papa Bell&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>

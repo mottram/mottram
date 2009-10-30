@@ -34,6 +34,8 @@ ul {
 	list-style-type:circle;
 }
 
+/*
+
 blockquote {
 	font-size:18px;
 	color:#777;
@@ -55,6 +57,7 @@ blockquote + p:before {
 	content:"\2014";
 }
 
+*/
 
 a:link, a:visited, a:active{
 	color:#03c;
