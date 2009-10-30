@@ -3,7 +3,6 @@ title: Tranmere Tweets
 layout: post
 type: link
 link_to: http://twitter.com/tranmere_scores
-keywords: tranmere, twitter
 description: A link to the Tranmeres Rovers Twitter streams
 topics:
  - trfc

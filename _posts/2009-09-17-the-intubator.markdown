@@ -3,7 +3,6 @@ title: The Intubator
 layout: post
 type: link
 link_to: 
-keywords: youtube
 description: A stream of youtube videos that no-one bothered to tag, title, or describe.
 topics:
  - youtube

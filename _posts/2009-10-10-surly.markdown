@@ -3,11 +3,10 @@ title: Surly
 layout: post
 type: link
 link_to: http://sur.ly
-keywords: web, design, surly
 description: A link to Sur.ly, a new web design firm
 topics:
- - broadband
- - finland
+ - surly
+ - design
 ---
 
 Surly by name, surly by... no, that's not right. Anyway, if you need a website, click on through!

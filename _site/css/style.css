@@ -170,3 +170,14 @@ nav ul li {
 	list-style-type:none;
 	margin:0 7px 0 0;
 }
+
+/* short urls */
+
+#shorturl {
+	font-style:italic;
+	border:none;
+}
+
+#shorturl input:focus {
+	outline:none;
+}

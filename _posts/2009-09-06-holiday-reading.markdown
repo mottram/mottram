@@ -2,10 +2,12 @@
 title: Holiday Reading
 layout: post
 type: basic
-keywords: literature, fiction, books, david byrne, ian sinclair
+short: hr
 description: The books I plan to read on holiday
 topics:
  - books
+ - sinclair
+ - byrne
 ---
 Next week, in France, I will read these books:
 

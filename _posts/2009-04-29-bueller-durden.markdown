@@ -3,7 +3,6 @@ title: Bueller Durden
 layout: post
 type: basic
 description: A quote about Ferris Bueller
-keywords: ferris, bueller, theory
 topics:
  - film
  - theory

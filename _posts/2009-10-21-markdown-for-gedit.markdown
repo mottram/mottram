@@ -3,7 +3,6 @@ title: Markdown for Gedit
 layout: post
 type: link
 link_to: http://www.jpfleury.net/gedit-markdown
-keywords: markdown, gedit, text, ubuntu, linux
 description: This is the first post on my jekyll site.
 topics:
  - markdown

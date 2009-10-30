@@ -2,7 +2,6 @@
 title: Wormpress
 layout: post
 type: basic
-keywords: wordpress, security
 description: On the WordPress security scare
 topics: 
  - wordpress

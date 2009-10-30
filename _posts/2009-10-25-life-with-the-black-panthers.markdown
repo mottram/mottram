@@ -3,7 +3,6 @@ title: Life with the Black Panthers
 layout: post
 type: photo
 image_url: /images/2009/10/black-panthers.jpg
-keywords: 1960s, black panthers, photography, politics
 description: A photograph of the Black Panthers by Howard Bingham.
 topics:
  - 1960s

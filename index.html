@@ -34,32 +34,18 @@ keywords: art, photography, design, fashion, web development, mottram
 {% endif %}
 
 
-{% if post.type == 'youtube' %}
+{% if post.type == 'video' %}
 
 	<article>
 		<h2>{{ post.title }}</h2>
 		{% include home_meta.html %}
-		<object type="application/x-shockwave-flash" style="width:500px; height:410px;" data="{{ post.video_url }}">
-		<param name="movie" value="{{ post.video_url }}" />
+		<object type="application/x-shockwave-flash" style="width:500px; height:410px;" data="{{ post.video_link }}">
+		<param name="movie" value="{{ post.video_link }}" />
 		</object>
 		{{ post.content }}
 	</article>
 
 {% endif %}
-
-{% if page.type == 'vimeo' %}
-
-	<article>
-		<h2>{{ page.title }}</h2>
-		{% include meta.html %}
-		<object type="application/x-shockwave-flash" style="width:500px; height:410px;" data="{{ post.video_url }}">
-			<param name="movie" value="{{ post.video_url }}" />
-		</object>
-		{{ content }}
-	</article>
-
-{% endif %}
-
 
 {% if post.type == 'basic'%}
 

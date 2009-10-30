@@ -3,7 +3,6 @@ title: Neo-Polaroid
 layout: post
 type: photo
 image_url: /u/2009/10/ashtray.jpg
-keywords: design, burak kaynak, ashtray
 description: This is the first post on my jekyll site.
 topics:
  - design

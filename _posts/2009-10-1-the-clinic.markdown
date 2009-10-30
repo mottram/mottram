@@ -3,7 +3,6 @@ title: The Clinic
 layout: post
 type: photo
 image_url: /u/2009/10/Operating-Theatre-1.jpg
-keywords: medical, photography, neil pardington, art
 description: Beautiful medical interiors and equipment by Neil Pardington.
 topics:
  - design

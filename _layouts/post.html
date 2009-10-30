@@ -28,31 +28,17 @@ layout: default
 {% include related.html %}
 {% endif %}
 
-{% if page.type == 'youtube' %}
+{% if page.type == 'video' %}
 <article>
 <h1>{{ page.title }}</h1>
 {% include meta.html %}
-<object type="application/x-shockwave-flash" style="width:600px; height:492px;" data="{{ page.video_url }}">
-<param name="movie" value="{{ page.video_url }}" />
+<object type="application/x-shockwave-flash" style="width:600px; height:492px;" data="{{ page.video_link }}">
+<param name="movie" value="{{ page.video_link }}" />
 </object>
 {{ content }}
 </article>
 {% include related.html %}
 {% endif %}
-
-
-{% if page.type == 'vimeo' %}
-<article>
-<h1>{{ page.title }}</h1>
-{% include meta.html %}
-<object type="application/x-shockwave-flash" style="width:600px; height:492px;" data="{{ page.video_url }}">
-<param name="movie" value="{{ page.video_url }}" />
-</object>
-{{ content }}
-</article>
-{% include related.html %}
-{% endif %}
-
 
 {% if page.type == 'basic' %}
 <article>

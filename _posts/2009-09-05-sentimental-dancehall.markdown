@@ -2,8 +2,8 @@
 title: Sentimental Dancehall
 layout: post
 type: basic
+short: dh
 keywords: dancehall, jamaica, music
-description: Two sentimental dancehall songs
 topics:
  - dancehall
 ---

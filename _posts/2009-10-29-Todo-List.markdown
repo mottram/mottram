@@ -10,9 +10,15 @@ topics:
 ---
 Stuff I need to do:
 
-- Check Atom feed works, add .htaccess redirect from /feed/atom/ to /atom.xml
+- Audio player
+
+	- Sentimental Dancehall
+	- audio:http://files.me.com/jack_mottram/b1hzoe.mp3 
+	- audio:http://files.me.com/jack_mottram/ostvay.mp3
+
+- Check Atom feed works, check .htaccess redirect from /feed/atom/ to /atom.xml
+- Short URLs?
 - Sitemap
-- Er, the whole design!
 - fix time tag - should have datetime="2009-10-"
 - fix blockquote css
 - basic

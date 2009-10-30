@@ -3,7 +3,6 @@ title: Capote's Ball
 layout: post
 type: photo
 image_url: /images/2009/10/capote-ball.jpg
-keywords: truman capote, candace bergen, elliot erwitt, photography
 description: A photograph of the Black Panthers by Howard Bingham.
 topics:
  - boredom

@@ -24,16 +24,41 @@
 
 
 
-
-
-
-
 <article>
 <h1>Goodbye WordPress, Hello Jekyll</h1>
 
 <p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a href="/2009/10/29/goodbye-wordpress-hello-jekyll/" title="Permanent link to 'Goodbye WordPress, Hello Jekyll'"><time>29 October 2009</time></a>. Tagged meta, jekyll, and wordpress.</p>
 
 <p>The number one reason: no more updating WordPress. Sure, it&#8217;s easy enough to click through the Automatic Upgrade process for WordPress itself, and any plugings you have installed, but it&#8217;s time-consuming.</p>
+
+<p>It wasn&#8217;t a painless process, by any means:</p>
+
+<p>I was using a lot of custom fields in WordPress, which made exporting posts from the database more fiddly than it could&#8217;ve been, and meant manually editing about a third of the entries (so there&#8217;s no chance of <span>Submit Response</span> getting the jekyll treatment anytime soon).</p>
+
+<p>I&#8217;d been spoiled by WordPress plugins: valid video embedding, audio playing, image resizing, short URLs, &amp;c. were all handled automatically, without my having to think about it. The new incarnation of the site is fairly well automated, thanks to the flexibility of <code>jekyll</code>&#8217;s <a href='http://wiki.github.com/mojombo/jekyll/yaml-front-matter'>YAML Front Matter</a> and the simplicity of the <a href='http://www.liquidmarkup.org/'>Liquid templating language</a>.</p>
+
+<p>For example, the text file for <span>this video post</span> begins with:</p>
+<div class='highlight'><pre><span class='nn'>---</span>
+<span class='l-Scalar-Plain'>title</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>Cassetteboy Does Griffin</span>
+<span class='l-Scalar-Plain'>layout</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>post</span>
+<span class='l-Scalar-Plain'>type</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>video</span>
+<span class='l-Scalar-Plain'>video_url</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>http://www.youtube.com/v/_QAvkFS_cgk</span>
+<span class='l-Scalar-Plain'>keywords</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>cassetteboy, nick griffin, bnp</span>
+<span class='l-Scalar-Plain'>description</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>Cassetteboy edits the truth into Nick Griffin</span>
+<span class='l-Scalar-Plain'>topics</span><span class='p-Indicator'>:</span>
+ <span class='p-Indicator'>-</span> <span class='l-Scalar-Plain'>bnp</span>
+ <span class='p-Indicator'>-</span> <span class='l-Scalar-Plain'>cassetteboy</span>
+<span class='nn'>---</span>
+</pre>
+</div>
+<p>And the relevant part of my <span>post layout</span> looks like this (only without the backslashes):</p>
+<div class='highlight'><pre><span class='nt'>&lt;object</span> <span class='na'>type=</span><span class='s'>&quot;application/x-shockwave-flash&quot;</span>
+<span class='na'>style=</span><span class='s'>&quot;width:600px;height:492px;&quot;</span> <span class='na'>data=</span><span class='s'>&quot;\{\{ page.video_url \}\}&quot;</span><span class='nt'>&gt;</span>
+<span class='nt'>&lt;param</span> <span class='na'>name=</span><span class='s'>&quot;movie&quot;</span> <span class='na'>value=</span><span class='s'>&quot;\{\{ page.video_url \}\}&quot;</span> <span class='nt'>/&gt;</span>
+<span class='nt'>&lt;/object&gt;</span>
+</pre>
+</div>
+<p>There&#8217;s one big problem I&#8217;ve yet to solve: tags are purely cosmetic for the time being</p>
 </article>
 
 <aside>
