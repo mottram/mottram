@@ -10,7 +10,7 @@ topics:
 ---
 Stuff I need to do:
 
-- Check Atom feed works
+- Check Atom feed works, add .htaccess redirect from /feed/atom/ to /atom.xml
 - Sitemap
 - Er, the whole design!
 - fix time tag - should have datetime="2009-10-"

@@ -39,6 +39,14 @@ blockquote {
 	color:#777;
 }
 
+blockquote p:before {
+	content:"\201c";
+}
+
+blockquote p:after {
+	content:"\201d";
+}
+
 blockquote + p {
 	text-indent:48px;
 }
@@ -79,7 +87,7 @@ aside a:hover {
 }
 
 .meta {
-	font:14px;
+	font-size:14px;
 	font-weight:lighter;
 	font-style:italic;
 	margin:-16px 0 24px 0;
@@ -88,28 +96,11 @@ aside a:hover {
 /* Home page */
 
 .index article {
-	margin:0 0 72px 0;
+	margin:0 0 120px 0;
 }
 
 /* Links */
 
-.index article.link {
-	border-left:1px solid #aaa;
-	padding-left:7px;
-}
-
-.link p  {
-	font-size:16px;
-}
-
-.index .link p.meta {
-	font-size:14px;
-
-}
-
-.link h2 {
-	font-size:18px;
-}
 
 .link h1:after, .link h2:after  {
 	color:#03c;
@@ -161,4 +152,18 @@ li p {
 .archive h2 span {
 	font-size:14px;
 	color:#777;
+}
+
+/* nav */
+
+nav {
+	text-align:center;
+	border-top:1px solid #ddd;
+	padding:24px 0;
+}
+
+nav ul li {
+	display:inline;
+	list-style-type:none;
+	margin:0 7px 0 0;
 }
