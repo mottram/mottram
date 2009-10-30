@@ -3,7 +3,7 @@ layout: default
 ---
 {% if page.type == 'link' %}
 <article class="link">
-<h2><a href="{{ page.link_to }}">{{ page.title }}</a></h2>
+<h1><a href="{{ page.link_to }}">{{ page.title }}</a></h1>
 
 {% include meta.html %}
 
@@ -17,7 +17,7 @@ layout: default
 
 {% if page.type == 'photo' %}
 <article class="photo">
-<h2>{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
 
 {% include meta.html %}
 
@@ -30,18 +30,33 @@ layout: default
 
 {% if page.type == 'youtube' %}
 <article>
-<h2>{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
 {% include meta.html %}
 <object type="application/x-shockwave-flash" style="width:600px; height:492px;" data="{{ page.video_url }}">
 <param name="movie" value="{{ page.video_url }}" />
 </object>
+{{ content }}
 </article>
 {% include related.html %}
 {% endif %}
 
+
+{% if page.type == 'vimeo' %}
+<article>
+<h1>{{ page.title }}</h1>
+{% include meta.html %}
+<object type="application/x-shockwave-flash" style="width:600px; height:492px;" data="{{ page.video_url }}">
+<param name="movie" value="{{ page.video_url }}" />
+</object>
+{{ content }}
+</article>
+{% include related.html %}
+{% endif %}
+
+
 {% if page.type == 'basic' %}
 <article>
-<h2>{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
 
 {% include meta.html %}
 

@@ -1,19 +1,18 @@
 ---
 title: Archive
 layout: default
+type: archive
 description: The Mottr.am archives
 keywords: art, design, photography, mottram
 ---
 
-<h1>Archives</h1>
+<h1>The <a href="/">Mottr.am</a> Archives</h1>
 <p>Everything, in a big long list.</p>
-<ul class="archive">
+<ol>
 {% for post in site.posts %}
-<li class="{{ post.type }}">
-<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-<h3>{{ post.date | date_to_string }}</h3>
+<li>
+<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
 <p>{{ post.description }}</p>
-<p>{{ post.keywords }}</p>
 </li>
 {% endfor %}
-</ul>
+</ol>

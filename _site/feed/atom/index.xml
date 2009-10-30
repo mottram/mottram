@@ -4,7 +4,7 @@
  <title>Mottr.am</title>
  <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
  <link href="http://mottr.am/"/>
- <updated>2009-10-30T14:16:35+00:00</updated>
+ <updated>2009-10-30T17:12:45+00:00</updated>
  <id>http://mottr.am</id>
  <author>
    <name>Jack Mottram</name>
@@ -13,21 +13,11 @@
  
  
  <entry>
-   <title>Testing An Embedded Video</title>
-   <link href="http://mottr.am/2009/10/30/testing-video/"/>
-   <updated>2009-10-30T00:00:00+00:00</updated>
-   <id>http://mottr.am/2009/10/30/testing-video</id>
-   <content type="html">&lt;p&gt;This is a test of automatic video embedding!&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Goodbye WordPress, Hello Jekyll</title>
    <link href="http://mottr.am/2009/10/29/goodbye-wordpress-hello-jekyll/"/>
    <updated>2009-10-29T00:00:00+00:00</updated>
    <id>http://mottr.am/2009/10/29/goodbye-wordpress-hello-jekyll</id>
-   <content type="html">&lt;p&gt;The number one reason: no more updating WordPress. Sure, it's easy enough to click through the [Automatic Upgrade] process for WordPress itself, and any plugings you have installed, but it's time-consuming.&lt;/p&gt;
-</content>
+   <content type="html">&lt;p&gt;The number one reason: no more updating WordPress. Sure, it&amp;#8217;s easy enough to click through the Automatic Upgrade process for WordPress itself, and any plugings you have installed, but it&amp;#8217;s time-consuming.&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -38,61 +28,113 @@
    <content type="html">&lt;p&gt;Stuff I need to do:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Check Atom feed works&lt;/li&gt;
-&lt;li&gt;Sitemap&lt;/li&gt;
-&lt;li&gt;Er, the whole design!&lt;/li&gt;
-&lt;li&gt;fix time tag - should have datetime=&quot;2009-10-&quot;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;Check Atom feed works&lt;/p&gt;
+&lt;/li&gt;
 
+&lt;li&gt;
+&lt;p&gt;Sitemap&lt;/p&gt;
+&lt;/li&gt;
 
-&lt;p&gt;Posts types:&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;Er, the whole design!&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;fix time tag - should have datetime=&amp;#8221;2009-10-&amp;#8221;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;basic&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;link&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;photo&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;youtube&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;vimeo&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;basic&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Life with the Black Panthers</title>
+   <link href="http://mottr.am/2009/10/25/life-with-the-black-panthers/"/>
+   <updated>2009-10-25T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/25/life-with-the-black-panthers</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Kathleen Cleaver and Black Panther co-founder Bobby Seale (right) at a &amp;#8220;Free Huey&amp;#8221; rally in Oakland, California, in the summer of 1968.&lt;/em&gt;, taken from a &lt;a href='http://www.guardian.co.uk/artanddesign/2009/oct/25/black-panthers-photographs-howard-bingham'&gt;new book&lt;/a&gt; by Howard Bingham.&lt;/p&gt;
+
+&lt;p&gt;See also: The Black Panther&amp;#8217;s &lt;a href='http://www.blackpanther.org/TenPoint.htm'&gt;Ten Point Program&lt;/a&gt;&amp;#8211;I was surprised to find that, separatism aside, it&amp;#8217;s a pretty reasonable manifesto.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Data Newspaper</title>
+   <link href="http://mottr.am/2009/10/23/data-newspaper/"/>
+   <updated>2009-10-23T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/23/data-newspaper</id>
+   <content type="html">&lt;p&gt;&amp;#8220;We’ve been thinking about the beta Data.gov.uk repository, and wanted to explore putting some of the information contained within into people’s hands in a form that is accessible, timely, and relevant. And perhaps unsurprisingly, we thought a good way to do that was with a newspaper. So here it is, the &lt;em&gt;Postcode Paper&lt;/em&gt;.&amp;#8221; Wonderful. I can&amp;#8217;t wait for &lt;a href='http://www.newspaperclub.co.uk/'&gt;Newspaper Club&lt;/a&gt; to launch, and have an idea for a hyper-local newspaper of my own brewing.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Cassetteboy Does Griffin</title>
+   <link href="http://mottr.am/2009/10/23/cassetteboy-does-griffin/"/>
+   <updated>2009-10-23T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/23/cassetteboy-does-griffin</id>
+   <content type="html">&lt;hr /&gt;
+&lt;p&gt;layout: post title: Cassetteboy does Griffin type: youtube video_url: http://www.youtube.com/v/_QAvkFS_cgk topics:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;basic&lt;/li&gt;
-&lt;li&gt;photo&lt;/li&gt;
-&lt;li&gt;link&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;meta&lt;/li&gt;
 
-
-&lt;p&gt;Add &lt;a href=&quot;http://www.brucelawson.co.uk/2009/html-5-flash-embedding-and-other-validation-erors/&quot;&gt;video&lt;/a&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;object&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;425&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;344&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://www.youtube.com/v/8-pFwbHMuwA&amp;amp;amp;hl=en&amp;amp;amp;fs=1&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;param&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;movie&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://www.youtube.com/v/8-pFwbHMuwA&amp;amp;amp;hl=en&amp;amp;amp;fs=1&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;param&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;allowFullScreen&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;param&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;allowscriptaccess&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;always&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;embed&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://www.youtube.com/v/8-pFwbHMuwA&amp;amp;amp;hl=en&amp;amp;amp;fs=1&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;application/x-shockwave-flash&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowscriptaccess=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;always&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;true&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;425&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;344&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/object&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-</content>
+&lt;li&gt;test&lt;/li&gt;
+&lt;/ul&gt;</content>
  </entry>
  
  <entry>
-   <title>This is a test post</title>
-   <link href="http://mottr.am/2009/10/28/first-copy/"/>
-   <updated>2009-10-28T00:00:00+00:00</updated>
-   <id>http://mottr.am/2009/10/28/first-copy</id>
-   <content type="html">&lt;p&gt;This is a test of my broken link post style.&lt;/p&gt;
-</content>
+   <title>Neo-Polaroid</title>
+   <link href="http://mottr.am/2009/10/22/neo-polaroid/"/>
+   <updated>2009-10-22T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/22/neo-polaroid</id>
+   <content type="html">&lt;p&gt;In Tehran, you can buy a &amp;#8220;Polaroid&amp;#8221; memento from a man with a digital camera and portable printer. Jan Chipchase points out the significance of &lt;a href='http://www.janchipchase.com/blog/archives/2009/10/everyday-forensics.html'&gt;photographing the printing of the photograph&lt;/a&gt;.&lt;/p&gt;</content>
  </entry>
  
  <entry>
-   <title>This is a test post</title>
-   <link href="http://mottr.am/2009/10/28/first/"/>
-   <updated>2009-10-28T00:00:00+00:00</updated>
-   <id>http://mottr.am/2009/10/28/first</id>
-   <content type="html">&lt;p&gt;This is a test of jekyll. Is it  really suitable for a weblog?&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Another Test, for Testing (A Link)</title>
-   <link href="http://mottr.am/2009/10/21/another-testing/"/>
+   <title>Markdown for Gedit</title>
+   <link href="http://mottr.am/2009/10/21/markdown-for-gedit/"/>
    <updated>2009-10-21T00:00:00+01:00</updated>
-   <id>http://mottr.am/2009/10/21/another-testing</id>
-   <content type="html">&lt;p&gt;This is the other link&lt;/p&gt;
-</content>
+   <id>http://mottr.am/2009/10/21/markdown-for-gedit</id>
+   <content type="html">&lt;p&gt;Markdown syntax highlighting for &lt;code&gt;gedit&lt;/code&gt;. (I&amp;#8217;m mostly linking to it because I just found out that the French for &lt;em&gt;download&lt;/em&gt; is &lt;em&gt;téléchargement&lt;/em&gt;. Lovely.)&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Vimeo Tester</title>
+   <link href="http://mottr.am/2009/10/20/testing-vimeo/"/>
+   <updated>2009-10-20T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/20/testing-vimeo</id>
+   <content type="html">&lt;p&gt;This is a test of automatic viMeo embedding!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Capote's Ball</title>
+   <link href="http://mottr.am/2009/10/20/capotes-ball/"/>
+   <updated>2009-10-20T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/10/20/capotes-ball</id>
+   <content type="html">&lt;p&gt;Candace Bergen, bored at Truman Capote&amp;#8217;s masked ball, by &lt;a href='http://www.elliotterwitt.com/lang/index.html'&gt;Elliot Erwitt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Via &lt;a href='http://iconicphotos.wordpress.com/'&gt;Iconic Photos&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -100,10 +142,11 @@
    <link href="http://mottr.am/2009/04/29/bueller-durden/"/>
    <updated>2009-04-29T00:00:00+01:00</updated>
    <id>http://mottr.am/2009/04/29/bueller-durden</id>
-   <content type="html">&lt;blockquote&gt;&lt;p&gt;Ferris Bueller, the person, is just a figment of Cameron's imagination, like Tyler Durden, and Sloane is the girl Cameron secretly loves.&lt;/p&gt;&lt;/blockquote&gt;
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Ferris Bueller, the person, is just a figment of Cameron&amp;#8217;s imagination, like Tyler Durden, and Sloane is the girl Cameron secretly loves.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;cite&gt;&lt;a href=&quot;http://metatalk.metafilter.com/17671/Bueller#641748&quot;&gt;Cool Papa Bell&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-</content>
+&lt;p&gt;&lt;em&gt;&lt;a href='http://metatalk.metafilter.com/17671/Bueller#641748'&gt;Cool Papa Bell&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
  </entry>
  
  

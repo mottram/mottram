@@ -8,18 +8,45 @@ body {
 	margin:96px auto;
 }
 
-h1,h2,h3 {
-	font:28px/24px normal "palatino linotype", palatino, georgia, "times new roman", times, serif;
-	margin-bottom:24px;
-	}
-	
-h4 {
-	font:16px/24px normal;
-}
-	
-p, cite, quote, blockquote {
+h1, h2, p, cite, quote, blockquote, object, ol, ul, img {
 	margin-bottom:24px;
 }
+
+h1, h2 {
+	font-family:"palatino linotype", palatino, georgia, "times new roman", times, serif;
+	font-size:28px;
+	line-height:24px;
+	font-weight:normal;
+}
+	
+h3 {
+	font-family:"palatino linotype", palatino, georgia, "times new roman", times, serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:normal;
+}
+
+ol {
+	list-style-type:decimal;
+}
+
+ul {
+	list-style-type:circle;
+}
+
+blockquote {
+	font-size:18px;
+	color:#777;
+}
+
+blockquote + p {
+	text-indent:48px;
+}
+
+blockquote + p:before {
+	content:"\2014";
+}
+
 
 a:link, a:visited, a:active{
 	color:#03c;
@@ -29,23 +56,30 @@ a:link, a:visited, a:active{
 a:hover {
 	color:#333;
 	}
+
+/* Metadata */
 	
 aside {
+	color:#777;
+	font-size:12px;
 	margin-top:48px;
 	padding:21px 0;
 }
 
-.related {
-	color:#777;
-	font-size:0.9em;
+aside ul {
+	list-style-type:none;
 }
 
-.related a {
-	color:#777;
+aside a {
+	color:#777 !important;
+}
+
+aside a:hover {
+	color:#333 !important;
 }
 
 .meta {
-	font:14px "palatino linotype", palatino, georgia, "times new roman", times, serif;
+	font:14px;
 	font-weight:lighter;
 	font-style:italic;
 	margin:-16px 0 24px 0;
@@ -53,54 +87,44 @@ aside {
 
 /* Home page */
 
-ol.home li {
+.index article {
 	margin:0 0 72px 0;
 }
 
 /* Links */
 
+.index article.link {
+	border-left:1px solid #aaa;
+	padding-left:7px;
+}
+
 .link p  {
 	font-size:16px;
 }
 
-.link p.meta {
+.index .link p.meta {
 	font-size:14px;
-	margin:-16 0 14px 0px;
-}
 
-.link p + p {
-	margin-top:-24px;
 }
 
 .link h2 {
 	font-size:18px;
 }
 
-.link h2:after {
+.link h1:after, .link h2:after  {
 	color:#03c;
-	content:"\2192";
+	font-size:24px;
+	content:" \261b";
 	}
 
 /* Photos */
 
 img {
-	margin:0 0 24px 0;
 	border:1px solid #fff;
 	-moz-border-radius: 16px;
 	-webkit-border-radius: 16px;
 }
 
-
-/* Fix for ordered lists in posts on the homepage - whoops! */
-
-ol.home li ul {
-	margin-bottom:24px;
-}
-
-ol.home li ul li {
-	margin:0;
-	list-style-type:circle;
-}
 
 /* code highlighting */
 
@@ -109,4 +133,32 @@ div.highlight {
 	width:600px;
 	overflow:auto;
 	margin-bottom:21px;
+}
+
+li p {
+	margin:0;
+}
+
+/* Archive page */
+
+.archive ol {
+	list-style-type:none;
+}
+
+.archive ol li {
+	margin-bottom:24px;
+}
+
+.archive ol p {
+	font-size:14px;
+}
+
+.archive h2 {
+	font-size:16px;
+	margin:0px;
+}
+
+.archive h2 span {
+	font-size:14px;
+	color:#777;
 }

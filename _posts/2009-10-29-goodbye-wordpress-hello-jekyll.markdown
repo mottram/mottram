@@ -10,4 +10,4 @@ topics:
  - wordpress
 ---
 
-The number one reason: no more updating WordPress. Sure, it's easy enough to click through the [Automatic Upgrade] process for WordPress itself, and any plugings you have installed, but it's time-consuming.
+The number one reason: no more updating WordPress. Sure, it's easy enough to click through the Automatic Upgrade process for WordPress itself, and any plugings you have installed, but it's time-consuming.

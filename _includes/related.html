@@ -1,8 +1,9 @@
 <aside>
-<h4>Related posts:</h4>
+<h3>Related posts:</h3>
 <ul class="related">
 {% for post in site.related_posts limit:3 %}
 <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+<a title="Archive" href="/archive/">More?</a>
 </ul>
 </aside>
