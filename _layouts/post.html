@@ -33,36 +33,10 @@ layout: default
 <article>
 <h1>{{ page.title }}</h1>
 {% include meta.html %}
-
-<div id="jquery_jplayer"></div>
-
-			<div id="player_container">
-				<ul id="player_controls">
-					<li id="player_play">play</li>
-					<li id="player_pause">pause</li>
-					<li id="player_stop">stop</li>
-					<li id="player_volume_min">min volume</li>
-					<li id="player_volume_max">max volume</li>
-				</ul>
-
-				<div id="player_progress">
-					<div id="player_progress_load_bar">
-						<div id="player_progress_play_bar"></div>
-					</div>
-				</div>
-				<div id="player_volume_bar">
-					<div id="player_volume_bar_value"></div>
-				</div>
-
-				<div id="player_playlist_message">
-					<div id="song_title">{{ page.song }}</div>
-					<div id="play_time"></div>
-					<div id="total_time"></div>
-				</div>
-			</div>
-			<div id="jplayer_info"></div>
-
-
+<p id="audioplayer_1"><a title="Download the audio file" href="{{ page.audio_link }}">Download</a></p>  
+        <script type="text/javascript">  
+        AudioPlayer.embed("audioplayer_1", {soundFile: "{{ page.audio_link }}"});  
+        </script>
 {{ content }}
 </article>
 {% endif %}

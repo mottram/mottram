@@ -156,8 +156,17 @@ li p {
 
 /* nav */
 
-nav {
+nav#index {
+position:fixed;
+top:0;
+padding:7px 0 0 0;
+width:600px;
+background:#fff;
+border-bottom:1px solid #ddd;
+}
 
+nav#index ul {
+	margin:24px 0 0 0;
 }
 
 nav ul li {

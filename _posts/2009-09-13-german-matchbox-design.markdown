@@ -11,4 +11,4 @@ topics:
 
 More [here](http://www.flickr.com/photos/shaileshc/sets/72157622177325808/detail/), by Flickr user 
 Shailesh Chavda.
-Via [Swiss Legacy](http://www.swisslegacy.com/index.php/2009/09/10/vintage-german-machtbox-design/).
+_Via [Swiss Legacy](http://www.swisslegacy.com/index.php/2009/09/10/vintage-german-machtbox-design/)._

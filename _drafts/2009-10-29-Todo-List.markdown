@@ -19,7 +19,8 @@ Make archive page tabbed - show basic posts, with links to reveal link, photo, v
 	- audio:http://files.me.com/jack_mottram/ostvay.mp3
 
 - Check Atom feed works, check .htaccess redirect from /feed/atom/ to /atom.xml
-- Short URLs?
+- Short URLs? Manual!
+- make syntax styles load conditionally - has_code not working.
 - Sitemap
 - fix time tag - should have datetime="2009-10-"
 - fix blockquote css

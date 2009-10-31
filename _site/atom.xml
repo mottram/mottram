@@ -4,81 +4,13 @@
  <title>Mottr.am</title>
  <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
  <link href="http://mottr.am/"/>
- <updated>2009-10-31T00:39:58+00:00</updated>
+ <updated>2009-10-31T12:39:01+00:00</updated>
  <id>http://mottr.am</id>
  <author>
    <name>Jack Mottram</name>
    <email>j@ck.mottr.am</email>
  </author>
  
- 
- <entry>
-   <title>Todo List for the Redesign</title>
-   <link href="http://mottr.am/2009/10/29/Todo-List/"/>
-   <updated>2009-10-29T00:00:00+00:00</updated>
-   <id>http://mottr.am/2009/10/29/Todo-List</id>
-   <content type="html">&lt;p&gt;Stuff I need to do:&lt;/p&gt;
-
-&lt;p&gt;Make archive page tabbed - show basic posts, with links to reveal link, photo, video posts.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Audio player&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Sentimental Dancehall&lt;/li&gt;
-
-&lt;li&gt;audio:http://files.me.com/jack_mottram/b1hzoe.mp3&lt;/li&gt;
-
-&lt;li&gt;audio:http://files.me.com/jack_mottram/ostvay.mp3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Check Atom feed works, check .htaccess redirect from /feed/atom/ to /atom.xml&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Short URLs?&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Sitemap&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;fix time tag - should have datetime=&amp;#8221;2009-10-&amp;#8221;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;fix blockquote css&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;basic&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;link&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;photo&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;youtube&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;vimeo&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;basic&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content>
- </entry>
  
  <entry>
    <title>Life with the Black Panthers</title>
@@ -249,7 +181,20 @@
    <link href="http://mottr.am/2009/09/13/german-matchbox-design/"/>
    <updated>2009-09-13T00:00:00+01:00</updated>
    <id>http://mottr.am/2009/09/13/german-matchbox-design</id>
-   <content type="html">&lt;p&gt;More &lt;a href='http://www.flickr.com/photos/shaileshc/sets/72157622177325808/detail/'&gt;here&lt;/a&gt;, by Flickr user Shailesh Chavda. Via &lt;a href='http://www.swisslegacy.com/index.php/2009/09/10/vintage-german-machtbox-design/'&gt;Swiss Legacy&lt;/a&gt;.&lt;/p&gt;</content>
+   <content type="html">&lt;p&gt;More &lt;a href='http://www.flickr.com/photos/shaileshc/sets/72157622177325808/detail/'&gt;here&lt;/a&gt;, by Flickr user Shailesh Chavda. &lt;em&gt;Via &lt;a href='http://www.swisslegacy.com/index.php/2009/09/10/vintage-german-machtbox-design/'&gt;Swiss Legacy&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Sentimental Dancehall, Part II</title>
+   <link href="http://mottr.am/2009/09/10/sentimental-dancehall-part-2/"/>
+   <updated>2009-09-10T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/10/sentimental-dancehall-part-2</id>
+   <content type="html">&lt;p&gt;The second in an occasional series of sentimental dancehall songs. Part one is &lt;a href='/2009/09/05/sentimental-dancehall/'&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Love Mom &amp;amp; Dad&lt;/em&gt;&amp;#8211;White Mice&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
+&lt;p&gt;I hadn&amp;#8217;t listened to White Mice in a long while&amp;#8211;such a &lt;em&gt;strange&lt;/em&gt; voice.&lt;/p&gt;
+&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content>
  </entry>
  
  <entry>
@@ -281,14 +226,9 @@
    <link href="http://mottr.am/2009/09/05/sentimental-dancehall/"/>
    <updated>2009-09-05T00:00:00+01:00</updated>
    <id>http://mottr.am/2009/09/05/sentimental-dancehall</id>
-   <content type="html">&lt;p&gt;Jamaican music isn&amp;#8217;t all guns, gay-bashing and daggering, you know. Here&amp;#8217;s a couple of sentimental odes to Moms and Dads.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Jamaican music isn&amp;#8217;t all guns, gay-bashing and daggering, you know. Here&amp;#8217;s the first in an occasional series of sentimental odes to Moms and Dads.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Letter to Mommy &amp;amp; Daddy&lt;/em&gt;&amp;#8211;Chaka Demus &amp;amp; Yellowman&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Love Mom &amp;amp; Dad&lt;/em&gt;&amp;#8211;White Mice&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
-&lt;p&gt;I hadn&amp;#8217;t listened to White Mice in a long while&amp;#8211;such a &lt;em&gt;strange&lt;/em&gt; voice.&lt;/p&gt;
-&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content>
+&lt;p&gt;&lt;em&gt;Letter to Mommy &amp;amp; Daddy&lt;/em&gt;&amp;#8211;Chaka Demus &amp;amp; Yellowman&lt;/p&gt;</content>
  </entry>
  
  <entry>
