@@ -7,12 +7,86 @@ keywords: art, design, photography, mottram
 ---
 
 <h1>The <a href="/">Mottr.am</a> Archives</h1>
-<p>Everything, in a big long list.</p>
-<ol>
+<div id="archive">
+<nav>
+<ul>
+	<li><a title="Links to other websites" href="#link">Links</a></li>
+	<li><a title="Pieces of writing, usually brief" href="#basic">Posts</a></li>
+	<li><a title="Art, design, illustration, photography; stuff for your eyes." href="#photo">Images</a></li>
+	<li><a title="Songs, tunes, field recordings; stuff for your ears" href="#audio">Audio</a></li>
+	<li><a title="Art, cinema; stuff for your eyes that moves" href="#video">Video</a></li>
+</ul>
+</nav>
+	
+
+<div id="link">
+	<p>Links to other websites, with commentary (sometimes).</p>
+	<ol>
 {% for post in site.posts %}
-<li>
-<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
-<p>{{ post.description }}</p>
-</li>
+{% if post.type == 'link' %}
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+			<p>{{ post.description }}</p>
+		</li>
+{% endif %}
 {% endfor %}
-</ol>
+	</ol>
+</div>
+
+<div id="basic">
+	<p>Pieces of writing, usually brief.</p>
+	<ol>
+{% for post in site.posts %}
+{% if post.type == 'basic' %}
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+			<p>{{ post.description }}</p>
+		</li>
+{% endif %}
+{% endfor %}
+	</ol>
+</div>
+
+<div id="photo">
+	<p>Art, design, illustration, photography; stuff for your eyes.</p>
+	<ol>
+{% for post in site.posts %}
+{% if post.type == 'photo' %}
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+			<p>{{ post.description }}</p>
+		</li>
+{% endif %}
+{% endfor %}
+	</ol>
+</div>
+
+<div id="audio">
+	<p>Songs, noises, field recordings; stuff for your ears.</p>
+	<ol>
+{% for post in site.posts %}
+{% if post.type == 'audio' %}
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+			<p>{{ post.description }}</p>
+		</li>
+{% endif %}
+{% endfor %}
+	</ol>
+</div>
+
+<div id="video">
+	<p>Art, cinema, long photographs; stuff for your eyes (that moves).</p>
+	<ol>
+{% for post in site.posts %}
+{% if post.type == 'video' %}
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+			<p>{{ post.description }}</p>
+		</li>
+{% endif %}
+{% endfor %}
+	</ol>
+</div>
+
+</div>

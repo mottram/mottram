@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-GB">
+<head>
+   	<meta charset="utf-8" />
+   	<title>Mottr.am | Kyenkyen Bi Adi Mawu</title>
+   	<meta name="author" content="Jack Mottram" />
+	<meta name="description" content="Ghanain Highlife by K. Frimpong" />
+   	<meta name="keywords" content="ghana,highlife," />
+   	<link rel="alternate" type="application/rss+xml" href="/feed/atom/" title="Mottr.am latest posts" />
+   	<!--[if IE]>
+   	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   	<![endif]-->
+   	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+   	<link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection" />
+   	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+   	<link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection" />
+	<link rel="canonical" href="http://mottr.am/2009/08/24/kyenkyen-bi-adi-mawu/" />
+	
+	<script type="text/javascript" src="/js/jquery.jplayer.js"></script>
+	
+		<script>
+
+		$(document).ready(function(){
+
+			$("#jquery_jplayer").jPlayer({
+				ready: function () {
+					$(this).setFile("http://files.me.com/jack_mottram/kqo5t1.mp3").play();
+					demoInstanceInfo($(this), $("#jplayer_info"));
+				},
+				cssPrefix: "different_prefix_example",
+				volume: 50,
+				oggSupport: true
+			})
+			.jPlayerId("play", "player_play")
+			.jPlayerId("pause", "player_pause")
+			.jPlayerId("stop", "player_stop")
+			.jPlayerId("loadBar", "player_progress_load_bar")
+			.jPlayerId("playBar", "player_progress_play_bar")
+			.jPlayerId("volumeMin", "player_volume_min")
+			.jPlayerId("volumeMax", "player_volume_max")
+			.jPlayerId("volumeBar", "player_volume_bar")
+			.jPlayerId("volumeBarValue", "player_volume_bar_value")
+			.onProgressChange( function(loadPercent, playedPercentRelative, playedPercentAbsolute, playedTime, totalTime) {
+				var myPlayedTime = new Date(playedTime);
+				var ptMin = (myPlayedTime.getUTCMinutes() < 10) ? "0" + myPlayedTime.getUTCMinutes() : myPlayedTime.getUTCMinutes();
+				var ptSec = (myPlayedTime.getUTCSeconds() < 10) ? "0" + myPlayedTime.getUTCSeconds() : myPlayedTime.getUTCSeconds();
+				$("#play_time").text(ptMin+":"+ptSec);
+
+				var myTotalTime = new Date(totalTime);
+				var ttMin = (myTotalTime.getUTCMinutes() < 10) ? "0" + myTotalTime.getUTCMinutes() : myTotalTime.getUTCMinutes();
+				var ttSec = (myTotalTime.getUTCSeconds() < 10) ? "0" + myTotalTime.getUTCSeconds() : myTotalTime.getUTCSeconds();
+				$("#total_time").text(ttMin+":"+ttSec);
+			})
+			.onSoundComplete( function() {
+				$(this).play();
+			});
+		});
+	</script>
+	
+	
+	
+</head>
+<body class="mottram audio">
+  
+  
+
+
+
+
+
+
+<article>
+<h1>Kyenkyen Bi Adi Mawu</h1>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a href="/2009/08/24/kyenkyen-bi-adi-mawu/" title="Permanent link to 'Kyenkyen Bi Adi Mawu'"><time>24 August 2009</time></a>. Tagged ghana and highlife.</p>
+
+<div id="jquery_jplayer"></div>
+
+			<div id="player_container">
+				<ul id="player_controls">
+					<li id="player_play">play</li>
+					<li id="player_pause">pause</li>
+					<li id="player_stop">stop</li>
+					<li id="player_volume_min">min volume</li>
+					<li id="player_volume_max">max volume</li>
+				</ul>
+
+				<div id="player_progress">
+					<div id="player_progress_load_bar">
+						<div id="player_progress_play_bar"></div>
+					</div>
+				</div>
+				<div id="player_volume_bar">
+					<div id="player_volume_bar_value"></div>
+				</div>
+
+				<div id="player_playlist_message">
+					<div id="song_title">Kyenkyen Bi Adi Mawu</div>
+					<div id="play_time"></div>
+					<div id="total_time"></div>
+				</div>
+			</div>
+			<div id="jplayer_info"></div>
+
+
+<p>A great low-tempo highlife song by the late, wonderfully-named Ghanaian singer Alhaji K. Frimpong. This was his big hit. <em>Via <a href='http://awesometapesfromafrica.blogspot.com/'>Awesome Tapes From Africa</a>.</em></p>
+</article>
+
+
+
+
+
+  
+</body>
+</html>
+

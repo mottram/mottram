@@ -14,9 +14,52 @@
    	<link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection" />
    	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
    	<link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection" />
-	<link rel="canonical" href="{{ page.url }}" />
+	<link rel="canonical" href="http://mottr.am{{ page.url }}" />
 	{% if page.short %}<link rel="shorturl" href="http://mottr.am/{{ page.short }}" />
 	<link rev="canonical" href="http://mottr.am/{{ page.short }}" />{% endif %}
+	{% if page.type == 'audio' %}<script type="text/javascript" src="/js/jquery.jplayer.js"></script>{% endif %}
+	{% if page.type == 'audio' %}
+		<script>
+
+		$(document).ready(function(){
+
+			$("#jquery_jplayer").jPlayer({
+				ready: function () {
+					$(this).setFile("{{ page.audio_link }}").play();
+					demoInstanceInfo($(this), $("#jplayer_info"));
+				},
+				cssPrefix: "different_prefix_example",
+				volume: 50,
+				oggSupport: true
+			})
+			.jPlayerId("play", "player_play")
+			.jPlayerId("pause", "player_pause")
+			.jPlayerId("stop", "player_stop")
+			.jPlayerId("loadBar", "player_progress_load_bar")
+			.jPlayerId("playBar", "player_progress_play_bar")
+			.jPlayerId("volumeMin", "player_volume_min")
+			.jPlayerId("volumeMax", "player_volume_max")
+			.jPlayerId("volumeBar", "player_volume_bar")
+			.jPlayerId("volumeBarValue", "player_volume_bar_value")
+			.onProgressChange( function(loadPercent, playedPercentRelative, playedPercentAbsolute, playedTime, totalTime) {
+				var myPlayedTime = new Date(playedTime);
+				var ptMin = (myPlayedTime.getUTCMinutes() < 10) ? "0" + myPlayedTime.getUTCMinutes() : myPlayedTime.getUTCMinutes();
+				var ptSec = (myPlayedTime.getUTCSeconds() < 10) ? "0" + myPlayedTime.getUTCSeconds() : myPlayedTime.getUTCSeconds();
+				$("#play_time").text(ptMin+":"+ptSec);
+
+				var myTotalTime = new Date(totalTime);
+				var ttMin = (myTotalTime.getUTCMinutes() < 10) ? "0" + myTotalTime.getUTCMinutes() : myTotalTime.getUTCMinutes();
+				var ttSec = (myTotalTime.getUTCSeconds() < 10) ? "0" + myTotalTime.getUTCSeconds() : myTotalTime.getUTCSeconds();
+				$("#total_time").text(ttMin+":"+ttSec);
+			})
+			.onSoundComplete( function() {
+				$(this).play();
+			});
+		});
+	</script>
+	
+	{% endif %}
+	{% if page.type == 'archive' %}<script type="text/javascript" src="/js/mottram.js"></script>{% endif %}
 </head>
 <body class="mottram {{ page.type }}">
   

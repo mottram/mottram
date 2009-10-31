@@ -3,7 +3,7 @@
 body {
 	background:#fff;
 	color:#555;
-	font:normal 16px/24px georgia, "times new roman", times, serif;
+	font:normal 16px/24px Helvetica, Arial, verdans, sans-serif;
 	width:600px;
 	margin:96px auto;
 }
@@ -13,14 +13,12 @@ h1, h2, p, cite, quote, blockquote, object, ol, ul, img {
 }
 
 h1, h2 {
-	font-family:"palatino linotype", palatino, georgia, "times new roman", times, serif;
 	font-size:28px;
 	line-height:24px;
 	font-weight:normal;
 }
 	
 h3 {
-	font-family:"palatino linotype", palatino, georgia, "times new roman", times, serif;
 	font-size:16px;
 	line-height:24px;
 	font-weight:normal;
@@ -92,7 +90,6 @@ aside a:hover {
 .meta {
 	font-size:14px;
 	font-weight:lighter;
-	font-style:italic;
 	margin:-16px 0 24px 0;
 }
 
@@ -113,10 +110,10 @@ aside a:hover {
 
 /* Photos */
 
-img {
-	border:1px solid #fff;
-	-moz-border-radius: 16px;
-	-webkit-border-radius: 16px;
+img, object {
+	background:#eee;
+	border:1px solid #aaa;
+	padding:12px;
 }
 
 
@@ -160,9 +157,7 @@ li p {
 /* nav */
 
 nav {
-	text-align:center;
-	border-top:1px solid #ddd;
-	padding:24px 0;
+
 }
 
 nav ul li {
@@ -171,13 +166,24 @@ nav ul li {
 	margin:0 7px 0 0;
 }
 
+nav ul li.active a {
+	color:#444;
+}
+
 /* short urls */
 
 #shorturl {
-	font-style:italic;
+	font-size:14px;
+	color:#555;
 	border:none;
 }
 
 #shorturl input:focus {
 	outline:none;
+}
+
+/* archive page */
+
+#archive ul {
+	
 }

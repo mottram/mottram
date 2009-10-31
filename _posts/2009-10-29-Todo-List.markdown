@@ -10,6 +10,8 @@ topics:
 ---
 Stuff I need to do:
 
+Make archive page tabbed - show basic posts, with links to reveal link, photo, video posts.
+
 - Audio player
 
 	- Sentimental Dancehall

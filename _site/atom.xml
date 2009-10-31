@@ -4,7 +4,7 @@
  <title>Mottr.am</title>
  <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
  <link href="http://mottr.am/"/>
- <updated>2009-10-30T22:32:06+00:00</updated>
+ <updated>2009-10-31T00:39:58+00:00</updated>
  <id>http://mottr.am</id>
  <author>
    <name>Jack Mottram</name>
@@ -18,6 +18,8 @@
    <updated>2009-10-29T00:00:00+00:00</updated>
    <id>http://mottr.am/2009/10/29/Todo-List</id>
    <content type="html">&lt;p&gt;Stuff I need to do:&lt;/p&gt;
+
+&lt;p&gt;Make archive page tabbed - show basic posts, with links to reveal link, photo, video posts.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;
@@ -118,14 +120,6 @@
    <updated>2009-10-21T00:00:00+01:00</updated>
    <id>http://mottr.am/2009/10/21/markdown-for-gedit</id>
    <content type="html">&lt;p&gt;Markdown syntax highlighting for &lt;code&gt;gedit&lt;/code&gt;. (I&amp;#8217;m mostly linking to it because I just found out that the French for &lt;em&gt;download&lt;/em&gt; is &lt;em&gt;téléchargement&lt;/em&gt;. Lovely.)&lt;/p&gt;</content>
- </entry>
- 
- <entry>
-   <title>Vimeo Tester</title>
-   <link href="http://mottr.am/2009/10/20/testing-vimeo/"/>
-   <updated>2009-10-20T00:00:00+01:00</updated>
-   <id>http://mottr.am/2009/10/20/testing-vimeo</id>
-   <content type="html">&lt;p&gt;This is a test of automatic viMeo embedding!&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -318,11 +312,148 @@
  </entry>
  
  <entry>
+   <title>Pear Note</title>
+   <link href="http://mottr.am/2009/09/02/pear-note/"/>
+   <updated>2009-09-02T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/02/pear-note</id>
+   <content type="html">&lt;p&gt;&amp;#8220;Pear Note records audio and/or video while you take your notes, so later you can find what was being said when you typed something.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Energie!</title>
+   <link href="http://mottr.am/2009/09/02/energie/"/>
+   <updated>2009-09-02T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/09/02/energie</id>
+   <content type="html">&lt;p&gt;&amp;#8220;An uncontrolled high voltage discharge of 30.000 volts exposes multiple sheets of photographic paper which are then arranged in time to create new visual systems of electron organization.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>Augmented Reality in a Contact Lens</title>
    <link href="http://mottr.am/2009/09/02/augmented-reality-in-a-contact-lens/"/>
    <updated>2009-09-02T00:00:00+01:00</updated>
    <id>http://mottr.am/2009/09/02/augmented-reality-in-a-contact-lens</id>
    <content type="html">&lt;p&gt;Fascinating work, but I&amp;#8217;d actually prefer AR tech in a pair of specs (which should be possible right now, or very soon, shouldn&amp;#8217;t it? Translucent &lt;acronym title='Organic Light-Emitting Diode'&gt;OLED&lt;/acronym&gt; films on the lenses, or something like that). &lt;em&gt;Via &lt;a href='http://www.guardian.co.uk/technology/blog/2009/sep/02/research-augmented-reality'&gt;Guardian Technology&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>It's Not Big, And It's Not Clever</title>
+   <link href="http://mottr.am/2009/08/31/its-not-big-and-its-not-clever/"/>
+   <updated>2009-08-31T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/31/its-not-big-and-its-not-clever</id>
+   <content type="html">&lt;p&gt;&amp;#8220;It is sly, knowing and often downright nasty. Politicians and celebrities are its prey. And it attacks, under the guise of wit, without proof or reason. David Denby goes on the hunt for snark, which is invading all modern discourse from gossip sites to newspapers&amp;#8221;. David Denby on &lt;em&gt;snark&lt;/em&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>A Conversation With Dieter Rams</title>
+   <link href="http://mottr.am/2009/08/31/a-conversation-with-dieter-rams/"/>
+   <updated>2009-08-31T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/31/a-conversation-with-dieter-rams</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Postcards of The Russo-Japanese War</title>
+   <link href="http://mottr.am/2009/08/30/postcards-of-the-russo-japanese-war/"/>
+   <updated>2009-08-30T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/30/postcards-of-the-russo-japanese-war</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Via &lt;a href='http://assemblyman-eph.blogspot.com/2009/08/japanese-postcards-of-russo-japanese.html'&gt;Ephemera Assemblyman&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Vogon Poetry</title>
+   <link href="http://mottr.am/2009/08/29/vogon-poetry/"/>
+   <updated>2009-08-29T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/29/vogon-poetry</id>
+   <content type="html">&lt;p&gt;&amp;#8220;The Firefox Universal Translator is a revolutionary new tool that makes browsing foreign language websites as easy as browsing the web today.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Sun Sets on Afghanistan</title>
+   <link href="http://mottr.am/2009/08/29/the-sun-sets-on-afghanistan/"/>
+   <updated>2009-08-29T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/29/the-sun-sets-on-afghanistan</id>
+   <content type="html">&lt;p&gt;I hate the &lt;em&gt;Sun&lt;/em&gt;, for &lt;a href='http://en.wikipedia.org/wiki/Hillsborough_Disaster#The_Sun_newspaper_controversy' title='That, and Page 3, and &amp;apos;Gotcha&amp;apos;, and Murdoch, and its far-right politics, and...'&gt;obvious reasons&lt;/a&gt;, but new editor Dominic Mohan&amp;#8217;s editorial, &amp;#8217;&lt;a href='http://www.thesun.co.uk/sol/homepage/news/campaigns/our_boys/2611351/Dont-you-know-theres-a-bloody-war-on.html'&gt;Don&amp;#8217;t You Know There&amp;#8217;s a Bloody War On&lt;/a&gt;&amp;#8217; is worth a read.&lt;/p&gt;
+
+&lt;p&gt;On the surface it&amp;#8217;s the usual anti-Brown, pro-troops fluff, blaming the forces&amp;#8217; lack of success in Afghanistan on underfunding. But under the surface, it looks awfully like a preamble to the unthinkable: the &lt;em&gt;Sun&lt;/em&gt; taking an explicit anti-war stance.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Scrotwm</title>
+   <link href="http://mottr.am/2009/08/29/scrotwm/"/>
+   <updated>2009-08-29T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/29/scrotwm</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;m on a never-ending quest to find a window manager that&amp;#8217;s perfect for the Eee PC 701, and the daftly-named Scrotwm looks to be the best match so far&amp;#8211;it&amp;#8217;s almost as minimal as &lt;a href='http://www.nongnu.org/ratpoison/' title='Ratpoison window manager'&gt;Ratpoison&lt;/a&gt;, but with most of the features of &lt;a href='http://dwm.suckless.org/' title='dwm'&gt;dwm&lt;/a&gt;, has a very simple configuration file, and sensible default keyboard commands. &lt;small&gt;Note to self: do a Linux version of Patrick's [Minimal Mac](http://minimalmac.com/) weblog.&lt;/small&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Other Taxpayers Alliance</title>
+   <link href="http://mottr.am/2009/08/28/the-other-taxpayers-alliance/"/>
+   <updated>2009-08-28T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/28/the-other-taxpayers-alliance</id>
+   <content type="html">&lt;p&gt;The &lt;em&gt;Other&lt;/em&gt; Taxpayers Alliance aims to counter the influence of &lt;a href='http://www.taxpayersalliance.com/' title='You know, those folk quoted in every single news story on public spending'&gt;The Taxpayers Alliance&lt;/a&gt;, that mysteriously-funded and very right-wing pressure group who claim to represent &amp;#8216;ordinary taxpayers&amp;#8217;, but are essentially a bunch of Thatcherite grandees with a big PR budget.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Phillip Garrido's Weblog</title>
+   <link href="http://mottr.am/2009/08/28/philip-garridos-weblog/"/>
+   <updated>2009-08-28T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/28/philip-garridos-weblog</id>
+   <content type="html">&lt;p&gt;Phillip Garrido, the suspect in the &lt;a href='http://www.nytimes.com/2009/08/28/us/28abduct.html?hp'&gt;kidnapping and 18-year imprisonment of Jaycee Lee Dugard&lt;/a&gt;, kept a weblog, &lt;a href='http://voicesrevealed.blogspot.com/'&gt;Voices Revealed&lt;/a&gt;. It details his belief that he can control sound waves in order to transmit the voices of angels.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Google Street View and Google Maps, you can &lt;a href='http://maps.google.com/maps?f=d&amp;amp;source=s_d&amp;amp;saddr=1554+walnut+ave,+antioch,+ca&amp;amp;daddr=bown+%26+viera,+antioch,+ca&amp;amp;hl=en&amp;amp;geocode=&amp;amp;mra=ls&amp;amp;sll=38.008597,-121.771473&amp;amp;sspn=0.011006,0.022724&amp;amp;ie=UTF8&amp;amp;ll=38.008459,-121.770549&amp;amp;spn=0.000617,0.00284&amp;amp;t=h&amp;amp;z=19&amp;amp;layer=c&amp;amp;cbll=38.008459,-121.770548&amp;amp;panoid=SIM_k8E4Rv84rEg54dBy4A&amp;amp;cbp=11,0,,0,5.25'&gt;watch&lt;/a&gt; a van pull out of the Garrido&amp;#8217;s driveway and make its way to the nearby crossroads, or look at an aerial view of the &lt;a href='http://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=1554+WALNUT+AVE,+antioch,+ca&amp;amp;sll=37.0625,-95.677068&amp;amp;sspn=53.477264,55.634766&amp;amp;ie=UTF8&amp;amp;ll=38.00857,-121.77141&amp;amp;spn=0.000411,0.000424&amp;amp;t=h&amp;amp;z=21'&gt;backyard sheds and tents&lt;/a&gt; where Dugard and her two children were held.&lt;/p&gt;
+
+&lt;p&gt;Prurient interest in a disturbing case aside, it&amp;#8217;s fascinating how easily and quickly one can find context to flesh out a news story&amp;#8211;Garrido&amp;#8217;s &lt;a href='http://www.guardian.co.uk/world/2009/aug/28/jaycee-lee-dugard-kidnap-suspect-garrido-speaks'&gt;bizarre assertion&lt;/a&gt; that his story is &amp;#8216;heartwarming&amp;#8217; makes a lot more sense if you&amp;#8217;ve read his weblog&amp;#8211;with a couple of simple searches.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Pinboard in Conkeror</title>
+   <link href="http://mottr.am/2009/08/26/pinboard-in-conkeror/"/>
+   <updated>2009-08-26T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/26/pinboard-in-conkeror</id>
+   <content type="html">&lt;p&gt;If you use the &lt;a href='http://pinboard.in' title='A del.icio.us clone, without all the gubbins that&amp;apos;s made del.icio.us crap'&gt;Pinboard&lt;/a&gt; bookmarking service and the &lt;a href='http://conkeror.org' title='Effectively Firefox with no chrome, controlled entirely from the keyboard'&gt;Conkeror&lt;/a&gt; web browser (not to be confused with the &lt;a href='http://www.konqueror.org/' title='Some sort of file and web browser combo for KDE'&gt;Konqueror&lt;/a&gt; web browser) this &amp;#8216;webjump&amp;#8217; might come in handy:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='nx'&gt;define_webjump&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;pinboard&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='kd'&gt;function&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;url&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+    &lt;span class='k'&gt;if&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nx'&gt;url&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+        &lt;span class='k'&gt;return&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;http://pinboard.in/add?next=same&amp;amp;url=&amp;quot;&lt;/span&gt; &lt;span class='o'&gt;+&lt;/span&gt; &lt;span class='nx'&gt;url&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+    &lt;span class='p'&gt;}&lt;/span&gt; &lt;span class='k'&gt;else&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+        &lt;span class='k'&gt;return&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;javascript:document.location.href=&amp;#39;http://pinboard.in/add?next=same&amp;amp;url=&amp;#39;+encodeURIComponent(document.location.href)+&amp;#39;&amp;amp;description=&amp;#39;+encodeURIComponent(document.getSelection())+&amp;#39;&amp;amp;title=&amp;#39;+encodeURIComponent(document.title);&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+   &lt;span class='p'&gt;}&lt;/span&gt;
+&lt;span class='p'&gt;},&lt;/span&gt; &lt;span class='nx'&gt;$argument&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;optional&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;);&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;To use it, add the above to your &lt;code&gt;.conkerorrc&lt;/code&gt; file, restart Conkeror, then, while browsing, hit &lt;code&gt;g&lt;/code&gt; and start typing &lt;code&gt;pinboard&lt;/code&gt;. At this point, you can feed it an URL and hit return&amp;#8211;in which case the pinboard form will appear for you to fill in&amp;#8211;or just hit return, in which case the pinboard form will appear already filled with the URL and title of the page you were browsing, as well as any highlighted text.&lt;/p&gt;
+&lt;a href='/u/2009/08/conkerorrc.txt'&gt;Download webjump (4KB .txt file)&lt;/a&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Gruml</title>
+   <link href="http://mottr.am/2009/08/25/gruml/"/>
+   <updated>2009-08-25T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/25/gruml</id>
+   <content type="html">&lt;p&gt;&amp;#8220;Gruml allows you to view and manage your feed subscriptions of your Google Reader account on Mac OS X.&amp;#8221; In beta, but it seems fairly sturdy.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Breach of Peace</title>
+   <link href="http://mottr.am/2009/08/25/breach-of-peace/"/>
+   <updated>2009-08-25T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/25/breach-of-peace</id>
+   <content type="html">&lt;p&gt;&amp;#8220;Portraits of the 1961 Mississippi &lt;a href='http://en.wikipedia.org/wiki/Freedom_ride'&gt;Freedom Riders&lt;/a&gt;.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Ubuntu on Rails</title>
+   <link href="http://mottr.am/2009/08/24/ubuntu-on-rails/"/>
+   <updated>2009-08-24T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/24/ubuntu-on-rails</id>
+   <content type="html">&lt;p&gt;&amp;#8220;Canonical has created a new framework for Ubuntu called Quickly that aims to accelerate application development. It provides a set of command line tools for generating new programming projects, building packages, and releasing software.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Kyenkyen Bi Adi Mawu</title>
+   <link href="http://mottr.am/2009/08/24/kyenkyen-bi-adi-mawu/"/>
+   <updated>2009-08-24T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/24/kyenkyen-bi-adi-mawu</id>
+   <content type="html">&lt;p&gt;A great low-tempo highlife song by the late, wonderfully-named Ghanaian singer Alhaji K. Frimpong. This was his big hit. &lt;em&gt;Via &lt;a href='http://awesometapesfromafrica.blogspot.com/'&gt;Awesome Tapes From Africa&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
  </entry>
  
  <entry>

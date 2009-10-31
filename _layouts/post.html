@@ -4,28 +4,18 @@ layout: default
 {% if page.type == 'link' %}
 <article class="link">
 <h1><a href="{{ page.link_to }}">{{ page.title }}</a></h1>
-
 {% include meta.html %}
-
 {{ content }}
-
 </article>
-
-{% include related.html %}
-
 {% endif %}
 
 {% if page.type == 'photo' %}
 <article class="photo">
 <h1>{{ page.title }}</h1>
-
 {% include meta.html %}
-
 <img alt="{{ page.title }}" title="{{ page.title }}" src="{{ page.image_url }}" width="500" />
-
 {{ content }}
 </article>
-{% include related.html %}
 {% endif %}
 
 {% if page.type == 'video' %}
@@ -37,17 +27,51 @@ layout: default
 </object>
 {{ content }}
 </article>
-{% include related.html %}
 {% endif %}
+
+{% if page.type == 'audio' %}
+<article>
+<h1>{{ page.title }}</h1>
+{% include meta.html %}
+
+<div id="jquery_jplayer"></div>
+
+			<div id="player_container">
+				<ul id="player_controls">
+					<li id="player_play">play</li>
+					<li id="player_pause">pause</li>
+					<li id="player_stop">stop</li>
+					<li id="player_volume_min">min volume</li>
+					<li id="player_volume_max">max volume</li>
+				</ul>
+
+				<div id="player_progress">
+					<div id="player_progress_load_bar">
+						<div id="player_progress_play_bar"></div>
+					</div>
+				</div>
+				<div id="player_volume_bar">
+					<div id="player_volume_bar_value"></div>
+				</div>
+
+				<div id="player_playlist_message">
+					<div id="song_title">{{ page.song }}</div>
+					<div id="play_time"></div>
+					<div id="total_time"></div>
+				</div>
+			</div>
+			<div id="jplayer_info"></div>
+
+
+{{ content }}
+</article>
+{% endif %}
+
 
 {% if page.type == 'basic' %}
 <article>
 <h1>{{ page.title }}</h1>
-
 {% include meta.html %}
-
 {{ content }}
 </article>
-
-{% include related.html %}
 {% endif %}
