@@ -32,11 +32,11 @@
 </section>
 <nav id="main">
 	<ul>
-		<li><a {% if page.type == 'home' %}class="active" {% endif %}title="Go to the Mottr.am homepage" href="/">Home</a></li>
-		<li><a {% if page.type == 'archive' %}class="active" {% endif %}title="Peruse the Mottr.am archive" href="/archive/">Archive</a></li>
+		<li {% if page.type == 'home' %}class="active"{% endif %}><a title="Go to the Mottr.am homepage" href="/">Home</a></li>
+		<li {% if page.type == 'archive' %}class="active"{% endif %}><a title="Peruse the Mottr.am archive" href="/archive/">Archive</a></li>
 		<li><a title="Subscribe to the Mottr.am feed" href="/atom.xml">Feed</a></li>
-		<li><a {% if page.type == 'about' %}class="active" {% endif %}title="About Mottr.am" href="/about/">About</a></li>
-		<li><a {% if page.type == 'contact' %}class="active" {% endif %}title="Send Jack an email" href="/contact/">Contact</li>
+		<li {% if page.type == 'about' %}class="active"{% endif %}><a title="About Mottr.am" href="/about/">About</a></li>
+		<li {% if page.type == 'contact' %}class="active"{% endif %}><a title="Send Jack an email" href="/contact/">Contact</li>
 	</ul>
 </nav>
 </body>

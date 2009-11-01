@@ -199,6 +199,7 @@ nav ul li.active a {
 
 /* archive page */
 
-#archive ul {
-	
+.archive-nav ul {
+margin-top:-24px;
 }
+
