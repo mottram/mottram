@@ -1,9 +1,12 @@
 Options +FollowSymlinks
 RewriteEngine on
 
+ErrorDocument 404 /404.html
+
 redirect 301 /feed/atom/ http://mottr.am/atom.xml
 redirect 301 /su http://mottr.am/2009/09/03/revs-rels-short-urls/
 redirect 301 /hr http://mottr.am/2009/09/06/holiday-reading/
 redirect 301 /dh http://mottr.am/2009/09/05/sentimental-dancehall/
+redirect 301 /dh2 http://mottr.am/2009/09/10/sentimental-dancehall-part-2/
 redirect 301 /pg http://mottr.am/2009/08/28/philip-garridos-weblog/
 redirect 301 /pc http://mottr.am/2009/08/26/pinboard-in-conkeror/

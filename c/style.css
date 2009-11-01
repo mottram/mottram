@@ -4,6 +4,9 @@ body {
 	background:#fff;
 	color:#555;
 	font:normal 16px/24px Helvetica, Arial, verdans, sans-serif;
+}
+
+section {
 	width:600px;
 	margin:96px auto;
 }
@@ -95,7 +98,7 @@ aside a:hover {
 
 /* Home page */
 
-.index article {
+.home article {
 	margin:0 0 120px 0;
 }
 
@@ -156,17 +159,20 @@ li p {
 
 /* nav */
 
-nav#index {
-position:fixed;
-top:0;
-padding:7px 0 0 0;
-width:600px;
-background:#fff;
-border-bottom:1px solid #ddd;
+nav#main {
+	position:fixed;
+	top:0;
+	border-bottom:1px solid #ddd;
+	background:transparent url('http://localhost:3000/u/bg.png') top left repeat-x;
+	width:100%;
+	height:24px;
+	padding:12px 0;
 }
 
-nav#index ul {
-	margin:24px 0 0 0;
+
+nav#main ul {
+	width:600px;
+	margin:0 auto;
 }
 
 nav ul li {

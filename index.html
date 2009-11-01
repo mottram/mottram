@@ -1,14 +1,13 @@
 ---
 layout: default
 title: Home
-type: index
+type: home
 has_code: yes
 description: Jack Mottram's weblog 
 keywords: art, photography, design, fashion, web development, mottram
 ---
 
-<section>
-{% for post in site.posts limit: 20 %}
+{% for post in site.posts limit: 10 %}
 
 
 {% if post.type == 'photo' %}
@@ -57,13 +56,3 @@ keywords: art, photography, design, fashion, web development, mottram
 
 {% endif %}
 {% endfor %}
-</section>
-
-<nav id="index">
-	<ul>
-		<li><a title="Peruse the Mottr.am archive" href="/archive/">Archive</a></li>
-		<li><a title="Subscribe to the Mottr.am feed" href="/feed/atom/">Feed</a></li>
-		<li><a title="About Mottr.am" href="/about/">About</a></li>
-		<li><a title="Send Jack an email" href="mailto:j@ck.mottr.am">Contact</li>
-	</ul>
-</nav>

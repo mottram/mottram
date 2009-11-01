@@ -8,6 +8,6 @@ description: Letter to Mommy and Daddy, a song by Chaka Demus and Yellowman.
 topics:
  - dancehall
 ---
-Jamaican music isn't all guns, gay-bashing and daggering, you know. Here's the first in an occasional series of sentimental odes to Moms and Dads.
+Jamaican music isn't all guns, gay-bashing and daggering, you know.
 
-_Letter to Mommy & Daddy_--Chaka Demus & Yellowman
+Here's the first in an occasional series of sentimental odes to Moms and Dads: _Letter to Mommy & Daddy_--Chaka Demus & Yellowman
