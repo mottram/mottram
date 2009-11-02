@@ -1,0 +1,25 @@
+---
+layout: nil
+site_pages:
+  - /
+  - /about/
+  - /contact/
+  - /archive/
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for site_page in page.site_pages %}
+<url>
+  <loc>http://mottr.am{{site_page}}</loc>
+  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+{% endfor %}
+{% for post in site.posts %}
+<url>
+  <loc>http://mottr.am{{ post.url }}</loc>
+  <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
+{% endfor %}
+</urlset>
