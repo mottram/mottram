@@ -77,7 +77,7 @@ aside a:hover {
 }
 
 .meta {
-	font-size:14px;
+	font-size:12px;
 	font-weight:lighter;
 	margin:-16px 0 24px 0;
 }
@@ -195,7 +195,7 @@ nav ul li.active a {
 /* short urls */
 
 #shorturl {
-	font-size:14px;
+	font-size:12px;
 	color:#555;
 	border:none;
 }
@@ -214,4 +214,10 @@ margin-top:-24px;
 
 footer address {
 display:none;
+}
+
+/* comments */
+
+.basic article {
+	margin-bottom:72px;
 }

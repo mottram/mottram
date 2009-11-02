@@ -3,28 +3,34 @@
 
 <url>
   <loc>http://mottr.am/</loc>
-  <lastmod>2009-11-02T22:20:52+00:00</lastmod>
+  <lastmod>2009-11-02T23:56:27+00:00</lastmod>
   <changefreq>hourly</changefreq>
 </url>
 
 <url>
   <loc>http://mottr.am/about/</loc>
-  <lastmod>2009-11-02T22:20:52+00:00</lastmod>
+  <lastmod>2009-11-02T23:56:27+00:00</lastmod>
   <changefreq>hourly</changefreq>
 </url>
 
 <url>
   <loc>http://mottr.am/contact/</loc>
-  <lastmod>2009-11-02T22:20:52+00:00</lastmod>
+  <lastmod>2009-11-02T23:56:27+00:00</lastmod>
   <changefreq>hourly</changefreq>
 </url>
 
 <url>
   <loc>http://mottr.am/archive/</loc>
-  <lastmod>2009-11-02T22:20:52+00:00</lastmod>
+  <lastmod>2009-11-02T23:56:27+00:00</lastmod>
   <changefreq>hourly</changefreq>
 </url>
 
+
+<url>
+  <loc>http://mottr.am/2009/11/02/goodbye-wordpress-hello-jekyll/</loc>
+  <lastmod>2009-11-02T00:00:00+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
 
 <url>
   <loc>http://mottr.am/2009/10/25/life-with-the-black-panthers/</loc>

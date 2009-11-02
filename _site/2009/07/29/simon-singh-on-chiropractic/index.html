@@ -20,6 +20,10 @@
 	<link rel="shorturl" href="http://mottr.am/ss" />
 	<link rev="canonical" href="http://mottr.am/ss" />
 	
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram basic">
 <nav id="main">
@@ -51,7 +55,7 @@
 
 <article>
 <h1>Simon Singh On Chiropractic</h1>
-<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/07/29/simon-singh-on-chiropractic/" title="Permanent link to 'Simon Singh On Chiropractic'"><time class="published" datetime="2009-07-29">29 July 2009</time></a>. Tagged bad science, chiropractic, and libel.<br />Short URL: <input type="text" id="shorturl" value="http://mottr.am/ss" onClick="this.select()" /></p>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/07/29/simon-singh-on-chiropractic/" title="Permanent link to 'Simon Singh On Chiropractic'"><time class="published" datetime="2009-07-29">29 July 2009</time></a>. Tagged bad science, chiropractic, and libel.<br />Short URL: http://mottr.am/ss</p>
 <p>Below is the complete text of <a href='http://www.simonsingh.net/'>Simon Singh</a>&#8217;s supposedly libellous piece on <a href='http://www.chiropractic-uk.co.uk/'>The British Chiropractic Association</a>, originally published in <em>The Guardian</em> on Saturday 19th of April, 2008. I&#8217;m republishing it here&#8211;with the contentious paragraph in bold&#8211;as a gesture of support for the <a href='http://www.senseaboutscience.org.uk/index.php/site/project/333/'>Sense About Science</a> campaign to &#8216;Keep Libel Laws out of Science&#8217;.</p>
 
 <blockquote>
@@ -98,12 +102,27 @@
 <p>Bearing all of this in mind, I will leave you with one message for Chiropractic Awareness Week - if spinal manipulation were a drug with such serious adverse effects and so little demonstrable benefit, then it would almost certainly have been taken off the market.</p>
 </blockquote>
 </article>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/mottram/embed.js"></script><noscript><a href="http://disqus.com/forums/mottram/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
 </div>
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mottram/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
 </body>
 </html>
 

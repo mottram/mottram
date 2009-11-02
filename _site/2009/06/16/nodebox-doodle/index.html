@@ -20,6 +20,10 @@
 	<link rel="shorturl" href="http://mottr.am/n" />
 	<link rev="canonical" href="http://mottr.am/n" />
 	
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram video">
 <nav id="main">
@@ -46,7 +50,7 @@
 
 <article>
 <h1>Nodebox Doodle</h1>
-<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/06/16/nodebox-doodle/" title="Permanent link to 'Nodebox Doodle'"><time class="published" datetime="2009-06-16">16 June 2009</time></a>. Tagged nodebox and python.<br />Short URL: <input type="text" id="shorturl" value="http://mottr.am/n" onClick="this.select()" /></p>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/06/16/nodebox-doodle/" title="Permanent link to 'Nodebox Doodle'"><time class="published" datetime="2009-06-16">16 June 2009</time></a>. Tagged nodebox and python.<br />Short URL: http://mottr.am/n</p>
 <object type="application/x-shockwave-flash" style="width:600px; height:492px;" data="http://www.youtube.com/watch/v/L5Q3G9GRuOo">
 <param name="movie" value="http://www.youtube.com/watch/v/L5Q3G9GRuOo" />
 </object>
@@ -92,6 +96,20 @@
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mottram/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
 </body>
 </html>
 

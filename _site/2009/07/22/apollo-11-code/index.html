@@ -20,6 +20,10 @@
 	<link rel="shorturl" href="http://mottr.am/11" />
 	<link rev="canonical" href="http://mottr.am/11" />
 	
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram basic">
 <nav id="main">
@@ -51,7 +55,7 @@
 
 <article>
 <h1>Apollo 11 Code</h1>
-<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/07/22/apollo-11-code/" title="Permanent link to 'Apollo 11 Code'"><time class="published" datetime="2009-07-22">22 July 2009</time></a>. Tagged 1960s and code.<br />Short URL: <input type="text" id="shorturl" value="http://mottr.am/11" onClick="this.select()" /></p>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/07/22/apollo-11-code/" title="Permanent link to 'Apollo 11 Code'"><time class="published" datetime="2009-07-22">22 July 2009</time></a>. Tagged 1960s and code.<br />Short URL: http://mottr.am/11</p>
 <p>The code that got men on the moon <a href='http://googlecode.blogspot.com/2009/07/apollo-11-missions-40th-anniversary-one.html'>is now available</a>.</p>
 
 <p>Lines 179 and 180 of the Lunar Landing Guidance Equations are a little worrying:</p>
@@ -59,12 +63,27 @@
 CADR STOPRATE # TEMPORARY, I HOPE HOPE HOPE</pre>
 <p>See also: <a href='http://www.doneyles.com/LM/Tales.html'>Tales from the Lunar Module Guidance Computer</a>, by Don Eyles.</p>
 </article>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/mottram/embed.js"></script><noscript><a href="http://disqus.com/forums/mottram/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
 </div>
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mottram/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
 </body>
 </html>
 

@@ -4,13 +4,63 @@
  <title>Mottr.am</title>
  <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
  <link href="http://mottr.am/"/>
- <updated>2009-11-02T22:20:52+00:00</updated>
+ <updated>2009-11-02T23:56:26+00:00</updated>
  <id>http://mottr.am</id>
  <author>
    <name>Jack Mottram</name>
    <email>j@ck.mottr.am</email>
  </author>
  
+ 
+ <entry>
+   <title>Goodbye WordPress, Hello Jekyll</title>
+   <link href="http://mottr.am/2009/11/02/goodbye-wordpress-hello-jekyll/"/>
+   <updated>2009-11-02T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/11/02/goodbye-wordpress-hello-jekyll</id>
+   <content type="html">&lt;p&gt;It wasn&amp;#8217;t a painless process, by any means:&lt;/p&gt;
+
+&lt;p&gt;I was using a lot of custom fields in WordPress, which made exporting posts from the database more fiddly than it could&amp;#8217;ve been, and meant manually editing about a third of the entries (so there&amp;#8217;s no chance of &lt;a href='http://submitresponse.co.uk'&gt;Submit Response&lt;/a&gt; getting the jekyll treatment anytime soon).&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;d been spoiled by WordPress plugins: valid video embedding, audio playing, image resizing, short URLs, &amp;amp;c. were all handled automatically, without my having to think about it. The new incarnation of the site is fairly well automated, thanks to the flexibility of &lt;code&gt;jekyll&lt;/code&gt;&amp;#8217;s &lt;a href='http://wiki.github.com/mojombo/jekyll/yaml-front-matter'&gt;YAML Front Matter&lt;/a&gt; and the simplicity of the &lt;a href='http://www.liquidmarkup.org/'&gt;Liquid templating language&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, the text file for &lt;a href=''&gt;this video post&lt;/a&gt; begins with:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='nn'&gt;---&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;title&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Cassetteboy Does Griffin&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;layout&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;post&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;type&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;video&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;video_url&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;http://www.youtube.com/v/_QAvkFS_cgk&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;description&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Cassetteboy edits the truth into Nick Griffin&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;topics&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
+ &lt;span class='p-Indicator'&gt;-&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;bnp&lt;/span&gt;
+ &lt;span class='p-Indicator'&gt;-&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;cassetteboy&lt;/span&gt;
+&lt;span class='nn'&gt;---&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;And the relevant part of my &lt;a href='http://github.com/mottram/mottram/blob/master/_layouts/post.html'&gt;post layout&lt;/a&gt; looks like this (only without the backslashes):&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='nt'&gt;&amp;lt;object&lt;/span&gt; &lt;span class='na'&gt;type=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;application/x-shockwave-flash&amp;quot;&lt;/span&gt;
+&lt;span class='na'&gt;style=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;width:600px;height:492px;&amp;quot;&lt;/span&gt; &lt;span class='na'&gt;data=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;\{\{ page.video_url \}\}&amp;quot;&lt;/span&gt;&lt;span class='nt'&gt;&amp;gt;&lt;/span&gt;
+&lt;span class='nt'&gt;&amp;lt;param&lt;/span&gt; &lt;span class='na'&gt;name=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;movie&amp;quot;&lt;/span&gt; &lt;span class='na'&gt;value=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;\{\{ page.video_url \}\}&amp;quot;&lt;/span&gt; &lt;span class='nt'&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class='nt'&gt;&amp;lt;/object&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Not everything is working properly:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tags are purely cosmetic. For the time being, I&amp;#8217;m happy enough having the metadata in place, ready for any future solution that I (or, more likely, someone else) might think up.&lt;/li&gt;
+
+&lt;li&gt;I&amp;#8217;m not really sure if all my (X)HTML 5 is completely kosher&amp;#8211;I should probably be using the &lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt; tag inside my &lt;code&gt;&amp;lt;article&amp;gt;&lt;/code&gt;s, for example.&lt;/li&gt;
+
+&lt;li&gt;As far as I can tell, it&amp;#8217;s currently impossible to have a document that is both valid HTML 5 and conforms to the hAtom and hcard specs, because HTML 5 drops the &lt;code&gt;profile&lt;/code&gt; attribute from the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag. I&amp;#8217;ve chosen to go with valid HTML 5, and my hAtom still works with tools like&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further reading:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://www.ablognotlimited.com/articles/getting-semantic-with-microformats-part-5-hatom/'&gt;Getting Semantic With Microformats, Part 5: hAtom&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://html5doctor.com/designing-a-blog-with-html5/'&gt;Designing a blog with html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
  
  <entry>
    <title>Life with the Black Panthers</title>

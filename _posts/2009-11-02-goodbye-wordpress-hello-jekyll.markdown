@@ -8,7 +8,6 @@ loc_name: Wirral
 keywords: test, meta, design
 description: Why I decided to switch from Wordpress to the static site generator jekyll.
 topics:
- - meta
  - jekyll
  - wordpress
 ---
@@ -16,7 +15,7 @@ The number one reason: no more updating WordPress. Sure, it's easy enough to cli
 
 It wasn't a painless process, by any means:
 
-I was using a lot of custom fields in WordPress, which made exporting posts from the database more fiddly than it could've been, and meant manually editing about a third of the entries (so there's no chance of [Submit Response][1] getting the jekyll treatment anytime soon).
+I was using a lot of custom fields in WordPress, which made exporting posts from the database more fiddly than it could've been, and meant manually editing about a third of the entries (so there's no chance of [Submit Response](http://submitresponse.co.uk) getting the jekyll treatment anytime soon).
 
 I'd been spoiled by WordPress plugins: valid video embedding, audio playing, image resizing, short URLs, &c. were all handled automatically, without my having to think about it. The new incarnation of the site is fairly well automated, thanks to the flexibility of `jekyll`'s [YAML Front Matter](http://wiki.github.com/mojombo/jekyll/yaml-front-matter) and the simplicity of the [Liquid templating language](http://www.liquidmarkup.org/).
 
@@ -35,7 +34,7 @@ topics:
 ---
 {% endhighlight %}
 
-And the relevant part of my [post layout][] looks like this (only without the backslashes):
+And the relevant part of my [post layout](http://github.com/mottram/mottram/blob/master/_layouts/post.html) looks like this (only without the backslashes):
 
 {% highlight html %}
 <object type="application/x-shockwave-flash"

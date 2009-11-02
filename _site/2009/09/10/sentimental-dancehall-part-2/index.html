@@ -26,6 +26,10 @@
                 width: 300  
             });  
     </script>
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram audio">
 <nav id="main">
@@ -54,7 +58,7 @@
 
 <article>
 <h1>Sentimental Dancehall, Part II</h1>
-<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/09/10/sentimental-dancehall-part-2/" title="Permanent link to 'Sentimental Dancehall, Part II'"><time class="published" datetime="2009-09-10">10 September 2009</time></a>. Tagged dancehall and white mice.<br />Short URL: <input type="text" id="shorturl" value="http://mottr.am/dh2" onClick="this.select()" /></p>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/09/10/sentimental-dancehall-part-2/" title="Permanent link to 'Sentimental Dancehall, Part II'"><time class="published" datetime="2009-09-10">10 September 2009</time></a>. Tagged dancehall and white mice.<br />Short URL: http://mottr.am/dh2</p>
 <p id="audioplayer_1"><a title="Download the audio file" href="http://files.me.com/jack_mottram/ostvay.mp3">Download</a></p>  
         <script type="text/javascript">  
         AudioPlayer.embed("audioplayer_1", {soundFile: "http://files.me.com/jack_mottram/ostvay.mp3"});  
@@ -75,6 +79,20 @@
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mottram/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
 </body>
 </html>
 

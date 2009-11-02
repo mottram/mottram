@@ -20,6 +20,10 @@
 	<link rel="shorturl" href="http://mottr.am/hr" />
 	<link rev="canonical" href="http://mottr.am/hr" />
 	
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram basic">
 <nav id="main">
@@ -51,7 +55,7 @@
 
 <article>
 <h1>Holiday Reading</h1>
-<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/09/06/holiday-reading/" title="Permanent link to 'Holiday Reading'"><time class="published" datetime="2009-09-06">06 September 2009</time></a>. Tagged books, sinclair, and byrne.<br />Short URL: <input type="text" id="shorturl" value="http://mottr.am/hr" onClick="this.select()" /></p>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/09/06/holiday-reading/" title="Permanent link to 'Holiday Reading'"><time class="published" datetime="2009-09-06">06 September 2009</time></a>. Tagged books, sinclair, and byrne.<br />Short URL: http://mottr.am/hr</p>
 <p>Next week, in France, I will read these books:</p>
 
 <ol>
@@ -62,12 +66,27 @@
 <li><em><a href='http://www.amazon.co.uk/gp/product/0241142164?ie=UTF8&tag=submirespo-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0241142164'>Hackney, That Rose-Red Empire: A Confidential Report</a><img src='http://www.assoc-amazon.co.uk/e/ir?t=submirespo-21&l=as2&o=2&a=0241142164' border='0' height='1' alt='' width='1' style='border:none !important; margin:0px !important; padding:0px !important;' /></em> by Iain Sinclair.</li>
 </ol>
 </article>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/mottram/embed.js"></script><noscript><a href="http://disqus.com/forums/mottram/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
 </div>
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mottram/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
 </body>
 </html>
 

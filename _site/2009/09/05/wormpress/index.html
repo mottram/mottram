@@ -19,6 +19,10 @@
    	<link rel="canonical" href="http://mottr.am/2009/09/05/wormpress/" />
 	
 	
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram basic">
 <nav id="main">
@@ -53,12 +57,27 @@
 <p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/09/05/wormpress/" title="Permanent link to 'Wormpress'"><time class="published" datetime="2009-09-05">05 September 2009</time></a>. Tagged wordpress and security.</p>
 <p>If you&#8217;re running an old version of Wordpress, you might want to upgrade. Sharpish. &#8216;Old&#8217; means anything prior to the current version, or the one before that, <a href='http://wordpress.org/development/2009/09/keep-wordpress-secure/'>according to Matt Mullenweg</a>. It&#8217;ll be interesting to see if folk jump ship over this. (Where to, I don&#8217;t know&#8211;Movable Type is nice enough, but too much faff for folk used to Wordpress&#8217; 5-minute installs and automatic upgrades; and the other self-hosted options are geekier still.)</p>
 </article>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/mottram/embed.js"></script><noscript><a href="http://disqus.com/forums/mottram/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
 </div>
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mottram/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
 </body>
 </html>
 

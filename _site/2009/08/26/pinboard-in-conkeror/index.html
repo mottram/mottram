@@ -20,6 +20,10 @@
 	<link rel="shorturl" href="http://mottr.am/pc" />
 	<link rev="canonical" href="http://mottr.am/pc" />
 	
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram basic">
 <nav id="main">
@@ -51,7 +55,7 @@
 
 <article>
 <h1>Pinboard in Conkeror</h1>
-<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/08/26/pinboard-in-conkeror/" title="Permanent link to 'Pinboard in Conkeror'"><time class="published" datetime="2009-08-26">26 August 2009</time></a>. Tagged pinboard and conkeror.<br />Short URL: <input type="text" id="shorturl" value="http://mottr.am/pc" onClick="this.select()" /></p>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/08/26/pinboard-in-conkeror/" title="Permanent link to 'Pinboard in Conkeror'"><time class="published" datetime="2009-08-26">26 August 2009</time></a>. Tagged pinboard and conkeror.<br />Short URL: http://mottr.am/pc</p>
 <p>If you use the <a href='http://pinboard.in' title='A del.icio.us clone, without all the gubbins that&apos;s made del.icio.us crap'>Pinboard</a> bookmarking service and the <a href='http://conkeror.org' title='Effectively Firefox with no chrome, controlled entirely from the keyboard'>Conkeror</a> web browser (not to be confused with the <a href='http://www.konqueror.org/' title='Some sort of file and web browser combo for KDE'>Konqueror</a> web browser) this &#8216;webjump&#8217; might come in handy:</p>
 <div class='highlight'><pre><span class='nx'>define_webjump</span><span class='p'>(</span><span class='s2'>&quot;pinboard&quot;</span><span class='p'>,</span> <span class='kd'>function</span> <span class='p'>(</span><span class='nx'>url</span><span class='p'>)</span> <span class='p'>{</span>
     <span class='k'>if</span> <span class='p'>(</span><span class='nx'>url</span><span class='p'>)</span> <span class='p'>{</span>
@@ -65,12 +69,27 @@
 <p>To use it, add the above to your <code>.conkerorrc</code> file, restart Conkeror, then, while browsing, hit <code>g</code> and start typing <code>pinboard</code>. At this point, you can feed it an URL and hit return&#8211;in which case the pinboard form will appear for you to fill in&#8211;or just hit return, in which case the pinboard form will appear already filled with the URL and title of the page you were browsing, as well as any highlighted text.</p>
 <a href='/u/2009/08/conkerorrc.txt'>Download webjump (4KB .txt file)</a>
 </article>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/mottram/embed.js"></script><noscript><a href="http://disqus.com/forums/mottram/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
 </div>
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mottram/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
 </body>
 </html>
 

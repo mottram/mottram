@@ -20,6 +20,10 @@
 	<link rel="shorturl" href="http://mottr.am/pl" />
 	<link rev="canonical" href="http://mottr.am/pl" />
 	
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram link">
 <nav id="main">
@@ -42,7 +46,7 @@
     
 <article class="link hentry">
 <h1 class="entry-title"><a href="http://wordpress.org/extend/plugins/pretty-link/">Pretty Link</a></h1>
-<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/04/30/pretty-link/" title="Permanent link to 'Pretty Link'"><time class="published" datetime="2009-04-30">30 April 2009</time></a>. Tagged wordpress.<br />Short URL: <input type="text" id="shorturl" value="http://mottr.am/pl" onClick="this.select()" /></p>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/04/30/pretty-link/" title="Permanent link to 'Pretty Link'"><time class="published" datetime="2009-04-30">30 April 2009</time></a>. Tagged wordpress.<br />Short URL: http://mottr.am/pl</p>
 <p>A full-featured URL-shortening plugin for WordPress. Yes, URL-shortneners are a bit iffy, but I can&#8217;t see the harm in shortening your own URLs with a proper 301 redirect, like so: <a href='http://mottr.am/pl'>http://mottr.am/pl</a>.</p>
 </article>
 
@@ -60,6 +64,20 @@
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mottram/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
 </body>
 </html>
 

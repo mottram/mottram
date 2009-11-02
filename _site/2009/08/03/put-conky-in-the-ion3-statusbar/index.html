@@ -20,6 +20,10 @@
 	<link rel="shorturl" href="http://mottr.am/c" />
 	<link rev="canonical" href="http://mottr.am/c" />
 	
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram basic">
 <nav id="main">
@@ -51,7 +55,7 @@
 
 <article>
 <h1>Put Conky in the Ion3 Statusbar</h1>
-<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/08/03/put-conky-in-the-ion3-statusbar/" title="Permanent link to 'Put Conky in the Ion3 Statusbar'"><time class="published" datetime="2009-08-03">03 August 2009</time></a>. Tagged conky and ion3.<br />Short URL: <input type="text" id="shorturl" value="http://mottr.am/c" onClick="this.select()" /></p>
+<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/08/03/put-conky-in-the-ion3-statusbar/" title="Permanent link to 'Put Conky in the Ion3 Statusbar'"><time class="published" datetime="2009-08-03">03 August 2009</time></a>. Tagged conky and ion3.<br />Short URL: http://mottr.am/c</p>
 <p>Just in case anyone was wondering&#8211;you never know!&#8211;here&#8217;s how to get <a href='http://conky.sourceforge.net/'>conky</a> to run in an <a href='http://modeemi.fi/~tuomov/ion/'>Ion3</a> statusbar.</p>
 
 <p>Download <code>statusd_exec.lua</code> from <a href='http://modeemi.fi/~tuomov/repos/ion-scripts-3/#statusbar'>the Ion3 scripts page</a>, and pop it in <code>~/.ion3/</code>.</p>
@@ -72,12 +76,27 @@
 <p>Finally, to stop conky trying to do its usual window-ish business, you&#8217;ll need to add a couple of lines to <code>.conkyrc</code>, anywhere above the <code>TEXT</code> line: <pre lang='conky'>out_to_console yes
 out_to_x no</pre> That&#8217;s it.</p>
 </article>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/mottram/embed.js"></script><noscript><a href="http://disqus.com/forums/mottram/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
 </div>
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mottram/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
 </body>
 </html>
 

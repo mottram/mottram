@@ -26,6 +26,10 @@
                 width: 300  
             });  
     </script>{% endif %}
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram {{ page.type }}">
 {% include nav.html %}
@@ -35,6 +39,7 @@
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+{% include disqus-count.html %}
 </body>
 </html>
 

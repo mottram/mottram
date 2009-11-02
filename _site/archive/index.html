@@ -19,6 +19,10 @@
    	<link rel="canonical" href="http://mottr.am" />
 	
 	
+	<!-- remove the below before you go live!!!!! -->
+	<script type="text/javascript">
+	var disqus_developer = 1;
+	</script>
 </head>
 <body class="mottram archive">
 <nav id="main">
@@ -51,8 +55,13 @@
 	</nav>
 
 <div id="everything">
-	<p>All 111 posts, in a big long list.</p>
+	<p>All 112 posts, in a big long list.</p>
 	<ol class="hfeed">
+	
+		<li class="hentry">
+			<h2 class="entry-title"><a rel="bookmark" href="/2009/11/02/goodbye-wordpress-hello-jekyll/" title="Goodbye WordPress, Hello Jekyll">Goodbye WordPress, Hello Jekyll</a> <time class="published" datetime="2009-11-02">02 November 2009</time></h2>
+			<p class="entry-summary">Why I decided to switch from Wordpress to the static site generator jekyll.</p>
+		</li>
 	
 		<li class="hentry">
 			<h2 class="entry-title"><a rel="bookmark" href="/2009/10/25/life-with-the-black-panthers/" title="Life with the Black Panthers">Life with the Black Panthers</a> <time class="published" datetime="2009-10-25">25 October 2009</time></h2>
@@ -619,6 +628,8 @@
 
 
 
+
+
 		<li class="hentry">
 			<h2 class="entry-title"><a rel="bookmark" href="/2009/10/23/data-newspaper/" title="Data Newspaper">Data Newspaper</a> <time class="published" datetime="2009-10-23">23 October 2009</time></h2>
 			<p>A link to Newspaper Club's postcode newspaper.</p>
@@ -1116,6 +1127,13 @@
 	<ol class="hfeed">
 
 
+		<li class="hentry">
+			<h2 class="entry-title"><a rel="bookmark" href="/2009/11/02/goodbye-wordpress-hello-jekyll/" title="Goodbye WordPress, Hello Jekyll">Goodbye WordPress, Hello Jekyll</a> <time class="published" datetime="2009-11-02">02 November 2009</time></h2>
+			<p>Why I decided to switch from Wordpress to the static site generator jekyll.</p>
+		</li>
+
+
+
 
 
 
@@ -1413,6 +1431,8 @@
 <div id="photo">
 	<p>Art, design, illustration, photography; stuff for your eyes.</p>
 	<ol class="hfeed">
+
+
 
 
 		<li class="hentry">
@@ -1780,6 +1800,8 @@
 
 
 
+
+
 		<li class="hentry">
 			<h2 class="entry-title"><a rel="bookmark" href="/2009/09/10/sentimental-dancehall-part-2/" title="Sentimental Dancehall, Part II">Sentimental Dancehall, Part II</a> <time class="published" datetime="2009-09-10">10 September 2009</time></h2>
 			<p>Love Mom and Dad, a song by White Mice.</p>
@@ -1991,6 +2013,8 @@
 <div id="video">
 	<p>Art, cinema, long photographs; stuff for your eyes (that moves).</p>
 	<ol class="hfeed">
+
+
 
 
 
@@ -2306,6 +2330,20 @@
 <footer>
 	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mottram/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
 </body>
 </html>
 

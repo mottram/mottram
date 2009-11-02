@@ -23,9 +23,8 @@ $(document).ready(function() {
 		$('#archive ul li').removeClass('active');
 		$(this).parent().addClass('active');
 		var currentTab = $(this).attr('href');
-		$('#archive div').hide();
-		$(currentTab).show();
+		$('#archive div').fadeOut("fast");
+		$(currentTab).fadeIn("fast");
 		return false;
 		});
-
 });
