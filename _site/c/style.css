@@ -175,12 +175,12 @@ nav#main {
 }
 
 
-nav#main ul {
+nav#main ul, footer ul {
 	width:600px;
 	margin:0 auto;
 }
 
-nav ul li {
+nav ul li, footer ul li {
 	display:inline;
 	list-style-type:none;
 	margin:0 7px 0 0;
@@ -208,3 +208,14 @@ nav ul li.active a {
 margin-top:-24px;
 }
 
+/* footer */
+footer {
+	position:fixed;
+	bottom:0;
+	left:0;
+	border-top:1px solid #ddd;
+	background:transparent url('http://localhost:3000/u/bg.png') top left repeat-x;
+	height:24px;
+	padding:12px;
+	width:100%;
+}

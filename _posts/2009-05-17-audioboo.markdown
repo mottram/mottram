@@ -1,0 +1,12 @@
+---
+title: AudioBoo
+layout: post
+type: link
+link_to: http://audioboo.fm/
+description: An audioblogging iPhone app/website.
+topics:
+ - audio
+ - iphone
+ - weblogging
+---
+An audioblogging iPhone app/website. (The website is a bit rubbish at the moment.)
