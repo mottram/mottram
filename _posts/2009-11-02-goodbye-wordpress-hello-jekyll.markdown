@@ -3,6 +3,8 @@ layout: post
 title: Goodbye WordPress, Hello Jekyll
 type: basic
 short: j
+loc: http://maps.google.com/maps?ll=53.356328,-3.16613&spn=0.008324,0.02223&z=16
+loc_name: Wirral
 keywords: test, meta, design
 description: Why I decided to switch from Wordpress to the static site generator jekyll.
 topics:
