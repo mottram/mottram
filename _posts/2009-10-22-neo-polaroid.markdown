@@ -3,7 +3,7 @@ title: Neo-Polaroid
 layout: post
 type: photo
 image_url: /images/2009/10/tehran-photobooth.jpg
-description: This is the first post on my jekyll site.
+description: Documenting mementos.
 topics:
  - future
  - photography

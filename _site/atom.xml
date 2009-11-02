@@ -4,7 +4,7 @@
  <title>Mottr.am</title>
  <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
  <link href="http://mottr.am/"/>
- <updated>2009-11-01T19:49:29+00:00</updated>
+ <updated>2009-11-02T00:13:48+00:00</updated>
  <id>http://mottr.am</id>
  <author>
    <name>Jack Mottram</name>
@@ -80,7 +80,7 @@
  </entry>
  
  <entry>
-   <title>Neo-Polaroid</title>
+   <title>Ashtray</title>
    <link href="http://mottr.am/2009/10/11/ashtray/"/>
    <updated>2009-10-11T00:00:00+01:00</updated>
    <id>http://mottr.am/2009/10/11/ashtray</id>
@@ -394,6 +394,489 @@
    <updated>2009-08-24T00:00:00+01:00</updated>
    <id>http://mottr.am/2009/08/24/kyenkyen-bi-adi-mawu</id>
    <content type="html">&lt;p&gt;A great low-tempo highlife song by the late, wonderfully-named Ghanaian singer Alhaji K. Frimpong. This was his big hit. &lt;em&gt;Via &lt;a href='http://awesometapesfromafrica.blogspot.com/'&gt;Awesome Tapes From Africa&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Video in a Magazine</title>
+   <link href="http://mottr.am/2009/08/21/video-in-a-magazine/"/>
+   <updated>2009-08-21T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/21/video-in-a-magazine</id>
+   <content type="html">&lt;p&gt;In the latest issue of &lt;em&gt;Entertainment Weekly&lt;/em&gt; magazine, there is &lt;em&gt;&lt;a href='http://www.wired.com/epicenter/2009/08/cbs-embeds-a-video-playing-ad-in-a-print-magazine/'&gt;a video advertisement&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I bet people will do some really cool stuff with this free miniaturised video-playing hardware.&lt;/li&gt;
+
+&lt;li&gt;This is the first time something as eye-gougingly annoying as a web pop-up has appeared in a print publication; it won&amp;#8217;t be the last.&lt;/li&gt;
+
+&lt;li&gt;Can you imagine how cool the lyrics pages in &lt;em&gt;Smash Hits&lt;/em&gt; would&amp;#8217;ve been with embedded music videos?&lt;/li&gt;
+&lt;/ol&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>I made pizza for Kim Jong-il</title>
+   <link href="http://mottr.am/2009/08/17/i-made-pizza-for-kim-jong-il/"/>
+   <updated>2009-08-17T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/17/i-made-pizza-for-kim-jong-il</id>
+   <content type="html">&lt;p&gt;Parts &lt;a href='http://www.atimes.com/koreas/CH11Dg02.html'&gt;2&lt;/a&gt; &amp;amp; &lt;a href='http://www.atimes.com/koreas/CH17Dg03.html'&gt;3&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Best Evidence of Shapeshifting To Date</title>
+   <link href="http://mottr.am/2009/08/08/best-evidence-of-shapeshiftinng-to-date/"/>
+   <updated>2009-08-08T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/08/best-evidence-of-shapeshiftinng-to-date</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Mirror Man</title>
+   <link href="http://mottr.am/2009/08/07/the-mirror-man/"/>
+   <updated>2009-08-07T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/07/the-mirror-man</id>
+   <content type="html">&lt;p&gt;Parts &lt;a href='http://www.youtube.com/watch?v=CklWPotXD4o'&gt;two&lt;/a&gt;, &lt;a href='http://www.youtube.com/watch?v=z63vZYgdvPM'&gt;three&lt;/a&gt;, &lt;a href='http://www.youtube.com/watch?v=uyYfAlyE7Vk'&gt;four&lt;/a&gt;, &lt;a href='http://www.youtube.com/watch?v=QodRmvP3pos'&gt;five&lt;/a&gt; &amp;amp; &lt;a href='http://www.youtube.com/watch?v=3Jk_fO7dMS8'&gt;six&lt;/a&gt;. &lt;em&gt;Via &lt;a href='http://www.metafilter.com/83886/Dreamtigers'&gt;MeFi&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>PhotoVoice</title>
+   <link href="http://mottr.am/2009/08/06/photovoice/"/>
+   <updated>2009-08-06T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/06/photovoice</id>
+   <content type="html">&lt;p&gt;&amp;#8220;At PhotoVoice we encourage the use of documentary photography by enabling those that have traditionally been the subject of such work to become its creator&amp;#8211;to have control over how they are perceived by the rest of the world, while simultaneously learning a new skill which can enhance their lives.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Put Conky in the Ion3 Statusbar</title>
+   <link href="http://mottr.am/2009/08/03/put-conky-in-the-ion3-statusbar/"/>
+   <updated>2009-08-03T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/03/put-conky-in-the-ion3-statusbar</id>
+   <content type="html">&lt;p&gt;Just in case anyone was wondering&amp;#8211;you never know!&amp;#8211;here&amp;#8217;s how to get &lt;a href='http://conky.sourceforge.net/'&gt;conky&lt;/a&gt; to run in an &lt;a href='http://modeemi.fi/~tuomov/ion/'&gt;Ion3&lt;/a&gt; statusbar.&lt;/p&gt;
+
+&lt;p&gt;Download &lt;code&gt;statusd_exec.lua&lt;/code&gt; from &lt;a href='http://modeemi.fi/~tuomov/repos/ion-scripts-3/#statusbar'&gt;the Ion3 scripts page&lt;/a&gt;, and pop it in &lt;code&gt;~/.ion3/&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Add the following to your &lt;code&gt;cfg_statusbar.lua&lt;/code&gt; file, somewhere after the line that begins &lt;code&gt;mod_statusbar.launch_statusd{&lt;/code&gt;:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='c1'&gt;-- Conky    &lt;/span&gt;
+    &lt;span class='n'&gt;exec&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='p'&gt;{&lt;/span&gt;
+
+    &lt;span class='n'&gt;conky&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='p'&gt;{&lt;/span&gt;
+        &lt;span class='n'&gt;program&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s1'&gt;&amp;#39;&lt;/span&gt;&lt;span class='s'&gt;conky&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+    &lt;span class='p'&gt;},&lt;/span&gt;
+    
+    &lt;span class='p'&gt;},&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Then put &lt;code&gt;%exec_conky&lt;/code&gt; in your statusbar template, wherever you&amp;#8217;d like to see conky&amp;#8217;s output.&lt;/p&gt;
+
+&lt;p&gt;Finally, to stop conky trying to do its usual window-ish business, you&amp;#8217;ll need to add a couple of lines to &lt;code&gt;.conkyrc&lt;/code&gt;, anywhere above the &lt;code&gt;TEXT&lt;/code&gt; line: &lt;pre lang='conky'&gt;out_to_console yes
+out_to_x no&lt;/pre&gt; That&amp;#8217;s it.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Ghost Face of Pete Burns</title>
+   <link href="http://mottr.am/2009/08/03/ghost-face-of-pete-burns/"/>
+   <updated>2009-08-03T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/08/03/ghost-face-of-pete-burns</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>NetNewsWire 3.2 Beta</title>
+   <link href="http://mottr.am/2009/07/31/netnewswire-3-2-beta/"/>
+   <updated>2009-07-31T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/31/netnewswire-3-2-beta</id>
+   <content type="html">&lt;p&gt;Pros: Google Reader sync, in place of the godawful heap of poo that was Newsgator, which is to be taken outside and shot on August 31st. A nice &amp;#8216;send to &lt;a href='http://www.instapaper.com/'&gt;Instapaper&lt;/a&gt;&amp;#8217; feature. Cons: very distracting, flickering, brightly-coloured advertisements (a paid-for version is coming soon, though). Synchronisation is a wee bit flakey.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>TRFC on eBay</title>
+   <link href="http://mottr.am/2009/07/30/trfc-on-ebay/"/>
+   <updated>2009-07-30T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/30/trfc-on-ebay</id>
+   <content type="html">&lt;p&gt;&amp;#8220;It&amp;#8217;s not a second-hand bike we&amp;#8217;re selling,&amp;#8221; says Peter Johnson.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Kings Of Power 4 Billion Per Cent</title>
+   <link href="http://mottr.am/2009/07/30/kings-of-power-4-billion-per-cent/"/>
+   <updated>2009-07-30T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/30/kings-of-power-4-billion-per-cent</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Waveforms</title>
+   <link href="http://mottr.am/2009/07/29/waveforms/"/>
+   <updated>2009-07-29T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/29/waveforms</id>
+   <content type="html">&lt;p&gt;Gorgeous! Designed by &lt;a href='http://www.joshuadistler.com/'&gt;Joshua Distler&lt;/a&gt;, seen at &lt;a href='http://lovelypackage.com/music-cd-labeling-system/'&gt;Lovely Package&amp;#174;&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Simon Singh On Chiropractic</title>
+   <link href="http://mottr.am/2009/07/29/simon-singh-on-chiropractic/"/>
+   <updated>2009-07-29T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/29/simon-singh-on-chiropractic</id>
+   <content type="html">&lt;p&gt;Below is the complete text of &lt;a href='http://www.simonsingh.net/'&gt;Simon Singh&lt;/a&gt;&amp;#8217;s supposedly libellous piece on &lt;a href='http://www.chiropractic-uk.co.uk/'&gt;The British Chiropractic Association&lt;/a&gt;, originally published in &lt;em&gt;The Guardian&lt;/em&gt; on Saturday 19th of April, 2008. I&amp;#8217;m republishing it here&amp;#8211;with the contentious paragraph in bold&amp;#8211;as a gesture of support for the &lt;a href='http://www.senseaboutscience.org.uk/index.php/site/project/333/'&gt;Sense About Science&lt;/a&gt; campaign to &amp;#8216;Keep Libel Laws out of Science&amp;#8217;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is Chiropractic Awareness Week. So let&amp;#8217;s be aware. How about some awareness that may prevent harm and help you make truly informed choices? First, you might be surprised to know that the founder of chiropractic therapy, Daniel David Palmer, wrote that, &amp;#8220;99% of all diseases are caused by displaced vertebrae&amp;#8221;. In the 1860s, Palmer began to develop his theory that the spine was involved in almost every illness because the spinal cord connects the brain to the rest of the body. Therefore any misalignment could cause a problem in distant parts of the body.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In fact, Palmer&amp;#8217;s first chiropractic intervention supposedly cured a man who had been profoundly deaf for 17 years. His second treatment was equally strange, because he claimed that he treated a patient with heart trouble by correcting a displaced vertebra.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You might think that modern chiropractors restrict themselves to treating back problems, but in fact they still possess some quite wacky ideas. The fundamentalists argue that they can cure anything. And even the more moderate chiropractors have ideas above their station. &lt;strong&gt;The British Chiropractic Association claims that their members can help treat children with colic, sleeping and feeding problems, frequent ear infections, asthma and prolonged crying, even though there is not a jot of evidence. This organisation is the respectable face of the chiropractic profession and yet it happily promotes bogus treatments.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I can confidently label these treatments as bogus because I have co-authored a book about alternative medicine with the world&amp;#8217;s first professor of complementary medicine, Edzard Ernst. He learned chiropractic techniques himself and used them as a doctor. This is when he began to see the need for some critical evaluation. Among other projects, he examined the evidence from 70 trials exploring the benefits of chiropractic therapy in conditions unrelated to the back. He found no evidence to suggest that chiropractors could treat any such conditions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;But what about chiropractic in the context of treating back problems? Manipulating the spine can cure some problems, but results are mixed. To be fair, conventional approaches, such as physiotherapy, also struggle to treat back problems with any consistency. Nevertheless, conventional therapy is still preferable because of the serious dangers associated with chiropractic.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In 2001, a systematic review of five studies revealed that roughly half of all chiropractic patients experience temporary adverse effects, such as pain, numbness, stiffness, dizziness and headaches. These are relatively minor effects, but the frequency is very high, and this has to be weighed against the limited benefit offered by chiropractors.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;More worryingly, the hallmark technique of the chiropractor, known as high-velocity, low-amplitude thrust, carries much more significant risks. This involves pushing joints beyond their natural range of motion by applying a short, sharp force. Although this is a safe procedure for most patients, others can suffer dislocations and fractures.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Worse still, manipulation of the neck can damage the vertebral arteries, which supply blood to the brain. So-called vertebral dissection can ultimately cut off the blood supply, which in turn can lead to a stroke and even death. Because there is usually a delay between the vertebral dissection and the blockage of blood to the brain, the link between chiropractic and strokes went unnoticed for many years. Recently, however, it has been possible to identify cases where spinal manipulation has certainly been the cause of vertebral dissection.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Laurie Mathiason was a 20-year-old Canadian waitress who visited a chiropractor 21 times between 1997 and 1998 to relieve her low-back pain. On her penultimate visit she complained of stiffness in her neck. That evening she began dropping plates at the restaurant, so she returned to the chiropractor. As the chiropractor manipulated her neck, Mathiason began to cry, her eyes started to roll, she foamed at the mouth and her body began to convulse. She was rushed to hospital, slipped into a coma and died three days later. At the inquest, the coroner declared: &amp;#8220;Laurie died of a ruptured vertebral artery, which occurred in association with a chiropractic manipulation of the neck.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This case is not unique. In Canada alone there have been several other women who have died after receiving chiropractic therapy, and Professor Ernst has identified about 700 cases of serious complications among the medical literature. This should be a major concern for health officials, particularly as under-reporting will mean that the actual number of cases is much higher.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Bearing all of this in mind, I will leave you with one message for Chiropractic Awareness Week - if spinal manipulation were a drug with such serious adverse effects and so little demonstrable benefit, then it would almost certainly have been taken off the market.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Circle</title>
+   <link href="http://mottr.am/2009/07/28/circle/"/>
+   <updated>2009-07-28T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/28/circle</id>
+   <content type="html">&lt;p&gt;Lovely, this. But hit &amp;#8216;pause&amp;#8217; at about 1m 10s&amp;#8211;the closing text sort of ruins it.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>myTexts</title>
+   <link href="http://mottr.am/2009/07/27/mytexts/"/>
+   <updated>2009-07-27T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/27/mytexts</id>
+   <content type="html">&lt;p&gt;A new WriteRoom-style text editor for the Mac, with Spotlight tagging, autosave, automatic backups and export to multiple formats. It&amp;#8217;s quite nicely done, but the developer has made the strange decision to force his users into writing in light text on a dark background.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Kill Or Cure?</title>
+   <link href="http://mottr.am/2009/07/26/kill-or-cure/"/>
+   <updated>2009-07-26T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/26/kill-or-cure</id>
+   <content type="html">&lt;p&gt;An exhaustive, nicely designed site that aims to &amp;#8220;make sense of the Daily Mail’s ongoing effort to classify every inanimate object into those that cause cancer and those that prevent it.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Tinchy Dem</title>
+   <link href="http://mottr.am/2009/07/25/tinchy-dem/"/>
+   <updated>2009-07-25T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/25/tinchy-dem</id>
+   <content type="html">&lt;p&gt;&amp;#8220;Tinchy Stryder is Britain&amp;#8217;s hottest new rapper. Norman Lamb is a Liberal Democrat MP who helped launch his career.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Apollo 11 Code</title>
+   <link href="http://mottr.am/2009/07/22/apollo-11-code/"/>
+   <updated>2009-07-22T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/22/apollo-11-code</id>
+   <content type="html">&lt;p&gt;The code that got men on the moon &lt;a href='http://googlecode.blogspot.com/2009/07/apollo-11-missions-40th-anniversary-one.html'&gt;is now available&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Lines 179 and 180 of the Lunar Landing Guidance Equations are a little worrying:&lt;/p&gt;
+&lt;pre&gt;TC BANKCALL # TEMPORARY, I HOPE HOPE HOPE
+CADR STOPRATE # TEMPORARY, I HOPE HOPE HOPE&lt;/pre&gt;
+&lt;p&gt;See also: &lt;a href='http://www.doneyles.com/LM/Tales.html'&gt;Tales from the Lunar Module Guidance Computer&lt;/a&gt;, by Don Eyles.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Hot Default Browser Action</title>
+   <link href="http://mottr.am/2009/07/19/hot-default-browser-action/"/>
+   <updated>2009-07-19T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/19/hot-default-browser-action</id>
+   <content type="html">&lt;p&gt;Much as I enjoy running Xubuntu on my Eee PC 701, it can sometimes take me bloody &lt;em&gt;ages&lt;/em&gt; to work out how to do something simple. Just so I don&amp;#8217;t forget, here&amp;#8217;s one of many ways to set a default web browser:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;sudo update-alternatives --config x-www-browser
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;The fact that I needed to do this in order to open URLs in Firefox with &lt;a href='http://linuxcommand.org/man_pages/urlview1.html'&gt;urlview&lt;/a&gt; from inside &lt;a href='http://www.mutt.org/'&gt;mutt&lt;/a&gt; is worrying&amp;#8211;I think I might be going native.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Google Will Eat Itself</title>
+   <link href="http://mottr.am/2009/07/11/gwei/"/>
+   <updated>2009-07-11T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/11/gwei</id>
+   <content type="html">&lt;p&gt;&amp;#8220;By establishing this autocannibalistic model we deconstruct the new global advertisment mechanisms by rendering them into a surreal click-based economic model.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Giant Glove</title>
+   <link href="http://mottr.am/2009/07/10/giant-glove/"/>
+   <updated>2009-07-10T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/10/giant-glove</id>
+   <content type="html">&lt;p&gt;From the &lt;a href='http://www.whiteglovetracking.com/'&gt;White Glove Tracking Project&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Crippled Masters</title>
+   <link href="http://mottr.am/2009/07/10/crippled-masters/"/>
+   <updated>2009-07-10T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/10/crippled-masters</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Atlas Obscura</title>
+   <link href="http://mottr.am/2009/07/10/atlas-obscura/"/>
+   <updated>2009-07-10T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/10/atlas-obscura</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;If you&amp;#8217;re looking for miniature cities, glass flowers, books bound in human skin, gigantic flaming holes in the ground, phallological museums, bone churches, balancing pagodas, or homes built entirely out of paper, the Atlas Obscura is where you&amp;#8217;ll find them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8211;&lt;a href='http://atlasobscura.com'&gt;Atlas Obscura&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Echo Nest</title>
+   <link href="http://mottr.am/2009/07/07/echo-nest/"/>
+   <updated>2009-07-07T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/07/echo-nest</id>
+   <content type="html">&lt;p&gt;&amp;#8220;The Echo Nest Remix API lets you manipulate music and video from the web.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>OpenBitTorrent</title>
+   <link href="http://mottr.am/2009/07/05/opentorrent/"/>
+   <updated>2009-07-05T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/05/opentorrent</id>
+   <content type="html">&lt;p&gt;&amp;#8220;OpenBitTorrent is a bittorrent tracker free for anyone to use. You don&amp;#8217;t need to register, upload or index a torrent anywhere, all you have to do is to include the OpenBitTorrent tracker URL in your torrent.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Little Titch</title>
+   <link href="http://mottr.am/2009/07/04/little-titch/"/>
+   <updated>2009-07-04T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/04/little-titch</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>ZX Spectrum vs. BBC Micro</title>
+   <link href="http://mottr.am/2009/07/03/syntax-era/"/>
+   <updated>2009-07-03T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/03/syntax-era</id>
+   <content type="html">&lt;p&gt;&amp;#8220;Alexander Armstrong and Martin Freeman are to star in a new BBC4 factual-based comedy drama about the rise of the home computer market in the 1980s.&amp;#8221; Title? &lt;em&gt;Syntax Era&lt;/em&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Ebay Donations</title>
+   <link href="http://mottr.am/2009/07/03/ebay-donations/"/>
+   <updated>2009-07-03T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/03/ebay-donations</id>
+   <content type="html">&lt;p&gt;An interesting web-based alternative to &lt;a href='http://en.wikipedia.org/wiki/Street_fundraiser#Colloquial_Terms'&gt;chugging&lt;/a&gt;. I&amp;#8217;d love to see some statistics beyond the running total of funds raised on the &lt;a href='http://www.missionfish.org/'&gt;MissionFish&lt;/a&gt; website. Are people buying certain products more likely to donate? Does the amount spent on eBay effect the amount donated?&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Stop Password Masking</title>
+   <link href="http://mottr.am/2009/07/02/stop-password-masking/"/>
+   <updated>2009-07-02T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/02/stop-password-masking</id>
+   <content type="html">&lt;p&gt;&amp;#8220;Usability suffers when users type in passwords and the only feedback they get is a row of bullets,&amp;#8221; says Neilson. It certainly does, especially if you combine complex passwords&amp;#8211;mine are usually something like &lt;em&gt;£IGs?s85-S!vb&lt;/em&gt;&amp;#8211;with sloppy typing.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Cartier-Bresson Speaks</title>
+   <link href="http://mottr.am/2009/07/02/cartier-bresson-speaks/"/>
+   <updated>2009-07-02T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/07/02/cartier-bresson-speaks</id>
+   <content type="html">&lt;p&gt;MP3s of Cartier-Bresson and Weegee, culled from a record called &lt;em&gt;Famous Photographers Tell How&lt;/em&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Twisst</title>
+   <link href="http://mottr.am/2009/06/27/twisst/"/>
+   <updated>2009-06-27T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/27/twisst</id>
+   <content type="html">&lt;p&gt;&amp;#8220;Twisst will send you an alert each time you will be able to see ISS pass at your location.&amp;#8221; &lt;em&gt;Via &lt;a href='http://delicious.com/blech/'&gt;Paul Mison's del.icio.us&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>How does our language shape the way we think?</title>
+   <link href="http://mottr.am/2009/06/26/how-does-our-language-shape-the-way-we-think/"/>
+   <updated>2009-06-26T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/26/how-does-our-language-shape-the-way-we-think</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Wikirank</title>
+   <link href="http://mottr.am/2009/06/25/wikirank/"/>
+   <updated>2009-06-25T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/25/wikirank</id>
+   <content type="html">&lt;p&gt;&amp;#8220;What&amp;#8217;s popular on Wikipedia.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Urban Spectacles</title>
+   <link href="http://mottr.am/2009/06/25/urban-spectacles/"/>
+   <updated>2009-06-25T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/25/urban-spectacles</id>
+   <content type="html">&lt;p&gt;Bespoke, hand-made frames carved from a single block of wood, by &lt;a href='http://www.urbanspectacles.com/' title='Urban Spectacles'&gt;Urban Spectacles&lt;/a&gt;. I bet they feel absolutely wonderful on the ears. &lt;em&gt;Via &lt;a href='http://delicious.com/mathowie'&gt;mathowie's del.icio.us&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Michael Jackson is in Heaven Now</title>
+   <link href="http://mottr.am/2009/06/25/michael-jackson-is-in-heaven-now/"/>
+   <updated>2009-06-25T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/25/michael-jackson-is-in-heaven-now</id>
+   <content type="html">&lt;p&gt;Too soon?&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Folding Plug System</title>
+   <link href="http://mottr.am/2009/06/24/folding-plug-system/"/>
+   <updated>2009-06-24T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/24/folding-plug-system</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>MP's Expenses</title>
+   <link href="http://mottr.am/2009/06/22/mps-expenses/"/>
+   <updated>2009-06-22T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/22/mps-expenses</id>
+   <content type="html">&lt;p&gt;My user page at the Guardian&amp;#8217;s MP&amp;#8217;s Expenses site&amp;#8211;they&amp;#8217;re &amp;#8216;crowdsourcing&amp;#8217; the effort to get useful data out of the heavily redacted PDF files. It&amp;#8217;s a strangely mesmerising activity.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Permanent Bedtime</title>
+   <link href="http://mottr.am/2009/06/20/permanent-bedtime/"/>
+   <updated>2009-06-20T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/20/permanent-bedtime</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Ricoh 35 FM Snaps</title>
+   <link href="http://mottr.am/2009/06/19/ricoh-35-fm-snaps/"/>
+   <updated>2009-06-19T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/19/ricoh-35-fm-snaps</id>
+   <content type="html">&lt;img title='James' src='http://gallery.me.com/jack_mottram/100014/CNV00024/web.jpg' height='336' alt='James' /&gt;
+&lt;p&gt;More &lt;a href='http://gallery.me.com/jack_mottram#100014'&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;img title='Ella' src='http://gallery.me.com/jack_mottram/100016/CNV00008/web.jpg' height='336' alt='Ella' /&gt;&lt;img title='Jack' src='http://gallery.me.com/jack_mottram/100016/CNV00018/web.jpg' height='336' alt='Jack' /&gt;
+&lt;p&gt;More &lt;a href='http://gallery.me.com/jack_mottram#100016'&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Pagehand</title>
+   <link href="http://mottr.am/2009/06/19/pagehand/"/>
+   <updated>2009-06-19T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/19/pagehand</id>
+   <content type="html">&lt;p&gt;A word processor designed for the typographically-inclined.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>My iPhone Thinks I'm Welsh</title>
+   <link href="http://mottr.am/2009/06/18/my-iphone-thinks-im-welsh/"/>
+   <updated>2009-06-18T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/18/my-iphone-thinks-im-welsh</id>
+   <content type="html">&lt;p&gt;Idea&amp;#8211;travel to the places where my iPhone thinks I am. &lt;a href='http://en.wikipedia.org/wiki/Pantasaph' title='Wikipedia'&gt;Pantasaph&lt;/a&gt; is lovely at this time of year, I&amp;#8217;m sure.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Paul Morely On Michael Jackson</title>
+   <link href="http://mottr.am/2009/06/17/paul-morely-on-michael-jackson/"/>
+   <updated>2009-06-17T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/17/paul-morely-on-michael-jackson</id>
+   <content type="html">&lt;p&gt;Meandering essays, video interviews with Ian Brown, Craig David and Camera Obscura&amp;#8211;this is how a newspaper column transferred to the web should look.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Nodebox Doodle</title>
+   <link href="http://mottr.am/2009/06/16/nodebox-doodle/"/>
+   <updated>2009-06-16T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/16/nodebox-doodle</id>
+   <content type="html">&lt;p&gt;A little animation experiment.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s &lt;em&gt;much&lt;/em&gt; higher quality if you run it in &lt;a href='http://nodebox.net'&gt;Nodebox&lt;/a&gt;. Here&amp;#8217;s the code:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='n'&gt;size&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;400&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;400&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+&lt;span class='n'&gt;speed&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;200&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;setup&lt;/span&gt;&lt;span class='p'&gt;():&lt;/span&gt;
+    &lt;span class='k'&gt;global&lt;/span&gt; &lt;span class='n'&gt;frame&lt;/span&gt;
+    &lt;span class='n'&gt;frame&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='mi'&gt;2&lt;/span&gt;
+&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;draw&lt;/span&gt;&lt;span class='p'&gt;():&lt;/span&gt;
+    &lt;span class='n'&gt;fill&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mf'&gt;0.7&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mf'&gt;0.7&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mf'&gt;0.7&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='n'&gt;rect&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;WIDTH&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;HEIGHT&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='n'&gt;stroke&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;1&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;1&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;1&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='n'&gt;strokewidth&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;1&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;4&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt;
+    &lt;span class='n'&gt;transform&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;CORNER&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='n'&gt;translate&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;10&lt;/span&gt;&lt;span class='p'&gt;),&lt;/span&gt; &lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;2000&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt;
+    &lt;span class='n'&gt;nofill&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt;
+    &lt;span class='n'&gt;oval&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;20&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;1000&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;0&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='k'&gt;for&lt;/span&gt; &lt;span class='n'&gt;i&lt;/span&gt; &lt;span class='ow'&gt;in&lt;/span&gt; &lt;span class='nb'&gt;range&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;4&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;12&lt;/span&gt;&lt;span class='p'&gt;)):&lt;/span&gt;
+        &lt;span class='kn'&gt;from&lt;/span&gt; &lt;span class='nn'&gt;math&lt;/span&gt; &lt;span class='kn'&gt;import&lt;/span&gt; &lt;span class='n'&gt;sin&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;radians&lt;/span&gt;
+        &lt;span class='n'&gt;ease&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;sin&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;radians&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;200&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt; &lt;span class='o'&gt;*&lt;/span&gt; &lt;span class='mi'&gt;100&lt;/span&gt;
+        &lt;span class='n'&gt;rotate&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;FRAME&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='n'&gt;i&lt;/span&gt;&lt;span class='o'&gt;*&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;20&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;120&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt;
+        &lt;span class='n'&gt;rect&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;10&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;120&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;1000&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;roundness&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;10&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;100&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt;
+        &lt;span class='n'&gt;translate&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;220&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;200&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+        &lt;span class='n'&gt;rect&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;20&lt;/span&gt;&lt;span class='p'&gt;),&lt;/span&gt; &lt;span class='mi'&gt;10&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;roundness&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;10&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;100&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt;
+        &lt;span class='n'&gt;rotate&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;FRAME&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='n'&gt;i&lt;/span&gt;&lt;span class='o'&gt;*&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;10&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;100&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt;
+        &lt;span class='n'&gt;rect&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;30&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;30&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;200&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;20&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;roundness&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;10&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;100&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt;
+        &lt;span class='n'&gt;rotate&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;FRAME&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='n'&gt;i&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mi'&gt;10&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;100&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt;
+        &lt;span class='n'&gt;rect&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;300&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;10&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;200&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='mi'&gt;20&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;roundness&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='n'&gt;random&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;10&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='mi'&gt;100&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Bookseer</title>
+   <link href="http://mottr.am/2009/06/16/bookseer/"/>
+   <updated>2009-06-16T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/16/bookseer</id>
+   <content type="html">&lt;p&gt;&amp;#8221;I&amp;#8217;ve just finished reading ______ by ______. What should I read next?&amp;#8221; &lt;em&gt;Via &lt;a href='http://russelldavies.typepad.com/planning/2009/06/he-sees-hes-a-seer.html'&gt;Russel Davies&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Outer Space 1999</title>
+   <link href="http://mottr.am/2009/06/15/outer-space-1999/"/>
+   <updated>2009-06-15T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/15/outer-space-1999</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>3 Frames</title>
+   <link href="http://mottr.am/2009/06/15/3-frames/"/>
+   <updated>2009-06-15T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/15/3-frames</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;From &lt;a href='http://threeframes.net/'&gt;3 Frames&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Dancing Virus</title>
+   <link href="http://mottr.am/2009/06/12/dancing-virus/"/>
+   <updated>2009-06-12T00:00:00+01:00</updated>
+   <id>http://mottr.am/2009/06/12/dancing-virus</id>
+   <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;</content>
  </entry>
  
  <entry>

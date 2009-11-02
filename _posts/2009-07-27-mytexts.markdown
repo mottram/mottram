@@ -1,0 +1,11 @@
+---
+title: myTexts
+layout: post
+type: link
+link_to: http://myownapp.com/site/moapp3.0/applications_leo/writing/mytexts/mytexts.html
+description:
+topics:
+ - osx
+ - text
+---
+A new WriteRoom-style text editor for the Mac, with Spotlight tagging, autosave, automatic backups and export to multiple formats. It's quite nicely done, but the developer has made the strange decision to force his users into writing in light text on a dark background. 

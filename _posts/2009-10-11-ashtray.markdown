@@ -1,14 +1,13 @@
 ---
-title: Neo-Polaroid
+title: Ashtray
 layout: post
 type: photo
 image_url: /u/2009/10/ashtray.jpg
-description: This is the first post on my jekyll site.
+description: An amusing ashtray.
 topics:
  - design
  - funny
 ---
-
 By [Burak Kaynak][1]
 
 [1]:http://www.burakkaynak.com/works/fire-alarmashtray/

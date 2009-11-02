@@ -8,6 +8,7 @@ keywords: art, design, photography, mottram
 <div id="archive">
 	<nav class="archive-nav">
 	<ul>
+		<li><a title="Every post, in a big long list" href="#everything">Everything</a></li>
 		<li><a title="Links to other websites" href="#link">Links</a></li>
 		<li><a title="Pieces of writing, usually brief" href="#basic">Posts</a></li>
 		<li><a title="Art, design, illustration, photography; stuff for your eyes." href="#photo">Images</a></li>
@@ -15,7 +16,18 @@ keywords: art, design, photography, mottram
 		<li><a title="Art, cinema; stuff for your eyes that moves" href="#video">Video</a></li>
 	</ul>
 	</nav>
-	
+
+<div id="everything">
+	<p>Every post, in a big long list.</p>
+	<ol>
+	{% for post in site.posts %}
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+			<p>{{ post.description }}</p>
+		</li>
+	{% endfor %}
+	</ol>	
+</div>
 
 <div id="link">
 	<p>Links to other websites, with commentary (sometimes).</p>

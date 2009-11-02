@@ -4,9 +4,15 @@ RewriteEngine on
 ErrorDocument 404 /404.html
 
 redirect 301 /feed/atom/ http://mottr.am/atom.xml
-redirect 301 /su http://mottr.am/2009/09/03/revs-rels-short-urls/
-redirect 301 /hr http://mottr.am/2009/09/06/holiday-reading/
-redirect 301 /dh http://mottr.am/2009/09/05/sentimental-dancehall/
-redirect 301 /dh2 http://mottr.am/2009/09/10/sentimental-dancehall-part-2/
-redirect 301 /pg http://mottr.am/2009/08/28/philip-garridos-weblog/
-redirect 301 /pc http://mottr.am/2009/08/26/pinboard-in-conkeror/
+redirect 301 /dh2 http://mottr.am/2009/09/10/sentimental-dancehall-part-2
+redirect 301 /hr http://mottr.am/2009/09/06/holiday-reading
+redirect 301 /dh http://mottr.am/2009/09/05/sentimental-dancehall
+redirect 301 /su http://mottr.am/2009/09/03/revs-rels-short-urls
+redirect 301 /wr http://mottr.am/2009/08/29/the-sun-sets-on-afghanistan
+redirect 301 /pg http://mottr.am/2009/08/28/philip-garridos-weblog
+redirect 301 /pc http://mottr.am/2009/08/26/pinboard-in-conkeror
+redirect 301 /v http://mottr.am/2009/08/21/video-in-a-magazine
+redirect 301 /c http://mottr.am/2009/08/03/put-conky-in-the-ion3-statusbar
+redirect 301 /ss http://mottr.am/2009/07/29/simon-singh-on-chiropractic
+redirect 301 /11 http://mottr.am/2009/07/22/apollo-11-code
+redirect 301 /n http://mottr.am/2009/06/16/nodebox-doodle

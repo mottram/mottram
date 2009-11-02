@@ -1,7 +1,7 @@
 /* The old CSS, which I need to strip down */
 
 body {
-	background:#fff;
+	background:#fefefe;
 	color:#555;
 	font:normal 16px/24px Helvetica, Arial, verdans, sans-serif;
 }
@@ -11,7 +11,7 @@ section {
 	margin:96px auto;
 }
 
-h1, h2, p, cite, quote, blockquote, object, ol, ul, img {
+h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 	margin-bottom:24px;
 }
 
@@ -35,13 +35,18 @@ ul {
 	list-style-type:circle;
 }
 
-/*
-
-blockquote {
-	font-size:18px;
-	color:#777;
+pre, code {
+	font-family:"Monaco", Courier, monospace;
+	font-size:14px;
 }
 
+blockquote {
+	color:#777;
+	text-align:justify;
+	padding:0 66px 0 48px;
+}
+
+/*
 blockquote p:before {
 	content:"\201c";
 }
