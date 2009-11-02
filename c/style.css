@@ -1,7 +1,7 @@
 /* The old CSS, which I need to strip down */
 
 body {
-	background:#fefefe;
+	background:#fff;
 	color:#555;
 	font:normal 16px/24px Helvetica, Arial, verdans, sans-serif;
 }
@@ -45,25 +45,6 @@ blockquote {
 	text-align:justify;
 	padding:0 66px 0 48px;
 }
-
-/*
-blockquote p:before {
-	content:"\201c";
-}
-
-blockquote p:after {
-	content:"\201d";
-}
-
-blockquote + p {
-	text-indent:48px;
-}
-
-blockquote + p:before {
-	content:"\2014";
-}
-
-*/
 
 a:link, a:visited, a:active{
 	color:#03c;
@@ -176,8 +157,29 @@ nav#main {
 
 
 nav#main ul {
+	position:relative;
 	width:600px;
 	margin:0 auto;
+}
+
+nav#main ul li form {
+	display:inline;
+	position:absolute;
+	right:0;
+} 
+
+nav#main input.idle {
+	color:#999;
+	background:transparent;
+	font-size:14px;
+	border:1px solid #dedede;
+}
+
+nav#main input.focus {
+	color:#444;
+	background:#fff;
+	font-size:14px;
+	border:1px solid #ddd;
 }
 
 nav ul li {
@@ -208,22 +210,7 @@ nav ul li.active a {
 margin-top:-24px;
 }
 
-/* footer */
-
-footer ul {
-	list-style-type:none;
-	width:600px;
-	margin:24px auto;
-}
-
-footer ul li {
-	display:inline;
-	margin:0 7px 0 0;
-}
-
-footer input {
-	color:#777;
-}
+/* footer - address for hfeed */
 
 footer address {
 display:none;

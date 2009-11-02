@@ -11,6 +11,7 @@
    	<link rel="stylesheet" href="/c/style.css" type="text/css" media="screen, projection" />
   	<link rel="stylesheet" href="/c/syntax.css" type="text/css" media="screen, projection" />
 	<!--[if IE]>
+	<link rel="stylesheet" href="/c/ie.css" type="text/css" media="screen, projection">
    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
    	<![endif]-->
    	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
@@ -20,7 +21,23 @@
 	
 </head>
 <body class="mottram archive">
-<div id="content" >
+<nav id="main">
+	<ul>
+		<li ><a title="Go to the Mottr.am homepage" href="/">Home</a></li>
+		<li class="active"><a title="Peruse the Mottr.am archive" href="/archive/">Archive</a></li>
+		<li><a title="Subscribe to the Mottr.am feed" href="/atom.xml">Feed</a></li>
+		<li ><a title="About Mottr.am" href="/about/">About</a></li>
+		<li ><a title="Send Jack an email" href="/contact/">Contact</a></li>
+		<li>
+			<form action="http://www.google.com/cse" id="cse-search-box">
+			    <input type="hidden" name="cx" value="014102087920370527414:mp4-rc73dee" />
+			    <input type="hidden" name="ie" value="UTF-8" />
+			    <input type="text" name="q" value="Search..." size="15" />
+			</form>
+		</li>
+	</ul>
+</nav>
+<div id="content">
     <div id="archive">
 	<nav class="archive-nav">
 	<ul>
@@ -2286,30 +2303,8 @@
 </div>
 </div><!--end archive-->
 </div>
-<nav id="main">
-	<ul>
-		<li ><a title="Go to the Mottr.am homepage" href="/">Home</a></li>
-		<li class="active"><a title="Peruse the Mottr.am archive" href="/archive/">Archive</a></li>
-		<li><a title="Subscribe to the Mottr.am feed" href="/atom.xml">Feed</a></li>
-		<li ><a title="About Mottr.am" href="/about/">About</a></li>
-		<li ><a title="Send Jack an email" href="/contact/">Contact</a></li>
-	</ul>
-</nav>
 <footer>
-	<ul>
-	
-		<li>
-			<form action="http://www.google.com/cse" id="cse-search-box">
-			    <input type="hidden" name="cx" value="014102087920370527414:mp4-rc73dee" />
-			    <input type="hidden" name="ie" value="UTF-8" />
-			    <input type="text" name="q" value="Search..." size="31" />
-			</form>
-		</li>
-	
-		<li>
-		<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
-		</li>
-	</ul>
+	<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
 </footer>
 </body>
 </html>

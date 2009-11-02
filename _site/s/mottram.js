@@ -1,4 +1,21 @@
-$(document).ready(function() {
+$(document).ready(function() {  
+    $('input[type="text"]').addClass("idle");  
+    $('input[type="text"]').focus(function() {  
+        $(this).removeClass("idleField").addClass("focus");  
+        if (this.value == this.defaultValue){  
+            this.value = '';  
+        }  
+        if(this.value != this.defaultValue){  
+            this.select();  
+        }  
+    });  
+    $('input[type="text"]').blur(function() {  
+        $(this).removeClass("focusField").addClass("idle");  
+        if ($.trim(this.value == '')){  
+            this.value = (this.defaultValue ? this.defaultValue : '');  
+        }  
+    });  
+
 	$('#archive div').hide();
 	$('#archive div:first').show();
 	$('#archive ul li:first').addClass('active');
@@ -10,4 +27,5 @@ $(document).ready(function() {
 		$(currentTab).show();
 		return false;
 		});
+
 });
