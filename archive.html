@@ -18,12 +18,12 @@ keywords: art, design, photography, mottram
 	</nav>
 
 <div id="everything">
-	<p>Every post, in a big long list.</p>
-	<ol>
+	<p>All {{ site.posts.size }} posts, in a big long list.</p>
+	<ol class="hfeed">
 	{% for post in site.posts %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
-			<p>{{ post.description }}</p>
+		<li class="hentry">
+			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+			<p class="entry-summary">{{ post.description }}</p>
 		</li>
 	{% endfor %}
 	</ol>	
@@ -31,11 +31,11 @@ keywords: art, design, photography, mottram
 
 <div id="link">
 	<p>Links to other websites, with commentary (sometimes).</p>
-	<ol>
+	<ol class="hfeed">
 {% for post in site.posts %}
 {% if post.type == 'link' %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+		<li class="hentry">
+			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 			<p>{{ post.description }}</p>
 		</li>
 {% endif %}
@@ -45,11 +45,11 @@ keywords: art, design, photography, mottram
 
 <div id="basic">
 	<p>Pieces of writing, usually brief.</p>
-	<ol>
+	<ol class="hfeed">
 {% for post in site.posts %}
 {% if post.type == 'basic' %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+		<li class="hentry">
+			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 			<p>{{ post.description }}</p>
 		</li>
 {% endif %}
@@ -59,11 +59,11 @@ keywords: art, design, photography, mottram
 
 <div id="photo">
 	<p>Art, design, illustration, photography; stuff for your eyes.</p>
-	<ol>
+	<ol class="hfeed">
 {% for post in site.posts %}
 {% if post.type == 'photo' %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+		<li class="hentry">
+			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 			<p>{{ post.description }}</p>
 		</li>
 {% endif %}
@@ -73,11 +73,11 @@ keywords: art, design, photography, mottram
 
 <div id="audio">
 	<p>Songs, noises, field recordings; stuff for your ears.</p>
-	<ol>
+	<ol class="hfeed">
 {% for post in site.posts %}
 {% if post.type == 'audio' %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+		<li class="hentry">
+			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 			<p>{{ post.description }}</p>
 		</li>
 {% endif %}
@@ -87,11 +87,11 @@ keywords: art, design, photography, mottram
 
 <div id="video">
 	<p>Art, cinema, long photographs; stuff for your eyes (that moves).</p>
-	<ol>
+	<ol class="hfeed">
 {% for post in site.posts %}
 {% if post.type == 'video' %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span>{{ post.date | date_to_long_string }}</span></h2>
+		<li class="hentry">
+			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 			<p>{{ post.description }}</p>
 		</li>
 {% endif %}

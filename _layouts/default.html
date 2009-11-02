@@ -27,9 +27,9 @@
     </script>{% endif %}
 </head>
 <body class="mottram {{ page.type }}">
-<section>
+<div id="content">
     {{ content }}
-</section>
+</div>
 <nav id="main">
 	<ul>
 		<li {% if page.type == 'home' %}class="active"{% endif %}><a title="Go to the Mottr.am homepage" href="/">Home</a></li>
@@ -41,13 +41,19 @@
 </nav>
 <footer>
 	<ul>
+	{% if page.type == 'home' or page.type == 'archive' or page.type == 'about' %}
 		<li>
 			<form action="http://www.google.com/cse" id="cse-search-box">
-	    		<input type="hidden" name="cx" value="014102087920370527414:mp4-rc73dee" />
-	    		<input type="hidden" name="ie" value="UTF-8" />
-	    		<input type="text" name="q" value="Search..." size="31" />
+			    <input type="hidden" name="cx" value="014102087920370527414:mp4-rc73dee" />
+			    <input type="hidden" name="ie" value="UTF-8" />
+			    <input type="text" name="q" value="Search..." size="31" />
 			</form>
 		</li>
+	{% endif %}
+		<li>
+		<address class="author">&copy; <a href="mailto:j@ck.mottr.am">Jack Mottram</a></address>
+		</li>
+	</ul>
 </footer>
 </body>
 </html>

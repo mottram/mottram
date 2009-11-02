@@ -6,7 +6,7 @@ body {
 	font:normal 16px/24px Helvetica, Arial, verdans, sans-serif;
 }
 
-section {
+div#content {
 	width:600px;
 	margin:96px auto;
 }
@@ -157,7 +157,7 @@ li p {
 	margin:0px;
 }
 
-.archive h2 span {
+.archive h2 time {
 	font-size:14px;
 	color:#777;
 }
@@ -175,12 +175,12 @@ nav#main {
 }
 
 
-nav#main ul, footer ul {
+nav#main ul {
 	width:600px;
 	margin:0 auto;
 }
 
-nav ul li, footer ul li {
+nav ul li {
 	display:inline;
 	list-style-type:none;
 	margin:0 7px 0 0;
@@ -209,13 +209,22 @@ margin-top:-24px;
 }
 
 /* footer */
-footer {
-	position:fixed;
-	bottom:0;
-	left:0;
-	border-top:1px solid #ddd;
-	background:transparent url('http://localhost:3000/u/bg.png') top left repeat-x;
-	height:24px;
-	padding:12px;
-	width:100%;
+
+footer ul {
+	list-style-type:none;
+	width:600px;
+	margin:24px auto;
+}
+
+footer ul li {
+	display:inline;
+	margin:0 7px 0 0;
+}
+
+footer input {
+	color:#777;
+}
+
+footer address {
+display:none;
 }

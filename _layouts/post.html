@@ -2,8 +2,8 @@
 layout: default
 ---
 {% if page.type == 'link' %}
-<article class="link">
-<h1><a href="{{ page.link_to }}">{{ page.title }}</a></h1>
+<article class="link hentry">
+<h1 class="entry-title"><a href="{{ page.link_to }}">{{ page.title }}</a></h1>
 {% include meta.html %}
 {{ content }}
 </article>

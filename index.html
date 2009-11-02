@@ -12,10 +12,10 @@ keywords: art, photography, design, fashion, web development, mottram
 
 {% if post.type == 'photo' %}
 
-		<article class="photo">
-			<h2>{{ post.title }}</h2>
+		<article class="photo hentry">
+			<h2 class="entry-title">{{ post.title }}</h2>
 			{% include home_meta.html %}
-			<img alt="{{ page.title }}" title="{{ page.title }}" src="{{ post.image_url }}" width="500px" />
+			<img alt="{{ post.title }}" title="{{ post.title }}" src="{{ post.image_url }}" width="500" />
 			{{ post.content }}
 		</article>
 
@@ -24,8 +24,8 @@ keywords: art, photography, design, fashion, web development, mottram
 
 {% if post.type == 'link' %}
 
-	<article class="link">
-		<h2><a title="{{ post.title }}" href="{{ post.link_to }}">{{ post.title }}</a></h2>
+	<article class="link hentry">
+		<h2 class="entry-title"><a title="{{ post.title }}" href="{{ post.link_to }}">{{ post.title }}</a></h2>
 		{% include home_meta.html %}
 		{{ post.content }}
 	</article>
@@ -35,8 +35,8 @@ keywords: art, photography, design, fashion, web development, mottram
 
 {% if post.type == 'video' %}
 
-	<article>
-		<h2>{{ post.title }}</h2>
+	<article class="hentry">
+		<h2 class="entry-title">{{ post.title }}</h2>
 		{% include home_meta.html %}
 		<object type="application/x-shockwave-flash" style="width:500px; height:410px;" data="{{ post.video_link }}">
 		<param name="movie" value="{{ post.video_link }}" />
@@ -48,8 +48,8 @@ keywords: art, photography, design, fashion, web development, mottram
 
 {% if post.type == 'basic'%}
 
-	<article>
-		<h2>{{ post.title }}</h2>
+	<article class="hentry">
+		<h2 class="entry-title">{{ post.title }}</h2>
 		{% include home_meta.html %}
 		{{ post.content }}
 	</article>
