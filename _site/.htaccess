@@ -1,7 +1,7 @@
 Options +FollowSymlinks
 RewriteEngine on
 
-ErrorDocument 404 /404.html
+ErrorDocument 404 /404/
 
 redirect 301 /feed/atom/ http://mottr.am/atom.xml
 redirect 301 /dh2 http://mottr.am/2009/09/10/sentimental-dancehall-part-2

@@ -1,3 +1,4 @@
 Sitemap: http://mottr.am/sitemap.xml
 User-agent: *
-Disallow:
+Disallow: /archive/
+Disallow: /u/

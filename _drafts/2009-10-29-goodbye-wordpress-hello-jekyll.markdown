@@ -2,6 +2,7 @@
 layout: post
 title: Goodbye WordPress, Hello Jekyll
 type: basic
+short: j
 keywords: test, meta, design
 description: Why I decided to switch from Wordpress to the static site generator jekyll.
 topics:

@@ -27,7 +27,7 @@
     </script>{% endif %}
 </head>
 <body class="mottram {{ page.type }}">
-<div id="content">
+<div id="content" {% if page.type == 'home' %}class="hfeed"{% endif %}>
     {{ content }}
 </div>
 <nav id="main">

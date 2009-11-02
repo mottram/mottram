@@ -4,7 +4,7 @@ template: nil
 Options +FollowSymlinks
 RewriteEngine on
 
-ErrorDocument 404 /404.html
+ErrorDocument 404 /404/
 
 redirect 301 /feed/atom/ http://mottr.am/atom.xml
 {% for post in site.posts %}{% if post.short %}redirect 301 /{{ post.short }} http://mottr.am{{ post.id }}
