@@ -27,4 +27,8 @@ $(document).ready(function() {
 		$(currentTab).fadeIn("fast");
 		return false;
 		});
+		
+		$(function(){
+			$("#more li").quickpaginate({ perpage: 10, showcounter: true, pager : $("#more_counter") });
+		});
 });

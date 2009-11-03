@@ -3,28 +3,34 @@
 
 <url>
   <loc>http://mottr.am/</loc>
-  <lastmod>2009-11-02T23:56:27+00:00</lastmod>
+  <lastmod>2009-11-03T01:40:48+00:00</lastmod>
   <changefreq>hourly</changefreq>
 </url>
 
 <url>
   <loc>http://mottr.am/about/</loc>
-  <lastmod>2009-11-02T23:56:27+00:00</lastmod>
+  <lastmod>2009-11-03T01:40:48+00:00</lastmod>
   <changefreq>hourly</changefreq>
 </url>
 
 <url>
   <loc>http://mottr.am/contact/</loc>
-  <lastmod>2009-11-02T23:56:27+00:00</lastmod>
+  <lastmod>2009-11-03T01:40:48+00:00</lastmod>
   <changefreq>hourly</changefreq>
 </url>
 
 <url>
   <loc>http://mottr.am/archive/</loc>
-  <lastmod>2009-11-02T23:56:27+00:00</lastmod>
+  <lastmod>2009-11-03T01:40:48+00:00</lastmod>
   <changefreq>hourly</changefreq>
 </url>
 
+
+<url>
+  <loc>http://mottr.am/2009/11/03/jquery-url-parser/</loc>
+  <lastmod>2009-11-03T00:00:00+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+</url>
 
 <url>
   <loc>http://mottr.am/2009/11/02/goodbye-wordpress-hello-jekyll/</loc>

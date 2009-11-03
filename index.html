@@ -46,6 +46,18 @@ keywords: art, photography, design, fashion, web development, mottram
 
 {% endif %}
 
+{% if post.type == 'audio' %}
+<article>
+<h1>{{ post.title }}</h1>
+{% include meta.html %}
+<p id="audioplayer_1"><a title="Download the audio file" href="{{ post.audio_link }}">Download</a></p>  
+        <script type="text/javascript">  
+        AudioPlayer.embed("audioplayer_1", {soundFile: "{{ post.audio_link }}"});  
+        </script>
+{{ content }}
+</article>
+{% endif %}
+
 {% if post.type == 'basic'%}
 
 	<article class="hentry">
@@ -56,3 +68,14 @@ keywords: art, photography, design, fashion, web development, mottram
 
 {% endif %}
 {% endfor %}
+
+<div class="more">
+<h2>More posts...</h2>
+<div id="more_counter"></div>
+<br />
+<ul id="more">
+{% for post in site.posts offset: 20 %}
+	<li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p>{{ post.description }}</p></li>
+{% endfor %}
+</ul>
+</div>

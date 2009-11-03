@@ -4,13 +4,21 @@
  <title>Mottr.am</title>
  <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
  <link href="http://mottr.am/"/>
- <updated>2009-11-02T23:56:26+00:00</updated>
+ <updated>2009-11-03T01:40:48+00:00</updated>
  <id>http://mottr.am</id>
  <author>
    <name>Jack Mottram</name>
    <email>j@ck.mottr.am</email>
  </author>
  
+ 
+ <entry>
+   <title>jQuery URL Parser</title>
+   <link href="http://mottr.am/2009/11/03/jquery-url-parser/"/>
+   <updated>2009-11-03T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/11/03/jquery-url-parser</id>
+   <content type="html">&lt;p&gt;&amp;#8220;A jQuery plugin to parse urls and provides easy access to information within them, such as the protocol, host, port, the segments that make up the path and the various query string values.&amp;#8221;&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Goodbye WordPress, Hello Jekyll</title>

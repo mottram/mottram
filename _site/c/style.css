@@ -155,6 +155,23 @@ nav#main {
 	padding:12px 0;
 }
 
+/*
+nav#main.photo {
+	border-bottom:1px solid lightblue;
+}
+
+nav#main.video {
+	border-bottom:1px solid green;
+}
+
+nav#main.audio {
+	border-bottom:1px solid yellow;
+}
+
+nav#main.link {
+	border-bottom:1px solid brown;
+}
+*/
 
 nav#main ul {
 	position:relative;
@@ -220,4 +237,14 @@ display:none;
 
 .basic article {
 	margin-bottom:72px;
+}
+
+/* more */
+
+.qp_counter {
+				margin:  10px;
+			}
+			
+ul#more {
+	list-style:none;
 }
