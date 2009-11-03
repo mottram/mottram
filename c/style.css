@@ -2,7 +2,7 @@
 
 html {
 	background: #fff;
-	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#efefef)) scroll no-repeat 0 100%;
+	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#efefef)) fixed no-repeat 0 100%;
 	background: -moz-linear-gradient(0 100%,0 0,color-stop(.3,#fff),color-stop(1,#efefef)) fixed no-repeat 0 100%;
 }
 
@@ -13,9 +13,13 @@ body {
 }
 
 div#content {
-	background:transparent;
-	width:600px;
+	background:#fff;
+	width:640px;
 	margin:96px auto;
+	border:1px solid #ddd;
+	-webkit-box-shadow: 4px 4px 4px #ccc;
+	-moz-box-shadow: 4px 4px 4px #ccc;
+	box-shadow: 4px 4px 4px #ccc;
 }
 
 h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
@@ -137,19 +141,19 @@ li p {
 nav#main {
 	position:fixed;
 	top:0;
-	left:3%;
 	border-bottom:1px solid #ddd;
 	border-right:1px solid #ddd;
 	border-left:1px solid #ddd;
 	background:#fff;
 	opacity:.8;
-	width:94%;
-	min-width:624px;
+	width:640px;
+	margin:0 auto;
 	height:24px;
 	padding:12px 0;
 	-webkit-box-shadow: 4px 4px 4px #ccc;
-	-moz-box-shadow: 5px 5px 5px #ccc;
-	box-shadow: 5px 5px 5px #ccc;
+	-moz-box-shadow: 4px 4px 4px #ccc;
+	box-shadow: 4px 4px 4px #ccc;
+	z-index:99;
 }
 
 nav#main ul {
