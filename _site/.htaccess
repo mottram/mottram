@@ -4,7 +4,6 @@ RewriteEngine on
 ErrorDocument 404 /404/
 
 redirect 301 /feed/atom/ http://mottr.am/atom.xml
-redirect 301 /j http://mottr.am/2009/11/02/goodbye-wordpress-hello-jekyll
 redirect 301 /dh2 http://mottr.am/2009/09/10/sentimental-dancehall-part-2
 redirect 301 /hr http://mottr.am/2009/09/06/holiday-reading
 redirect 301 /dh http://mottr.am/2009/09/05/sentimental-dancehall

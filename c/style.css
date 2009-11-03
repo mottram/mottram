@@ -248,3 +248,7 @@ display:none;
 ul#more {
 	list-style:none;
 }
+
+ul#more li {
+	margin:0 0 12px 0;
+}

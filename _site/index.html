@@ -71,70 +71,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-	<article class="hentry">
-		<h2 class="entry-title">Goodbye WordPress, Hello Jekyll</h2>
-		<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/11/02/goodbye-wordpress-hello-jekyll/" title="Permanent link to 'Goodbye WordPress, Hello Jekyll'"><time class="published" datetime="2009-11-02">02 November 2009</time></a>. Tagged jekyll and wordpress.</p>
-		<p>It wasn&#8217;t a painless process, by any means:</p>
-
-<p>I was using a lot of custom fields in WordPress, which made exporting posts from the database more fiddly than it could&#8217;ve been, and meant manually editing about a third of the entries (so there&#8217;s no chance of <a href='http://submitresponse.co.uk'>Submit Response</a> getting the jekyll treatment anytime soon).</p>
-
-<p>I&#8217;d been spoiled by WordPress plugins: valid video embedding, audio playing, image resizing, short URLs, &amp;c. were all handled automatically, without my having to think about it. The new incarnation of the site is fairly well automated, thanks to the flexibility of <code>jekyll</code>&#8217;s <a href='http://wiki.github.com/mojombo/jekyll/yaml-front-matter'>YAML Front Matter</a> and the simplicity of the <a href='http://www.liquidmarkup.org/'>Liquid templating language</a>.</p>
-
-<p>For example, the text file for <a href=''>this video post</a> begins with:</p>
-<div class='highlight'><pre><span class='nn'>---</span>
-<span class='l-Scalar-Plain'>title</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>Cassetteboy Does Griffin</span>
-<span class='l-Scalar-Plain'>layout</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>post</span>
-<span class='l-Scalar-Plain'>type</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>video</span>
-<span class='l-Scalar-Plain'>video_url</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>http://www.youtube.com/v/_QAvkFS_cgk</span>
-<span class='l-Scalar-Plain'>description</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>Cassetteboy edits the truth into Nick Griffin</span>
-<span class='l-Scalar-Plain'>topics</span><span class='p-Indicator'>:</span>
- <span class='p-Indicator'>-</span> <span class='l-Scalar-Plain'>bnp</span>
- <span class='p-Indicator'>-</span> <span class='l-Scalar-Plain'>cassetteboy</span>
-<span class='nn'>---</span>
-</pre>
-</div>
-<p>And the relevant part of my <a href='http://github.com/mottram/mottram/blob/master/_layouts/post.html'>post layout</a> looks like this (only without the backslashes):</p>
-<div class='highlight'><pre><span class='nt'>&lt;object</span> <span class='na'>type=</span><span class='s'>&quot;application/x-shockwave-flash&quot;</span>
-<span class='na'>style=</span><span class='s'>&quot;width:600px;height:492px;&quot;</span> <span class='na'>data=</span><span class='s'>&quot;\{\{ page.video_url \}\}&quot;</span><span class='nt'>&gt;</span>
-<span class='nt'>&lt;param</span> <span class='na'>name=</span><span class='s'>&quot;movie&quot;</span> <span class='na'>value=</span><span class='s'>&quot;\{\{ page.video_url \}\}&quot;</span> <span class='nt'>/&gt;</span>
-<span class='nt'>&lt;/object&gt;</span>
-</pre>
-</div>
-<p>Not everything is working properly:</p>
-
-<ul>
-<li>Tags are purely cosmetic. For the time being, I&#8217;m happy enough having the metadata in place, ready for any future solution that I (or, more likely, someone else) might think up.</li>
-
-<li>I&#8217;m not really sure if all my (X)HTML 5 is completely kosher&#8211;I should probably be using the <code>&lt;header&gt;</code> tag inside my <code>&lt;article&gt;</code>s, for example.</li>
-
-<li>As far as I can tell, it&#8217;s currently impossible to have a document that is both valid HTML 5 and conforms to the hAtom and hcard specs, because HTML 5 drops the <code>profile</code> attribute from the <code>&lt;head&gt;</code> tag. I&#8217;ve chosen to go with valid HTML 5, and my hAtom still works with tools like</li>
-</ul>
-
-<p>Further reading:</p>
-
-<ul>
-<li><a href='http://www.ablognotlimited.com/articles/getting-semantic-with-microformats-part-5-hatom/'>Getting Semantic With Microformats, Part 5: hAtom</a></li>
-
-<li><a href='http://html5doctor.com/designing-a-blog-with-html5/'>Designing a blog with html5</a></li>
-</ul>
-	</article>
-
-
-
-
-
-
-
 		<article class="photo hentry">
 			<h2 class="entry-title">Life with the Black Panthers</h2>
 			<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/10/25/life-with-the-black-panthers/" title="Permanent link to 'Life with the Black Panthers'"><time class="published" datetime="2009-10-25">25 October 2009</time></a>. Tagged 1960s, photography, and politics.</p>
@@ -333,218 +269,28 @@
 
 
 
-
-
-
-		<article class="photo hentry">
-			<h2 class="entry-title">See Ya</h2>
-			<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/10/09/see-ya/" title="Permanent link to 'See Ya'"><time class="published" datetime="2009-10-09">09 October 2009</time></a>. Tagged funny and trfc.</p>
-			<img alt="See Ya" title="See Ya" src="/u/2009/10/barnes.jpg" width="500" />
-			<p><em>Via <a href='http://www.liverpoolecho.co.uk/sport/tranmere-rovers/tranmere-rovers-news/2009/08/29/trevor-s-final-wash-and-go-100252-24556189/'>Mark</a></em></p>
-		</article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<article class="photo hentry">
-			<h2 class="entry-title">The Flag of the Benin Empire</h2>
-			<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/10/07/the-flag-of-the-benin-empire/" title="Permanent link to 'The Flag of the Benin Empire'"><time class="published" datetime="2009-10-07">07 October 2009</time></a>. Tagged design and flags.</p>
-			<img alt="The Flag of the Benin Empire" title="The Flag of the Benin Empire" src="/u/2009/10/beninflag.png" width="500" />
-			<p><em>Via <a href='http://notes.torrez.org/2009/09/this-is-a-flag.html'>Andre Torrez</a></em></p>
-		</article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<article class="photo hentry">
-			<h2 class="entry-title">The Clinic</h2>
-			<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/10/01/the-clinic/" title="Permanent link to 'The Clinic'"><time class="published" datetime="2009-10-01">01 October 2009</time></a>. Tagged design and flags.</p>
-			<img alt="The Clinic" title="The Clinic" src="/u/2009/10/Operating-Theatre-1.jpg" width="500" />
-			<p>Beautiful medical interiors and equipment by <a href='http://www.neilpardington.com/work/_gallery/id_17/the_clinic.html'>Neil Pardington</a>.</p>
-
-<p><em>Via <a href='http://butdoesitfloat.com/96582'>But Does It Float?</a></em></p>
-		</article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<article class="photo hentry">
-			<h2 class="entry-title">The Idea of a Tree</h2>
-			<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/09/27/the-idea-of-a-tree/" title="Permanent link to 'The Idea of a Tree'"><time class="published" datetime="2009-09-27">27 September 2009</time></a>. Tagged art and nature.</p>
-			<img alt="The Idea of a Tree" title="The Idea of a Tree" src="/u/2009/09/idea-of-a-tree.jpg" width="500" />
-			<p><a href='http://www.mischertraxler.com/systems_concepts_the_idea_of_a_tree2.html'>The Idea of a Tree</a> is:</p>
-
-<blockquote>
-<p>&#8230;an autonomous mechanical production process which is a hybrid combination of natural input and mechanical process. It involves the translation of natural inputs through a mechanical apparatus in order to create one object a day. The recorder is totally dependent on sun light. Driven by solar energy, it reacts and incorporates the light intensity into an object.</p>
-</blockquote>
-
-<blockquote>
-<p>The outcoming object reflects the various sunshine conditions that occur during a day. Like a tree the object becomes a three dimensional recording of its process and time of creation.</p>
-</blockquote>
-
-<p><em>Via <a href='http://infosthetics.com/archives/2009/09/the_idea_of_a_tree.html'>Information Aesthetics</a></em></p>
-		</article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<article class="link hentry">
-		<h2 class="entry-title"><a title="The Intubator" href="">The Intubator</a></h2>
-		<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/09/17/the-intubator/" title="Permanent link to 'The Intubator'"><time class="published" datetime="2009-09-17">17 September 2009</time></a>. Tagged youtube and ephemera.</p>
-		<p>A stream of youtube &#8220;videos that no-one bothered to tag, title, or describe&#8221;. Occasionally fascinating, usually mundane, faintly sad; best with the sound off. <em>Via <a href='http://b3ta.com/newsletter/issue395/'>b3ta</a></em></p>
-	</article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<article class="link hentry">
-		<h2 class="entry-title"><a title="Lash out and cover up" href="http://www.radicalphilosophy.com/print.asp?editorial_id=28469">Lash out and cover up</a></h2>
-		<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/09/17/lash-out-and-cover-up/" title="Permanent link to 'Lash out and cover up'"><time class="published" datetime="2009-09-17">17 September 2009</time></a>. Tagged nostalgia and politics.</p>
-		<p>&#8220;Austerity nostalgia and ironic authoritarianism in recession Britain.&#8221;</p>
-	</article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<article class="link hentry">
-		<h2 class="entry-title"><a title="Tranmere Tweets" href="http://twitter.com/tranmere_scores">Tranmere Tweets</a></h2>
-		<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/09/14/tranmere-tweets/" title="Permanent link to 'Tranmere Tweets'"><time class="published" datetime="2009-09-14">14 September 2009</time></a>. Tagged trfc and twitter.</p>
-		<p>Officially <em>the</em> most depressing Twitter account. And yet I keep device updates on. Update: the <a href='http://twitter.com/tranmere_scores'>official Tranmere Twitter</a> is a much more pleasant read than the onslaught of defeat provided by the live scores.</p>
-	</article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<article class="photo hentry">
-			<h2 class="entry-title">German Matchbox Design</h2>
-			<p class="meta">Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <a class="author" href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a> on <a rel="bookmark" href="/2009/09/13/german-matchbox-design/" title="Permanent link to 'German Matchbox Design'"><time class="published" datetime="2009-09-13">13 September 2009</time></a>. Tagged design and germany.</p>
-			<img alt="German Matchbox Design" title="German Matchbox Design" src="/u/2009/09/3910802052_216383c4f3_o.jpg" width="500" />
-			<p>More <a href='http://www.flickr.com/photos/shaileshc/sets/72157622177325808/detail/'>here</a>, by Flickr user Shailesh Chavda. <em>Via <a href='http://www.swisslegacy.com/index.php/2009/09/10/vintage-german-machtbox-design/'>Swiss Legacy</a>.</em></p>
-		</article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="more">
-<h2>More posts...</h2>
-<div id="more_counter"></div>
+<h3>More posts: <span id="more_counter"></span></h3>
 <br />
 <ul id="more">
+
+	<li><h3><a href="/2009/10/09/see-ya/">See Ya</a></h3><p>John Barnes sweeping the streets</p></li>
+
+	<li><h3><a href="/2009/10/07/the-flag-of-the-benin-empire/">The Flag of the Benin Empire</a></h3><p>The Flag of the Benin Empire</p></li>
+
+	<li><h3><a href="/2009/10/01/the-clinic/">The Clinic</a></h3><p>Beautiful medical interiors and equipment by Neil Pardington.</p></li>
+
+	<li><h3><a href="/2009/09/27/the-idea-of-a-tree/">The Idea of a Tree</a></h3><p>The Idea of a Tree, a hybrid combination of natural input and mechanical process.</p></li>
+
+	<li><h3><a href="/2009/09/17/the-intubator/">The Intubator</a></h3><p>A stream of youtube videos that no-one bothered to tag, title, or describe.</p></li>
+
+	<li><h3><a href="/2009/09/17/lash-out-and-cover-up/">Lash out and cover up</a></h3><p>A link to Lash out and cover up</p></li>
+
+	<li><h3><a href="/2009/09/16/matchbox-pinhole/">Matchbox Pinhole</a></h3><p></p></li>
+
+	<li><h3><a href="/2009/09/14/tranmere-tweets/">Tranmere Tweets</a></h3><p>A link to the Tranmeres Rovers Twitter streams</p></li>
+
+	<li><h3><a href="/2009/09/13/german-matchbox-design/">German Matchbox Design</a></h3><p>German matchbox designs</p></li>
 
 	<li><h3><a href="/2009/09/10/sentimental-dancehall-part-2/">Sentimental Dancehall, Part II</a></h3><p>Love Mom and Dad, a song by White Mice.</p></li>
 

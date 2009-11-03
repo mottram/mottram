@@ -7,7 +7,7 @@ description: Jack Mottram's weblog
 keywords: art, photography, design, fashion, web development, mottram
 ---
 
-{% for post in site.posts limit: 20 %}
+{% for post in site.posts limit: 10 %}
 
 
 {% if post.type == 'photo' %}
@@ -70,11 +70,10 @@ keywords: art, photography, design, fashion, web development, mottram
 {% endfor %}
 
 <div class="more">
-<h2>More posts...</h2>
-<div id="more_counter"></div>
+<h3>More posts: <span id="more_counter"></span></h3>
 <br />
 <ul id="more">
-{% for post in site.posts offset: 20 %}
+{% for post in site.posts offset: 10 %}
 	<li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p>{{ post.description }}</p></li>
 {% endfor %}
 </ul>
