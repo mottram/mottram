@@ -33,7 +33,7 @@ $(document).ready(function() {
 		});
 		
 		$("a#inline").fancybox({
-			'frameWidth': 400,
+			'frameWidth': 600,
 			'frameHeight': 400
 		});
 });

@@ -1,12 +1,19 @@
 /* The old CSS, which I need to strip down */
 
+html {
+	background: #fff;
+	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#efefef)) scroll no-repeat 0 100%;
+	background: -moz-linear-gradient(0 100%,0 0,color-stop(.3,#fff),color-stop(1,#efefef)) fixed no-repeat 0 100%;
+}
+
 body {
-	background:#fff;
+	background:transparent;
 	color:#555;
 	font:normal 16px/24px Helvetica, Arial, verdans, sans-serif;
 }
 
 div#content {
+	background:transparent;
 	width:600px;
 	margin:96px auto;
 }
@@ -19,6 +26,7 @@ h1, h2 {
 	font-size:28px;
 	line-height:24px;
 	font-weight:normal;
+	text-shadow: #ddd 0 -1px 0, rgba(255,255,255,.2) 0 1px 0;
 }
 	
 h3 {
@@ -129,30 +137,20 @@ li p {
 nav#main {
 	position:fixed;
 	top:0;
+	left:3%;
 	border-bottom:1px solid #ddd;
-	background:transparent url('http://localhost:3000/u/bg.png') top left repeat-x;
-	width:100%;
+	border-right:1px solid #ddd;
+	border-left:1px solid #ddd;
+	background:#fff;
+	opacity:.8;
+	width:94%;
+	min-width:624px;
 	height:24px;
 	padding:12px 0;
+	-webkit-box-shadow: 4px 4px 4px #ccc;
+	-moz-box-shadow: 5px 5px 5px #ccc;
+	box-shadow: 5px 5px 5px #ccc;
 }
-
-/*
-nav#main.photo {
-	border-bottom:1px solid lightblue;
-}
-
-nav#main.video {
-	border-bottom:1px solid green;
-}
-
-nav#main.audio {
-	border-bottom:1px solid yellow;
-}
-
-nav#main.link {
-	border-bottom:1px solid brown;
-}
-*/
 
 nav#main ul {
 	position:relative;
@@ -186,8 +184,16 @@ nav ul li {
 	margin:0 7px 0 0;
 }
 
+nav ul li a {
+	text-shadow: #ddd 0 -1px 0, rgba(255,255,255,.2) 0 1px 0;
+}
+
 nav ul li.active a {
 	color:#444;
+}
+
+nav ul li a:hover {
+	text-shadow: #ddd 1px 1px 0;
 }
 
 /* short urls */

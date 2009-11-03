@@ -12,16 +12,6 @@ Stuff I need to do:
 
 - Check Atom feed works, check .htaccess redirect from /feed/atom/ to /atom.xml
 - Check hAtom works http://transformr.co.uk/
-- include maps http://awardwinningfjords.com/2009/07/22/google-maps-with-jquery.html
-- make maps pop up with jquery
-- Sitemap
-- fix time tag - should have datetime="2009-10-"
-- fix blockquote css
-- basic
-- link
-- photo
-- video
-- basic
-
+- Change Google API key to ABQIAAAAPga5T2DTe8Ai3o7Fpk3qFRSNqByKE8YBn9C1iebjkz1yKGB-5xTKcMhYnDGfQXXHiCqs3tCKJS2cxQ
 	
 [1]:http://www.brucelawson.co.uk/2009/html-5-flash-embedding-and-other-validation-erors/
