@@ -56,28 +56,9 @@ a:hover {
 	}
 
 /* Metadata */
-	
-aside {
-	color:#777;
-	font-size:12px;
-	margin-top:48px;
-	padding:21px 0;
-}
-
-aside ul {
-	list-style-type:none;
-}
-
-aside a {
-	color:#777 !important;
-}
-
-aside a:hover {
-	color:#333 !important;
-}
 
 .meta {
-	font-size:12px;
+	font-size:13px;
 	font-weight:lighter;
 	margin:-16px 0 24px 0;
 }
