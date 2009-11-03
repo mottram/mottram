@@ -3,7 +3,7 @@ title: Homonyms & Homophones
 layout: post
 type: basic
 short: hh
-loc: http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=g4+9dt&sll=37.0625,-95.677068&sspn=45.014453,91.054688&ie=UTF8&hq=&hnear=Glasgow,+Lanarkshire+G4+9DT,+United+Kingdom&z=16&iwloc=A
+loc: 18 Barrington Dr,Glasgow
 loc_name: Glasgow
 description: Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.
 topics:

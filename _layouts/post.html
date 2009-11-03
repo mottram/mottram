@@ -47,5 +47,8 @@ layout: default
 <h1>{{ page.title }}</h1>
 {% include meta.html %}
 {{ content }}
+{% if page.loc %}
+<div id="map"><img class="map" src="http://maps.google.com/maps/api/staticmap?center={{ page.loc }}&zoom=14&size=400x400&sensor=false&format=jpeg&zoom=18&key=ABQIAAAAnfs7bKE82qgb3Zc2YyS-oBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxSySz_REpPq-4WZA27OwgbtyR3VcA" /></div>
+{% endif %}
 </article>
 {% endif %}

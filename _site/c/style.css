@@ -233,3 +233,12 @@ ul#more {
 ul#more li {
 	margin:0 0 12px 0;
 }
+
+#map {
+	display:none;
+	}
+	
+img.map {
+	border:none !important;
+	padding:0 !important;
+}

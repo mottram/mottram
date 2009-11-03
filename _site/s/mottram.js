@@ -31,4 +31,9 @@ $(document).ready(function() {
 		$(function(){
 			$("#more li").quickpaginate({ perpage: 10, showcounter: true, pager : $("#more_counter") });
 		});
+		
+		$("a#inline").fancybox({
+			'frameWidth': 400,
+			'frameHeight': 400
+		});
 });
