@@ -12,7 +12,7 @@ html {
 body {
 	background:transparent;
 	color:#555;
-	font:normal 16px/24px Georgia, serif;
+	font:normal 16px/24px Helvetica, Arial, sans-serif;
 }
 
 div#content {
@@ -27,7 +27,6 @@ h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 
 h1 {
 	font-size:28px;
-	line-height:24px;
 	font-weight:normal;
 	padding:0 0 12px 0;
 	border-bottom:1px solid #ddd;
@@ -35,6 +34,7 @@ h1 {
 }
 
 h1.link:after {
+	font-family:Georgia, serif;
 	color:#008;
 	font-size:24px;
 	content:" \261b";
@@ -55,7 +55,8 @@ ul {
 }
 
 pre, code {
-	font-family:"Monaco", Courier, monospace;
+	font-family:Monaco, Consolas, "Andale Mono",
+ "monotype.com", "Bitstream Vera Sans Mono", monospace;
 	font-size:14px;
 }
 
@@ -152,7 +153,7 @@ article footer {
 }
 
 
-/* Pretty boxes */
+/* Pretty boxes! */
 
 article, div#archive {
 	margin:0;
@@ -162,8 +163,10 @@ article, div#archive {
 	box-shadow: 3px 3px 3px #ccc;
 	padding:48px 24px 24px 24px;
 	background: #fff;
-	background: -webkit-gradient(linear,0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) scroll no-repeat 0 100%;
-	background: -moz-linear-gradient(0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) fixed no-repeat 0 100%;
+/* not sure about this - overkill? */
+/*	background: -webkit-gradient(linear,0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) scroll no-repeat 0 100%;
+	background: -moz-linear-gradient(0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) scroll no-repeat 0 100%;
+*/
 }
 
 div#archive {
@@ -287,4 +290,23 @@ img.map {
 
 .contact li {
 	list-style:none;
+}
+
+article aside {
+	border-top:1px solid #ddd;
+	font-size:14px;
+}
+
+article aside ol {
+	margin:12px 0 0 24px;
+}
+
+sup {
+	font-size:12px;
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	_vertical-align: bottom;
+	position: relative;
+	bottom: 1ex;
 }

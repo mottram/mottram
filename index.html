@@ -12,7 +12,7 @@ keywords: art, photography, design, fashion, web development, mottram
 		<h1>{{ post.title }}</h1>
 	</header>
 	{% include home_meta.html %}
-	<img alt="{{ post.title }}" title="{{ post.title }}" src="{{ post.image_url }}" width="500" />
+	<img alt="{{ post.title }}" title="{{ post.title }}" src="{{ post.image_url }}" width="590" />
 	{{ post.content }}
 </article>
 {% endif %}
@@ -31,7 +31,7 @@ keywords: art, photography, design, fashion, web development, mottram
 		<h1>{{ post.title }}</h1>
 	</header>
 	{% include home_meta.html %}
-	<object type="application/x-shockwave-flash" style="width:500px; height:410px;" data="{{ post.video_link }}">
+	<object type="application/x-shockwave-flash" style="width:590px; height:484px;" data="{{ post.video_link }}">
 		<param name="movie" value="{{ post.video_link }}" />
 	</object>
 	{{ post.content }}
