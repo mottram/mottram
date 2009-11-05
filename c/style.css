@@ -1,37 +1,44 @@
-/* The old CSS, which I need to strip down */
+/* This is all a bit of a mess, but feel free to use anything you like the look of!
+The site looks nice in the latest versions of Firefox, Safari and Opera; in IE versions 6 to 8
+and Firefox 2 it looks nice enough, but without the pretty shadows and gradients.
+(It looks completely bonkers in IE 5.5, but I don't think many folk use that nowadays.) */
 
 html {
 	background: #fff;
-	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#efefef)) fixed no-repeat 0 100%;
-	background: -moz-linear-gradient(0 100%,0 0,color-stop(.3,#fff),color-stop(1,#efefef)) fixed no-repeat 0 100%;
+	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#eee)) fixed no-repeat 0 100%;
+	background: -moz-linear-gradient(0 100%,0 0,color-stop(.3,#fff),color-stop(1,#eee)) fixed no-repeat 0 100%;
 }
 
 body {
 	background:transparent;
 	color:#555;
-	font:normal 16px/24px Helvetica, Arial, verdans, sans-serif;
+	font:normal 16px/24px Georgia, serif;
 }
 
 div#content {
-	background:#fff;
+	background:transparent;
 	width:640px;
 	margin:96px auto;
-	border:1px solid #ddd;
-	-webkit-box-shadow: 4px 4px 4px #ccc;
-	-moz-box-shadow: 4px 4px 4px #ccc;
-	box-shadow: 4px 4px 4px #ccc;
 }
 
 h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 	margin-bottom:24px;
 }
 
-h1, h2 {
+h1 {
 	font-size:28px;
 	line-height:24px;
 	font-weight:normal;
-	text-shadow: #ddd 0 -1px 0, rgba(255,255,255,.2) 0 1px 0;
+	padding:0 0 12px 0;
+	border-bottom:1px solid #ddd;
+	text-shadow: #ddd 1px 1px 0;
 }
+
+h1.link:after {
+	color:#008;
+	font-size:24px;
+	content:" \261b";
+	}
 	
 h3 {
 	font-size:16px;
@@ -58,107 +65,38 @@ blockquote {
 	padding:0 66px 0 48px;
 }
 
-a:link, a:visited, a:active{
-	color:#03c;
+a, a:link, a:visited, a:active{
+	color:#008;
 	text-decoration:none;
 	}
 	
 a:hover {
-	color:#333;
+	color:#555;
 	}
-
-/* Metadata */
-
-.meta {
-	font-size:13px;
-	font-weight:lighter;
-	margin:-16px 0 24px 0;
-}
-
-/* Home page */
-
-.home article {
-	margin:0 0 120px 0;
-}
-
-/* Links */
-
-
-.link h1:after, .link h2:after  {
-	color:#03c;
-	font-size:24px;
-	content:" \261b";
-	}
-
-/* Photos */
-
-img, object {
-	background:#eee;
-	border:1px solid #aaa;
-	padding:12px;
-}
-
-
-/* code highlighting */
-
-div.highlight {
-	font-size:12px;
-	width:600px;
-	overflow:auto;
-	margin-bottom:21px;
-}
-
-li p {
-	margin:0;
-}
-
-/* Archive page */
-
-.archive ol {
-	list-style-type:none;
-}
-
-.archive ol li {
-	margin-bottom:24px;
-}
-
-.archive ol p {
-	font-size:14px;
-}
-
-.archive h2 {
-	font-size:16px;
-	margin:0px;
-}
-
-.archive h2 time {
-	font-size:14px;
-	color:#777;
-}
-
+	
 /* nav */
+
+
 
 nav#main {
 	position:fixed;
 	top:0;
+	width:100%;
 	border-bottom:1px solid #ddd;
-	border-right:1px solid #ddd;
-	border-left:1px solid #ddd;
 	background:#fff;
+	background: #fff;
 	opacity:.8;
-	width:640px;
-	margin:0 auto;
 	height:24px;
 	padding:12px 0;
-	-webkit-box-shadow: 4px 4px 4px #ccc;
-	-moz-box-shadow: 4px 4px 4px #ccc;
-	box-shadow: 4px 4px 4px #ccc;
+	-webkit-box-shadow: 0 4px 4px #ccc;
+	-moz-box-shadow: 0 4px 4px #ccc;
+	box-shadow: 0 4px 4px #ccc;
 	z-index:99;
 }
 
 nav#main ul {
 	position:relative;
-	width:600px;
+	width:590px;
 	margin:0 auto;
 }
 
@@ -166,20 +104,24 @@ nav#main ul li form {
 	display:inline;
 	position:absolute;
 	right:0;
-} 
+}
 
 nav#main input.idle {
 	color:#999;
-	background:transparent;
-	font-size:14px;
+	font-size:13px;
+	line-height:15px;
 	border:1px solid #dedede;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding:1px;
+	-webkit-box-shadow: 1px 1px 1px #ccc;
+	-moz-box-shadow: 1px 1px 1px #ccc;
+	box-shadow: 1px 1px 1px #ccc;
 }
 
 nav#main input.focus {
 	color:#444;
-	background:#fff;
-	font-size:14px;
-	border:1px solid #ddd;
+	border:1px solid #aaa;
 }
 
 nav ul li {
@@ -200,6 +142,105 @@ nav ul li a:hover {
 	text-shadow: #ddd 1px 1px 0;
 }
 
+
+/* Metadata */
+
+article footer {
+	font-size:13px;
+	font-weight:lighter;
+	margin:-16px 0 24px 0;
+}
+
+
+/* Pretty boxes */
+
+article, div#archive {
+	margin:0;
+	border:1px solid #ddd;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+	-moz-box-shadow: 3px 3px 3px #ccc;
+	box-shadow: 3px 3px 3px #ccc;
+	padding:48px 24px 24px 24px;
+	background: #fff;
+	background: -webkit-gradient(linear,0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) scroll no-repeat 0 100%;
+	background: -moz-linear-gradient(0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) fixed no-repeat 0 100%;
+}
+
+div#archive {
+	background:#fff;
+}
+}
+
+article ul {
+	padding:0 24px;
+}
+
+article ul li {
+	margin:0 0 24px 0;
+}
+
+
+.home article {
+	margin:0 0 120px 0;
+}
+
+/* Photos */
+
+img, object {
+	border:1px solid #aaa;
+}
+
+/* code highlighting */
+
+div.highlight {
+	font-size:12px;
+	width:600px;
+	overflow:auto;
+	margin-bottom:21px;
+}
+
+div.highlight li p {
+	margin:0;
+}
+
+/* Archive page */
+
+nav.archive {
+	margin:24px 0 0;
+}
+
+nav.archive ul {
+	padding:0 0 12px 0;
+	border-bottom:1px solid #ddd;
+}
+
+.archive h2 {
+	padding:0;
+}
+
+.archive ol {
+	list-style-type:none;
+}
+
+.archive ol li {
+	margin-bottom:24px;
+}
+
+.archive ol p {
+	font-size:14px;
+}
+
+.archive h2 {
+	font-size:16px;
+	margin:0px;
+	font-weight:normal;
+}
+
+.archive h2 time {
+	font-size:14px;
+	color:#777;
+}
+
 /* short urls */
 
 #shorturl {
@@ -218,30 +259,20 @@ nav ul li a:hover {
 margin-top:-24px;
 }
 
-/* footer - address for hfeed */
-
-footer address {
-display:none;
-}
-
-/* comments */
-
-.basic article {
-	margin-bottom:72px;
-}
-
 /* more */
 
 .qp_counter {
-				margin:  10px;
-			}
+	margin:  12px;
+}
 			
-ul#more {
+nav#more ul {
+	margin:12px 0;
 	list-style:none;
 }
 
-ul#more li {
-	margin:0 0 12px 0;
+nav#more li {
+	font-size:12px;
+	margin:12px 0 0 0;
 }
 
 #map {
@@ -251,4 +282,9 @@ ul#more li {
 img.map {
 	border:none !important;
 	padding:0 !important;
+}
+
+
+.contact li {
+	list-style:none;
 }

@@ -1,5 +1,5 @@
 ---
-title: Homonyms & Homophones
+title: Homonyms &amp; Homophones
 layout: post
 type: basic
 short: hh

@@ -47,8 +47,14 @@ style="width:600px;height:492px;" data="\{\{ page.video_url \}\}">
 Not everything is working properly:
 
 * Tags are purely cosmetic. For the time being, I'm happy enough having the metadata in place, ready for any future solution that I (or, more likely, someone else) might think up.
-* I'm not really sure if all my (X)HTML 5 is completely kosher--I should probably be using the `<header>` tag inside my `<article>`s, for example.
+* I'm not really sure if all my <abbr>(X)HTML</abbr> 5 is completely kosher--some things, like the seemingly extraneous `<header>` tags all over the shop, just *feel* wrong, other things, like the `<aside>` and `<section>` tags, I might well be using incorrectly. 
 * As far as I can tell, it's currently impossible to have a document that is both valid HTML 5 and conforms to the hAtom and hcard specs, because HTML 5 drops the `profile` attribute from the `<head>` tag. I've chosen to go with valid HTML 5, and my hAtom still works with tools like 
+
+I've had fun mucking about with <abbr>CSS</abbr> 3, but some of it is *very* fiddly:
+{% highlight css %}
+background: -webkit-gradient(linear,0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) scroll no-repeat 0 100%;
+background: -moz-linear-gradient(0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) fixed no-repeat 0 100%;
+{% endhighlight %}
 
 Further reading:
 

@@ -6,7 +6,10 @@ description: The Mottr.am archives
 keywords: art, design, photography, mottram
 ---
 <div id="archive">
-	<nav class="archive-nav">
+	<header>
+		<h1>Archives</h1>
+	</header>
+	<nav class="archive">
 	<ul>
 		<li><a title="Every post, in a big long list" href="#everything">Everything</a></li>
 		<li><a title="Links to other websites" href="#link">Links</a></li>
@@ -17,85 +20,86 @@ keywords: art, design, photography, mottram
 	</ul>
 	</nav>
 
-<div id="everything">
+<section id="everything">
 	<p>All {{ site.posts.size }} posts, in a big long list.</p>
-	<ol class="hfeed">
+	<ol>
 	{% for post in site.posts %}
-		<li class="hentry">
-			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
-			<p class="entry-summary">{{ post.description }}</p>
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+			<p>{{ post.description }}</p>
 		</li>
 	{% endfor %}
 	</ol>	
-</div>
+</section>
 
-<div id="link">
+<section id="link">
 	<p>Links to other websites, with commentary (sometimes).</p>
-	<ol class="hfeed">
+	<ol>
 {% for post in site.posts %}
 {% if post.type == 'link' %}
-		<li class="hentry">
-			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 			<p>{{ post.description }}</p>
 		</li>
 {% endif %}
 {% endfor %}
 	</ol>
-</div>
+</section>
 
-<div id="basic">
+<section id="basic">
 	<p>Pieces of writing, usually brief.</p>
-	<ol class="hfeed">
+	<ol>
 {% for post in site.posts %}
 {% if post.type == 'basic' %}
-		<li class="hentry">
-			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 			<p>{{ post.description }}</p>
 		</li>
 {% endif %}
 {% endfor %}
 	</ol>
-</div>
+</section>
 
-<div id="photo">
+<section id="photo">
 	<p>Art, design, illustration, photography; stuff for your eyes.</p>
-	<ol class="hfeed">
+	<ol>
 {% for post in site.posts %}
 {% if post.type == 'photo' %}
-		<li class="hentry">
-			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 			<p>{{ post.description }}</p>
 		</li>
 {% endif %}
 {% endfor %}
 	</ol>
-</div>
+</section>
 
-<div id="audio">
+<section id="audio">
 	<p>Songs, noises, field recordings; stuff for your ears.</p>
-	<ol class="hfeed">
+	<ol>
 {% for post in site.posts %}
 {% if post.type == 'audio' %}
-		<li class="hentry">
-			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 			<p>{{ post.description }}</p>
 		</li>
 {% endif %}
 {% endfor %}
 	</ol>
-</div>
+</section>
 
-<div id="video">
+<section id="video">
 	<p>Art, cinema, long photographs; stuff for your eyes (that moves).</p>
-	<ol class="hfeed">
+	<ol>
 {% for post in site.posts %}
 {% if post.type == 'video' %}
-		<li class="hentry">
-			<h2 class="entry-title"><a rel="bookmark" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time class="published" datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+		<li>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 			<p>{{ post.description }}</p>
 		</li>
 {% endif %}
 {% endfor %}
 	</ol>
-</div>
+</section>
+
 </div><!--end archive-->

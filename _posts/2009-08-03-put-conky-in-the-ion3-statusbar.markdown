@@ -2,7 +2,7 @@
 title: Put Conky in the Ion3 Statusbar
 layout: post
 type: basic
-short: c
+short: ci
 topics:
  - conky
  - ion3

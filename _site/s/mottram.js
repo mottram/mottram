@@ -16,14 +16,14 @@ $(document).ready(function() {
         }  
     });  
 
-	$('#archive div').hide();
-	$('#archive div:first').show();
+	$('#archive section').hide();
+	$('#archive section:first').show();
 	$('#archive ul li:first').addClass('active');
 	$('#archive ul li a').click(function(){
 		$('#archive ul li').removeClass('active');
 		$(this).parent().addClass('active');
 		var currentTab = $(this).attr('href');
-		$('#archive div').fadeOut("fast");
+		$('#archive section').fadeOut("fast");
 		$(currentTab).fadeIn("fast");
 		return false;
 		});

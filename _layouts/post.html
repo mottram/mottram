@@ -2,53 +2,56 @@
 layout: default
 ---
 {% if page.type == 'link' %}
-<article class="link hentry">
-<h1 class="entry-title"><a href="{{ page.link_to }}">{{ page.title }}</a></h1>
-{% include meta.html %}
-{{ content }}
+<article>
+	<header>
+		<h1 class="link"><a href="{{ page.link_to }}">{{ page.title }}</a></h1>
+	</header>
+	{% include meta.html %}
+	{{ content }}
 </article>
 {% endif %}
-
 {% if page.type == 'photo' %}
-<article class="photo">
-<h1>{{ page.title }}</h1>
-{% include meta.html %}
-<img alt="{{ page.title }}" title="{{ page.title }}" src="{{ page.image_url }}" width="500" />
-{{ content }}
+<article>
+	<header>
+		<h1>{{ page.title }}</h1>
+	</header>
+	{% include meta.html %}
+	<img alt="{{ page.title }}" title="{{ page.title }}" src="{{ page.image_url }}" width="500" />
+	{{ content }}
 </article>
 {% endif %}
-
 {% if page.type == 'video' %}
 <article>
-<h1>{{ page.title }}</h1>
-{% include meta.html %}
-<object type="application/x-shockwave-flash" style="width:600px; height:492px;" data="{{ page.video_link }}">
-<param name="movie" value="{{ page.video_link }}" />
-</object>
-{{ content }}
+	<header>
+		<h1>{{ page.title }}</h1>
+	</header>
+	{% include meta.html %}
+	<object type="application/x-shockwave-flash" style="width:600px; height:492px;" data="{{ page.video_link }}">
+		<param name="movie" value="{{ page.video_link }}" />
+	</object>
+	{{ content }}
 </article>
 {% endif %}
-
 {% if page.type == 'audio' %}
 <article>
-<h1>{{ page.title }}</h1>
-{% include meta.html %}
-<p id="audioplayer_1"><a title="Download the audio file" href="{{ page.audio_link }}">Download</a></p>  
-        <script type="text/javascript">  
-        AudioPlayer.embed("audioplayer_1", {soundFile: "{{ page.audio_link }}"});  
-        </script>
-{{ content }}
+	<header>
+		<h1>{{ page.title }}</h1>
+	</header>
+	{% include meta.html %}
+	<p id="audioplayer_1"><a title="Download the audio file" href="{{ page.audio_link }}">Download</a></p>  
+	<script type="text/javascript">  
+	AudioPlayer.embed("audioplayer_1", {soundFile: "{{ page.audio_link }}"});  
+	</script>
+	{{ content }}
 </article>
 {% endif %}
-
-
 {% if page.type == 'basic' %}
 <article>
-<h1>{{ page.title }}</h1>
-{% include meta.html %}
-{{ content }}
-{% if page.loc %}
-<div id="map"><img class="map" src="http://maps.google.com/maps/api/staticmap?center={{ page.loc }}&zoom=14&size=500x400&sensor=false&format=jpeg&zoom=18&key=ABQIAAAAnfs7bKE82qgb3Zc2YyS-oBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxSySz_REpPq-4WZA27OwgbtyR3VcA" /></div>
-{% endif %}
+	<header>
+		<h1>{{ page.title }}</h1>
+	</header>
+	{% include meta.html %}
+	{{ content }}
+{% if page.loc %}<div id="map"><img class="map" src="http://maps.google.com/maps/api/staticmap?center={{ page.loc }}&amp;zoom=14&amp;size=500x400&amp;sensor=false&amp;format=jpeg&amp;key=ABQIAAAAnfs7bKE82qgb3Zc2YyS-oBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxSySz_REpPq-4WZA27OwgbtyR3VcA" /></div>{% endif %}
 </article>
 {% endif %}

@@ -1,5 +1,8 @@
 Options +FollowSymlinks
 RewriteEngine on
+RewriteCond %{REQUEST_URI} \.html$
+RewriteCond %{HTTP_USER_AGENT} rv:1\.(([1-8]|9pre|9a|9b[0-4])\.[0-9.]+).*Gecko
+RewriteRule .* - [T=application/xhtml+xml]
 
 ErrorDocument 404 /404/
 
@@ -12,7 +15,7 @@ redirect 301 /wr http://mottr.am/2009/08/29/the-sun-sets-on-afghanistan
 redirect 301 /pg http://mottr.am/2009/08/28/philip-garridos-weblog
 redirect 301 /pc http://mottr.am/2009/08/26/pinboard-in-conkeror
 redirect 301 /v http://mottr.am/2009/08/21/video-in-a-magazine
-redirect 301 /c http://mottr.am/2009/08/03/put-conky-in-the-ion3-statusbar
+redirect 301 /ci http://mottr.am/2009/08/03/put-conky-in-the-ion3-statusbar
 redirect 301 /ss http://mottr.am/2009/07/29/simon-singh-on-chiropractic
 redirect 301 /11 http://mottr.am/2009/07/22/apollo-11-code
 redirect 301 /n http://mottr.am/2009/06/16/nodebox-doodle

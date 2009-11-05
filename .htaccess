@@ -3,6 +3,9 @@ template: nil
 ---
 Options +FollowSymlinks
 RewriteEngine on
+RewriteCond %{REQUEST_URI} \.html$
+RewriteCond %{HTTP_USER_AGENT} rv:1\.(([1-8]|9pre|9a|9b[0-4])\.[0-9.]+).*Gecko
+RewriteRule .* - [T=application/xhtml+xml]
 
 ErrorDocument 404 /404/
 

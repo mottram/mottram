@@ -6,75 +6,70 @@ has_code: yes
 description: Jack Mottram's weblog 
 keywords: art, photography, design, fashion, web development, mottram
 ---
-
-{% for post in site.posts limit: 10 %}
-
-
-{% if post.type == 'photo' %}
-
-		<article class="photo hentry">
-			<h2 class="entry-title">{{ post.title }}</h2>
-			{% include home_meta.html %}
-			<img alt="{{ post.title }}" title="{{ post.title }}" src="{{ post.image_url }}" width="500" />
-			{{ post.content }}
-		</article>
-
+{% for post in site.posts limit: 10 %}{% if post.type == 'photo' %}
+<article>
+	<header>
+		<h1>{{ post.title }}</h1>
+	</header>
+	{% include home_meta.html %}
+	<img alt="{{ post.title }}" title="{{ post.title }}" src="{{ post.image_url }}" width="500" />
+	{{ post.content }}
+</article>
 {% endif %}
-
-
 {% if post.type == 'link' %}
-
-	<article class="link hentry">
-		<h2 class="entry-title"><a title="{{ post.title }}" href="{{ post.link_to }}">{{ post.title }}</a></h2>
-		{% include home_meta.html %}
-		{{ post.content }}
-	</article>
-
+<article>
+	<header>
+		<h1 class="link"><a title="{{ post.title }}" href="{{ post.link_to }}">{{ post.title }}</a></h1>
+	</header>
+	{% include home_meta.html %}
+	{{ post.content }}
+</article>
 {% endif %}
-
-
 {% if post.type == 'video' %}
-
-	<article class="hentry">
-		<h2 class="entry-title">{{ post.title }}</h2>
-		{% include home_meta.html %}
-		<object type="application/x-shockwave-flash" style="width:500px; height:410px;" data="{{ post.video_link }}">
+<article>
+	<header>
+		<h1>{{ post.title }}</h1>
+	</header>
+	{% include home_meta.html %}
+	<object type="application/x-shockwave-flash" style="width:500px; height:410px;" data="{{ post.video_link }}">
 		<param name="movie" value="{{ post.video_link }}" />
-		</object>
-		{{ post.content }}
-	</article>
-
+	</object>
+	{{ post.content }}
+</article>
 {% endif %}
-
 {% if post.type == 'audio' %}
 <article>
-<h1>{{ post.title }}</h1>
-{% include meta.html %}
-<p id="audioplayer_1"><a title="Download the audio file" href="{{ post.audio_link }}">Download</a></p>  
+	<header>
+		<h1>{{ post.title }}</h1>
+	</header>
+	{% include meta.html %}
+	<p id="audioplayer_1"><a title="Download the audio file" href="{{ post.audio_link }}">Download</a></p>  
         <script type="text/javascript">  
         AudioPlayer.embed("audioplayer_1", {soundFile: "{{ post.audio_link }}"});  
         </script>
-{{ content }}
+	{{ content }}
 </article>
 {% endif %}
-
 {% if post.type == 'basic'%}
-
-	<article class="hentry">
-		<h2 class="entry-title">{{ post.title }}</h2>
-		{% include home_meta.html %}
-		{{ post.content }}
-	</article>
-
+<article>
+	<header>
+		<h1>{{ post.title }}</h1>
+	</header>
+	{% include home_meta.html %}
+	{{ post.content }}
+</article>
 {% endif %}
 {% endfor %}
-
-<div class="more">
-<h3>More posts: <span id="more_counter"></span></h3>
-<br />
-<ul id="more">
-{% for post in site.posts offset: 10 %}
-	<li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p>{{ post.description }}</p></li>
-{% endfor %}
-</ul>
-</div>
+<section>
+	<header>
+		<h1>More Posts</h1>
+	</header>
+<nav id="more">
+	<span id="more_counter"></span>
+	<ul>
+	{% for post in site.posts offset: 10 %}
+		<li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p>{{ post.description }}</p></li>
+	{% endfor %}
+	</ul>
+</nav>
+</section>
