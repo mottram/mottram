@@ -21,11 +21,11 @@ section {
 	margin:96px auto;
 }
 
-h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
+dd, h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 	margin-bottom:24px;
 }
 
-h1 {
+h1, .about h2 {
 	font-size:28px;
 	font-weight:normal;
 	padding:0 0 12px 0;
@@ -89,9 +89,9 @@ nav#main {
 	opacity:.8;
 	height:24px;
 	padding:12px 0;
-	-webkit-box-shadow: 0 4px 4px #ccc;
-	-moz-box-shadow: 0 4px 4px #ccc;
-	box-shadow: 0 4px 4px #ccc;
+	-webkit-box-shadow: 0px 4px 4px #ccc;
+	-moz-box-shadow: 0px 4px 4px #ccc;
+	box-shadow: 0px 4px 4px #ccc;
 	z-index:99;
 }
 
@@ -152,14 +152,17 @@ article footer {
 	margin:-16px 0 24px 0;
 }
 
-footer address {
+address {
 	font-style:normal;
+}
+
+footer address, .about address {
 	display:inline;
 }
 
 /* Pretty boxes! */
 
-article, section#archive {
+article, section#archive, div.contact {
 	margin:0;
 	border:1px solid #ddd;
 	-webkit-box-shadow: 3px 3px 3px #ccc;
@@ -183,7 +186,7 @@ section#archive section {
 	margin:0;
 }
 
-.about article, .contact article, .photo article, .video article, .link article, .basic article {
+.about article, div.contact, .photo article, .video article, .link article, .basic article {
 	width:590px;
 	margin:96px auto;
 }
@@ -302,7 +305,7 @@ img.map {
 }
 
 
-.contact article li {
+div.contact li {
 	list-style:none;
 	margin:0 0 4px 0;
 }
@@ -321,7 +324,7 @@ sup {
 	height: 0;
 	line-height: 1;
 	vertical-align: baseline;
-	_vertical-align: bottom;
+	vertical-align: bottom;
 	position: relative;
 	bottom: 1ex;
 }
