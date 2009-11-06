@@ -16,7 +16,7 @@ Persuading browsers that don't recognise the new tags--which includes everything
 
 
 
-All this is gloriously pointless, of course--as far as I know, no browser does anything useful with 
+All this is gloriously pointless, of course--as far as I know, no browser does anything useful with any of the new-to-<abbr>HTML</abbr> 5 tags--but it was _fun_. Combing through other people's source code, reading dry-as-dust specs, following debates across weblogs and mailing lists, making mistakes, correcting them--this is how I learned how to make websites in the first place. There's a real pleasure to be found in _not quite knowing what you're doing_.
 
 
 

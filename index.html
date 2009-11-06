@@ -6,6 +6,7 @@ has_code: yes
 description: Jack Mottram's weblog 
 keywords: art, photography, design, fashion, web development, mottram
 ---
+<section>
 {% for post in site.posts limit: 10 %}{% if post.type == 'photo' %}
 <article>
 	<header>
@@ -17,9 +18,9 @@ keywords: art, photography, design, fashion, web development, mottram
 </article>
 {% endif %}
 {% if post.type == 'link' %}
-<article>
+<article class="link">
 	<header>
-		<h1 class="link"><a title="{{ post.title }}" href="{{ post.link_to }}">{{ post.title }}</a></h1>
+		<h1><a title="{{ post.title }}" href="{{ post.link_to }}">{{ post.title }}</a></h1>
 	</header>
 	{% include home_meta.html %}
 	{{ post.content }}
@@ -60,11 +61,11 @@ keywords: art, photography, design, fashion, web development, mottram
 </article>
 {% endif %}
 {% endfor %}
-<section>
+<section id="more">
 	<header>
 		<h1>More Posts</h1>
 	</header>
-<nav id="more">
+<nav>
 	<span id="more_counter"></span>
 	<ul>
 	{% for post in site.posts offset: 10 %}
@@ -72,4 +73,6 @@ keywords: art, photography, design, fashion, web development, mottram
 	{% endfor %}
 	</ul>
 </nav>
+</section>
+
 </section>
