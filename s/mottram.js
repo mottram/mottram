@@ -36,4 +36,7 @@ $(document).ready(function() {
 			'frameWidth': 600,
 			'frameHeight': 400
 		});
+
+		$('a[title]').qtip({ style: { name: 'light', tip: true } })
+
 });
