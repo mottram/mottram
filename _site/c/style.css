@@ -15,7 +15,7 @@ body {
 	font:normal 16px/24px Helvetica, Arial, sans-serif;
 }
 
-div#content {
+section {
 	background:transparent;
 	width:640px;
 	margin:96px auto;
@@ -33,7 +33,7 @@ h1 {
 	text-shadow: #ddd 1px 1px 0;
 }
 
-h1.link:after {
+.link h1:after {
 	font-family:Georgia, serif;
 	color:#008;
 	font-size:24px;
@@ -152,10 +152,14 @@ article footer {
 	margin:-16px 0 24px 0;
 }
 
+footer address {
+	font-style:normal;
+	display:inline;
+}
 
 /* Pretty boxes! */
 
-article, div#archive {
+article, section#archive {
 	margin:0;
 	border:1px solid #ddd;
 	-webkit-box-shadow: 3px 3px 3px #ccc;
@@ -169,9 +173,19 @@ article, div#archive {
 */
 }
 
-div#archive {
+section#archive {
+	width:590px;
+	margin:96px auto;
 	background:#fff;
 }
+
+section#archive section {
+	margin:0;
+}
+
+.about article, .contact article, .photo article, .video article, .link article, .basic article {
+	width:590px;
+	margin:96px auto;
 }
 
 article ul {
@@ -288,8 +302,9 @@ img.map {
 }
 
 
-.contact li {
+.contact article li {
 	list-style:none;
+	margin:0 0 4px 0;
 }
 
 article aside {
