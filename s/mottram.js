@@ -40,7 +40,7 @@ $(document).ready(function() {
 		$("a[title], img[title], p[title]").qtip({
 		   	show: { delay: 300, effect: { length: 200, type: 'fade' } },
 			hide: { effect: { length: 200, type: 'fade' } },
-			position: { corner: { target: 'center' } },
+			position: { corner: { target: 'rightBottom' } },
 		   style: { 
 			  'font-size': 12,
 		      padding: 4,
@@ -53,13 +53,6 @@ $(document).ready(function() {
 		      },
 		      name: 'light' // Inherit the rest of the attributes from the preset dark style
 		   }
-		});
-		
-		$('h1').each(function() {
-		   var $this = $(this);
-		   var t = $this.text();
-		   $this.html(t.replace('\u0026','<span class="amp">&amp;</span>'));
-		});
-		
+		});	
 		
 });
