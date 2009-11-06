@@ -10,6 +10,7 @@ topics:
  - language
 ---
 Hover over the sentences to see a translation and the language of origin.
+
 <p title="'A naked barbarian bar barbarian (ie., a barbarian who frequents bars freqented by barbarians) carried a naked barbarian bar barbarian' in Danish, Norwegian and Swedish">Bar barbarbarbarbar bar bar barbarbarbarbar.</p>
 <p title="'Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo' in English">Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.</p>
 <p title="'How do I eat? What do you mean, how do I eat? I eat how I eat.' in Spanish">¿Cómo como? ¿Cómo cómo como? Como como como.</p>

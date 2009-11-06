@@ -37,6 +37,29 @@ $(document).ready(function() {
 			'frameHeight': 400
 		});
 
-		$('a[title]').qtip({ style: { name: 'light', tip: true } })
-
+		$("a[title], img[title], p[title]").qtip({
+		   	show: { delay: 300, effect: { length: 200, type: 'fade' } },
+			hide: { effect: { length: 200, type: 'fade' } },
+			position: { corner: { target: 'center' } },
+		   style: { 
+			  'font-size': 12,
+		      padding: 4,
+		      background: '#ffffff',
+		      color: '#555555',
+		      textAlign: 'left',
+		      border: {
+		         width: 1,
+		         color: '#dddddd'
+		      },
+		      name: 'light' // Inherit the rest of the attributes from the preset dark style
+		   }
+		});
+		
+		$('h1').each(function() {
+		   var $this = $(this);
+		   var t = $this.text();
+		   $this.html(t.replace('\u0026','<span class="amp">&amp;</span>'));
+		});
+		
+		
 });

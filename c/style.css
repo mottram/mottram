@@ -162,7 +162,7 @@ footer address, .about address {
 
 /* Pretty boxes! */
 
-article, section#archive, div.contact {
+article, section#archive, section#more, div.contact {
 	margin:0;
 	border:1px solid #ddd;
 	-webkit-box-shadow: 3px 3px 3px #ccc;
@@ -186,12 +186,12 @@ section#archive section {
 	margin:0;
 }
 
-.about article, div.contact, .photo article, .video article, .link article, .basic article {
+.about article, div.contact, .photo article, .video article, .link article, .basic article, section#more {
 	width:590px;
 	margin:96px auto;
 }
 
-article ul {
+article ul, article ol {
 	padding:0 24px;
 }
 
@@ -328,3 +328,12 @@ sup {
 	position: relative;
 	bottom: 1ex;
 }
+
+.amp {
+	font-family:Baskerville, Palatino, "Book Antiqua", serif;
+	font-style:italic;
+}
+
+em {
+	font-style:italic;
+	}
