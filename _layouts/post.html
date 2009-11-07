@@ -9,8 +9,7 @@ layout: default
 	{% include meta.html %}
 	{{ content }}
 </article>
-{% endif %}
-{% if page.type == 'photo' %}
+{% endif %}{% if page.type == 'photo' %}
 <article>
 	<header>
 		<h1>{{ page.title }}</h1>
@@ -19,8 +18,7 @@ layout: default
 	<img alt="{{ page.title }}" title="{{ page.title }}" src="{{ page.image_url }}" width="590" />
 	{{ content }}
 </article>
-{% endif %}
-{% if page.type == 'video' %}
+{% endif %}{% if page.type == 'video' %}
 <article>
 	<header>
 		<h1>{{ page.title }}</h1>
@@ -28,12 +26,10 @@ layout: default
 	{% include meta.html %}
 	<object type="application/x-shockwave-flash" style="width:590px;height:484px;" data="{{ page.video_link }}">
 		<param name="movie" value="{{ page.video_link }}" />
-		
 	</object>
 	{{ content }}
 </article>
-{% endif %}
-{% if page.type == 'audio' %}
+{% endif %}{% if page.type == 'audio' %}
 <article>
 	<header>
 		<h1>{{ page.title }}</h1>
@@ -45,8 +41,7 @@ layout: default
 	</script>
 	{{ content }}
 </article>
-{% endif %}
-{% if page.type == 'basic' %}
+{% endif %}{% if page.type == 'basic' %}
 <article>
 	<header>
 		<h1>{{ page.title }}</h1>
@@ -54,5 +49,4 @@ layout: default
 	{% include meta.html %}
 	{{ content }}
 {% if page.loc %}<div id="map"><img class="map" src="http://maps.google.com/maps/api/staticmap?center={{ page.loc }}&amp;zoom=14&amp;maptype=hybrid&amp;size=600x400&amp;sensor=false&amp;format=jpeg&amp;key=ABQIAAAAPga5T2DTe8Ai3o7Fpk3qFRSNqByKE8YBn9C1iebjkz1yKGB-5xTKcMhYnDGfQXXHiCqs3tCKJS2cxQ" /></div>{% endif %}
-</article>
-{% endif %}
+</article>{% endif %}
