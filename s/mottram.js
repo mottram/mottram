@@ -37,11 +37,12 @@ $(document).ready(function() {
 			'frameHeight': 400
 		});
 
-		$("a[title], img[title], p[title]").qtip({
-		   	show: { delay: 300, effect: { length: 200, type: 'fade' } },
+		$("a[title], img[title], p[title], abbr[title]").qtip({
+		   	show: { delay: 600, effect: { length: 100, type: 'fade' } },
 			hide: { effect: { length: 200, type: 'fade' } },
 			position: { corner: { target: 'rightBottom' } },
-		   style: { 
+		   style: {
+			'z-index': 999,
 			  'font-size': 12,
 		      padding: 4,
 		      background: '#ffffff',
@@ -57,7 +58,7 @@ $(document).ready(function() {
 		
 		jQuery(function($){
 
-		$("h1, p").each(
+		$("h1").each(
 		    function(){
 		        $(this).html($(this).html().replace(/&amp;/g,'<span class="amp">&amp;<\/span>'));
 		    }

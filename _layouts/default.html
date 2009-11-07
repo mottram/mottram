@@ -3,10 +3,12 @@
 <head>
    	<meta charset="utf-8" />
    	<title>Mottr.am | {{ page.title }}</title>
-	<meta name="viewport" content="width = 680"><!-- For iPhone orientation --> 
-   	<meta name="author" content="Jack Mottram" />
+	<meta name="author" content="Jack Mottram" />
+	<meta name="viewport" content="width = 680">
 	{% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
    	<meta name="keywords" content="{% for topic in page.topics %}{{ topic }},{% endfor %}" />
+	<link rel="apple-touch-icon" href="/u/iphone.png"/>
+	<link rel="icon" type="image/ico" href="favicon.ico" />
    	<link rel="alternate" type="application/rss+xml" href="/feed/atom/" title="Mottr.am latest posts" />
    	<link rel="stylesheet" href="/c/reset.css" type="text/css" media="screen, projection" />
    	<link rel="stylesheet" href="/c/style.css" type="text/css" media="screen, projection" />
