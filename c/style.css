@@ -55,9 +55,8 @@ ul {
 }
 
 pre, code {
-	font-family:Monaco, Consolas, "Andale Mono",
- "monotype.com", "Bitstream Vera Sans Mono", monospace;
-	font-size:14px;
+	font-family:Monaco, Consolas, "Andale Mono", "monotype.com", "Bitstream Vera Sans Mono", monospace;
+	font-size:15px;
 }
 
 blockquote {

@@ -55,4 +55,13 @@ $(document).ready(function() {
 		   }
 		});	
 		
+		jQuery(function($){
+
+		$("h1, p").each(
+		    function(){
+		        $(this).html($(this).html().replace(/&amp;/g,'<span class="amp">&amp;<\/span>'));
+		    }
+		);
+
+		});
 });
