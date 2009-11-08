@@ -2,4 +2,4 @@ Making the new site was good clean nostalgic fun, too: combing through other peo
 
 http://boblet.tumblr.com/post/147230293/html5-faq
 
-Remove div on single pages, use section on index and archive
+http://www.ridingtheclutch.com/2009/01/15/build-and-publish-your-jekyll-site-with-one-command.html

@@ -16,8 +16,7 @@ keywords: art, photography, design, fashion, web development, mottram
 	<img alt="{{ post.title }}" title="{{ post.title }}" src="{{ post.image_url }}" width="590" />
 	{{ post.content }}
 </article>
-{% endif %}
-{% if post.type == 'link' %}
+{% endif %}{% if post.type == 'link' %}
 <article class="link">
 	<header>
 		<h1><a title="{{ post.title }}" href="{{ post.link_to }}">{{ post.title }}</a></h1>
@@ -25,8 +24,7 @@ keywords: art, photography, design, fashion, web development, mottram
 	{% include home_meta.html %}
 	{{ post.content }}
 </article>
-{% endif %}
-{% if post.type == 'video' %}
+{% endif %}{% if post.type == 'video' %}
 <article>
 	<header>
 		<h1>{{ post.title }}</h1>
@@ -37,8 +35,7 @@ keywords: art, photography, design, fashion, web development, mottram
 	</object>
 	{{ post.content }}
 </article>
-{% endif %}
-{% if post.type == 'audio' %}
+{% endif %}{% if post.type == 'audio' %}
 <article>
 	<header>
 		<h1>{{ post.title }}</h1>
@@ -50,8 +47,7 @@ keywords: art, photography, design, fashion, web development, mottram
         </script>
 	{{ content }}
 </article>
-{% endif %}
-{% if post.type == 'basic'%}
+{% endif %}{% if post.type == 'basic'%}
 <article>
 	<header>
 		<h1>{{ post.title }}</h1>
@@ -59,20 +55,12 @@ keywords: art, photography, design, fashion, web development, mottram
 	{% include home_meta.html %}
 	{{ post.content }}
 </article>
-{% endif %}
-{% endfor %}
-<section id="more">
-	<header>
-		<h1>More Posts</h1>
-	</header>
+{% endif %}{% endfor %}
+</section>
 <nav>
-	<span id="more_counter"></span>
-	<ul>
-	{% for post in site.posts offset: 10 %}
-		<li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p>{{ post.description }}</p></li>
-	{% endfor %}
+	<ul class="more">
+		<li>
+		<a title="Older posts" href="/2/">Older posts</a>&rarr;
+		</li>
 	</ul>
 </nav>
-</section>
-
-</section>

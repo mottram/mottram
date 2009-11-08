@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-   	<meta charset="utf-8" />
+   	<meta charset=utf-8 />
    	<title>Mottr.am | {{ page.title }}</title>
 	<meta name="author" content="Jack Mottram" />
 	<meta name="viewport" content="width = 680">
@@ -16,13 +16,11 @@
 	<link rel="stylesheet" href="/c/jquery.fancybox.css" type="text/css" media="screen, projection" />
    	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 	<script type="text/javascript" src="/s/jquery.fancybox-1.2.4.pack.js"></script>
-	<script type="text/javascript" src="/s/jquery.quickpaginate.packed.js"></script>
 	<script type="text/javascript" src="/s/jquery.qtip-1.0.0-rc3.min.js"></script>	
 	<script type="text/javascript" src="/s/mottram.js"></script>
    	<link rel="canonical" href="http://mottr.am{{ page.url }}" />
 	{% if page.short %}<link rel="shorturl" href="http://mottr.am/{{ page.short }}" />
-	<link rev="canonical" href="http://mottr.am/{{ page.short }}" />{% endif %}
-	{% if page.type == 'audio' %}
+	<link rev="canonical" href="http://mottr.am/{{ page.short }}" />{% endif %}{% if page.type == 'audio' %}
 	<script type="text/javascript" src="/s/audio-player.js"></script>
 	<script type="text/javascript">  
             AudioPlayer.setup("http://macbook:3000/s/player.swf", {  

@@ -76,8 +76,6 @@ a:hover {
 	
 /* nav */
 
-
-
 nav#main {
 	position:fixed;
 	top:0;
@@ -159,9 +157,7 @@ footer address, .about address {
 	display:inline;
 }
 
-/* Pretty boxes! */
-
-article, section#archive, section#more, div.contact {
+article, section#archive, div.contact {
 	margin:0;
 	border:1px solid #ddd;
 	-webkit-box-shadow: 3px 3px 3px #ccc;
@@ -185,7 +181,7 @@ section#archive section {
 	margin:0;
 }
 
-.about article, div.contact, .photo article, .video article, .link article, .basic article, section#more {
+.about article, div.contact, .photo article, .video article, .link article, .basic article, ul.more {
 	width:590px;
 	margin:96px auto;
 }
@@ -198,18 +194,25 @@ article ul li {
 	margin:0 0 24px 0;
 }
 
-
 .home article {
 	margin:0 0 120px 0;
 }
 
-/* Photos */
+ul.more {
+	text-align:center;
+}
+
+ul.more li {
+	padding:0 14px;
+}
+
+/* photos, videos */
 
 img, object {
 	border:1px solid #aaa;
 }
 
-/* code highlighting */
+/* code */
 
 div.highlight {
 	font-size:12px;
@@ -222,7 +225,7 @@ div.highlight li p {
 	margin:0;
 }
 
-/* Archive page */
+/* archive */
 
 nav.archive {
 	margin:24px 0 0;
@@ -261,6 +264,10 @@ nav.archive ul {
 	color:#777;
 }
 
+.archive-nav ul {
+margin-top:-24px;
+}
+
 /* short urls */
 
 #shorturl {
@@ -273,27 +280,7 @@ nav.archive ul {
 	outline:none;
 }
 
-/* archive page */
-
-.archive-nav ul {
-margin-top:-24px;
-}
-
-/* more */
-
-.qp_counter {
-	margin:  12px;
-}
-			
-nav#more ul {
-	margin:12px 0;
-	list-style:none;
-}
-
-nav#more li {
-	font-size:12px;
-	margin:12px 0 0 0;
-}
+/* maps */
 
 #map {
 	display:none;
@@ -309,6 +296,8 @@ div.contact li {
 	list-style:none;
 	margin:0 0 4px 0;
 }
+
+/* footnotes */
 
 article aside {
 	border-top:1px solid #ddd;
@@ -329,6 +318,8 @@ sup {
 	bottom: 1ex;
 }
 
+/* misc. */
+
 .amp {
 	font-family:Baskerville, Palatino, "Book Antiqua", serif;
 	font-style:italic;
@@ -336,7 +327,7 @@ sup {
 
 em {
 	font-style:italic;
-	}
+}
 	
 abbr {
 	border-bottom:1px dotted #aaa !important;
