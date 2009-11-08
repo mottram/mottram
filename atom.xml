@@ -5,16 +5,53 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Mottr.am</title>
- <link href="http://mottr.am/feed/atom/index.xml" rel="self"/>
+ <link href="http://mottr.am/atom.xml" rel="self"/>
  <link href="http://mottr.am/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://mottr.am</id>
+ <id>http://mottr.am/</id>
  <author>
    <name>Jack Mottram</name>
    <email>j@ck.mottr.am</email>
  </author>
- 
- {% for post in site.posts %}
+{% for post in site.posts limit: 20 %}
+{% if post.type == 'photo' %}
+<entry>
+  <title>{{ post.title }}</title>
+  <link href="http://mottr.am{{ post.url }}"/>
+  <updated>{{ post.date | date_to_xmlschema }}</updated>
+  <id>http://mottr.am{{ post.id }}</id>
+  <content type="html">&lt;img src=&quot;{{ post.image_url }}&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;{{ post.content | xml_escape }}</content>
+</entry>
+{% endif %}
+{% if post.type == 'video' %}
+<entry>
+  <title>{{ post.title }}</title>
+  <link href="http://mottr.am{{ post.url }}"/>
+  <updated>{{ post.date | date_to_xmlschema }}</updated>
+  <id>http://mottr.am{{ post.id }}</id>
+  <content type="html">&lt;p&gt;&lt;em&gt;Please click through to the website to view this video.&lt;/em&gt;&lt;/p&gt;{{ post.content | xml_escape }}</content>
+</entry>
+{% endif %}
+{% if post.type == 'audio' %}
+<entry>
+  <title>{{ post.title }}</title>
+  <link href="http://mottr.am{{ post.url }}"/>
+  <updated>{{ post.date | date_to_xmlschema }}</updated>
+  <id>http://mottr.am{{ post.id }}</id>
+  <content type="html">&lt;p&gt;&lt;em&gt;Please click through to the website to stream this video.&lt;/em&gt;&lt;/p&gt;{{ post.content | xml_escape }}</content>
+  <link rel="enclosure" type="audio/mpeg" title="MP3" href="{{ post.audio_link }}" />
+</entry>
+{% endif %}
+{% if post.type == 'link' %}
+<entry>
+  <title>{{ post.title }}</title>
+  <link href="{{ post.link_to }}"/>
+  <updated>{{ post.date | date_to_xmlschema }}</updated>
+  <id>http://mottr.am{{ post.id }}</id>
+  <content type="html">{{ post.content | xml_escape }}&lt;p&gt; &lt;a href=&quot;http://mottr.am{{ post.url }}&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+{% endif %}
+{% if post.type == 'basic' %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://mottr.am{{ post.url }}"/>
@@ -22,6 +59,6 @@ layout: nil
    <id>http://mottr.am{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
- {% endfor %}
- 
+{% endif %}
+{% endfor %}
 </feed>
