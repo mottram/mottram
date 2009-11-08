@@ -19,8 +19,7 @@
 	<script type="text/javascript" src="/s/jquery.qtip-1.0.0-rc3.min.js"></script>	
 	<script type="text/javascript" src="/s/mottram.js"></script>
    	<link rel="canonical" href="http://mottr.am{{ page.url }}" />
-	{% if page.short %}<link rel="shorturl" href="http://mottr.am/{{ page.short }}" />
-	<link rev="canonical" href="http://mottr.am/{{ page.short }}" />{% endif %}{% if page.type == 'audio' %}
+	{% if page.short %}<link rel="shorturl" href="http://mottr.am/{{ page.short }}" />{% endif %}{% if page.type == 'audio' %}
 	<script type="text/javascript" src="/s/audio-player.js"></script>
 	<script type="text/javascript">  
             AudioPlayer.setup("http://macbook:3000/s/player.swf", {  
@@ -31,11 +30,11 @@
 	<link rel="stylesheet" href="/c/ie.css" type="text/css" media="screen, projection">
    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
    	<![endif]-->
-	<!--[if IE 7]>
-	<link rel="stylesheet" href="/c/ie7.css" type="text/css" media="screen, projection">
-   	<![endif]-->
 </head>
 <body class="mottram {{ page.type }}">
+<!--[if IE]>
+<noscript><div style="margin:60px;background:lightyellow;border:1px solid black;color:red;padding:10px;"><p>It looks like you're using <b>Internet Explorer</b> with <b>JavaScript turned off</b>.</p><p>As you can see, the site is a right old mess - if you can, turn JavaScript on, and reload the page.</p><p>If you <i>can't</i> do that, my apologies: as a bit of an experment, I'm using HTML 5 to make this site, and decided it was worth the risk of showing folk using IE but not JS a broken site.</p><p>Comments? Complaints? Email me at j@ck.mottr.am</p></div></noscript>
+<![endif]-->
 {% include nav.html %}
     {{ content }}
 </body>

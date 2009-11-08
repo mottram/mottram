@@ -1,0 +1,5 @@
+<nav>
+<ul>
+<li>{% for post in site.related_posts limit:3 %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}</li>
+</ul>
+</nav>

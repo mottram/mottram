@@ -1,8 +1,3 @@
-/* This is all a bit of a mess, but feel free to use anything you like the look of!
-The site looks nice in the latest versions of Firefox, Safari and Opera; in IE versions 6 to 8
-and Firefox 2 it looks nice enough, but without the pretty shadows and gradients.
-(It looks completely bonkers in IE 5.5, but I don't think many folk use that nowadays.) */
-
 html {
 	background: #fff;
 	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#eee)) fixed no-repeat 0 100%;
@@ -181,7 +176,7 @@ section#archive section {
 	margin:0;
 }
 
-.about article, div.contact, .photo article, .video article, .link article, .basic article, ul.more {
+.about article, div.contact, .photo article, .video article, .link article, .basic article, .audio article, ul.more {
 	width:590px;
 	margin:96px auto;
 }
@@ -214,11 +209,13 @@ img, object {
 
 /* code */
 
+div.highlight pre {
+	font-size:13px;
+}
+
 div.highlight {
-	font-size:12px;
 	width:600px;
 	overflow:auto;
-	margin-bottom:21px;
 }
 
 div.highlight li p {
@@ -330,5 +327,5 @@ em {
 }
 	
 abbr {
-	border-bottom:1px dotted #aaa !important;
+	border:none !important;
 }

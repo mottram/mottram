@@ -12,3 +12,11 @@ article, section, nav#more, div#archive, h1, h2 {
 	position:relative;
 	top:0;
 }
+
+noscript {
+	margin:60px;
+	padding:10px;
+	color:#ff0000;
+	background:#ffffe0;
+	border:1px solid #ff0000;
+}
