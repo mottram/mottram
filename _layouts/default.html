@@ -26,11 +26,11 @@
 		$.Juitter.start({
 			searchType:"searchWord",
 			searchObject:"#mot_{{ page.short }},mottr.am/{{ page.short }}",
-			placeHolder:"tweets",
+			placeHolder:"comments",
 			loadMSG: "<em>There are no comments on this post, yet...</em>",
 		});
 		});
-	</script>{% endif %}{% if page.type == 'audio' %}
+	</script>{% endif %}{% if page.type == 'audio' or page.type == 'home' %}
 	<script type="text/javascript" src="/s/audio-player.js"></script>
 	<script type="text/javascript">  
             AudioPlayer.setup("http://macbook:3000/s/player.swf", {  

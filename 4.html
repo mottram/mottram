@@ -43,12 +43,12 @@ keywords: art, photography, design, fashion, web development, mottram
 	<header>
 		<h1>{{ post.title }}</h1>
 	</header>
-	{% include meta.html %}
+	{% include home_meta.html %}
 	<p id="audioplayer_1"><a title="Download the audio file" href="{{ post.audio_link }}">Download</a></p>  
         <script type="text/javascript">  
         AudioPlayer.embed("audioplayer_1", {soundFile: "{{ post.audio_link }}"});  
         </script>
-	{{ content }}
+	{{ post.content }}
 </article>
 {% endif %}
 {% if post.type == 'basic'%}

@@ -309,25 +309,25 @@ article section h1 {
 	font-size:16px;
 }
 
-#tweets ul {
+#comments ul {
 	margin:0;
 	padding:0;
 }
 
-#tweets ul li {
+#comments ul li {
 	height:100px;
 	margin:24px 0 24px;
 }
 
-#tweets span.time {
+#comments span.time {
 	display:none;
 }
 
-#tweets .JRM {
+#comments .JRM {
 	display:none;
 }
 
-#tweethelp {
+#commentshelp {
 	display:none;
 	}
 	

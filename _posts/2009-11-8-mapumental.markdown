@@ -10,7 +10,7 @@ topics:
  - data
  - mapping
 ---
-[Mapumental](http://mapumental.channel4.com/ "Mapumental") is a fascinating new project by [MySociety.org](http://mysociety.org "Everything they do is clever and useful") and [4iP](http://www.4ip.org.uk/ "Channel 4's public service digital media fund").
+[Mapumental](http://mapumental.channel4.com/ "Mapumental") is a fascinating new project by [MySociety.org](http://mysociety.org "Everything they do is clever and useful") and [4iP](http://www.4ip.org.uk/ "Channel 4's public service digital media fund") that builds on MySociety.org's [earlier work on data mapping](http://www.mysociety.org/2007/more-travel-maps/).
 
 ![A Mapumental map of the Wirral](/u/2009/11/mapumental.jpg)
 
