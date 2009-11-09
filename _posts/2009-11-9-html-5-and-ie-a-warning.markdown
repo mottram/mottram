@@ -10,9 +10,9 @@ topics:
  - HTML5
  - IE
 ---
-Most weblog articles and weblog posts on using <abbr>HTML</abbr> 5 recommended using [Remy Sharp's handy script](http://remysharp.com/2009/01/07/html5-enabling-script/) to make Internet Explorer recognise <abbr>HTML</abbr> 5's new tags. But few offer a solution to the problem of folk browsing an HTML 5 site in IE with JavaScript turned off.
+Most articles and weblog posts on using <abbr>HTML</abbr> 5 recommended [Remy Sharp's handy script](http://remysharp.com/2009/01/07/html5-enabling-script/) to make Internet Explorer recognise <abbr>HTML</abbr> 5's new tags. But few offer a solution to the problem of folk browsing an HTML 5 site in IE with JavaScript turned off.
 
-Rather than treat <abbr>JS</abbr>-averse <abbr>IE</abbr> users to a hideous mess of a site, I've decided to treat them to a hideous mess of a site plus a polite suggestion to switch JavaScript on:
+Rather than treat <abbr>JS</abbr>-averse <abbr>IE</abbr> visitors to a hideous mess of a site, I've decided to treat them to a hideous mess of a site plus a polite suggestion to switch JavaScript on:
 {% highlight html %}
 <!--[if IE]>
 <noscript>
