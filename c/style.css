@@ -1,7 +1,7 @@
 html {
 	background: #fff;
-	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#eee)) fixed no-repeat 0 100%;
-	background: -moz-linear-gradient(0 100%,0 0,color-stop(.3,#fff),color-stop(1,#eee)) fixed no-repeat 0 100%;
+	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fefefe)) fixed no-repeat 0 100%;
+	background: -moz-linear-gradient(0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fefefe)) fixed no-repeat 0 100%;
 }
 
 body {
