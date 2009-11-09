@@ -294,6 +294,60 @@ div.contact li {
 	margin:0 0 4px 0;
 }
 
+/* twitter nonsense */
+
+article section {
+	margin-top:48px;
+	padding-top:16px;
+	font-size:13px;
+	margin:24px auto;
+	width:590px;
+	border-top:1px solid #ddd;
+}
+
+article section h1 {
+	font-size:16px;
+}
+
+#tweets ul {
+	margin:0;
+	padding:0;
+}
+
+#tweets ul li {
+	height:100px;
+	margin:24px 0 24px;
+}
+
+#tweets span.time {
+	display:none;
+}
+
+#tweets .JRM {
+	display:none;
+}
+
+#tweethelp {
+	display:none;
+	}
+	
+#fancy_div h1 {
+	padding:24px;
+}
+
+#fancy_div p {
+	font-size:14px;
+	padding:0 24px;
+}
+	
+img.juitterAvatar {
+	border:1px solid #ddd;
+	width:40px;
+	height:40px;
+	margin:0 16px 21px 0;
+	float:left;
+}
+
 /* footnotes */
 
 article aside {

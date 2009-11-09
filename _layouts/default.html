@@ -19,7 +19,18 @@
 	<script type="text/javascript" src="/s/jquery.qtip-1.0.0-rc3.min.js"></script>	
 	<script type="text/javascript" src="/s/mottram.js"></script>
    	<link rel="canonical" href="http://mottr.am{{ page.url }}" />
-	{% if page.short %}<link rel="shorturl" href="http://mottr.am/{{ page.short }}" />{% endif %}{% if page.type == 'audio' %}
+	{% if page.short %}<link rel="shorturl" href="http://mottr.am/{{ page.short }}" />
+	<script type="text/javascript" src="/s/jquery.juitter.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$.Juitter.start({
+			searchType:"searchWord",
+			searchObject:"#mot_{{ page.short }},mottr.am/{{ page.short }}",
+			placeHolder:"tweets",
+			loadMSG: "<em>There are no comments on this post, yet...</em>",
+		});
+		});
+	</script>{% endif %}{% if page.type == 'audio' %}
 	<script type="text/javascript" src="/s/audio-player.js"></script>
 	<script type="text/javascript">  
             AudioPlayer.setup("http://macbook:3000/s/player.swf", {  
@@ -30,6 +41,11 @@
 	<link rel="stylesheet" href="/c/ie.css" type="text/css" media="screen, projection">
    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
    	<![endif]-->
+	<noscript>
+		<style type="text/css">
+		#map {display:block!important;}
+		</style>
+	</noscript>
 </head>
 <body class="mottram {{ page.type }}">
 <!--[if IE]>
