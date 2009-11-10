@@ -69,7 +69,7 @@ a:hover {
 	color:#555;
 	}
 	
-/* nav */
+/* nav - gratuitous CSS 3 abuse! */
 
 nav#main {
 	position:fixed;
@@ -125,6 +125,9 @@ nav ul li {
 
 nav ul li a {
 	text-shadow: #ddd 0 -1px 0, rgba(255,255,255,.2) 0 1px 0;
+	-moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+
 }
 
 nav ul li.active a {
@@ -132,7 +135,7 @@ nav ul li.active a {
 }
 
 nav ul li a:hover {
-	text-shadow: #ddd 1px 1px 0;
+	text-shadow: #ddd 1px 1px 0, rgba(255,255,255,.2) 1px 1px 0;
 }
 
 
