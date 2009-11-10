@@ -51,14 +51,14 @@ Finally, add something like the following snippet of JavaScript--again, without 
 $(document).ready(function() {
 $.Juitter.start({
 	searchType:"searchWord",
-	searchObject:"#mot_\{\{ page.short \}\}",
+	searchObject:"%23mot%5F\{\{ page.short \}\}",
 	placeHolder:"tweets",
 	loadMSG: "<em>There are no comments on this post, yet...</em>",
 	});
 	});
 {% endhighlight %}
 
-Replace `page.short` with the Liquid template tag that matches your YAML Front Matter. You could also add a post's tags to Juitter's `searchObject`, if you wanted to includ general discussion on Twitter around the topic of your post, or anything else you fancy--if you view source on this page, you'll see I've added the post's short <abbr>URL</abbr> in a bid to mimic Disqus' ability to track tweets linking to a particular post with [UberVu][6] and [backtype][7].
+Replace `page.short` with the Liquid template tag that matches your YAML Front Matter, and note that you'll need to [URL encode][11] the hash and underscore. You could also add, say, a post's tags to Juitter's `searchObject`, if you wanted to includ general discussion on Twitter around the topic of your post, or anything else you fancy. (I had hoped to mimic Disqus' clever tracking of tweets that mention a post, which uses [backtype][7] and [UberVu][6], by including my short <abbr>URL</abbr>s, but Juitter doesn't like those either.)
 
 Of course, though the instructions above apply to [jekyll][1], this will work with pretty much any weblogging system, as long as you can generate a unique string for your hashtag (WordPress users, for example, could make use of the [`<?php the_ID(); ?>`][8] tag.)
 
@@ -76,3 +76,4 @@ Good idea? Bad idea? Fire up your Twitter client and let me know!
 [8]:http://codex.wordpress.org/Template_Tags/the_ID
 [9]:http://jquery.com/
 [10]:http://wiki.github.com/mojombo/jekyll/yaml-front-matter
+[11]:http://en.wikipedia.org/wiki/URL_encoding#Percent-encoding_reserved_characters "It would be nice if Juitter mentioned this on their site!"
