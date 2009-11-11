@@ -8,13 +8,13 @@ topics:
  - agfa
  - ricoh
 ---
-<img alt="James" src="http://gallery.me.com/jack_mottram/100014/CNV00024/web.jpg" title="James" height="336" />
+<img alt="James" src="http://gallery.me.com/jack_mottram/100014/CNV00024/web.jpg" title="James" width="590" />
 
 More [here][1].
 
-<img alt="Ella" src="http://gallery.me.com/jack_mottram/100016/CNV00008/web.jpg" title="Ella" height="336" />
+<img alt="Ella" src="http://gallery.me.com/jack_mottram/100016/CNV00008/web.jpg" title="Ella" width="590" />
 
-<img alt="Jack" src="http://gallery.me.com/jack_mottram/100016/CNV00018/web.jpg" title="Jack" height="336" />
+<img alt="Jack" src="http://gallery.me.com/jack_mottram/100016/CNV00018/web.jpg" title="Jack" width="590" />
 
 More [here][2].
 
