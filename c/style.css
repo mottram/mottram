@@ -35,7 +35,7 @@ h1, .about h2 {
 }
 
 .link h1:after {
-	font-family:Georgia, serif;
+	font-family:Baskerville, Palatino, "Book Antiqua", Georgia, serif;
 	color:#008;
 	font-size:24px;
 	content:" \261b";
@@ -428,7 +428,7 @@ sup {
 /* misc. */
 
 .amp {
-	font-family:Baskerville, Palatino, "Book Antiqua", serif;
+	font-family:Baskerville, Palatino, "Book Antiqua", Georgia, serif;
 	font-style:italic;
 }
 
