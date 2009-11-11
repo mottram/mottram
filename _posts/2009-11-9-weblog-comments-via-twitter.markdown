@@ -58,7 +58,7 @@ $.Juitter.start({
 	});
 {% endhighlight %}
 
-Replace `page.short` with the Liquid template tag that matches your YAML Front Matter, and note that you'll need to [URL encode][11] the `#` to `%23`. You could also add, say, a post's tags to Juitter's `searchObject`, if you wanted to includ general discussion on Twitter around the topic of your post, or anything else you fancy. (I had hoped to mimic Disqus' clever tracking of tweets that mention a post, which uses [backtype][7] and [UberVu][6], by including my short <abbr>URL</abbr>s, but Juitter doesn't like those either.)
+Replace `page.short` with the Liquid template tag that matches your YAML Front Matter, and note that you'll need to [URL encode][11] the `#` to `%23`. You could also add, say, a post's tags to Juitter's `searchObject`, if you wanted to include general discussion on Twitter around the topic of your post.
 
 Of course, though the instructions above apply to [jekyll][1], this will work with pretty much any weblogging system, as long as you can generate a unique string for your hashtag (WordPress users, for example, could make use of the [`<?php the_ID(); ?>`][8] tag.)
 

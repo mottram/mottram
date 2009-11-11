@@ -2,7 +2,7 @@
 title: Ricoh 35 FM Snaps
 layout: post
 type: photo
-image_url: http://gallery.me.com/jack_mottram/100014/CNV00023/web.jpg
+image_url: /u/2009/06/kate.jpg
 description: Photographs taken with a 35 FM.
 topics:
  - agfa

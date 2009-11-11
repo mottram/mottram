@@ -1,5 +1,0 @@
-Making the new site was good clean nostalgic fun, too: combing through other people's source code, reading dry-as-dust specs, following debates across weblogs and mailing lists, making mistakes, correcting them--this is how I learned how to make websites in the first place. There's a real pleasure to be found in _not quite knowing what you're doing_.
-
-http://boblet.tumblr.com/post/147230293/html5-faq
-
-http://www.ridingtheclutch.com/2009/01/15/build-and-publish-your-jekyll-site-with-one-command.html

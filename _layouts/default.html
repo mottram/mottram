@@ -3,6 +3,7 @@
 <head>
    	<meta charset=utf-8 />
    	<title>Mottr.am | {{ page.title }}</title>
+	<meta name="google-site-verification" content="I6L7LN2vcQKRuZmdgjWR4ra9sg2vrJBSRKkLb2HvHVU" />
 	<meta name="author" content="Jack Mottram" />
 	<meta name="viewport" content="width = 680">
 	{% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
@@ -10,7 +11,7 @@
 	<link rel="canonical" href="http://mottr.am{{ page.url }}" />
 	{% if page.short %}<link rel="shorturl" href="http://mottr.am/{{ page.short }}" />{% endif %}
 	<link rel="apple-touch-icon" href="/u/iphone.png"/>
-	<link rel="icon" type="image/ico" href="favicon.ico" />
+	<link rel="icon" type="image/ico" href="/favicon.ico" />
    	<link rel="alternate" type="application/rss+xml" href="atom.xml" title="Mottr.am latest posts" />
    	<link rel="stylesheet" href="/c/style.css" type="text/css" media="screen, projection" />
 	<!--[if IE]>
@@ -32,7 +33,7 @@
 	/* ]]> */
 	</script>{% endif %}{% if page.type == 'audio' or page.type == 'home' %}
 	<script type="text/javascript">  
-	        AudioPlayer.setup("http://macbook:3000/s/player.swf", {  
+	        AudioPlayer.setup("http://mottr.am/s/player.swf", {  
 	            width: 300  
 	        });  
 	</script>{% endif %}
