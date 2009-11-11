@@ -48,7 +48,13 @@ layout: default
 	</header>
 	{% include meta.html %}
 	{{ content }}
-	{% if page.short %}{% include related.html %}{% endif %}
 	{% if page.short %}{% include comments.html %}{% endif %}
 	{% if page.loc %}<div id="map"><img class="map" src="http://maps.google.com/maps/api/staticmap?center={{ page.loc }}&amp;zoom=14&amp;maptype=hybrid&amp;size=600x400&amp;sensor=false&amp;format=jpeg&amp;key=ABQIAAAAPga5T2DTe8Ai3o7Fpk3qFRSNqByKE8YBn9C1iebjkz1yKGB-5xTKcMhYnDGfQXXHiCqs3tCKJS2cxQ" /></div>{% endif %}
 </article>{% endif %}
+
+<nav>
+	<ul class="more">
+		{% if page.previous %}<li>&larr; <a title="Older entry: {{ page.previous.title }}" href="{{ page.previous.url }}">{{ page.previous.title }}</a></li>{% endif %}
+		{% if page.next %}<li><a title="Newer entry: {{ page.next.title }}" href="{{ page.next.url }}">{{ page.next.title }}</a> &rarr;</li>{% endif %}
+	</ul>
+</nav>

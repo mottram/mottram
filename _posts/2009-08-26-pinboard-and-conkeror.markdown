@@ -1,5 +1,5 @@
 ---
-title: Pinboard in Conkeror
+title: Pinboard & Conkeror
 layout: post
 type: basic
 short: pc

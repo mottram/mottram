@@ -1,5 +1,7 @@
+<hr />
 <nav>
+	<header><h1>Related Posts</h1></header>
 <ul>
-<li>{% for post in site.related_posts limit:3 %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}</li>
+{% for post in site.related_posts limit:3 %}<li><a href="{{ post.url }}">{{ post.title }}</a> &middot; <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></li>{% endfor %}
 </ul>
 </nav>

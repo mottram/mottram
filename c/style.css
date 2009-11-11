@@ -7,6 +7,7 @@ html {
 	background: #fff;
 	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fafafa)) fixed no-repeat 0 100%;
 	background: -moz-linear-gradient(0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fafafa)) fixed no-repeat 0 100%;
+	line-height:24px;
 }
 
 body {
@@ -56,7 +57,7 @@ ul {
 
 pre, code {
 	font-family:Monaco, Consolas, "Andale Mono", "monotype.com", "Bitstream Vera Sans Mono", monospace;
-	font-size:15px;
+	font-size:14px;
 }
 
 blockquote {
@@ -154,6 +155,30 @@ article footer {
 	margin:-16px 0 24px 0;
 }
 
+article nav h1 {
+	font-size:16px;
+}
+
+article nav ul {
+	padding:0;
+	margin:0;
+	font-size:14px;
+}
+
+article nav ul li {
+	display:block;
+	margin:0 0 12px;
+	padding:0;
+}
+
+article nav ul time {
+	color:#777;
+}
+
+article nav ul li a {
+	text-shadow:none !important;
+}
+
 address {
 	font-style:normal;
 }
@@ -208,6 +233,7 @@ ul.more {
 }
 
 ul.more li {
+	font-size: 13px;
 	padding:0 14px;
 }
 
@@ -226,6 +252,7 @@ div.highlight pre {
 div.highlight {
 	width:600px;
 	overflow:auto;
+	margin:0 0 12px 0;
 }
 
 div.highlight li p {
