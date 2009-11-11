@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   	<meta charset=utf-8 />
+   	<title>Mottr.am | Weblog Comments via Twitter</title>
+	<meta name="author" content="Jack Mottram" />
+	<meta name="viewport" content="width = 680">
+	<meta name="description" content="How to add comments from Twitter to your jekyll blog using jQuery and the Juitter plugin." />
+   	<meta name="keywords" content="jekyll,juitter,twitter," />
+	<link rel="canonical" href="http://mottr.am/2009/11/09/weblog-comments-via-twitter/" />
+	<link rel="shorturl" href="http://mottr.am/tw" />
+	<link rel="apple-touch-icon" href="/u/iphone.png"/>
+	<link rel="icon" type="image/ico" href="favicon.ico" />
+   	<link rel="alternate" type="application/rss+xml" href="atom.xml" title="Mottr.am latest posts" />
+   	<link rel="stylesheet" href="/c/style.css" type="text/css" media="screen, projection" />
+	<!--[if IE]>
+	<link rel="stylesheet" href="/c/ie.css" type="text/css" media="screen, projection">
+   	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   	<![endif]-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/s/min.js"></script>
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	$(document).ready(function() {
+		$.Juitter.start({
+			searchType:"searchWord",
+			searchObject:"%23mot_tw,http%3A%2F%2Fmottr.am%2Ftw",
+			placeHolder:"comments",
+			loadMSG: "<em>Loading comments...</em>",
+		});
+		});
+	/* ]]> */
+	</script>
+</head>
+<body class="mottram basic">
+<!--[if IE]>
+<noscript><div style="margin:60px;background:lightyellow;border:1px solid black;color:red;padding:10px;"><p>It looks like you're using <b>Internet Explorer</b> with <b>JavaScript turned off</b>.</p><p>As you can see, the site is a right old mess - if you can, turn JavaScript on, and reload the page.</p><p>If you <i>can't</i> do that, my apologies: as a bit of an experment, I'm using HTML 5 to make this site, and decided it was worth the risk of showing folk using IE but not JS a broken site.</p><p>Comments? Complaints? Email me at j@ck.mottr.am</p></div></noscript>
+<![endif]-->
+<nav id="main">
+	<ul>
+		<li><a title="Go to the Mottr.am homepage" href="/">Home</a></li>
+		<li><a title="Peruse the Mottr.am archive" href="/archive/">Archive</a></li>
+		<li><a title="Subscribe to the Mottr.am feed" href="/atom.xml">Feed</a></li>
+		<li><a title="About Mottr.am" href="/about/">About</a></li>
+		<li><a title="Email, 'phone number, other websites" href="/contact/">Contact</a></li>
+		<li>
+		<form action="http://www.google.com/cse" id="cse-search-box">
+		    <input type="hidden" name="cx" value="014102087920370527414:mp4-rc73dee" />
+		    <input type="hidden" name="ie" value="UTF-8" />
+		    <input type="text" name="q" value="Search..." size="15" />
+		</form>
+		</li>
+	</ul>
+</nav>
+
+    
+<article>
+	<header>
+		<h1>Weblog Comments via Twitter</h1>
+	</header>
+	<footer>Posted to <a title="Mottr.am homepage" href="/">Mottr.am</a> by <address><a href="mailto:j@ck.mottr.am" title="Send Jack an email">Jack</a></address> on <a rel="bookmark" href="/2009/11/09/weblog-comments-via-twitter/" title="Permanent link to 'Weblog Comments via Twitter'"><time datetime="2009-11-09">09 November 2009</time></a> from <a title="View this location on a map." id="inline" href="#map">Wirral</a>. Tags: <a title="This link will take you to a hopefully helpful Google search!" href="http://google.com/search?q=jekyll+site%3Amottr.am">jekyll </a><a title="This link will take you to a hopefully helpful Google search!" href="http://google.com/search?q=juitter+site%3Amottr.am">juitter </a><a title="This link will take you to a hopefully helpful Google search!" href="http://google.com/search?q=twitter+site%3Amottr.am">twitter </a><br />Short URL: http://mottr.am/tw</footer>
+
+	<p>This weblog is powered by <a href='http://wiki.github.com/mojombo/jekyll'>jekyll</a>, a static website generator&#8211;it&#8217;s a great way to publish a site with minimal effort, but it can&#8217;t handle comments. A lot of folk with static sites opt to use <a href='http://disqus.com/'>Disqus</a> or <a href='http://www.intensedebate.com/'>Intense Debate</a> to add commenting to their sites, but, like jekyll user <a href='http://benjaminthomas.org/2009-01-27/why-im-not-using-disqus.html'>Benjamin Thomas</a>, I find both services a wee bit over the top.</p>
+
+<p>One <a href='http://disqus.com/'>Disqus</a> feature I <em>do</em> like, though, is the ability to track conversations about a weblog post taking place on <a href='http://twitter.com'>Twitter</a>. So I decided to copy it.</p>
+
+<p>Thanks to the <a href='http://juitter.com/'>Juitter</a> plugin for <a href='http://jquery.com/'>jQuery</a>, it turned out to be a piece of cake.</p>
+
+<p>First, you&#8217;ll need to add some <a href='http://wiki.github.com/mojombo/jekyll/yaml-front-matter'>YAML Front Matter</a> to your posts that can be used to generate a hashtag, like so:</p>
+<div class='highlight'><pre><span class='nn'>---</span>
+<span class='l-Scalar-Plain'>title</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>Weblog Comments via Twitter</span>
+<span class='l-Scalar-Plain'>layout</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>post</span>
+<span class='l-Scalar-Plain'>type</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>basic</span>
+<span class='l-Scalar-Plain'>short</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>tw</span>
+<span class='l-Scalar-Plain'>description</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>Add comments from Twitter to your jekyll blog.</span>
+<span class='l-Scalar-Plain'>topics</span><span class='p-Indicator'>:</span>
+ <span class='p-Indicator'>-</span> <span class='l-Scalar-Plain'>jekyll</span>
+ <span class='p-Indicator'>-</span> <span class='l-Scalar-Plain'>juitter</span>
+ <span class='p-Indicator'>-</span> <span class='l-Scalar-Plain'>twitter</span>
+<span class='nn'>---</span>
+</pre>
+</div>
+<p>(Since I&#8217;m already generating short <abbr>URL</abbr>s for posts to my site, I&#8217;m reusing the &#8216;short&#8217; chunk of YAML Front Matter, but you can call it whatever you like.)</p>
+
+<p>Then, add a <code>div</code> somewhere in your post template where you&#8217;d like your comments to display, and a note to inform readers that they can tweet comments to your weblog. The relevant part of my <a href='http://wiki.github.com/mojombo/jekyll'>jekyll</a> post template looks like this (only without those backslashes):</p>
+<div class='highlight'><pre><span class='nt'>&lt;section&gt;</span>
+<span class='nt'>&lt;header&gt;&lt;h1&gt;</span>Comments<span class='nt'>&lt;/h1&gt;&lt;/header&gt;</span>
+<span class='nt'>&lt;p&gt;</span>Add a comment by tweeting with the hashtag #mot_\{\{ page.short \}\}<span class='nt'>&lt;/p&gt;</span>
+<span class='nt'>&lt;div</span> <span class='na'>id=</span><span class='s'>&quot;tweets&quot;</span><span class='nt'>&gt;&lt;/div&gt;</span>
+<span class='nt'>&lt;/section&gt;</span>
+</pre>
+</div>
+<p>As you can see, I&#8217;ve decided my hashtag will always begin #mot_, followed by the letters I&#8217;ve chosen in the YAML Front Matter&#8211;this results in a pretty odd string of letters, which should hopefully avoid the problem of displaying any irrelevant tweets that happen to have the same hashtag).</p>
+
+<p>Next, download <a href='http://juitter.com/'>Juitter</a>, stick it in your scripts directory, and add it in the <code>&lt;head&gt;</code> of your site template.</p>
+
+<p>Finally, add something like the following snippet of JavaScript&#8211;again, without those pesky backslashes&#8211;on pages where you want the Twitter comments feature to work:</p>
+<div class='highlight'><pre><span class='nx'>$</span><span class='p'>(</span><span class='nb'>document</span><span class='p'>).</span><span class='nx'>ready</span><span class='p'>(</span><span class='kd'>function</span><span class='p'>()</span> <span class='p'>{</span>
+<span class='nx'>$</span><span class='p'>.</span><span class='nx'>Juitter</span><span class='p'>.</span><span class='nx'>start</span><span class='p'>({</span>
+	<span class='nx'>searchType</span><span class='o'>:</span><span class='s2'>&quot;searchWord&quot;</span><span class='o'>,</span>
+	<span class='nx'>searchObject</span><span class='o'>:</span><span class='s2'>&quot;%23mot_\{\{ page.short \}\}&quot;</span><span class='o'>,</span>
+	<span class='nx'>placeHolder</span><span class='o'>:</span><span class='s2'>&quot;tweets&quot;</span><span class='o'>,</span>
+	<span class='nx'>loadMSG</span><span class='o'>:</span> <span class='s2'>&quot;&lt;em&gt;There are no comments on this post, yet...&lt;/em&gt;&quot;</span><span class='o'>,</span>
+	<span class='p'>});</span>
+	<span class='p'>});</span>
+</pre>
+</div>
+<p>Replace <code>page.short</code> with the Liquid template tag that matches your YAML Front Matter, and note that you&#8217;ll need to <a href='http://en.wikipedia.org/wiki/URL_encoding#Percent-encoding_reserved_characters' title='It would be nice if Juitter mentioned this on their site!'>URL encode</a> the <code>#</code> to <code>%23</code>. You could also add, say, a post&#8217;s tags to Juitter&#8217;s <code>searchObject</code>, if you wanted to includ general discussion on Twitter around the topic of your post, or anything else you fancy. (I had hoped to mimic Disqus&#8217; clever tracking of tweets that mention a post, which uses <a href='http://www.backtype.com/'>backtype</a> and <a href='http://www.ubervu.com'>UberVu</a>, by including my short <abbr>URL</abbr>s, but Juitter doesn&#8217;t like those either.)</p>
+
+<p>Of course, though the instructions above apply to <a href='http://wiki.github.com/mojombo/jekyll'>jekyll</a>, this will work with pretty much any weblogging system, as long as you can generate a unique string for your hashtag (WordPress users, for example, could make use of the <a href='http://codex.wordpress.org/Template_Tags/the_ID'><code>&lt;?php the_ID(); ?&gt;</code></a> tag.)</p>
+
+<p>It&#8217;s no match for a full-fledged commenting system&#8211;for one thing, comments are limited to 140 characters, and potential commenters to Twitter users&#8211;but I thought it&#8217;d be a fun way to let visitors have their say.</p>
+
+<p>Good idea? Bad idea? Fire up your Twitter client and let me know!</p>
+	<section>
+	<header><h1>Comments</h1></header>
+	<p>Add a comment by tweeting with the hashtag <strong>#mot_tw</strong> (<a id="inline" href="#commentshelp">Help?</a>)</p>
+	<noscript><p>You need JavaScript turned on to see comments.</p></noscript>
+	<div id="comments"></div>
+	<div id="commentshelp"><header><h1>Commenting via Twitter</h1></header><p>If you have a <a href="http://twitter.com">Twitter</a> account and would like to reply to this post, just tweet what you'd like to say, and make sure to put <strong>#mot_tw</strong> somewhere in your tweet.</p><p>The gobbledygook beginning with '#' is called a 'hashtag', and makes it easy for this site to search Twitter for your tweet, and display it on the correct page.</p><p>Alternatively, you can tweet about this post and include its short <abbr>URL</abbr>, <strong>http://mottr.am/tw</strong>, and your tweet will be displayed automatically, whether you use the hashtag or not.</p><p>If you <em>don't</em> have a Twitter account, feel free to send me an email instead, and I'll update the post with your comments: <a href="mailto:j@ck.mottr.am">j@ck.mottr.am</a></p></div>
+	</section>
+
+	<div id="map"><img class="map" src="http://maps.google.com/maps/api/staticmap?center=11 Croft Drive,Wirral&amp;zoom=14&amp;maptype=hybrid&amp;size=600x400&amp;sensor=false&amp;format=jpeg&amp;key=ABQIAAAAPga5T2DTe8Ai3o7Fpk3qFRSNqByKE8YBn9C1iebjkz1yKGB-5xTKcMhYnDGfQXXHiCqs3tCKJS2cxQ" /></div>
+</article>
+
+<nav>
+	<ul class="more">
+		<li>&larr; <a title="Older entry: Mapumental" href="/2009/11/08/mapumental/">Mapumental</a></li>
+		<li><a title="Newer entry: nice_find" href="/2009/11/11/nice-find/">nice_find</a> &rarr;</li>
+	</ul>
+</nav>
+</body>
+</html>
+

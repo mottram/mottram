@@ -1,0 +1,446 @@
+/* reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}a{border:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
+/* end reset */
+
+/* styles */
+html {
+	background: #fff;
+	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fafafa)) fixed no-repeat 0 100%;
+	background: -moz-linear-gradient(0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fafafa)) fixed no-repeat 0 100%;
+	line-height:24px;
+}
+
+body {
+	background:transparent;
+	color:#555;
+	font:normal 16px/24px Helvetica, Arial, sans-serif;
+}
+
+section {
+	background:transparent;
+	width:640px;
+	margin:96px auto;
+}
+
+dd, h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
+	margin-bottom:24px;
+}
+
+h1, .about h2 {
+	font-size:28px;
+	font-weight:normal;
+	padding:0 0 12px 0;
+	border-bottom:1px solid #ddd;
+	text-shadow: #ddd 1px 1px 0;
+}
+
+.link h1:after {
+	font-family:Georgia, serif;
+	color:#008;
+	font-size:24px;
+	content:" \261b";
+	}
+	
+h3 {
+	font-size:16px;
+	line-height:24px;
+	font-weight:normal;
+}
+
+ol {
+	list-style-type:decimal;
+}
+
+ul {
+	list-style-type:circle;
+}
+
+pre, code {
+	font-family:Monaco, Consolas, "Andale Mono", "monotype.com", "Bitstream Vera Sans Mono", monospace;
+	font-size:14px;
+}
+
+blockquote {
+	color:#777;
+	text-align:justify;
+	padding:0 66px 0 48px;
+}
+
+a, a:link, a:visited, a:active{
+	color:#008;
+	text-decoration:none;
+	-moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+	
+a:hover {
+	color:#777;
+	}
+	
+/* nav - gratuitous CSS 3 abuse! */
+
+nav#main {
+	position:fixed;
+	top:0;
+	width:100%;
+	border-bottom:1px solid #ddd;
+	background:#fff;
+	background: #fff;
+	opacity:.8;
+	height:24px;
+	padding:12px 0;
+	-webkit-box-shadow: 0px 4px 4px #ccc;
+	-moz-box-shadow: 0px 4px 4px #ccc;
+	box-shadow: 0px 4px 4px #ccc;
+	z-index:99;
+}
+
+nav#main ul {
+	position:relative;
+	width:590px;
+	margin:0 auto;
+}
+
+nav#main ul li form {
+	display:inline;
+	position:absolute;
+	right:0;
+}
+
+nav#main input.idle {
+	color:#999;
+	font-size:13px;
+	line-height:15px;
+	border:1px solid #dedede;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding:1px;
+	-webkit-box-shadow: 1px 1px 1px #ccc;
+	-moz-box-shadow: 1px 1px 1px #ccc;
+	box-shadow: 1px 1px 1px #ccc;
+}
+
+nav#main input.focus {
+	color:#444;
+	border:1px solid #aaa;
+}
+
+nav ul li {
+	display:inline;
+	list-style-type:none;
+	margin:0 7px 0 0;
+}
+
+nav ul li a {
+	text-shadow: #ddd 0 -1px 0, rgba(255,255,255,.2) 0 1px 0;
+	-moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+nav ul li.active a {
+	color:#444;
+}
+
+nav ul li a:hover {
+	text-shadow: #ddd 1px 1px 0, rgba(255,255,255,.2) 1px 1px 0;
+}
+
+
+/* Metadata */
+
+article footer {
+	font-size:13px;
+	font-weight:lighter;
+	margin:-16px 0 24px 0;
+}
+
+article nav h1 {
+	font-size:16px;
+}
+
+article nav ul {
+	padding:0;
+	margin:0;
+	font-size:14px;
+}
+
+article nav ul li {
+	display:block;
+	margin:0 0 12px;
+	padding:0;
+}
+
+article nav ul time {
+	color:#777;
+}
+
+article nav ul li a {
+	text-shadow:none !important;
+}
+
+address {
+	font-style:normal;
+}
+
+footer address, .about address {
+	display:inline;
+}
+
+article, section#archive, div.contact {
+	margin:0;
+	border:1px solid #ddd;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+	-moz-box-shadow: 3px 3px 3px #ccc;
+	box-shadow: 3px 3px 3px #ccc;
+	padding:48px 24px 24px 24px;
+	background: #fff;
+/* not sure about this - overkill? */
+/*	background: -webkit-gradient(linear,0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) scroll no-repeat 0 100%;
+	background: -moz-linear-gradient(0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) scroll no-repeat 0 100%;
+*/
+}
+
+section#archive {
+	width:590px;
+	margin:96px auto;
+	background:#fff;
+}
+
+section#archive section {
+	margin:0;
+}
+
+.about article, div.contact, .photo article, .video article, .link article, .basic article, .audio article, ul.more {
+	width:590px;
+	margin:96px auto;
+}
+
+article ul, article ol {
+	padding:0 24px;
+}
+
+article ul li {
+	margin:0 0 24px 0;
+}
+
+.home article {
+	margin:0 0 120px 0;
+}
+
+ul.more {
+	text-align:center;
+}
+
+ul.more li {
+	font-size: 13px;
+	padding:0 14px;
+}
+
+/* photos, videos */
+
+img, object {
+	border:1px solid #aaa;
+}
+
+/* code */
+
+div.highlight pre {
+	font-size:13px;
+}
+
+div.highlight {
+	width:600px;
+	overflow:auto;
+	margin:0 0 12px 0;
+}
+
+div.highlight li p {
+	margin:0;
+}
+
+/* archive */
+
+nav.archive {
+	margin:24px 0 0;
+}
+
+nav.archive ul {
+	padding:0 0 12px 0;
+	border-bottom:1px solid #ddd;
+}
+
+.archive h2 {
+	padding:0;
+}
+
+.archive ol {
+	list-style-type:none;
+}
+
+.archive ol li {
+	margin-bottom:24px;
+}
+
+.archive ol p {
+	font-size:14px;
+	width:80%;
+}
+
+.archive h2 {
+	font-size:16px;
+	margin:0px;
+	font-weight:normal;
+}
+
+.archive h2 time {
+	font-size:14px;
+	color:#777;
+}
+
+.archive-nav ul {
+margin-top:-24px;
+}
+
+/* short urls */
+
+#shorturl {
+	font-size:12px;
+	color:#555;
+	border:none;
+}
+
+#shorturl input:focus {
+	outline:none;
+}
+
+/* maps */
+
+#map {
+	display:none;
+	}
+	
+img.map {
+	border:none !important;
+	padding:0 !important;
+}
+
+
+div.contact li {
+	list-style:none;
+	margin:0 0 4px 0;
+}
+
+/* twitter nonsense */
+
+article section {
+	margin-top:48px;
+	padding-top:16px;
+	font-size:13px;
+	margin:24px auto;
+	width:590px;
+	border-top:1px solid #ddd;
+}
+
+article section h1 {
+	font-size:16px;
+}
+
+#comments ul {
+	margin:0;
+	padding:0;
+}
+
+#comments ul li {
+	padding:24px 0 0 0;
+	margin:24px 0 0 0;
+	height:72px;
+}
+
+#comments ul:first-child {
+	border-top:1px solid #ddd;
+}
+
+#comments ul:last-child {
+	border-bottom:1px solid #ddd;
+}
+
+#comments ul:only-child {
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+
+#comments span.time {
+	display:none;
+}
+
+#comments a.JRM {
+	margin:0 0 0 8px;
+}
+
+#commentshelp {
+	display:none;
+	}
+	
+#fancy_div h1 {
+	padding:24px;
+}
+
+#fancy_div p {
+	font-size:14px;
+	padding:0 24px;
+}
+	
+img.juitterAvatar {
+	border:1px solid #ddd;
+	width:40px;
+	height:40px;
+	margin:0 16px 24px 0;
+	float:left;
+	opacity:.7;
+}
+
+img.juitterAvatar:hover {
+	opacity:.9;
+}
+
+/* footnotes */
+
+article aside {
+	border-top:1px solid #ddd;
+	font-size:14px;
+}
+
+article aside ol {
+	margin:12px 0 0 24px;
+}
+
+sup {
+	font-size:12px;
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	vertical-align: bottom;
+	position: relative;
+	bottom: 1ex;
+}
+
+/* misc. */
+
+.amp {
+	font-family:Baskerville, Palatino, "Book Antiqua", serif;
+	font-style:italic;
+}
+
+em {
+	font-style:italic;
+}
+	
+abbr {
+	border:none !important;
+}
+
+/* code highlighting */
+.highlight{background:#fff;}.highlight .err{color:#a61717;background-color:#e3d2d2;}.highlight .cp{color:#999;font-weight:700;}.highlight .cs{color:#999;font-weight:700;font-style:italic;}.highlight .gd{color:#000;background-color:#fdd;}.highlight .gd .x{color:#000;background-color:#faa;}.highlight .ge{font-style:italic;}.highlight .gi{color:#000;background-color:#dfd;}.highlight .gi .x{color:#000;background-color:#afa;}.highlight .go{color:#888;}.highlight .gu{color:#aaa;}.highlight .nb{color:#0086B3;}.highlight .ni{color:purple;}.highlight .nt{color:navy;}.highlight .w{color:#bbb;}.highlight .sr{color:#009926;}.highlight .ss{color:#990073;}.highlight .c,.highlight .cm,.highlight .c1{color:#998;font-style:italic;}.highlight .k,.highlight .o,.highlight .gs,.highlight .kc,.highlight .kd,.highlight .kp,.highlight .kr,.highlight .ow{font-weight:700;}.highlight .gr,.highlight .gt{color:#a00;}.highlight .gh,.highlight .bp{color:#999;}.highlight .gp,.highlight .nn{color:#555;}.highlight .kt,.highlight .nc{color:#458;font-weight:700;}.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo,.highlight .il{color:#099;}.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx,.highlight .s1{color:#d14;}.highlight .na,.highlight .no,.highlight .nv,.highlight .vc,.highlight .vg,.highlight .vi{color:teal;}.highlight .ne,.highlight .nf{color:#900;font-weight:700;}
+/* fancybox */
+div#fancy_overlay{position:fixed;top:0;left:0;width:100%;height:100%;display:none;z-index:30;}div#fancy_loading{position:fixed;height:40px;width:40px;cursor:pointer;display:none;overflow:hidden;background:transparent;z-index:100;}div#fancy_loading div{position:absolute;top:0;left:0;width:40px;height:480px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_progress.png') no-repeat;}div#fancy_outer{position:absolute;top:0;left:0;z-index:90;background:transparent;display:none;margin:0;padding:20px 20px 40px;}div#fancy_inner{position:relative;width:100%;height:100%;background:#FFF;}div#fancy_content{z-index:100;position:absolute;margin:0;}div#fancy_div{background:#fff;color:#111;height:100%;width:100%;z-index:100;}img#fancy_img{position:absolute;top:0;left:0;border:0;z-index:100;width:100%;height:100%;margin:0;padding:0;}div#fancy_close{position:absolute;top:-12px;right:-15px;height:30px;width:30px;background:url('http://mottr.am.nyud.net/u/fancybox/fancy_closebox.png') top left no-repeat;cursor:pointer;z-index:181;display:none;}#fancy_frame{position:relative;width:100%;height:100%;display:none;}#fancy_ajax{width:100%;height:100%;overflow:auto;}a#fancy_left,a#fancy_right{position:absolute;bottom:0;height:100%;width:35%;cursor:pointer;z-index:111;display:none;background-image:url("data:image/gif;base64,AAAA");outline:none;overflow:hidden;}a#fancy_left{left:0;}a#fancy_right{right:0;}span.fancy_ico{position:absolute;top:50%;margin-top:-15px;width:30px;height:30px;z-index:112;cursor:pointer;display:block;}span#fancy_left_ico{left:-9999px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_left.png') no-repeat;}span#fancy_right_ico{right:-9999px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_right.png') no-repeat;}a#fancy_left:hover,a#fancy_right:hover{visibility:visible;background-color:transparent;}a#fancy_left:hover span{left:20px;}a#fancy_right:hover span{right:20px;}#fancy_bigIframe{position:absolute;top:0;left:0;width:100%;height:100%;background:transparent;}div#fancy_bg{position:absolute;top:0;left:0;width:100%;height:100%;z-index:70;border:0;margin:0;padding:0;}div.fancy_bg{position:absolute;display:block;z-index:70;border:0;margin:0;padding:0;}div#fancy_bg_n{top:-20px;width:100%;height:20px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_shadow_n.png') repeat-x;}div#fancy_bg_ne{top:-20px;right:-20px;width:20px;height:20px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_shadow_ne.png') no-repeat;}div#fancy_bg_e{right:-20px;height:100%;width:20px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_shadow_e.png') repeat-y;}div#fancy_bg_se{bottom:-20px;right:-20px;width:20px;height:20px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_shadow_se.png') no-repeat;}div#fancy_bg_s{bottom:-20px;width:100%;height:20px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_shadow_s.png') repeat-x;}div#fancy_bg_sw{bottom:-20px;left:-20px;width:20px;height:20px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_shadow_sw.png') no-repeat;}div#fancy_bg_w{left:-20px;height:100%;width:20px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_shadow_w.png') repeat-y;}div#fancy_bg_nw{top:-20px;left:-20px;width:20px;height:20px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_shadow_nw.png') no-repeat;}div#fancy_title{position:absolute;z-index:100;display:none;}div#fancy_title div{color:#FFF;font:bold 12px Arial;padding-bottom:3px;white-space:nowrap;}div#fancy_title table{margin:0 auto;}div#fancy_title table td{vertical-align:middle;padding:0;}td#fancy_title_left{height:32px;width:15px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_title_left.png') repeat-x;}td#fancy_title_main{height:32px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_title_main.png') repeat-x;}td#fancy_title_right{height:32px;width:15px;background:transparent url('http://mottr.am.nyud.net/u/fancybox/fancy_title_right.png') repeat-x;}

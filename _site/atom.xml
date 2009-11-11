@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Mottr.am</title>
+ <link href="http://mottr.am/atom.xml" rel="self"/>
+ <link href="http://mottr.am/"/>
+ <updated>2009-11-11T20:27:57+00:00</updated>
+ <id>http://mottr.am/</id>
+ <author>
+   <name>Jack Mottram</name>
+   <email>j@ck.mottr.am</email>
+ </author>
+
+
+
+<entry>
+  <title>Paris is Burning</title>
+  <link href="http://mottr.am/2009/11/13/paris-is-burning/"/>
+  <updated>2009-11-13T00:00:00+00:00</updated>
+  <id>http://mottr.am/2009/11/13/paris-is-burning</id>
+  <content type="html">&lt;p&gt;&lt;em&gt;Please click through to the website to view this video.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;For my money, &lt;em&gt;Paris is Burning&lt;/em&gt; is one of the best documentary films ever made.&lt;/p&gt;
+
+&lt;p&gt;For years, it was only available on hissy &lt;em&gt;n&lt;/em&gt;th generation VHS tapes of dubious provenance; nowadays, inevitably, you can watch the whole thing on YouTube. And you should.&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+
+
+
+<entry>
+  <title>Past Tense</title>
+  <link href="http://www.past-tense.org.uk/"/>
+  <updated>2009-11-12T00:00:00+00:00</updated>
+  <id>http://mottr.am/2009/11/12/past-tense</id>
+  <content type="html">&lt;p&gt;Past Tense is &amp;#8220;a publishing project based in South London, exploring London radical history&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Via &lt;a href='http://www.metafilter.com/86486/Cokaygne-in-my-brain' title='Cokaygne in my brain'&gt;MeFi&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt; &lt;a href=&quot;http://mottr.am/2009/11/12/past-tense/&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+<entry>
+  <title>Dunes on Mars</title>
+  <link href="http://mottr.am/2009/11/12/dunes-on-mars/"/>
+  <updated>2009-11-12T00:00:00+00:00</updated>
+  <id>http://mottr.am/2009/11/12/dunes-on-mars</id>
+  <content type="html">&lt;img src=&quot;/u/2009/11/mars-dunes.jpg&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;&lt;p&gt;&amp;#8220;Scalloped sand dunes in the southern hemisphere of mars, displaying seasonal frost on the south-facing slopes&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;From a collection of &lt;a href='http://www.boston.com/bigpicture/2009/11/martian_landscapes.html' title='They'&gt;Martian landscapes&lt;/a&gt; at &lt;a href='http://www.boston.com/bigpicture/' title='The Boston Globe'&gt;The Big Picture&lt;/a&gt;.&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+
+
+
+
+<entry>
+  <title>nice_find</title>
+  <link href="http://github.com/briancollins/nice_find"/>
+  <updated>2009-11-11T00:00:00+00:00</updated>
+  <id>http://mottr.am/2009/11/11/nice-find</id>
+  <content type="html">&lt;p&gt;A Textmate plugin that improves on the occasionally glacial built-in &amp;#8216;find in project&amp;#8217; search.&lt;/p&gt;&lt;p&gt; &lt;a href=&quot;http://mottr.am/2009/11/11/nice-find/&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+
+
+ <entry>
+   <title>Weblog Comments via Twitter</title>
+   <link href="http://mottr.am/2009/11/09/weblog-comments-via-twitter/"/>
+   <updated>2009-11-09T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/11/09/weblog-comments-via-twitter</id>
+   <content type="html">&lt;p&gt;This weblog is powered by &lt;a href='http://wiki.github.com/mojombo/jekyll'&gt;jekyll&lt;/a&gt;, a static website generator&amp;#8211;it&amp;#8217;s a great way to publish a site with minimal effort, but it can&amp;#8217;t handle comments. A lot of folk with static sites opt to use &lt;a href='http://disqus.com/'&gt;Disqus&lt;/a&gt; or &lt;a href='http://www.intensedebate.com/'&gt;Intense Debate&lt;/a&gt; to add commenting to their sites, but, like jekyll user &lt;a href='http://benjaminthomas.org/2009-01-27/why-im-not-using-disqus.html'&gt;Benjamin Thomas&lt;/a&gt;, I find both services a wee bit over the top.&lt;/p&gt;
+
+&lt;p&gt;One &lt;a href='http://disqus.com/'&gt;Disqus&lt;/a&gt; feature I &lt;em&gt;do&lt;/em&gt; like, though, is the ability to track conversations about a weblog post taking place on &lt;a href='http://twitter.com'&gt;Twitter&lt;/a&gt;. So I decided to copy it.&lt;/p&gt;
+
+&lt;p&gt;Thanks to the &lt;a href='http://juitter.com/'&gt;Juitter&lt;/a&gt; plugin for &lt;a href='http://jquery.com/'&gt;jQuery&lt;/a&gt;, it turned out to be a piece of cake.&lt;/p&gt;
+
+&lt;p&gt;First, you&amp;#8217;ll need to add some &lt;a href='http://wiki.github.com/mojombo/jekyll/yaml-front-matter'&gt;YAML Front Matter&lt;/a&gt; to your posts that can be used to generate a hashtag, like so:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='nn'&gt;---&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;title&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Weblog Comments via Twitter&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;layout&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;post&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;type&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;basic&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;short&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;tw&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;description&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Add comments from Twitter to your jekyll blog.&lt;/span&gt;
+&lt;span class='l-Scalar-Plain'&gt;topics&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
+ &lt;span class='p-Indicator'&gt;-&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;jekyll&lt;/span&gt;
+ &lt;span class='p-Indicator'&gt;-&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;juitter&lt;/span&gt;
+ &lt;span class='p-Indicator'&gt;-&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;twitter&lt;/span&gt;
+&lt;span class='nn'&gt;---&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;(Since I&amp;#8217;m already generating short &lt;abbr&gt;URL&lt;/abbr&gt;s for posts to my site, I&amp;#8217;m reusing the &amp;#8216;short&amp;#8217; chunk of YAML Front Matter, but you can call it whatever you like.)&lt;/p&gt;
+
+&lt;p&gt;Then, add a &lt;code&gt;div&lt;/code&gt; somewhere in your post template where you&amp;#8217;d like your comments to display, and a note to inform readers that they can tweet comments to your weblog. The relevant part of my &lt;a href='http://wiki.github.com/mojombo/jekyll'&gt;jekyll&lt;/a&gt; post template looks like this (only without those backslashes):&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='nt'&gt;&amp;lt;section&amp;gt;&lt;/span&gt;
+&lt;span class='nt'&gt;&amp;lt;header&amp;gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Comments&lt;span class='nt'&gt;&amp;lt;/h1&amp;gt;&amp;lt;/header&amp;gt;&lt;/span&gt;
+&lt;span class='nt'&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Add a comment by tweeting with the hashtag #mot_\{\{ page.short \}\}&lt;span class='nt'&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class='nt'&gt;&amp;lt;div&lt;/span&gt; &lt;span class='na'&gt;id=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;tweets&amp;quot;&lt;/span&gt;&lt;span class='nt'&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class='nt'&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;As you can see, I&amp;#8217;ve decided my hashtag will always begin #mot_, followed by the letters I&amp;#8217;ve chosen in the YAML Front Matter&amp;#8211;this results in a pretty odd string of letters, which should hopefully avoid the problem of displaying any irrelevant tweets that happen to have the same hashtag).&lt;/p&gt;
+
+&lt;p&gt;Next, download &lt;a href='http://juitter.com/'&gt;Juitter&lt;/a&gt;, stick it in your scripts directory, and add it in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; of your site template.&lt;/p&gt;
+
+&lt;p&gt;Finally, add something like the following snippet of JavaScript&amp;#8211;again, without those pesky backslashes&amp;#8211;on pages where you want the Twitter comments feature to work:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='nb'&gt;document&lt;/span&gt;&lt;span class='p'&gt;).&lt;/span&gt;&lt;span class='nx'&gt;ready&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='kd'&gt;function&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+&lt;span class='nx'&gt;$&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;Juitter&lt;/span&gt;&lt;span class='p'&gt;.&lt;/span&gt;&lt;span class='nx'&gt;start&lt;/span&gt;&lt;span class='p'&gt;({&lt;/span&gt;
+	&lt;span class='nx'&gt;searchType&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;searchWord&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt;
+	&lt;span class='nx'&gt;searchObject&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;%23mot_\{\{ page.short \}\}&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt;
+	&lt;span class='nx'&gt;placeHolder&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt;&lt;span class='s2'&gt;&amp;quot;tweets&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt;
+	&lt;span class='nx'&gt;loadMSG&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;&amp;lt;em&amp;gt;There are no comments on this post, yet...&amp;lt;/em&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt;
+	&lt;span class='p'&gt;});&lt;/span&gt;
+	&lt;span class='p'&gt;});&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Replace &lt;code&gt;page.short&lt;/code&gt; with the Liquid template tag that matches your YAML Front Matter, and note that you&amp;#8217;ll need to &lt;a href='http://en.wikipedia.org/wiki/URL_encoding#Percent-encoding_reserved_characters' title='It would be nice if Juitter mentioned this on their site!'&gt;URL encode&lt;/a&gt; the &lt;code&gt;#&lt;/code&gt; to &lt;code&gt;%23&lt;/code&gt;. You could also add, say, a post&amp;#8217;s tags to Juitter&amp;#8217;s &lt;code&gt;searchObject&lt;/code&gt;, if you wanted to includ general discussion on Twitter around the topic of your post, or anything else you fancy. (I had hoped to mimic Disqus&amp;#8217; clever tracking of tweets that mention a post, which uses &lt;a href='http://www.backtype.com/'&gt;backtype&lt;/a&gt; and &lt;a href='http://www.ubervu.com'&gt;UberVu&lt;/a&gt;, by including my short &lt;abbr&gt;URL&lt;/abbr&gt;s, but Juitter doesn&amp;#8217;t like those either.)&lt;/p&gt;
+
+&lt;p&gt;Of course, though the instructions above apply to &lt;a href='http://wiki.github.com/mojombo/jekyll'&gt;jekyll&lt;/a&gt;, this will work with pretty much any weblogging system, as long as you can generate a unique string for your hashtag (WordPress users, for example, could make use of the &lt;a href='http://codex.wordpress.org/Template_Tags/the_ID'&gt;&lt;code&gt;&amp;lt;?php the_ID(); ?&amp;gt;&lt;/code&gt;&lt;/a&gt; tag.)&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s no match for a full-fledged commenting system&amp;#8211;for one thing, comments are limited to 140 characters, and potential commenters to Twitter users&amp;#8211;but I thought it&amp;#8217;d be a fun way to let visitors have their say.&lt;/p&gt;
+
+&lt;p&gt;Good idea? Bad idea? Fire up your Twitter client and let me know!&lt;/p&gt;</content>
+ </entry>
+
+
+
+
+
+
+
+ <entry>
+   <title>Mapumental</title>
+   <link href="http://mottr.am/2009/11/08/mapumental/"/>
+   <updated>2009-11-08T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/11/08/mapumental</id>
+   <content type="html">&lt;p&gt;&lt;a href='http://mapumental.channel4.com/' title='Mapumental'&gt;Mapumental&lt;/a&gt; is a fascinating new project by &lt;a href='http://mysociety.org' title='Everything they do is clever and useful'&gt;MySociety.org&lt;/a&gt; and &lt;a href='http://www.4ip.org.uk/' title='Channel 4&amp;apos;s public service digital media fund'&gt;4iP&lt;/a&gt; that builds on MySociety.org&amp;#8217;s &lt;a href='http://www.mysociety.org/2007/more-travel-maps/'&gt;earlier work on data mapping&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='http://mottr.am.nyud.net/u/2009/11/mapumental.jpg' alt='A Mapumental map of the Wirral' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Feed it a &lt;abbr&gt;UK&lt;/abbr&gt; postcode, and it will generate an interactive &lt;a href='http://en.wikipedia.org/wiki/Choropleth_map' title='A choropleth map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map'&gt;choropleth map&lt;/a&gt;, which lets you see locations highlighted by public transport commute times, house prices and &amp;#8216;scenicness&amp;#8217;.&lt;/p&gt;
+
+&lt;p&gt;The service is in private beta at the moment. (My invitation arrived immediately after signing up, but the site is a wee bit slow, and prone to serving up error messages instead of maps&amp;#8211;clearing cookies fixed everything for me, but your mileage may vary.)&lt;/p&gt;</content>
+ </entry>
+
+
+
+
+
+
+<entry>
+  <title>The Overbite Project</title>
+  <link href="http://gopher.floodgap.com/overbite/"/>
+  <updated>2009-11-07T00:00:00+00:00</updated>
+  <id>http://mottr.am/2009/11/07/the-overbite-project</id>
+  <content type="html">&lt;p&gt;The Overbite Project make a Firefox add-on that adds Gopher support to current browsers. Strange but true: there are &lt;em&gt;&lt;a href='http://en.wikipedia.org/wiki/Gopher_%28protocol%29#Availability_of_Gopher_today' title='Wikipedia: Availability of Gopher today'&gt;more&lt;/a&gt;&lt;/em&gt; Gopher servers &lt;a href='gopher://gopher.floodgap.com/1/world'&gt;online&lt;/a&gt; today than there were in 2007! &lt;strong&gt;Update 11/11/09:&lt;/strong&gt; An &lt;a href='http://arstechnica.com/tech-policy/news/2009/11/the-web-may-have-won-but-gopher-tunnels-on.ars?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=rss'&gt;Ars Technica piece on Gopher&lt;/a&gt; includes links to a Gopherchan, and a &lt;a href='gopher://gopher.floodgap.com/1/fun/twitpher?segphault'&gt;Gopher Twitter stream&lt;/a&gt;.&lt;/p&gt;&lt;p&gt; &lt;a href=&quot;http://mottr.am/2009/11/07/the-overbite-project/&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+
+<entry>
+  <title>Normanstrike</title>
+  <link href="http://normanstrike.wordpress.com/"/>
+  <updated>2009-11-06T00:00:00+00:00</updated>
+  <id>http://mottr.am/2009/11/06/normanstrike</id>
+  <content type="html">&lt;p&gt;Normanstrike is weblogging the Miners Strike:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8230;to commemorate the 25th Anniversary of the strike starting I thought people might be interested in the diary I kept for recording my memories of what I went through and how it changed my whole life.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt; &lt;a href=&quot;http://mottr.am/2009/11/06/normanstrike/&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+
+
+ <entry>
+   <title>HTML 5 &amp; Internet Explorer - Fair Warning</title>
+   <link href="http://mottr.am/2009/11/05/html-5-and-ie-a-warning/"/>
+   <updated>2009-11-05T00:00:00+00:00</updated>
+   <id>http://mottr.am/2009/11/05/html-5-and-ie-a-warning</id>
+   <content type="html">&lt;p&gt;Most articles and weblog posts on using &lt;abbr&gt;HTML&lt;/abbr&gt; 5 recommended &lt;a href='http://remysharp.com/2009/01/07/html5-enabling-script/'&gt;Remy Sharp&amp;#8217;s handy script&lt;/a&gt; to make Internet Explorer recognise &lt;abbr&gt;HTML&lt;/abbr&gt; 5&amp;#8217;s new tags. But few offer a solution to the problem of folk browsing an HTML 5 site in IE with JavaScript turned off.&lt;/p&gt;
+
+&lt;p&gt;Rather than treat &lt;abbr&gt;JS&lt;/abbr&gt;-averse &lt;abbr&gt;IE&lt;/abbr&gt; visitors to a hideous mess of a site, I&amp;#8217;ve decided to treat them to a hideous mess of a site plus a polite suggestion to switch JavaScript on:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='c'&gt;&amp;lt;!--[if IE]&amp;gt;&lt;/span&gt;
+&lt;span class='c'&gt;&amp;lt;noscript&amp;gt;&lt;/span&gt;
+&lt;span class='c'&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
+&lt;span class='c'&gt;&amp;lt;p&amp;gt;Are you using Internet Explorer with JavaScript turned off?&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class='c'&gt;&amp;lt;p&amp;gt;This site probably looks a bit of a mess.&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class='c'&gt;&amp;lt;p&amp;gt;If you can, turn JavaScript on, and reload the page - that&lt;/span&gt;
+&lt;span class='c'&gt;should fix the problem.&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class='c'&gt;&amp;lt;p&amp;gt;If you can&amp;#39;t do that, my apologies. For fun,&lt;/span&gt;
+&lt;span class='c'&gt;I made the site using new code that Explorer doesn&amp;#39;t&lt;/span&gt;
+&lt;span class='c'&gt;understand just yet.&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class='c'&gt;&amp;lt;p&amp;gt;Comments? Complaints? Email me at j@ck.mottr.am&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class='c'&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class='c'&gt;&amp;lt;/noscript&amp;gt;&lt;/span&gt;
+&lt;span class='c'&gt;&amp;lt;![endif]--&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Since I&amp;#8217;m already serving all versions of &lt;abbr&gt;IE&lt;/abbr&gt; a special stylesheet, I&amp;#8217;ve added a bit of &lt;abbr&gt;CSS&lt;/abbr&gt; to make &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; look all warningy:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='nt'&gt;noscript&lt;/span&gt; &lt;span class='p'&gt;{&lt;/span&gt;
+	&lt;span class='k'&gt;margin&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt;&lt;span class='m'&gt;60px&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+	&lt;span class='k'&gt;padding&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt;&lt;span class='m'&gt;10px&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+	&lt;span class='k'&gt;color&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt;&lt;span class='m'&gt;#ff0000&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+	&lt;span class='k'&gt;background&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt;&lt;span class='m'&gt;#ffffe0&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+	&lt;span class='k'&gt;border&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt;&lt;span class='m'&gt;1px&lt;/span&gt; &lt;span class='k'&gt;solid&lt;/span&gt; &lt;span class='m'&gt;#ff0000&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;span class='p'&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;I wonder if it&amp;#8217;s worth adding instructions on &lt;em&gt;how&lt;/em&gt; to switch JavaScript on?&lt;/p&gt;</content>
+ </entry>
+
+
+
+
+
+
+<entry>
+  <title>jQuery URL Parser</title>
+  <link href="http://projects.allmarkedup.com/jquery_url_parser/"/>
+  <updated>2009-11-03T00:00:00+00:00</updated>
+  <id>http://mottr.am/2009/11/03/jquery-url-parser</id>
+  <content type="html">&lt;p&gt;&amp;#8220;A jQuery plugin to parse urls and provides easy access to information within them, such as the protocol, host, port, the segments that make up the path and the various query string values.&amp;#8221;&lt;/p&gt;&lt;p&gt; &lt;a href=&quot;http://mottr.am/2009/11/03/jquery-url-parser/&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+<entry>
+  <title>Life with the Black Panthers</title>
+  <link href="http://mottr.am/2009/10/25/life-with-the-black-panthers/"/>
+  <updated>2009-10-25T00:00:00+01:00</updated>
+  <id>http://mottr.am/2009/10/25/life-with-the-black-panthers</id>
+  <content type="html">&lt;img src=&quot;/u/2009/10/black-panthers.jpg&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;&lt;p&gt;&lt;em&gt;Kathleen Cleaver and Black Panther co-founder Bobby Seale (right) at a &amp;#8220;Free Huey&amp;#8221; rally in Oakland, California, in the summer of 1968.&lt;/em&gt;, taken from a &lt;a href='http://www.guardian.co.uk/artanddesign/2009/oct/25/black-panthers-photographs-howard-bingham'&gt;new book&lt;/a&gt; by Howard Bingham.&lt;/p&gt;
+
+&lt;p&gt;See also: The Black Panther&amp;#8217;s &lt;a href='http://www.blackpanther.org/TenPoint.htm'&gt;Ten Point Program&lt;/a&gt;&amp;#8211;I was surprised to find that, separatism aside, it&amp;#8217;s a pretty reasonable manifesto.&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+
+
+
+
+<entry>
+  <title>Data Newspaper</title>
+  <link href="http://blog.newspaperclub.co.uk/2009/10/16/data-gov-uk-newspaper/"/>
+  <updated>2009-10-23T00:00:00+01:00</updated>
+  <id>http://mottr.am/2009/10/23/data-newspaper</id>
+  <content type="html">&lt;p&gt;&amp;#8220;We’ve been thinking about the beta Data.gov.uk repository, and wanted to explore putting some of the information contained within into people’s hands in a form that is accessible, timely, and relevant. And perhaps unsurprisingly, we thought a good way to do that was with a newspaper. So here it is, the &lt;em&gt;Postcode Paper&lt;/em&gt;.&amp;#8221; Wonderful. I can&amp;#8217;t wait for &lt;a href='http://www.newspaperclub.co.uk/'&gt;Newspaper Club&lt;/a&gt; to launch, and have an idea for a hyper-local newspaper of my own brewing.&lt;/p&gt;&lt;p&gt; &lt;a href=&quot;http://mottr.am/2009/10/23/data-newspaper/&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+<entry>
+  <title>Cassetteboy Does Griffin</title>
+  <link href="http://mottr.am/2009/10/23/cassetteboy-does-griffin/"/>
+  <updated>2009-10-23T00:00:00+01:00</updated>
+  <id>http://mottr.am/2009/10/23/cassetteboy-does-griffin</id>
+  <content type="html">&lt;p&gt;&lt;em&gt;Please click through to the website to view this video.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Truth edit.&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+<entry>
+  <title>Neo-Polaroid</title>
+  <link href="http://mottr.am/2009/10/22/neo-polaroid/"/>
+  <updated>2009-10-22T00:00:00+01:00</updated>
+  <id>http://mottr.am/2009/10/22/neo-polaroid</id>
+  <content type="html">&lt;img src=&quot;/u/2009/10/tehran-photobooth.jpg&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;&lt;p&gt;In Tehran, you can buy a &amp;#8220;Polaroid&amp;#8221; memento from a man with a digital camera and portable printer. Jan Chipchase points out the significance of &lt;a href='http://www.janchipchase.com/blog/archives/2009/10/everyday-forensics.html'&gt;photographing the printing of the photograph&lt;/a&gt;.&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+
+
+
+
+<entry>
+  <title>Markdown for Gedit</title>
+  <link href="http://www.jpfleury.net/gedit-markdown"/>
+  <updated>2009-10-21T00:00:00+01:00</updated>
+  <id>http://mottr.am/2009/10/21/markdown-for-gedit</id>
+  <content type="html">&lt;p&gt;Markdown syntax highlighting for &lt;code&gt;gedit&lt;/code&gt;. (I&amp;#8217;m mostly linking to it because I just found out that the French for &lt;em&gt;download&lt;/em&gt; is &lt;em&gt;téléchargement&lt;/em&gt;. Lovely.)&lt;/p&gt;&lt;p&gt; &lt;a href=&quot;http://mottr.am/2009/10/21/markdown-for-gedit/&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+<entry>
+  <title>Capote's Ball</title>
+  <link href="http://mottr.am/2009/10/20/capotes-ball/"/>
+  <updated>2009-10-20T00:00:00+01:00</updated>
+  <id>http://mottr.am/2009/10/20/capotes-ball</id>
+  <content type="html">&lt;img src=&quot;/u/2009/10/capote-ball.jpg&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;&lt;p&gt;Candace Bergen, bored at Truman Capote&amp;#8217;s masked ball, by &lt;a href='http://www.elliotterwitt.com/lang/index.html'&gt;Elliot Erwitt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Via &lt;a href='http://iconicphotos.wordpress.com/'&gt;Iconic Photos&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+
+
+
+
+<entry>
+  <title>Finland makes broadband access a legal right</title>
+  <link href="http://www.guardian.co.uk/technology/2009/oct/14/finland-broadband"/>
+  <updated>2009-10-18T00:00:00+01:00</updated>
+  <id>http://mottr.am/2009/10/18/finland-makes-broadband-access-a-legal-right</id>
+  <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;&lt;p&gt; &lt;a href=&quot;http://mottr.am/2009/10/18/finland-makes-broadband-access-a-legal-right/&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+<entry>
+  <title>Ashtray</title>
+  <link href="http://mottr.am/2009/10/11/ashtray/"/>
+  <updated>2009-10-11T00:00:00+01:00</updated>
+  <id>http://mottr.am/2009/10/11/ashtray</id>
+  <content type="html">&lt;img src=&quot;/u/2009/10/ashtray.jpg&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;&lt;p&gt;By &lt;a href='http://www.burakkaynak.com/works/fire-alarmashtray/'&gt;Burak Kaynak&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+
+
+
+
+<entry>
+  <title>Surly</title>
+  <link href="http://sur.ly"/>
+  <updated>2009-10-10T00:00:00+01:00</updated>
+  <id>http://mottr.am/2009/10/10/surly</id>
+  <content type="html">&lt;p&gt;Surly by name, surly by&amp;#8230; no, that&amp;#8217;s not right. Anyway, if you need a website, click on through!&lt;/p&gt;&lt;p&gt; &lt;a href=&quot;http://mottr.am/2009/10/10/surly/&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+<entry>
+  <title>See Ya</title>
+  <link href="http://mottr.am/2009/10/09/see-ya/"/>
+  <updated>2009-10-09T00:00:00+01:00</updated>
+  <id>http://mottr.am/2009/10/09/see-ya</id>
+  <content type="html">&lt;img src=&quot;/u/2009/10/barnes.jpg&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;&lt;p&gt;&lt;em&gt;Via &lt;a href='http://www.liverpoolecho.co.uk/sport/tranmere-rovers/tranmere-rovers-news/2009/08/29/trevor-s-final-wash-and-go-100252-24556189/'&gt;Mark&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content>
+</entry>
+
+
+
+
+
+
+</feed>
