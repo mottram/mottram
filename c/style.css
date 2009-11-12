@@ -192,7 +192,7 @@ footer address, .about address {
 	display:inline;
 }
 
-article, section#archive, div.contact, ul.more {
+article, section#archive, div.contact {
 	margin:0;
 	border:1px solid #ddd;
 	-webkit-box-shadow: 3px 3px 3px #ccc;
