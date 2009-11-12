@@ -236,12 +236,6 @@ ul.more li {
 	padding:0 14px;
 }
 
-/* photos, videos */
-
-img, object {
-	border:1px solid #aaa;
-}
-
 /* code */
 
 div.highlight pre {
