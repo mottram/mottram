@@ -1,0 +1,13 @@
+---
+title: 3 Frames
+layout: post
+type: photo
+image_url: /u/2009/06/pacino.gif
+description: Animated film sequences, three frames long.
+topics:
+ - art
+ - cinema
+---
+_From [3 Frames][1]_
+
+[1]:http://threeframes.net/

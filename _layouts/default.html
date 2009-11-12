@@ -13,7 +13,8 @@
 	<link rel="apple-touch-icon" href="/u/iphone.png"/>
 	<link rel="icon" type="image/ico" href="/favicon.ico" />
    	<link rel="alternate" type="application/rss+xml" href="atom.xml" title="Mottr.am latest posts" />
-   	<link rel="stylesheet" href="/c/style.css" type="text/css" media="screen, projection" />
+   	<link rel="stylesheet" href="/c/style.css" type="text/css" media="screen, projection" />{% if page.short %}
+	<link rel="stylesheet" href="/c/jquery.fancybox.css" type="text/css" media="screen, projection" />{% endif %}
 	<!--[if IE]>
 	<link rel="stylesheet" href="/c/ie.css" type="text/css" media="screen, projection">
    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -44,6 +45,15 @@
 <![endif]-->
 {% include nav.html %}
     {{ content }}
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-122435-3");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
 </body>
 </html>
 

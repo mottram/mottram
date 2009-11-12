@@ -1,0 +1,11 @@
+---
+title: Clipstart
+layout: post
+type: link
+link_to: http://riverfold.com/software/clipstart
+description: Clipstart is like iPhoto, only for videos.
+topics:
+ - osx
+ - video
+---
+An iPhoto-like application for storing, organising and publishing your video clips.

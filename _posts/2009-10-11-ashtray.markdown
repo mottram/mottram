@@ -1,0 +1,13 @@
+---
+title: Ashtray
+layout: post
+type: photo
+image_url: /u/2009/10/ashtray.jpg
+description: An amusing ashtray.
+topics:
+ - design
+ - funny
+---
+By [Burak Kaynak][1]
+
+[1]:http://www.burakkaynak.com/works/fire-alarmashtray/

@@ -1,0 +1,12 @@
+---
+title: Surly
+layout: post
+type: link
+link_to: http://sur.ly
+description: A link to Sur.ly, a new web design firm
+topics:
+ - surly
+ - design
+---
+
+Surly by name, surly by... no, that's not right. Anyway, if you need a website, click on through!

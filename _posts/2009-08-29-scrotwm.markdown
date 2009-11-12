@@ -1,0 +1,11 @@
+---
+title: Scrotwm
+layout: post
+type: link
+link_to: http://www.scrotwm.org/
+description: The perfect window manager for the Eee PC 701?
+topics:
+ - linux
+ - scrotwm
+---
+I'm on a never-ending quest to find a window manager that's perfect for the Eee PC 701, and the daftly-named Scrotwm looks to be the best match so far--it's almost as minimal as [Ratpoison](http://www.nongnu.org/ratpoison/ "Ratpoison window manager"), but with most of the features of [dwm](http://dwm.suckless.org/ "dwm"), has a very simple configuration file, and sensible default keyboard commands. Note to self: do a Linux version of Patrick's [Minimal Mac](http://minimalmac.com/) weblog.
