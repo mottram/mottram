@@ -425,7 +425,7 @@ sup {
 	vertical-align: baseline;
 	vertical-align: bottom;
 	position: relative;
-	bottom: 1ex;
+	bottom: 2ex;
 }
 
 /* misc. */
@@ -439,7 +439,7 @@ abbr {
 }
 
 .museo {
-	font-family:"Museo Sans 500", serif;
+	font-family:"Museo Sans 500", Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
 /* code highlighting */

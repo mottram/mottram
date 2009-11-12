@@ -3,7 +3,7 @@ nav#main {
 	filter: alpha(opacity=80); /* And for IE 5-7, in theory */
 }
 
-article, section, nav#more, div#archive, h1, h2 {
+article, section, .about article, div.contact, h1, h2 {
 	border:none; /* gets rid of boxes and underlines */
 }
 
