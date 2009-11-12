@@ -69,14 +69,4 @@ $(document).ready(function() {
 		      name: 'light' // Inherit the rest of the attributes from the preset dark style
 		   }
 		});	
-		
-		jQuery(function($){
-
-		$("h1").each(
-		    function(){
-		        $(this).html($(this).html().replace(/&amp;/g,'<span class="amp">&amp;<\/span>'));
-		    }
-		);
-
-		});
 });

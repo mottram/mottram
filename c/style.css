@@ -10,15 +10,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	src: local('Museo Sans 500'), local('MuseoSans-500'), url('/f/MuseoSans_500.woff') format('woff'), url('/f/MuseoSans_500.otf') format('opentype'), url('/f/MuseoSans_500.svg#MuseoSans-500') format('svg');
 }
 
-html {
+body {
 	background: #fff;
 	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fafafa)) fixed no-repeat 0 100%;
 	background: -moz-linear-gradient(0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fafafa)) fixed no-repeat 0 100%;
 	line-height:24px;
-}
-
-body {
-	background:transparent;
 	color:#555;
 	font:normal 16px/24px Helvetica, Arial, sans-serif;
 }
@@ -43,8 +39,8 @@ h1, .about h2 {
 
 .link h1:after {
 	font-family:Baskerville, Palatino, "Book Antiqua", Georgia, serif;
+	color:#aaa;
 	font-weight:200;
-	color:#008;
 	font-size:24px;
 	content:" \261b";
 	}
@@ -80,11 +76,11 @@ a, a:link, a:visited, a:active{
 	-moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	}
+}
 	
 a:hover {
 	color:#777;
-	}
+}
 	
 /* nav - gratuitous CSS 3 abuse! */
 
@@ -196,7 +192,7 @@ footer address, .about address {
 	display:inline;
 }
 
-article, section#archive, div.contact {
+article, section#archive, div.contact, ul.more {
 	margin:0;
 	border:1px solid #ddd;
 	-webkit-box-shadow: 3px 3px 3px #ccc;
@@ -204,10 +200,6 @@ article, section#archive, div.contact {
 	box-shadow: 3px 3px 3px #ccc;
 	padding:48px 24px 24px 24px;
 	background: #fff;
-/* not sure about this - overkill? */
-/*	background: -webkit-gradient(linear,0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) scroll no-repeat 0 100%;
-	background: -moz-linear-gradient(0 60%,0 0,color-stop(.1,#fff),color-stop(1,#eaeaea)) scroll no-repeat 0 100%;
-*/
 }
 
 section#archive {
@@ -238,12 +230,14 @@ article ul li {
 }
 
 ul.more {
-	text-align:center;
+text-align:center;
+padding:4px 24px 4px 24px;
+height:24px !important;
 }
 
 ul.more li {
 	font-size: 13px;
-	padding:0 14px;
+	padding:0 14px 0 0;
 }
 
 /* code */
@@ -440,6 +434,14 @@ abbr {
 
 .museo {
 	font-family:"Museo Sans 500", Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+
+noscript.ie-warning {
+	margin:60px;
+	padding:10px;
+	color:#ff0000;
+	background:#ffffe0;
+	border:1px solid #ff0000;
 }
 
 /* code highlighting */
