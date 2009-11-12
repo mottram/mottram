@@ -2,7 +2,14 @@
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}a{border:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
 /* end reset */
 
-/* styles */
+/* styles - a bit of a mess! */
+
+@font-face {
+	font-family: 'Museo Sans 500';
+	src: url('MuseoSans_500.eot');
+	src: local('Museo Sans 500'), local('MuseoSans-500'), url('/f/MuseoSans_500.woff') format('woff'), url('/f/MuseoSans_500.otf') format('opentype'), url('/f/MuseoSans_500.svg#MuseoSans-500') format('svg');
+}
+
 html {
 	background: #fff;
 	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fafafa)) fixed no-repeat 0 100%;
@@ -27,6 +34,7 @@ dd, h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 }
 
 h1, .about h2 {
+	font-family:"Museo Sans 500", Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-size:28px;
 	font-weight:normal;
 	padding:0 0 12px 0;
@@ -35,6 +43,7 @@ h1, .about h2 {
 
 .link h1:after {
 	font-family:Baskerville, Palatino, "Book Antiqua", Georgia, serif;
+	font-weight:200;
 	color:#008;
 	font-size:24px;
 	content:" \261b";
@@ -132,6 +141,7 @@ nav ul li {
 }
 
 nav ul li a {
+	font-family:"Museo Sans 500", Helvetica, "Helvetica Neue", Arial, sans-serif;
 	text-shadow: #ddd 0 -1px 0, rgba(255,255,255,.2) 0 1px 0;
 	-moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -420,17 +430,16 @@ sup {
 
 /* misc. */
 
-.amp {
-	font-family:Baskerville, Palatino, "Book Antiqua", Georgia, serif;
-	font-style:italic;
-}
-
 em {
 	font-style:italic;
 }
 	
 abbr {
 	border:none !important;
+}
+
+.museo {
+	font-family:"Museo Sans 500", serif;
 }
 
 /* code highlighting */
