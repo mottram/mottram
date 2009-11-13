@@ -3,7 +3,7 @@ title: The Newton Returns
 layout: post
 type: basic
 short: newt
-loc: G49DT,UK
+loc: CH48,UK
 loc_name: Wirral
 time: T14:17:00Z
 description: Apple's latest patent application points to a new tablet with a stylus, just like the Newton.

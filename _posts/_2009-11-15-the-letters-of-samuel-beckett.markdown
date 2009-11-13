@@ -2,6 +2,7 @@
 title: The Letters of Samuel Beckett
 layout: post
 type: basic
+time: T09:00:00Z
 description: I'm reading the Letters of Samuel Beckett, Volume I, 1929 - 1940
 topics:
  - beckett
