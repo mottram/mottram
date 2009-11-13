@@ -3,7 +3,7 @@ title: Weblog Comments via Twitter
 layout: post
 type: basic
 short: tw
-loc: 11 Croft Drive,Wirral
+loc: CH48,UK
 loc_name: Wirral
 description: How to add comments from Twitter to your jekyll blog using jQuery and the Juitter plugin.
 topics:

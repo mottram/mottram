@@ -3,7 +3,7 @@ title: HTML 5 &amp; Internet Explorer - Fair Warning
 layout: post
 type: basic
 short: ie5
-loc: 11 Croft Drive,Wirral
+loc: CH48,UK
 loc_name: Wirral
 description: Using HTML 5? You should probably tell Internet Explorer users why your site looks rubbish if they have JavaScript turned off.
 topics:

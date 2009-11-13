@@ -1,5 +1,5 @@
 ---
-title: Revs, Rels & Short URLs
+title: Revs, Rels &amp; Short URLs
 layout: post
 type: basic
 short: su

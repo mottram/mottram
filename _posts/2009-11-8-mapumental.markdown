@@ -3,7 +3,7 @@ title: Mapumental
 layout: post
 type: basic
 short: mm
-loc: 11 Croft Drive,Wirral
+loc: CH48,UK
 loc_name: Wirral
 description: Mapumental offers interactive choropleth maps that you can filter by transport, house prices, and 'scenicness'.
 topics:

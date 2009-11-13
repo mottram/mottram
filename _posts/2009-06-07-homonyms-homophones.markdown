@@ -3,7 +3,7 @@ title: Homonyms &amp; Homophones
 layout: post
 type: basic
 short: hh
-loc: 18 Barrington Dr,Glasgow
+loc: G4,UK
 loc_name: Glasgow
 description: Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.
 topics:
