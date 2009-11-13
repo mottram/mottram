@@ -290,4 +290,5 @@ $(document).ready(function() {
 		);
 
 		});
-});
+		
+	});

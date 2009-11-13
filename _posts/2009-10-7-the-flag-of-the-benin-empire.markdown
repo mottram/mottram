@@ -2,7 +2,7 @@
 title: The Flag of the Benin Empire
 layout: post
 type: photo
-image_url: /u/2009/10/beninflag.png
+image_url: /u/2009/10/beninflag.jpg
 keywords: benin, flag
 description: The Flag of the Benin Empire
 topics:

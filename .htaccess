@@ -8,6 +8,10 @@ RewriteCond %{REQUEST_URI} \.html$
 RewriteCond %{HTTP_USER_AGENT} rv:1\.(([1-8]|9pre|9a|9b[0-4])\.[0-9.]+).*Gecko
 RewriteRule .* - [T=application/xhtml+xml]
 
+# Get rid of www
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
 ErrorDocument 404 /404/
 
 # Redirect old Wordpress stuff, redirect short URLs to canonical URLs
@@ -15,6 +19,7 @@ redirect 301 /page/2/ http://mottr.am/2/
 redirect 301 /page/3/ http://mottr.am/3/
 redirect 301 /page/4/ http://mottr.am/4/
 redirect 301 /feed/atom/ http://mottr.am/atom.xml
+redirect 301 /feed/ http://mottr.am/atom.xml
 {% for post in site.posts %}{% if post.short %}redirect 301 /{{ post.short }} http://mottr.am{{ post.id }}
 {% endif %}{% endfor %}
 

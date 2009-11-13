@@ -4,5 +4,5 @@ Disallow: /archive/
 Disallow: /u/
 Disallow: /2/
 Disallow: /3/
-Discallow: /4/
+Disallow: /4/
 Disallow: atom.xml
