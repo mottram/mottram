@@ -7,7 +7,7 @@ layout: nil
  <title>Mottr.am</title>
  <link href="http://mottr.am/atom.xml" rel="self"/>
  <link href="http://mottr.am/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <updated>{{ site.time | date: "%Y-%m-%d" }}</updated>
  <id>http://mottr.am/</id>
  <author>
    <name>Jack Mottram</name>
@@ -18,7 +18,7 @@ layout: nil
 <entry>
   <title>{{ post.title }}</title>
   <link href="http://mottr.am{{ post.url }}"/>
-  <updated>{{ post.date | date_to_xmlschema }}{% if post.time %}{{ post.time }}{% endif %}</updated>
+  <updated>{{ post.date | date: "%Y-%m-%d" }}{% if post.time %}{{ post.time }}{% endif %}</updated>
   <id>http://mottr.am{{ post.id }}</id>
   <content type="html">&lt;img src=&quot;{{ post.image_url }}&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;{{ post.content | xml_escape }}</content>
 </entry>
@@ -27,7 +27,7 @@ layout: nil
 <entry>
   <title>{{ post.title }}</title>
   <link href="http://mottr.am{{ post.url }}"/>
-  <updated>{{ post.date | date_to_xmlschema }}{% if post.time %}{{ post.time }}{% endif %}</updated>
+  <updated>{{ post.date | date: "%Y-%m-%d" }}{% if post.time %}{{ post.time }}{% endif %}</updated>
   <id>http://mottr.am{{ post.id }}</id>
   <content type="html">&lt;p&gt;&lt;em&gt;Please click through to the website to view this video.&lt;/em&gt;&lt;/p&gt;{{ post.content | xml_escape }}</content>
 </entry>
@@ -36,7 +36,7 @@ layout: nil
 <entry>
   <title>{{ post.title }}</title>
   <link href="http://mottr.am{{ post.url }}"/>
-  <updated>{{ post.date | date_to_xmlschema }}{% if post.time %}{{ post.time }}{% endif %}</updated>
+  <updated>{{ post.date | date: "%Y-%m-%d" }}{% if post.time %}{{ post.time }}{% endif %}</updated>
   <id>http://mottr.am{{ post.id }}</id>
   <content type="html">&lt;p&gt;&lt;em&gt;Please click through to the website to stream this audio.&lt;/em&gt;&lt;/p&gt;{{ post.content | xml_escape }}</content>
   <link rel="enclosure" type="audio/mpeg" title="MP3" href="{{ post.audio_link }}" />
@@ -46,7 +46,7 @@ layout: nil
 <entry>
   <title>{{ post.title }}</title>
   <link href="{{ post.link_to }}"/>
-  <updated>{{ post.date | date_to_xmlschema }}{% if post.time %}{{ post.time }}{% endif %}</updated>
+  <updated>{{ post.date | date: "%Y-%m-%d" }}{% if post.time %}{{ post.time }}{% endif %}</updated>
   <id>http://mottr.am{{ post.id }}</id>
   <content type="html">{{ post.content | xml_escape }}&lt;p&gt; &lt;a href=&quot;http://mottr.am{{ post.url }}&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
@@ -55,7 +55,7 @@ layout: nil
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://mottr.am{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}{% if post.time %}{{ post.time }}{% endif %}</updated>
+   <updated>{{ post.date | date: "%Y-%m-%d" }}{% if post.time %}{{ post.time }}{% endif %}</updated>
    <id>http://mottr.am{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
