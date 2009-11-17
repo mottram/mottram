@@ -1,0 +1,17 @@
+---
+title: Film
+layout: post
+time: T21:14:09Z
+type: video
+video_link: http://www.youtube.com/v/Yws4Rty2kXw
+description: Film, by Samuel Beckett, starring Buster Keaton.
+topics:
+ - beckett
+ - keaton
+---
+Beckett plus Keaton equals perfection. [Part II][2].
+
+See also: [On Directing Samuel Beckett's _Film_][1]
+
+[1]:http://www.ubu.com/papers/beckett_schneider.html
+[2]:http://www.youtube.com/v/s7UmYKixiYY
