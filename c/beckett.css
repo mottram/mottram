@@ -6,14 +6,14 @@
 
 body {
 	color:#fafafa;
-	font-family:"Hoefler Text", Georgia, serif;
+	font-family:Georgia, serif;
 	background:#48555F;
-	background: -webkit-gradient(linear, left top, left bottom, from(#48555f), to(#000)) no-repeat fixed;
-	background: -moz-linear-gradient(top, #48555f, #000000);
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#48555f)) no-repeat fixed;
+	background: -moz-linear-gradient(top, #000, #48555f) fixed;
 }
 
 p {
-	font-weight:lighter;
+	font-weight:100;
 	margin-bottom:0.4em;
 	}
 	
@@ -27,6 +27,8 @@ nav#main {
 		-webkit-box-shadow:none;
 		-moz-box-shadow:none;
 		box-shadow:none;
+		text-align:center;
+		text-transform:uppercase;
 	}
 
 nav#main input {
@@ -116,15 +118,13 @@ img {
 	padding:0.2em;
 	border:1px solid #aaa !important;
 	background:#48555F;
-	-moz-box-shadow:1px 2px 5px #aaa;
-	-webkit-box-shadow:1px 2px 5px #aaa;
    	-moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
 img:hover {
-	-moz-transform:rotate(-4deg) scale(1.5);
-	-webkit-transform:rotate(-4deg) scale(1.5);
+	-moz-transform:rotate(-1deg) scale(1.4);
+	-webkit-transform:rotate(-1deg) scale(1.4);
 }
 
 .amp {
