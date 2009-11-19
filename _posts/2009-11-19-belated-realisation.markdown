@@ -18,9 +18,7 @@ But, <a href="http://submitresponse.co.uk/weblog/2003/08/13/t610-on-the-desktop/
 
 As far as I can tell, six years later, my iPhone--which makes the t610, a great 'phone in its day, look like a relic of a bygone age--can't show me who's calling on my Mac, and won't let me chat via SMS from the comfort of my keyboard.
 
-Perhaps I've missed something--the old Address Book Bluetooth features were [pretty obscure][5].
-
-In which case: does anyone know how to bring the iPhone and <abbr>OS</abbr> 10.6 up to the standard set by the t610 and <abbr>OS</abbr> 10.2?
+Perhaps I've missed something--the old Address Book Bluetooth features were [pretty obscure][5]. In which case: does anyone know how to bring the iPhone and <abbr>OS</abbr> 10.6 up to the standard set by the t610 and <abbr>OS</abbr> 10.2?
 
 Having to walk across the room to answer a text message is just so 2002.
 
