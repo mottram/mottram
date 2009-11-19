@@ -10,7 +10,7 @@ topics:
  - beckett
  - modernism
 ---
-<a href="http://www.amazon.co.uk/gp/product/0521867932?ie=UTF8&amp;tag=submirespo-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0521867932"><img class="book" src="/u/2009/11/beckett.jpg" width="200" alt="The cover of The Letters of Samuel Beckett, Vol. I" /></a>
+<a href="http://www.amazon.co.uk/gp/product/0521867932?ie=UTF8&amp;tag=submirespo-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0521867932"><img class="left" src="/u/2009/11/beckett.jpg" width="200" alt="The cover of The Letters of Samuel Beckett, Vol. I" /></a>
 I'm about halfway through _<a href="http://www.amazon.co.uk/gp/product/0521867932?ie=UTF8&amp;tag=submirespo-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0521867932">The Letters of Samuel Beckett: Volume I, 1929&#8212;1940</a>_. It's the first in a four volume edition<sup id="f1"><a href="#n1">1</a></sup>, and I cannot bloody wait for the next three.
 
 This is because Beckett, even when dashing off a quick note to a mate, can't help but experiment with language. He coins new words, shows off odd archaisms, crashes French into German into English (sometimes in the same _word_). And he flits from scatalogical flights of fancy that would make Malcolm Tucker blush--writing is constantly compared to having a good solid _merde_--to beautifully rude dismissals of the writers he's reading<sup id="f2"><a href="#n2">2</a></sup>. He is, of course, reading constantly, at fever pitch (though not _too_ widely) and filching phrases and images from whoever crosses his path, Austen even--he calls her 'the divine Jane'!
