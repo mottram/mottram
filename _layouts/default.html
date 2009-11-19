@@ -14,7 +14,8 @@
 	<link rel="next" href="{{ page.next.url }}" title="{{ page.next.title }}" />{% endif %}{% if page.previous %}
 	<link rel="previous" href="{{ page.previous.url }}" title="{{ page.previous.title }}" />{% endif %}
    	<link rel="alternate" type="application/rss+xml" href="atom.xml" title="Mottr.am latest posts" />
-   	<link rel="stylesheet" href="/c/style.css" type="text/css" media="screen, projection" />{% if page.short %}
+   	<link rel="stylesheet" href="/c/style.css" type="text/css" media="screen, projection" />{% if page.css %}
+	<link rel="stylesheet" href="/c/{{ page.css }}.css" type="text/css" media="screen, projection" />{% endif %}{% if page.short %}
 	<link rel="stylesheet" href="/c/jquery.fancybox.css" type="text/css" media="screen, projection" />{% endif %}
 	<!--[if IE]>
 	<link rel="stylesheet" href="/c/ie.css" type="text/css" media="screen, projection" />

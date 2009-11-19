@@ -57,7 +57,7 @@ layout: nil
    <link href="http://mottr.am{{ post.url }}"/>
    <updated>{{ post.date | date: "%Y-%m-%d" }}{% if post.time %}{{ post.time }}{% endif %}</updated>
    <id>http://mottr.am{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <content type="html">{% if post.css %}&lt;p&gt;&lt;em&gt;This post has a one-off design, please click through to the website!&lt;/em&gt;&lt;/p&gt;{% endif %}{{ post.content | xml_escape }}</content>
  </entry>
 {% endif %}
 {% endfor %}
