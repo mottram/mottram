@@ -19,7 +19,7 @@ Reading the letters, it's hard to avoid the feeling that Beckett is in rehearsal
 
 The only sour note is the sense that we readers are missing out on material that Fehsenfeld, Overbeck <span class="amp">&amp;</span> co. have enjoyed. Beckett's permission to publish his correspondence only applied to letters 'having bearing on <span>[his]</span> work', which the editors, quite rightly, took to mean 'pretty much everything'. The notoriously prickly Beckett estate didn't agree. So, if you're looking for literary tittle-tattle (which I admit I was), you're out of luck: there's nowt about <abbr>SB</abbr>'s fling with Peggy Guggenheim, nor his decision to spurn poor Lucia Joyce, save hints here and there in the editors' notes.
 
-If you're a fan<sup id="f4"><a href="#n4">4</a></sup>, this is already on your Christmas list, I'm sure. If you're _not_ a fan, this volume might well change your mind--here Beckett is thoroughly accessible, often charming, not words familiar to those who've banged their heads against his published works!
+If you're a fan<sup id="f4"><a href="#n4">4</a></sup>, the _Letters_ are already on your Christmas list, I'm sure. If you're _not_ a fan, this volume might well change your mind--here Beckett is thoroughly accessible, often charming, not words familiar to those who've banged their heads against his published works!
 
 <aside>
 <ol>
