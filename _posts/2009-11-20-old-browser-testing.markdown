@@ -28,5 +28,5 @@ Before I shut down the virtual Bondi Blue iMac G3, I took a quick look at this w
 
 Not bad, considering.
 
-[1]:http://hackthemac.blogspot.com/2008/08/chubby-bunny-old-virtual-machine.html "One-click PPC Mac emulation"
+[1]:http://hackthemac.blogspot.com/2008/08/chubby-bunny-old-virtual-machine.html
 [2]:http://gwenole.beauchesne.info//en/projects/sheepshaver "Great project, but a right bugger to get running"
