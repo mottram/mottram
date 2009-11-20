@@ -14,15 +14,15 @@ Rather than wade through a load of file format gobbledegook to find the informat
 
 Before I shut down the virtual Bondi Blue iMac G3, I took a quick look at this website in the browsers I had handy.
 
-#### iCab 3.0.5
+## iCab 3.0.5
 
 <img src="/u/2009/11/icab.jpg" width="590" alt="This website in iCab 3.0.5" />
 
-#### Netscape 7.0
+## Netscape 7.0
 
 <img src="/u/2009/11/netscape7.jpg" width="590" alt="This website in Netscape 7.0" />
 
-#### Internet Explorer for Mac 4.5
+## Internet Explorer for Mac 4.5
 
 <img src="/u/2009/11/ie45.jpg" width="590" alt="This website in IE Mac 4.5" />
 
