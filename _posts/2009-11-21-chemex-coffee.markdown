@@ -25,9 +25,9 @@ Here are a few Chemex tips I've gleaned from the web and a week's use:
 
 3. **Go easy on the water**. First you need to dribble a small amount of water onto your grounds, and wait a bit for them to 'bloom'. Then drizzle on some more, all over the grounds, until the water level is almost at the top. Then wait until the coffee is not-quite-dry, and top it up again, pouring into the centre. Sounds fiddly, I know, but it's only three pours from the kettle.
 
-That's it. In three or four minutes, you've got a zingy and fresh-tasting mug of coffee. Yum. A cup brewed with the Chemex isn't _superior_ to coffee brewed with a cafetière, or with my one-cup filter thingy, but it is very different. The clarity of the brew is the first thing I noticed, and a complete lack of bitterness. And--at the risk of sounding like a gold-plated-interconnects audiophile--I really can detect a wider variety of flavours and aromas in a Chemex-brewed cup.
+That's it. In three or four minutes, you've got a zingy and fresh-tasting mug of coffee. Yum. A cup brewed with the Chemex isn't _superior_ to coffee brewed with a cafetière, or with my one-cup filter thingy, but it is very different. The clarity of the brew is the first thing I noticed, along with a complete lack of bitterness. And--at the risk of sounding like a gold-plated-interconnects [audiophile][5]--I really can detect a wider variety of flavours and aromas, resulting in a more _complex_ flavour, in a Chemex-brewed cup. 
 
-This must be down to the quality of the Chemex paper filters, so I plan to trim one down to fit my Vietnamese job and fashion a cheap-poncey hybrid brewer. You knever know, it might be a coffee revelation.
+This must be down to the quality of the Chemex paper filters (or the jump from holes punched in metal to 'unbleached, oxygen cleaned' paper), so I plan to trim one down to fit my Vietnamese job and fashion a cheap-poncey hybrid brewer. You knever know, it might be a coffee revelation.
 
 More info:
 
@@ -39,3 +39,4 @@ More info:
 [2]:http://www.chemexcoffeemaker.com/ "Chemex Coffee Makers"
 [3]:http://vimeo.com/6161817
 [4]:http://www.inmymug.com/?p=233
+[5]:http://forums.audioholics.com/forums/showpost.php?s=97d4a3c39d247bf955a57b3953326a34&p=15412&postcount=28 "Audiophiles can't tell the difference between Monster brand cables and coat hangers"
