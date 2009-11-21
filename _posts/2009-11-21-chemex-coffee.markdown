@@ -27,7 +27,7 @@ Here are a few Chemex tips I've gleaned from the web and a week's use:
 
 That's it. In three or four minutes, you've got a zingy and fresh-tasting mug of coffee. Yum. A cup brewed with the Chemex isn't _superior_ to coffee brewed with a cafetière, or with my one-cup filter thingy, but it is very different. The clarity of the brew is the first thing I noticed, and a complete lack of bitterness. And--at the risk of sounding like a gold-plated-interconnects audiophile--I really can detect a wider variety of flavours and aromas in a Chemex-brewed cup.
 
-This must be down to the quality of the Chemex paper filters, so I plan to trim one down to fit my Vietnamese job and fashion a cheap-poncey hybrid brewer. You knever know, it might be a coffee revalation.
+This must be down to the quality of the Chemex paper filters, so I plan to trim one down to fit my Vietnamese job and fashion a cheap-poncey hybrid brewer. You knever know, it might be a coffee revelation.
 
 More info:
 
