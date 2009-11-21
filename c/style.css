@@ -447,7 +447,14 @@ noscript.ie-warning {
 img.left {
 	float:left;
 	width:200px;
-	margin-right:30px;
+	margin-right:20px;
+	margin-bottom:20px;
+	border:1px solid #ddd;
+}
+
+img.left:hover {
+	-moz-transform:rotate(-1deg) scale(1.2);
+	-webkit-transform:rotate(-1deg) scale(1.2);
 }
 
 img.center {
