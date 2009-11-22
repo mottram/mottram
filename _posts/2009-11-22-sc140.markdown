@@ -1,0 +1,15 @@
+---
+title: sc140
+layout: post
+type: link
+time: T13:04:25Z
+link_to: http://supercollider.sourceforge.net/sc140/
+description: Music created in just 140 characters of Supercollider code.
+topics:
+ - music
+ - supercollider
+---
+Music created in just 140 characters of Supercollider code. [Download the album][1], [view source][2].
+
+[1]:http://www.archive.org/download/sc140/sc140_vbr_mp3.zip "79MB Zip file"
+[2]:http://ia311006.us.archive.org/2/items/sc140/sc140_sourcecode.txt
