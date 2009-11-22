@@ -2,8 +2,8 @@
 title: Kate &amp; Ruthie
 layout: post
 type: photo
-time: 
-image_url: /u/2009/11/kate-and-ruthie.jpg
+time: T00:25:50Z
+image_url: /u/2009/11/kr.jpg
 description: A photograph of Kate and Ruth dancing at a Ruby wedding.
 topics:
  - dancing
