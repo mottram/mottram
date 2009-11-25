@@ -34,7 +34,7 @@ h1, .about h2 {
 	font-size:28px;
 	font-weight:normal;
 	padding:0 0 12px 0;
-	border-bottom:1px solid #ddd;
+	/* border-bottom:1px solid #ddd; */
 }
 
 .link h1:after {
@@ -194,10 +194,10 @@ footer address, .about address {
 
 article, section#archive, div.contact {
 	margin:0;
-	border:1px solid #ddd;
+/*	border:1px solid #ddd;
 	-webkit-box-shadow: 3px 3px 3px #ccc;
 	-moz-box-shadow: 3px 3px 3px #ccc;
-	box-shadow: 3px 3px 3px #ccc;
+	box-shadow: 3px 3px 3px #ccc; */
 	padding:48px 24px 24px 24px;
 	background: #fff;
 }
@@ -218,7 +218,7 @@ section#archive section {
 }
 
 article ul, article ol {
-	padding:0 24px;
+	padding:0; /*24px - add if putting boxes back */
 }
 
 article ul li {
