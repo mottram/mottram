@@ -1,0 +1,12 @@
+---
+title: 1491
+layout: post
+type: link
+time: T12:13:35Z
+link_to: http://www.theatlantic.com/doc/print/200203/mann
+description:
+topics:
+ - america
+ - history
+---
+"Before it became the New World, the Western Hemisphere was vastly more populous and sophisticated than has been thought—an altogether more salubrious place to live at the time than, say, Europe. New evidence of both the extent of the population and its agricultural advancement leads to a remarkable conjecture: the Amazon rain forest may be largely a human artifact."

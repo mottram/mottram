@@ -35,10 +35,12 @@ layout: default
 		<h1>{{ page.title }}</h1>
 	</header>
 	{% include meta.html %}
+	{% if page.audio_link %}
 	<p id="audioplayer_1"><a title="Download the audio file" href="{{ page.audio_link }}">Download</a></p>  
 	<script type="text/javascript">  
 	AudioPlayer.embed("audioplayer_1", {soundFile: "{{ page.audio_link }}"});  
 	</script>
+	{% endif %}
 	{{ content }}
 </article>
 {% endif %}{% if page.type == 'basic' %}
