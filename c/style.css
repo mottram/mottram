@@ -29,7 +29,7 @@ dd, h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 	margin-bottom:24px;
 }
 
-h1, .about h2 {
+h1, .about h2, .contact h2 {
 	font-family:"Museo Sans 500", Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-size:28px;
 	font-weight:normal;
@@ -157,7 +157,7 @@ nav ul li a:hover {
 article footer {
 	font-size:13px;
 	font-weight:lighter;
-	margin:-16px 0 24px 0;
+	margin:-24px 0 24px 0;
 }
 
 article nav h1 {
@@ -190,6 +190,10 @@ address {
 
 footer address, .about address {
 	display:inline;
+}
+
+.about h2, .contact h2 {
+	margin-top:48px;
 }
 
 article, section#archive, div.contact {
