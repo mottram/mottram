@@ -201,7 +201,7 @@ article, section#archive, div.contact {
 /*	border:1px solid #ddd;
 	-webkit-box-shadow: 3px 3px 3px #ccc;
 	-moz-box-shadow: 3px 3px 3px #ccc;
-	box-shadow: 3px 3px 3px #ccc; */
+	box-shadow: 3px 3px 3px #ccc; in case I want boxes back*/
 	padding:48px 24px 24px 24px;
 	background: #fff;
 }
@@ -469,6 +469,61 @@ img.center {
 
 p.small {
 	font-size:14px;
+}
+
+/* Intense Debate */
+
+#idc-container-parent h3, #idc-container-parent .idc-message, #idc-container-parent .idc-new, #idc-container-parent #IDCommentNewThreadText, #idc-container-parent .idc-postnav-list {
+	margin-bottom:24px !important;
+}
+
+#idc-container-parent #IDNewThreadSubmitLI {
+	float:left !important;
+	margin-top:24px;
+}
+
+#idc-container-parent .idc-comments .idc-c {
+	margin-bottom:24px !important;
+	padding-bottom:24px !important;
+	border-bottom:1px solid #ddd;
+}
+
+#idc-container-parent #IDNewThreadSubmitLI .idc-r strong {
+	font-weight:normal !important;
+}
+
+#idc-container-parent .idc-c-b #IDNewThreadSubmitLI .idc-btn_l {
+	margin:0 !important;
+}
+
+#idc-container-parent .idc-foot {
+	border:none !important;
+}
+
+#idc-container-parent .idc-foot a.idc-idlogo, #idc-container .idc-foot .idc-id span {
+	background:transparent !important;
+	text-indent:0 !important;
+	width:auto !important;
+	font-size:10px !important;
+}
+
+#idc-container-parent #IDCommentsNoCommentsDiv {
+	display:none !important;
+}
+
+#idc-container-parent .idc-signup {
+	margin-top:24px;
+}
+
+#idc-container-parent a.idc-id {
+	background:transparent !important;
+}
+
+#idc-container-parent .idc-loginbtn_openid, #idc-container-parent .idc-loginbtn_intensedebate, #idc-container-parent .idc-loginbtn_twitter {
+	background:transparent !important;
+	text-indent:0 !important;
+	width:auto !important;
+	margin-right:1em;
 }
 
 /* code highlighting */
