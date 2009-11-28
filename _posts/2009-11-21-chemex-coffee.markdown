@@ -11,7 +11,7 @@ topics:
  - chemex
  - coffee
 ---
-<img class="left" alt="A Chemex CM-1C coffee maker" src="/u/2009/11/chemex.jpg" width="164" height="240" />
+<img alt="A Chemex CM-1C coffee maker" src="/u/2009/11/chemex-left.jpg" width="164" height="240" />
 
 For the past three years, I've made my daily cup of coffee with [this cheapo Vietnamese drip filter][1]. It's slightly non-standard, lacking the usual screw-down filters, and makes a strong, rough-and-ready brew. I like it--a simple design, completely indestructable, and wonderfully portable.
 

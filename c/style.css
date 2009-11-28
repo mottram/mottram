@@ -448,7 +448,7 @@ noscript.ie-warning {
 	border:1px solid #ff0000;
 }
 
-img.left {
+img[src*="left"] {
 	float:left;
 	width:200px;
 	margin-right:20px;
@@ -456,7 +456,7 @@ img.left {
 	border:1px solid #ddd;
 }
 
-img.left:hover {
+img[src*="left"]:hover {
 	-moz-transform:rotate(-1deg) scale(1.2);
 	-webkit-transform:rotate(-1deg) scale(1.2);
 }
