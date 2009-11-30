@@ -1,0 +1,65 @@
+body#ghana {
+	background:url('http://mottr.am/u/2009/11/ghana/wood.jpg') repeat scroll center;
+}
+
+#ghana nav {
+	position:fixed;
+	top:24px;
+	left:24px;
+	width:100%;
+	background:transparent;
+	
+}
+
+#ghana nav a {
+	color:white;
+}
+
+#ghana nav ul {
+	display:inline;
+}
+
+#ghana nav ul li {
+	display:inline;
+}
+
+#ghana section {
+	color:#fff;
+	background:transparent;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top:3em;
+	height:800px;
+	width:300%;
+}
+
+#ghana section footer {
+	background: rgba(200, 54, 54, 0.5);
+	margin-top:3em;
+	float:left;
+	width:24em;
+}
+
+#ghana section footer p {
+	text-shadow: 0px -1px 0px #000 !important;
+}
+
+#ghana nav#main {
+	display:none;
+}
+
+#ghana img[src*="ghana"] {
+	margin:1.5em;
+	float:left;
+}
+
+#ghana img[src*="demonic"] {
+	vertical-align:top;
+	-moz-transform:rotate(6deg);
+}
+
+#ghana img[src*="small"] {
+	vertical-align:top;
+	-moz-transform:rotate(-4deg);
+}
+
