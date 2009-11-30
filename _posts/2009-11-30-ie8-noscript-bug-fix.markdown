@@ -37,7 +37,7 @@ noscript div {
 	}
 {% endhighlight %}
 
-You could also make the little box disappear by styling `noscript` with `display: inline`, and adding a `meta` tag to force IE8 into '[compatability view][4]':
+You could also make the little box disappear by styling `noscript` with `display: inline`, and adding a `meta` tag to force IE8 into [compatability view][4]:
 
 {% highlight html %}
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
