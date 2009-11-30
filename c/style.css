@@ -1,5 +1,5 @@
 /* reset */
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}a{border:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}a{border:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border:none;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
 /* end reset */
 
 /* styles - a bit of a mess! */
@@ -431,16 +431,16 @@ sup {
 em {
 	font-style:italic;
 }
-	
-abbr {
-	border:none !important;
+
+p:hover abbr[title] {
+	border-bottom:1px dotted #666;
 }
 
 .museo {
 	font-family:"Museo Sans 500", Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
-noscript.ie-warning {
+noscript div {
 	margin:60px;
 	padding:10px;
 	color:#ff0000;
@@ -461,7 +461,7 @@ img[src*="left"]:hover {
 	-webkit-transform:rotate(-1deg) scale(1.2);
 }
 
-img.center {
+img[src*="centre" {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
@@ -471,7 +471,7 @@ p.small {
 	font-size:14px;
 }
 
-/* Intense Debate */
+/* Intense Debate - specificity overload */
 
 #idc-container-parent h3, #idc-container-parent .idc-message, #idc-container-parent .idc-new, #idc-container-parent #IDCommentNewThreadText, #idc-container-parent .idc-postnav-list {
 	margin-bottom:24px !important;

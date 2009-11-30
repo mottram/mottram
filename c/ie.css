@@ -13,7 +13,7 @@ article, section, .about article, div.contact, h1, h2 {
 	top:0;
 }
 
-noscript {
+noscript div {
 	margin:60px;
 	padding:10px;
 	color:#ff0000;

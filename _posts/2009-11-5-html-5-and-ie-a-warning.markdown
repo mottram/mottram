@@ -2,6 +2,7 @@
 title: HTML 5 &amp; Internet Explorer - Fair Warning
 layout: post
 type: basic
+time: T14:32:51Z
 short: ie5
 loc: CH48,UK
 loc_name: Wirral
@@ -10,9 +11,9 @@ topics:
  - HTML5
  - IE
 ---
-Most articles and weblog posts on using <abbr>HTML</abbr> 5 recommended [Remy Sharp's handy script](http://remysharp.com/2009/01/07/html5-enabling-script/) to make Internet Explorer recognise <abbr>HTML</abbr> 5's new tags. But few offer a solution to the problem of folk browsing an HTML 5 site in IE with JavaScript turned off.
+Most articles and weblog posts on using HTML 5 recommended [Remy Sharp's handy script](http://remysharp.com/2009/01/07/html5-enabling-script/) to make Internet Explorer recognise HTML 5's new tags. But few offer a solution to the problem of folk browsing an HTML5 site in IE with JavaScript turned off.
 
-Rather than treat <abbr>JS</abbr>-averse <abbr>IE</abbr> visitors to a hideous mess of a site, I've decided to treat them to a hideous mess of a site plus a polite suggestion to switch JavaScript on:
+Rather than treat JS-averse IE visitors to a hideous mess of a site, I've decided to treat them to a hideous mess of a site plus a polite suggestion to switch JavaScript on:
 {% highlight html %}
 <!--[if IE]>
 <noscript>
@@ -29,9 +30,9 @@ understand just yet.</p>
 </noscript>
 <![endif]-->
 {% endhighlight %}
-Since I'm already serving all versions of <abbr>IE</abbr> a special stylesheet, I've added a bit of <abbr>CSS</abbr> to make `<noscript>` look all warningy:
+Since I'm already serving all versions of IE a special stylesheet, I've added a bit of CSS to make `<noscript>` look all warningy:
 {% highlight css %}
-noscript {
+noscript div {
 	margin:60px;
 	padding:10px;
 	color:#ff0000;
@@ -40,3 +41,10 @@ noscript {
 }
 {% endhighlight %}
 I wonder if it's worth adding instructions on _how_ to switch JavaScript on?
+
+**Update**: The apparently extraneous `div` inside the `noscript` is included to [fix a bug in IE8](/2009/11/30/ie8-noscript-bug-fix/).
+
+*[JS]: JavaScript
+*[HTML]: Hyper Text Markup Language
+*[IE]: Internet Explorer
+*[CSS]: Cascading Style Sheets
