@@ -1,23 +1,60 @@
+@font-face {
+	font-family: 'KulminoituvaRegular';
+	src: url('/f/ghana/kulminoituva.eot');
+	src: local('Kulminoituva Regular'), local('Kulminoituva'), url('/f/ghana/kulminoituva.woff') format('woff'), url('/f/ghana/kulminoituva.ttf') format('truetype'), url('/f/ghana/kulminoituva.svg#Kulminoituva') format('svg');
+}
+
+
 body#ghana {
 	background:url('http://mottr.am/u/2009/11/ghana/wood.jpg') repeat scroll center;
+}
+
+#ghana section h1, #ghana section h2, #ghana nav a {
+	font-family:'KulminoituvaRegular', Arial, sans-serif;
+	font-size:36px;
+	line-height:1.5em;
+	z-index:999;
+}
+
+#ghana section h1  {
+	position:fixed;
+	top:24px;
+	left:24px;
+	width:700px;
 }
 
 #ghana nav {
 	position:fixed;
 	top:24px;
-	left:24px;
+	left:720px;
 	width:100%;
 	background:transparent;
-	
+	z-index:999;
 }
 
-#ghana nav a {
+#ghana a, a:visited, a:link {
 	color:white;
+}
+
+#ghana nav ul:before {
+	font-family:'KulminoituvaRegular', Arial, sans-serif;
+	font-size:36px;
+	content:"\007B";
+}
+
+#ghana nav ul:after {
+	font-family:'KulminoituvaRegular', Arial, sans-serif;
+	font-size:36px;
+	content:"\007D";
 }
 
 #ghana nav ul {
 	display:inline;
 }
+
+/* #ghana nav li:first-child {
+	padding-left:1em;
+} */
 
 #ghana nav ul li {
 	display:inline;
@@ -28,13 +65,11 @@ body#ghana {
 	background:transparent;
 	margin-left: 2em;
 	margin-right: 2em;
-	margin-top:3em;
-	height:800px;
+	margin-top:96px;
 	width:300%;
 }
 
 #ghana section footer {
-	background: rgba(200, 54, 54, 0.5);
 	margin-top:3em;
 	float:left;
 	width:24em;
@@ -48,18 +83,51 @@ body#ghana {
 	display:none;
 }
 
-#ghana img[src*="ghana"] {
-	margin:1.5em;
+/* images */
+
+img[src*="ghana"] {
+	margin:0 1.5em;
 	float:left;
+	opacity:0.8;
 }
 
 #ghana img[src*="demonic"] {
 	vertical-align:top;
+	-webkit-transform:rotate(6deg);
 	-moz-transform:rotate(6deg);
+}
+
+#ghana img[src*="protact"] {
+	vertical-align:top;
+	-webkit-transform:rotate(4deg);
+	-moz-transform:rotate(4deg);
 }
 
 #ghana img[src*="small"] {
 	vertical-align:top;
+	-webkit-transform:rotate(-4deg);
 	-moz-transform:rotate(-4deg);
 }
 
+#ghana img:hover {
+	opacity:1;
+}
+
+/* odds 'n' sods */
+
+hr {
+	display:none;
+}
+
+hr + p {
+	font-size:12px;
+	line-height:14px;
+}
+
+hr + p a {
+	text-decoration:underline;
+}
+
+*:focus {
+	border:none!important;
+}
