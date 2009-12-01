@@ -10,9 +10,9 @@ topics:
  - osx
  - text
 ---
-I always perk up when [a new text editor][2] appears for the Mac.
+I always perk up when [a brand new text editor][2] appears for the Mac.
 
-I've tried every single last text editor, and a fair few lightweight word processors, available on the platform since I first gave up fountain pens for a keyboard in 1995. I've even cobbled together a risibly basic editor of my own (thanks, [NSTextView][1]!).
+I'm pretty sure I've tried every single last text editor, and a fair few lightweight word processors, available on the platform since I first gave up fountain pens for a keyboard in 1995. I've even cobbled together a risibly basic editor of my own (thanks, [NSTextView][1]!).
 
 When it comes to writing words, as opposed to HTML or CSS, here's what I look for in a text editor:
 
@@ -23,7 +23,7 @@ That's it, really. [Bean](http://www.bean-osx.com/Bean.html) and [WriteRoom](htt
 
 And so to [Ommwriter][2]. It's billed as an aide to concentration, a means by which we users might 'be at one with ourselves and our ideas'. A bit drippy-sounding, maybe, but it's hard to resist a new text editor, particularly one that touts its simplicity. So I downloaded Ommwriter, and I fired it up.
 
-The thing plays plinky ambient fucking music. It makes tippety-fucking-tappity typewriter noises. And it has a picture of a fucking tree where the background should be.
+The thing plays ambient fucking music. It makes tippety-fucking-tappity typewriter noises. And it has a picture of a fucking tree where the background should be.
 
 The cumulative effect is like trying to write while watching a [Borrower](http://en.wikipedia.org/wiki/The_Borrowers "Not that there's anything wrong with Borrowers; I wanted to be one when I was six") take tap dancing lessons on a frozen lake, with [RJDJ](http://rjdj.me/ "Essential audio-warping app") cranked up on its tiny fucking iPhone.
 
