@@ -3,7 +3,7 @@ title: Ommwronger
 layout: post
 type: basic
 short: omw
-time: T01:53:14Z
+time: T14:01:23Z
 description: A review of Omm Writer, a new text editor for the Macintosh.
 topics: 
  - ommwriter
