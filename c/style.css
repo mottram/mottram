@@ -461,7 +461,8 @@ img[src*="left"]:hover {
 	-webkit-transform:rotate(-1deg) scale(1.2);
 }
 
-img[src*="centre" {
+img[src*="centre"] {
+	border:1px solid #ddd;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;

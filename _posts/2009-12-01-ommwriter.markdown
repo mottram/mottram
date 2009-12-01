@@ -39,7 +39,7 @@ I could believe that, if the only evidence of Ommwriter were the video above. Bu
 
 But those defaults? Lord, no. Here's what a text editor that lets you 'be at one' with what you're writing looks (and sounds) like:
 
-<img src="/u/2009/11/text-editor-centre.jpg" alt="A TextEdit window" width="456" height="536" />
+<img src="/u/2009/11/text-editor-centre.jpg" alt="A TextEdit window" width="487" height="589" />
 
 [1]:http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ApplicationKit/Classes/NSTextView_Class/Reference/Reference.html
 [2]:http://www.ommwriter.com/
