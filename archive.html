@@ -6,100 +6,108 @@ description: The Mottr.am archives
 keywords: art, design, photography, mottram
 ---
 <section id="archive">
-	<header>
-		<h1>Archives</h1>
-	</header>
-	<nav>
-	<ul>
-		<li><a title="Every post, in a big long list" href="#everything">Everything</a></li>
-		<li><a title="Links to other websites" href="#link">Links</a></li>
-		<li><a title="Pieces of writing, usually brief" href="#basic">Posts</a></li>
-		<li><a title="Art, design, illustration, photography; stuff for your eyes." href="#photo">Images</a></li>
-		<li><a title="Songs, tunes, field recordings; stuff for your ears" href="#audio">Audio</a></li>
-		<li><a title="Art, cinema; stuff for your eyes that moves" href="#video">Video</a></li>
-	</ul>
-	</nav>
+<header>
+<h1>Archives</h1>
+</header>
+<nav>
+<ul>
+<li><a title="Every post, in a big long list" href="#everything">Everything</a></li>
+<li><a title="Links to other websites" href="#link">Links</a></li>
+<li><a title="Pieces of writing, usually brief" href="#basic">Posts</a></li>
+<li><a title="Art, design, illustration, photography; stuff for your eyes." href="#photo">Images</a></li>
+<li><a title="Songs, tunes, field recordings; stuff for your ears" href="#audio">Audio</a></li>
+<li><a title="Art, cinema; stuff for your eyes that moves" href="#video">Video</a></li>
+</ul>
+</nav>
 
 <section id="everything">
-	<p>All {{ site.posts.size }} posts, in a big long list.</p>
-	<ol>
-	{% for post in site.posts %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
-			<p>{{ post.description }}</p>
-		</li>
-	{% endfor %}
-	</ol>	
+
+<p>All {{ site.posts.size }} posts, in a big long list.</p>
+
+<ol>
+{% for post in site.posts %}
+<li>
+<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+<p>{{ post.description }}</p>
+</li>
+{% endfor %}
+</ol>	
+
 </section>
 
 <section id="link">
-	<p>Links to other websites, with commentary (sometimes).</p>
-	<ol>
-{% for post in site.posts %}
-{% if post.type == 'link' %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
-			<p>{{ post.description }}</p>
-		</li>
-{% endif %}
-{% endfor %}
-	</ol>
+
+<p>Links to other websites, with commentary (sometimes).</p>
+
+<ol>
+{% for post in site.posts %}{% if post.type == 'link' %}
+<li>
+<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+<p>{{ post.description }}</p>
+</li>
+{% endif %}{% endfor %}
+</ol>
+
 </section>
 
 <section id="basic">
-	<p>Pieces of writing, usually brief.</p>
-	<ol>
-{% for post in site.posts %}
-{% if post.type == 'basic' %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
-			<p>{{ post.description }}</p>
-		</li>
-{% endif %}
-{% endfor %}
-	</ol>
+
+<p>Pieces of writing, usually brief.</p>
+
+<ol>
+{% for post in site.posts %}{% if post.type == 'basic' %}
+<li>
+<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+<p>{{ post.description }}</p>
+</li>
+{% endif %}{% endfor %}
+</ol>
+
 </section>
 
 <section id="photo">
-	<p>Art, design, illustration, photography; stuff for your eyes.</p>
-	<ol>
-{% for post in site.posts %}
-{% if post.type == 'photo' %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
-			<p>{{ post.description }}</p>
-		</li>
-{% endif %}
-{% endfor %}
-	</ol>
+
+<p>Art, design, illustration, photography; stuff for your eyes.</p>
+
+<ol>
+{% for post in site.posts %}{% if post.type == 'photo' %}
+<li>
+<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+<p>{{ post.description }}</p>
+</li>
+{% endif %}{% endfor %}
+</ol>
+
 </section>
 
 <section id="audio">
-	<p>Songs, noises, field recordings; stuff for your ears.</p>
-	<ol>
-{% for post in site.posts %}
-{% if post.type == 'audio' %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
-			<p>{{ post.description }}</p>
-		</li>
-{% endif %}
-{% endfor %}
-	</ol>
+
+<p>Songs, noises, field recordings; stuff for your ears.</p>
+
+<ol>
+{% for post in site.posts %}{% if post.type == 'audio' %}
+<li>
+<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+<p>{{ post.description }}</p>
+</li>
+{% endif %}{% endfor %}
+</ol>
+
 </section>
 
 <section id="video">
-	<p>Art, cinema, long photographs; stuff for your eyes (that moves).</p>
-	<ol>
-{% for post in site.posts %}
-{% if post.type == 'video' %}
-		<li>
-			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
-			<p>{{ post.description }}</p>
-		</li>
-{% endif %}
-{% endfor %}
-	</ol>
+
+<p>Art, cinema, long photographs; stuff for your eyes (that moves).</p>
+
+<ol>
+{% for post in site.posts %}{% if post.type == 'video' %}
+<li>
+<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+<p>{{ post.description }}</p>
+</li>
+{% endif %}{% endfor %}
+</ol>
+
 </section>
 
 </section>

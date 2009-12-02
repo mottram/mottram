@@ -31,6 +31,7 @@ I am not joking, just look:
 
 <object type="application/x-shockwave-flash" style="width:590px;height:484px;" data="http://vimeo.com/moogaloop.swf?clip_id=7670108&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ffffff&amp;fullscreen=1">
 	<param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=7670108&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ffffff&amp;fullscreen=1" />
+	<p>Click through to view the video.</p>
 </object>
 
 I'd like to think that the developers _are_ joking. I'd just love it if Ommwriter turned out to be a masterful piece of trolling, aimed squarely at the productivity fetishists, or those ostentatious, missing-the-point minimalists who drool over screenshots of their icon-free menu bars, functionality-be-damned. They require an email address before you download, and I honestly would not care a jot if mine ended up listed on a page full of fellow suckers under a ginormous blinking FAIL sign and a 960px-wide [facepalm.gif](http://images.google.co.uk/images?q=facepalm).

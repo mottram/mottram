@@ -3,60 +3,60 @@ layout: default
 ---
 {% if page.type == 'link' %}
 <article class="link">
-	<header>
-		<h1><a href="{{ page.link_to }}">{{ page.title }}</a></h1>
-	</header>
-	{% include meta.html %}
-	{{ content }}
+<header>
+<h1><a href="{{ page.link_to }}">{{ page.title }}</a></h1>
+</header>
+{% include meta.html %}
+{{ content }}
 </article>
 {% endif %}{% if page.type == 'photo' %}
 <article>
-	<header>
-		<h1>{{ page.title }}</h1>
-	</header>
-	{% include meta.html %}
-	<img alt="{{ page.title }}" title="{{ page.title }}" src="{{ page.image_url }}" width="590" />
-	{{ content }}
+<header>
+<h1>{{ page.title }}</h1>
+</header>
+{% include meta.html %}
+<img alt="{{ page.title }}" title="{{ page.title }}" src="{{ page.image_url }}" width="590" />
+{{ content }}
 </article>
 {% endif %}{% if page.type == 'video' %}
 <article>
-	<header>
-		<h1>{{ page.title }}</h1>
-	</header>
-	{% include meta.html %}
-	<object type="application/x-shockwave-flash" style="width:590px;height:484px;" data="{{ page.video_link }}">
-		<param name="movie" value="{{ page.video_link }}" />
-	</object>
-	{{ content }}
+<header>
+<h1>{{ page.title }}</h1>
+</header>
+{% include meta.html %}
+<object type="application/x-shockwave-flash" style="width:590px;height:484px;" data="{{ page.video_link }}">
+<param name="movie" value="{{ page.video_link }}" />
+</object>
+{{ content }}
 </article>
 {% endif %}{% if page.type == 'audio' %}
 <article>
-	<header>
-		<h1>{{ page.title }}</h1>
-	</header>
-	{% include meta.html %}
-	{% if page.audio_link %}
-	<p id="audioplayer_1"><a title="Download the audio file" href="{{ page.audio_link }}">Download</a></p>  
-	<script type="text/javascript">  
+<header>
+<h1>{{ page.title }}</h1>
+</header>
+{% include meta.html %}
+{% if page.audio_link %}
+<p id="audioplayer_1"><a title="Download the audio file" href="{{ page.audio_link }}">Download</a></p>  
+<script type="text/javascript">  
 	AudioPlayer.embed("audioplayer_1", {soundFile: "{{ page.audio_link }}"});  
-	</script>
-	{% endif %}
-	{{ content }}
+</script>
+{% endif %}
+{{ content }}
 </article>
 {% endif %}{% if page.type == 'basic' %}
 <article>
-	<header>
-		<h1>{{ page.title }}</h1>
-	</header>
-	{% include meta.html %}
-	{{ content }}
-	{% if page.short %}{% include comments.html %}{% endif %}
-	{% if page.loc %}<div id="map"><img class="map" src="http://maps.google.com/maps/api/staticmap?center={{ page.loc }}&amp;zoom=14&amp;maptype=hybrid&amp;size=600x400&amp;sensor=false&amp;format=jpeg&amp;key=ABQIAAAAPga5T2DTe8Ai3o7Fpk3qFRSNqByKE8YBn9C1iebjkz1yKGB-5xTKcMhYnDGfQXXHiCqs3tCKJS2cxQ" /></div>{% endif %}
+<header>
+<h1>{{ page.title }}</h1>
+</header>
+{% include meta.html %}
+{{ content }}
+{% if page.short %}{% include comments.html %}{% endif %}
+{% if page.loc %}<div id="map"><img class="map" src="http://maps.google.com/maps/api/staticmap?center={{ page.loc }}&amp;zoom=14&amp;maptype=hybrid&amp;size=600x400&amp;sensor=false&amp;format=jpeg&amp;key=ABQIAAAAPga5T2DTe8Ai3o7Fpk3qFRSNqByKE8YBn9C1iebjkz1yKGB-5xTKcMhYnDGfQXXHiCqs3tCKJS2cxQ" /></div>{% endif %}
 </article>{% endif %}
 
 <nav>
-	<ul class="more">
-		{% if page.previous %}<li>&#8592; <a title="Older entry: {{ page.previous.title }}" href="{{ page.previous.url }}">{{ page.previous.title }}</a></li>{% endif %}
-		{% if page.next %}<li><a title="Newer entry: {{ page.next.title }}" href="{{ page.next.url }}">{{ page.next.title }}</a> &#8594;</li>{% endif %}
-	</ul>
+<ul class="more">
+{% if page.previous %}<li>&#8592; <a title="Older entry: {{ page.previous.title }}" href="{{ page.previous.url }}">{{ page.previous.title }}</a></li>{% endif %}
+{% if page.next %}<li><a title="Newer entry: {{ page.next.title }}" href="{{ page.next.url }}">{{ page.next.title }}</a> &#8594;</li>{% endif %}
+</ul>
 </nav>
