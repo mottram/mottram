@@ -1,5 +1,5 @@
 ---
-title: Apachie Chief Economic Crisis
+title: Economic Crisis
 layout: post
 type: audio
 audio_link: http://files.me.com/jack_mottram/iz2omc.mp3
