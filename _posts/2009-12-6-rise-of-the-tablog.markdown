@@ -1,5 +1,5 @@
 ---
-title: Decline of the Weblog, Rise of the Tablog
+title: Rise of the Tablog, Decline of the Weblog
 layout: post
 type: basic
 time: T14:50:44Z
