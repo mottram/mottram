@@ -44,7 +44,11 @@ h1, .about h2, .contact h2 {
 	font-size:24px;
 	content:" \261b";
 	}
-	
+
+.link p {
+	font-size:90%;
+	}
+
 h3 {
 	font-size:16px;
 	line-height:24px;
