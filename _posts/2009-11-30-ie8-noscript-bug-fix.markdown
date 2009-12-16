@@ -1,5 +1,5 @@
 ---
-title: IE8 noscript Bug Fix
+title: How to Fix the IE8 noscript Bug
 layout: post
 type: basic
 short: ien
@@ -28,7 +28,7 @@ Then IE8 will, if JavaScript is **switched on**, display a funny little box with
 
 In other words, if you've followed best practice by warning users with JavaScript switched off that your site uses it, IE8 will punish you by mucking up the layout for users with JavaScript switched on, the very users who should never, ever see the `noscript` tag in action. Nice one. (For those of us using HTML5 to make websites, this is especially galling--no version of IE can render HTML5 without [a bit of JS][2], so a warning is [absolutely necessary][3].)
 
-The fix? Stick your warning message in a `div` inside the `noscript`, and style that instead:
+How to fix it? Stick your warning message in a `div` inside the `noscript`, and style that instead:
 
 {% highlight css %}
 noscript div {

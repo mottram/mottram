@@ -2,11 +2,11 @@
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}a{border:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}ins{background-color:#ffe;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border:none;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
 /* end reset */
 
-/* styles - a bit of a mess! */
-
+/* styles - this is still a work in progress, so everything is a bit messy at the moment - sorry! */
+ 
 @font-face {
 	font-family: 'Museo Sans 500';
-	src: url('MuseoSans_500.eot');
+	src: url('/f/MuseoSans_500.eot');
 	src: local('Museo Sans 500'), local('MuseoSans-500'), url('/f/MuseoSans_500.woff') format('woff'), url('/f/MuseoSans_500.otf') format('opentype'), url('/f/MuseoSans_500.svg#MuseoSans-500') format('svg');
 }
 
@@ -40,14 +40,18 @@ h1, .about h2, .contact h2 {
 .link h1:after {
 	font-family:Baskerville, Palatino, "Book Antiqua", Georgia, serif;
 	color:#aaa;
-	font-weight:200;
-	font-size:24px;
+	font-weight:normal !important;
+	font-size:18px;
 	content:" \261b";
 	}
 
 .link p {
-	font-size:90%;
+	font-size:14px;
 	}
+
+.link h1 {
+	font-size:18px;
+} 
 
 h3 {
 	font-size:16px;
@@ -88,7 +92,7 @@ a, a:link, a:visited, a:active{
 	color:#008;
 	text-decoration:none;
 	-moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
+   	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 	
@@ -137,6 +141,8 @@ nav#main input.idle {
 	-webkit-box-shadow: 1px 1px 1px #ccc;
 	-moz-box-shadow: 1px 1px 1px #ccc;
 	box-shadow: 1px 1px 1px #ccc;
+:q
+
 }
 
 nav#main input.focus {

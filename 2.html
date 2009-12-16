@@ -16,7 +16,7 @@ keywords: art, photography, design, fashion, web development, mottram
 
 {% include home_meta.html %}
 
-<img alt="{{ post.title }}" title="{{ post.title }}" src="http://mottr.am.nyud.net{{ post.image_url }}" width="590" />
+{% if post.image_url %}<img alt="{{ post.title }}" title="{{ post.title }}" src="{{ post.image_url }}" width="590" />{% endif %}
 
 {{ post.content }}
 

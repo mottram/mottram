@@ -1,18 +1,28 @@
+/*
+	Transparency for IE8 (first line) and IE6 and 7 (second line)
+*/
 nav#main {
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; /* Transparency for IE 8  */
-	filter: alpha(opacity=80); /* And for IE 5-7, in theory */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=80);
 }
-
-article, section, .about article, div.contact, h1, h2 {
-	border:none; /* gets rid of boxes and underlines */
+/*
+	I'm experimenting with improving IE's @font-face rendering here.
+	See http://allcreatives.net/2009/12/05/smoother-font-face-embedding-in-ie-7-8/	
+*/
+h1, .about h2, .contact h2, .museo {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/u/hIEfix.png,sizingMethod=crop);
+	zoom:1;
 }
-
-/* IE 7 doesn't like position: fixed for some reason, so it gets a hack */
+/*
+	IE 7 doesn't like position: fixed for some reason, so it gets a hack
+*/
 *:first-child+html {} nav#main {
 	position:relative;
 	top:0;
 }
-
+/*
+	IE 8 has a bug regarding noscript, so I've added an extra div - see http://mottr.am/ien
+*/
 noscript div {
 	margin:60px;
 	padding:10px;
