@@ -2,7 +2,7 @@
 title: Edible Geography
 layout: post
 type: link
-time: T11:42:11Z
+time: T09:42:11Z
 link_to: http://www.ediblegeography.com/
 description: A link to Edible Geography, a weblog about food.
 topics:
