@@ -1,0 +1,14 @@
+---
+title: GF1 Field Test
+layout: post
+type: link
+time: T22:32:16Z
+link_to: http://craigmod.com/journal/gf1-fieldtest/
+description: Craig Mod tests the Lumix GF1 while climbing the Himalayas
+topics:
+ - cameras
+ - gf1
+ - lumix
+---
+
+Craig Mod put his Lumix GF1 through its paces on a trip to the Himalayas. The resulting photographs and review: both brilliant.
