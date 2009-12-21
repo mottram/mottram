@@ -1,9 +1,9 @@
 ---
-title: City Link
+title: City Link, Still Rubbish
 layout: post
 type: basic
 short: cl
-time: 
+time: T18:18:11Z
 loc: CH48,UK
 loc_name: Wirral
 description: The courier firm City Link
@@ -12,5 +12,4 @@ topics:
 ---
 
 Google Analytics pinged me today, reporting a surge in traffic to a two-year-old post on my old weblog about [City Link](http://submitresponse.co.uk/weblog/2007/12/21/city-link/ "They messed me around in 2007"). It seems that, as Christmas draws near, the number of people searching for '[city link complaints](http://www.google.com/search?q=city+link+complaints)' (and similar, much ruder phrases!) rockets.
-
-<small>Note to self: plaster that page with adverts.</small>
+<p class="small">Note to self: plaster that page with adverts.</p>

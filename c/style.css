@@ -1,8 +1,8 @@
-/* reset */
+/* Reset */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}a{border:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}ins{background-color:#ffe;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border:none;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
 /* end reset */
 
-/* styles - this is still a work in progress, so everything is a bit messy at the moment - sorry! */
+/* Styles - this is still a work in progress, so everything is a bit messy at the moment - sorry! */
  
 @font-face {
 	font-family: 'Museo Sans 500';
@@ -242,7 +242,7 @@ section#archive section {
 }
 
 article ul, article ol {
-	padding:0; /*24px - add if putting boxes back */
+	padding:0; /* 24px - add if putting boxes back */
 }
 
 article ul li {
@@ -264,7 +264,7 @@ ul.more li {
 	padding:0 14px 0 0;
 }
 
-/* code */
+/* Tidy up pygments code highlighting a bit */
 
 div.highlight pre {
 	font-size:13px;
@@ -280,7 +280,7 @@ div.highlight li p {
 	margin:0;
 }
 
-/* archive */
+/* archive page */
 
 nav.archive {
 	margin:24px 0 0;
@@ -320,19 +320,7 @@ nav.archive ul {
 }
 
 .archive-nav ul {
-margin-top:-24px;
-}
-
-/* short urls */
-
-#shorturl {
-	font-size:12px;
-	color:#555;
-	border:none;
-}
-
-#shorturl input:focus {
-	outline:none;
+	margin-top:-24px;
 }
 
 /* maps */
@@ -425,7 +413,7 @@ img.juitterAvatar:hover {
 	opacity:.9;
 }
 
-/* footnotes */
+/* footnotes - a legitimate use for the aside tag! */
 
 article aside {
 	border-top:1px solid #ddd;
@@ -450,7 +438,9 @@ sup {
 
 em {
 	font-style:italic;
-}
+} 
+
+/* If an abbr has a title, underline it when the paragraph it's in is hovered over */
 
 p:hover abbr[title] {
 	border-bottom:1px dotted #666;
@@ -460,6 +450,8 @@ p:hover abbr[title] {
 	font-family:"Museo Sans 500", Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* The extra div is for IE8 - see http://mottr.am/ien  */
+
 noscript div {
 	margin:60px;
 	padding:10px;
@@ -467,6 +459,8 @@ noscript div {
 	background:#ffffe0;
 	border:1px solid #ff0000;
 }
+
+/* Using filenames to position images in posts - see http://forabeautifulweb.com/s/1238 for more */
 
 img[src*="left"] {
 	float:left;
@@ -487,6 +481,8 @@ img[src*="centre"] {
 	margin-left:auto;
 	margin-right:auto;
 }
+
+/* Becase the small tag in HTML5 is for small print, in the legal sense */
 
 p.small {
 	font-size:14px;
@@ -546,6 +542,10 @@ p.small {
 	width:auto !important;
 	margin-right:1em;
 }
+
+/* future-proofing - only applies to /audio-test/ for the moment */
+
+audio, video {margin-bottom:24px;}
 
 /* code highlighting */
 .highlight{background:#fff;}.highlight .err{color:#a61717;background-color:#e3d2d2;}.highlight .cp{color:#999;font-weight:700;}.highlight .cs{color:#999;font-weight:700;font-style:italic;}.highlight .gd{color:#000;background-color:#fdd;}.highlight .gd .x{color:#000;background-color:#faa;}.highlight .ge{font-style:italic;}.highlight .gi{color:#000;background-color:#dfd;}.highlight .gi .x{color:#000;background-color:#afa;}.highlight .go{color:#888;}.highlight .gu{color:#aaa;}.highlight .nb{color:#0086B3;}.highlight .ni{color:purple;}.highlight .nt{color:navy;}.highlight .w{color:#bbb;}.highlight .sr{color:#009926;}.highlight .ss{color:#990073;}.highlight .c,.highlight .cm,.highlight .c1{color:#998;font-style:italic;}.highlight .k,.highlight .o,.highlight .gs,.highlight .kc,.highlight .kd,.highlight .kp,.highlight .kr,.highlight .ow{font-weight:700;}.highlight .gr,.highlight .gt{color:#a00;}.highlight .gh,.highlight .bp{color:#999;}.highlight .gp,.highlight .nn{color:#555;}.highlight .kt,.highlight .nc{color:#458;font-weight:700;}.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo,.highlight .il{color:#099;}.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx,.highlight .s1{color:#d14;}.highlight .na,.highlight .no,.highlight .nv,.highlight .vc,.highlight .vg,.highlight .vi{color:teal;}.highlight .ne,.highlight .nf{color:#900;font-weight:700;}
