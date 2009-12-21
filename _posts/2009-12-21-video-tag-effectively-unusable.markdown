@@ -2,7 +2,7 @@
 title: Why the HTML5 'Video' Element Is Effectively Unusable, Even in the Browsers Which Support It
 layout: post
 type: link
-time: 
+time: T20:50:44Z
 link_to: http://daringfireball.net/2009/12/html5_video_unusable
 description: John Gruber on the failure of the modern browsers to respect the autobuffer attribute of HTML5's video tag.
 topics:
