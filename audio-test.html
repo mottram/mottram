@@ -20,7 +20,10 @@ AudioPlayer.embed("audioplayer_1", {soundFile: "http://files.me.com/jack_mottram
 In theory, you should be able to play the above song natively in Firefox 3.5+ (Ogg format), Safari 4 and Google Chrome/Chromium (MP3 format); many older browsers, and all versions of Internet Explorer and Opera should play the song using a Flash player. Browsers with Flash and/or Javascript switched off will show a warning, and a link to the MP3 file.
 </p>
 <p>
-On my computer, Chrome is far and away the fastest browser--the file is loaded and ready to play almost instantly--followed by Firefox 3.7a1pre (<abbr>AKA</abbr> "Minefield"). The only problem left to solve, presumably with some JavaScript jiggery-pokery, is that all browsers start loading up the audio file once the page loads, even though I've explicitly asked them not to by omitting the <code>autobuffer</code> attribute from the <code>audio</code> tag (I'm not sure if this is a bug or a feature).
+On my computer, Chrome is far and away the fastest browser--the file is loaded and ready to play almost instantly--followed by Firefox 3.7a1pre (<abbr>AKA</abbr> "Minefield").
+</p>
+<p>
+The only problem left to solve, presumably with some JavaScript jiggery-pokery, is that some browsers (all bar Firefox 3.7a1pre, that I've tried) start loading up the audio file once the page loads, even though I've explicitly asked them not to by omitting the <code>autobuffer</code> attribute from the <code>audio</code> tag. I'm not sure if this is a bug or a feature.
 <p>
 In case you're interested, the source code looks like this (I'm using the <a href="http://wpaudioplayer.com/standalone">this</a> Flash audio player):
 </p>
