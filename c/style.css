@@ -438,7 +438,14 @@ sup {
 
 em {
 	font-style:italic;
-} 
+}
+
+::selection {
+	background: #6495ed; /* Safari */
+	}
+::-moz-selection {
+	background: #6495ed; /* Firefox */
+}
 
 /* If an abbr has a title, underline it when the paragraph it's in is hovered over */
 

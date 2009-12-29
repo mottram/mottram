@@ -53,11 +53,15 @@ article {
 	width:800px !important;
 	font-size:1.2em;
 	line-height:1.6em;
+	display:block;
 	background:transparent;
 	border:none!important;
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
 	box-shadow:none;
+	-webkit-column-width: 200px;
+	-moz-column-width: 200px;
+	column-width: 200px;
 	}
 
 article aside {
@@ -79,7 +83,7 @@ article footer:hover {
 
 article header {
 	width:900px;
-	margin:0 0 0 -4em;
+	margin:0 0 4em -4em;
 	}
 
 article h1 {
@@ -91,6 +95,7 @@ article h1 {
 	text-transform:uppercase;
 	border:none !important;
 	text-shadow: 0 1px 0 rgba(255,255,255,1);
+	display:block;
 	}
 
 article section header h1 {
