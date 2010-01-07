@@ -26,9 +26,9 @@ I know that it's hardly a revelation that there are websites expressly designed 
 
 I think I feel a letter to my MP coming on.
 
-[1]:http://ehic.org
-[2]:http://ehic.uk.com
-[3]:http://ehic.org.uk
+[1]:http://www.ehic.org
+[2]:http://www.ehic.uk.com
+[3]:http://www.ehic.org.uk
 [4]:http://www.google.co.uk/search?hl=en&safe=off&q=link%3Ahttp%3A%2F%2Fwww.pcmcs.com
 [5]:ttp://www.e111.org.uk/
 [6]:http://www.imap-uk.com/index.html
