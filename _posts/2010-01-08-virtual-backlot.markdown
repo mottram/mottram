@@ -12,7 +12,9 @@ topics:
 
 A fascinating series of reveals, showing the use of green screens to add backgrounds to telly programmes.
 
-Call me na&#239;ve, but I had no idea so much 'location' shooting was done in the studio, when there's no need, as there would be in a sci-fi show, say, for special effects or outlandish scenery. Presumably it won't be long before it's cheaper to do away with sets and locations entirely, and build everything that's not an actor inside a computer.
+Call me na&#239;ve, but I had no idea so much 'location' shooting was done in the studio, when there's no need (as there would be in a sci-fi show, say, for special effects or outlandish scenery).
+
+Presumably it won't be long before it's cheaper to do away with sets and locations entirely, and build everything that's not an actor inside a computer.
 
 Via [Holy Moly][1], of all places.
 
