@@ -434,6 +434,10 @@ sup {
 	bottom: 2ex;
 }
 
+sub {
+	font-size:12px;
+}
+
 /* misc. */
 
 em {
