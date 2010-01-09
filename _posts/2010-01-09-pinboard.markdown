@@ -15,7 +15,7 @@ In the [latest entry][7] on his [Pinboard][6] blog [Maciej Ceglowski][5] reflect
 
 I've used Pinboard since the day it went public, and have been impressed not only by the site's simplicity and reliability--it's certainly acheived its goal of cloning [Joshua Schachter][1]'s del.icio.us, as opposed to Yahoo!'s [delicious][2]--but also by the very careful addition of new features ([delicious][2], [Instapaper][3] and Twitter integration) which work flawlessly if you choose to use them, and stay well out of the way if you don't.
 
-The latest feature is intriguing, too: for a $25 annual fee, Pinboard will [archive a copy][4] of every web page you bookmark, effectively creating a personal Internet Archive. 
+The latest feature is intriguing, too: for a $25 annual fee, Pinboard will [archive a copy][4] of every web page you bookmark, effectively creating a personal Internet Archive.
 
 [1]:http://joshua.schachter.org/
 [2]:http://delicious.com "How the mighty have fallen"
