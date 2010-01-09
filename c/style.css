@@ -223,7 +223,7 @@ article, section#archive, div.contact {
 	-moz-box-shadow: 3px 3px 3px #ccc;
 	box-shadow: 3px 3px 3px #ccc; in case I want boxes back*/
 	padding:48px 24px 24px 24px;
-	background: #fff;
+	background: transparent;
 }
 
 section#archive {
