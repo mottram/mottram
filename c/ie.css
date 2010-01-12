@@ -30,3 +30,9 @@ noscript div {
 	background:#ffffe0;
 	border:1px solid #ff0000;
 }
+
+/* IE needs hasLayout for clearfix to work - see http://www.positioniseverything.net/easyclearing.html */
+
+.clearfix {
+	zoom:1;
+}
