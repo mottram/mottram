@@ -8,7 +8,7 @@ topics:
  - iphone
 ---
 
-<img alt="Smoothee, a steadicam attachment for the iPhone 3Gs" title="Smoothee, a steadicam attachment for the iPhone 3Gs" class="clearfix" src="http://dl.dropbox.com/u/84981/blog/steadicam-left.jpg" width="200" />
+<img alt="Smoothee, a steadicam attachment for the iPhone 3Gs" title="Smoothee, a steadicam attachment for the iPhone 3Gs" class="clearfix" src="http://dl.dropbox.com/u/84981/blog/2010/01/steadicam-left.jpg" width="200" />
 
 _The Steadicam Smoothee&#8482; is specifically designed and engineered to work with your Apple&#174; iPhone 3Gs._
 
