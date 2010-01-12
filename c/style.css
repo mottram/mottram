@@ -10,6 +10,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	src: local('Museo Sans 500'), local('MuseoSans-500'), url('/f/MuseoSans_500.woff') format('woff'), url('/f/MuseoSans_500.otf') format('opentype'), url('/f/MuseoSans_500.svg#MuseoSans-500') format('svg');
 }
 
+
 body {
 	background: #fff;
 	background: -webkit-gradient(linear,0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fafafa)) fixed no-repeat 0 100%;
@@ -92,7 +93,7 @@ a, a:link, a:visited, a:active{
 	color:#008;
 	text-decoration:none;
 	-moz-transition: all 0.3s ease-in-out;
-   	-webkit-transition: all 0.3s ease-in-out;
+   	-webkit-transition: color 0.3s ease-in-out; /* all causes Safari for iPhone to wig out  */
 	transition: all 0.3s ease-in-out;
 }
 	
