@@ -1,0 +1,15 @@
+---
+title: Luvly
+layout: post
+type: link
+time: 
+link_to: http://notes.gilest.org/a-luvly-little-book
+description: Giles Turnbull's self-published book.
+topics:
+ - books
+ - weblogs
+---
+
+Giles Turnbull has made a book out of his online writings, called it Luvly, and [published it using Lulu][1]. I've followed Giles' writings for yonks (he's the only person I know of as obsessed with text editors for the Mac as I am!) so am sure it's worth the seven quid.
+
+[1]:http://www.lulu.com/content/paperback-book/luvly/7964714 "Luvly at Lulu"
