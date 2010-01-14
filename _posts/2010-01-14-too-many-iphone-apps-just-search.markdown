@@ -18,7 +18,7 @@ Patrick &#147;[Minimal Mac](http://minimalmac.com)&#148; Rhone is engaged in a b
 
 > _I am going to clear everything from the home screen. Any apps that get accessed more than once in the course of the next week will be allowed to come back._
 
-I tried a similar experiment a couple of weeks ago, ending up with eight essential Apple apps, plus four favourites [1Password](http://agilewebsolutions.com/products/iphone), [NetNewsWire Premium](http://www.newsgator.com/Individuals/NetNewsWireiPhone/Default.aspx "I have Byliner on the 'phone too, but don't use it quite as much"), [Simplenote](http://simplenoteapp.com/ "Roll on Notational Velocity sync") and [Instapaper](http://www.instapaper.com/ "Long-form reading perfection on the iPhone").
+I tried a similar experiment a couple of weeks ago, ending up with eight essential Apple apps, plus four favourites: [1Password](http://agilewebsolutions.com/products/iphone) (<a href="http://clkuk.tradedoubler.com/click?p=23708&amp;a=1755858&amp;url=http%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2F1password-pro%2Fid319898689%3Fmt%3D8%26uo%3D6%26partnerId%3D2003" target="itunes_store">iTunes</a>), [NetNewsWire](http://www.newsgator.com/Individuals/NetNewsWireiPhone/Default.aspx "I have Byliner on the 'phone too, but don't use it quite as much") (<a href="http://clkuk.tradedoubler.com/click?p=23708&amp;a=1755858&amp;url=http%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fnetnewswire-premium%2Fid331598976%3Fmt%3D8%26uo%3D6%26partnerId%3D2003" target="itunes_store">iTunes</a>), [Simplenote](http://simplenoteapp.com/ "Roll on Notational Velocity sync") (<a href="http://clkuk.tradedoubler.com/click?p=23708&amp;a=1755858&amp;url=http%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fsimplenote%2Fid289429962%3Fmt%3D8%26uo%3D6%26partnerId%3D2003" target="itunes_store">iTunes</a>) and [Instapaper](http://www.instapaper.com/ "Long-form reading perfection on the iPhone") (<a href="http://clkuk.tradedoubler.com/click?p=23708&amp;a=1755858&amp;url=http%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Finstapaper-pro%2Fid288545208%3Fmt%3D8%26uo%3D6%26partnerId%3D2003" target="itunes_store">iTunes</a>).
 
 I sent the screenshot above to Patrick, and mentioned offhand the 'secret'<sup id="r1"><a href="#fn1">1</a></sup> to using the iPhone with a stripped-down home screen: search.
 
@@ -36,9 +36,9 @@ Metadata and search have long since done away with the organisational elements o
 
 This slapdash, deliberately disorganised approach might seem to run counter to the aims of sites like Minimal Mac, but it really doesn't. Underneath all the screenshots of pretty desktops, icon-free menu bars and [supposedly minimal applications](http://mottr.am/2009/12/01/ommwriter/ "My profanity-laced review of the decidedly unminimalist Ommwriter, the most irritating application since Microsoft launched Clippy"), the core idea driving the current vogue for minimalism on the Mac is, or ought to be, simplicity, and doing more with less.
 
-<aside>
+<aside id="fn1">
 	<ol>
-		<li id="fn1">In fact, I just assumed that most people use search to find apps on their iPhones. Patrick suspects not, hence this post. <a href="#r1">&#8617;</a></li>
+		<li>In fact, I just assumed that most people use search to find apps on their iPhones. Patrick suspects not, hence this post. <a href="#r1">&#8617;</a></li>
 		<li id="fn2">As far as I know, <a title="Apple's 66th employee, fact fans" href="http://en.wikipedia.org/wiki/Bruce_Tognazzini">Bruce Tognazzini</a>'s 1989 findings on <a title="Tog on Interface, Chapter 6" href="http://www.asktog.com/TOI/toi06KeyboardVMouse1.html">keyboard vs. mouse</a> use still hold true:
 		<blockquote>We've done a cool $50 million of R&amp;D on the Apple Human Interface. We discovered, among other things, two pertinent facts: Test subjects consistently report that keyboarding is faster than mousing. The stopwatch consistently proves mousing is faster than keyboarding. This contradiction between user-experience and reality apparently forms the basis for many user/developers' belief that the keyboard is faster. <a href="#r2">&#8617;</a></blockquote>
 		</li>
