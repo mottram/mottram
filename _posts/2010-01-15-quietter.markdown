@@ -1,0 +1,12 @@
+---
+title: Quietter
+layout: post
+type: basic
+time: T14:33:30Z
+description: An idea for a new Twitter client.
+topics: 
+ - noise
+ - twitter
+---
+
+Here's an idea: a Twitter client that silently filters out all retweets, and any tweets containing @, # or RT.

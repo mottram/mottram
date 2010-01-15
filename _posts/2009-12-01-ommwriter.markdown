@@ -36,7 +36,7 @@ I am not joking, just look:
 
 I'd like to think that the developers _are_ joking. I'd just love it if Ommwriter turned out to be a masterful piece of trolling, aimed squarely at the productivity fetishists, or those ostentatious, missing-the-point minimalists who drool over screenshots of their icon-free menu bars, functionality-be-damned. They require an email address before you download, and I honestly would not care a jot if mine ended up listed on a page full of fellow suckers under a ginormous blinking FAIL sign and a 960px-wide [facepalm.gif](http://images.google.co.uk/images?q=facepalm).
 
-I could believe that, if the only evidence of Ommwriter were the video above. But the thing works, it's nicely polished--especially for a beta--and it's very good indeed at the horrible things it does. In fact, if you turn _everything_ off and drill down to the core of the application, I'm happy to admint that it's a thoroughly decent piece of writing software.
+I could believe that, if the only evidence of Ommwriter were the video above. But the thing works, it's nicely polished--especially for a beta--and it's very good indeed at the horrible things it does. In fact, if you turn _everything_ off and drill down to the core of the application, I'm happy to admit that it's a thoroughly decent piece of writing software.
 
 But those defaults? Lord, no. Here's what a text editor that lets you 'be at one' with what you're writing looks (and sounds) like:
 
