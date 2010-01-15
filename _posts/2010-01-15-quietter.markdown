@@ -9,4 +9,4 @@ topics:
  - twitter
 ---
 
-Here's an idea: a Twitter client that silently filters out all retweets, and any tweets containing @, # or RT.
+Here's an idea: a Twitter client that silently filters out all retweets, and any tweets containing @, #, http:// or RT.
