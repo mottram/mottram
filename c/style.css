@@ -508,6 +508,10 @@ p.small {
 	font-size:14px;
 }
 
+.link p.small {
+	font-size:13px;
+}
+
 /* Intense Debate - specificity overload */
 
 #idc-container-parent h3, #idc-container-parent .idc-message, #idc-container-parent .idc-new, #idc-container-parent #IDCommentNewThreadText, #idc-container-parent .idc-postnav-list {
