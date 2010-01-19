@@ -1,0 +1,13 @@
+---
+title: The Finches
+layout: post
+time: T09:00:00Z
+type: video
+video_link: http://www.youtube.com/v/89Kz8Nxb-Bg
+description: On guitar, some Zebra Finches
+topics:
+ - art
+ - music
+---
+
+Avian guitar improvisations organised by C&#233;leste Boursier-Mougenot, at [the Barbican](http://www.barbican.org.uk/artgallery/event-detail.asp?ID=9713).
