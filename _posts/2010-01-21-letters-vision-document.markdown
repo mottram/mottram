@@ -10,4 +10,4 @@ topics:
  - osx
 ---
 
-It's been interesting lurking on the [Letters](http://inessential.com/2010/01/16/email_init) mailing list, and I'm really looking forward to trying the application. Fingers crossed the developers (headed up by [Gus Mueller](http://flyingmeat.com/) of Acord and VoodooPad fame) stick fast to this mission statement.
+It's been interesting lurking on the [Letters](http://inessential.com/2010/01/16/email_init) mailing list, and I'm really looking forward to trying the application. Fingers crossed the developers (headed up by [Gus Mueller](http://flyingmeat.com/) of Acorn and VoodooPad fame) stick fast to this mission statement.
