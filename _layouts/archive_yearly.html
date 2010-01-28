@@ -1,13 +1,13 @@
 ---
 layout: page
+type: archive
 ---
 
-<section>
+<section id="archive">
 <h1>{{ page.year }}</h1>
-
 {% for m in (1..12) reversed %}
   {% if site.collated_posts[page.year][m] %}
-    <h2>{{ m | to_month }}</h2>
+    <h2><a href="/{{ page.year }}/{{ m }}/">{{ m | to_month }}</a></h2>
     <ul>
     {% for d in (1..31) reversed %}
       {% if site.collated_posts[page.year][m][d] %}
@@ -21,3 +21,4 @@ layout: page
   {% endif %}
 {% endfor %}
 </section>
+

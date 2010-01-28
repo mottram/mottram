@@ -1,8 +1,9 @@
 ---
 layout: page
+type: archive
 ---
 
-<section>
+<section> 
 <h1>{{ page.month | to_month }} {{ page.day }}, {{ page.year }}</h1>
 <ul>
   {% for p in site.collated_posts[page.year][page.month][page.day] reversed %}

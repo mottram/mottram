@@ -3,13 +3,6 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 /* end reset */
 
 /* Styles - this is still a work in progress, so everything is a bit messy at the moment - sorry! */
- 
-@font-face {
-	font-family: 'Museo Sans 500';
-	src: url('/f/MuseoSans_500.eot');
-	src: local('Museo Sans 500'), local('MuseoSans-500'), url('/f/MuseoSans_500.woff') format('woff'), url('/f/MuseoSans_500.otf') format('opentype'), url('/f/MuseoSans_500.svg#MuseoSans-500') format('svg');
-}
-
 
 body {
 	background: #fff;
@@ -31,7 +24,7 @@ dd, h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 }
 
 h1, .about h2, .contact h2 {
-	font-family:"Museo Sans 500", Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-family:Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-size:28px;
 	font-weight:normal;
 	padding:0 0 12px 0;
@@ -120,9 +113,9 @@ nav#main {
 	opacity:.8;
 	height:24px;
 	padding:12px 0;
-	-webkit-box-shadow: 0px 4px 4px #ccc;
-	-moz-box-shadow: 0px 4px 4px #ccc;
-	box-shadow: 0px 4px 4px #ccc;
+	-webkit-box-shadow: 0px 4px 4px #ddd;
+	-moz-box-shadow: 0px 4px 4px #ddd;
+	box-shadow: 0px 4px 4px #ddd;
 	z-index:99;
 }
 
@@ -163,22 +156,6 @@ nav ul li {
 	list-style-type:none;
 	margin:0 7px 0 0;
 }
-
-nav ul li a {
-	font-family:"Museo Sans 500", Helvetica, "Helvetica Neue", Arial, sans-serif;
-	text-shadow: #ddd 0 -1px 0, rgba(255,255,255,.2) 0 1px 0;
-	-moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-}
-
-nav ul li.active a {
-	color:#444;
-}
-
-nav ul li a:hover {
-	text-shadow: #ddd 1px 1px 0, rgba(255,255,255,.2) 1px 1px 0;
-}
-
 
 /* Metadata */
 
@@ -303,15 +280,15 @@ nav.archive ul {
 	padding:0;
 }
 
-.archive ol {
+.archive ol, .archive ul {
 	list-style-type:none;
 }
 
-.archive ol li {
+.archive ol li, .archive ul li {
 	margin-bottom:24px;
 }
 
-.archive ol p {
+.archive ol p, .archive ul p {
 	font-size:14px;
 	width:80%;
 }
@@ -471,10 +448,6 @@ em {
 
 p:hover abbr[title] {
 	border-bottom:1px dotted #666;
-}
-
-.museo {
-	font-family:"Museo Sans 500", Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
 /* The extra div is for IE8 - see http://mottr.am/ien  */
