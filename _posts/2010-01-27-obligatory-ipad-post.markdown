@@ -28,8 +28,11 @@ But:
 * Micro SIM. I can't just whack the SIM from my iPhone in it when I'm on the train? Bums.
 * It looks like you'd really need to shell out for that case, if you wanted to do much telly watching or typing. And that Camera Connection Kit, if you wanted to take it on your hols.
 
+**Update**: The iPad *does* have [support for Bluetooth keyboards][4] after all. So that particular 'But' just became a 'Because'.
+
 <p class="small">I still think it'll be a great thing for <a href="/ipad">music makers</a>, though as a control device above all. Using <a href="http://hexler.net/software/touchosc">TouchOSC</a> on it would be a blast.</p>
 
 [1]:http://keyboard.ringwald.ch/Welcome.html
 [2]:http://code.google.com/p/iphone-backgrounder/wiki/Documentation
 [3]:http://www.9to5mac.com/pro-switcher-app-webos-iPhone-359346
+[4]:http://www.apple.com/ipad/design/ "Scroll down to 'Wireless'"
