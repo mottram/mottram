@@ -7,7 +7,7 @@ time: T14:56:45Z
 loc: CH48,UK
 loc_name: Wirral
 description: How to add comments from Twitter to your jekyll blog using jQuery and the Juitter plugin.
-topics:
+tags:
  - jekyll
  - juitter
  - twitter
@@ -27,7 +27,7 @@ layout: post
 type: basic
 short: tw
 description: Add comments from Twitter to your jekyll blog.
-topics:
+tags:
  - jekyll
  - juitter
  - twitter

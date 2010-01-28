@@ -7,7 +7,7 @@ time: T14:28:32Z
 loc: CH48,UK
 loc_name: Wirral
 description: Don't organise your iPhone apps, search for them. It's the modern way.
-topics: 
+tags: 
  - iphone
  - minimalism
 ---

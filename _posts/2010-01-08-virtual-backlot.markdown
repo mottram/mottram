@@ -5,7 +5,7 @@ time: T13:43:34Z
 type: video
 video_link: http://vimeo.com/moogaloop.swf?clip_id=8337356
 description: Stargate Studios demonstrate their virtual backlot, and the fact that all telly is green screened.
-topics:
+tags:
  - technology
  - telly
 ---

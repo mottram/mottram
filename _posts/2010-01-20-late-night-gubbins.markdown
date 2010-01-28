@@ -5,7 +5,7 @@ type: link
 time: T09:00:00Z
 link_to: http://littleredboat.co.uk/?p=3132
 description: Kimmel, Leno, Letterman and O'Brien versus Bing Hitler in the world series of telly in America.
-topics:
+tags:
  - america
  - telly
 ---

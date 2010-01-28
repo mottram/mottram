@@ -5,7 +5,7 @@ type: link
 time: T17:09:56Z
 link_to: 
 description: A twitter client for Macs running anything from System 6 to OS9.
-topics:
+tags:
  - twitter
  - mac
 ---

@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://myownapp.com/site/moapp3.0/applications_leo/writing/mytexts/mytexts.html
 description:
-topics:
+tags:
  - osx
  - text
 ---

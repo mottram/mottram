@@ -4,7 +4,7 @@ layout: post
 type: basic
 short: pc
 description: 
-topics:
+tags:
  - pinboard
  - conkeror
 ---

@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/10/Operating-Theatre-1.jpg
 description: Beautiful medical interiors and equipment by Neil Pardington.
-topics:
+tags:
  - design
  - flags
 ---

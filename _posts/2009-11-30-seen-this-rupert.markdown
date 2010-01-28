@@ -5,7 +5,7 @@ type: photo
 time: T14:08:54Z
 image_url: /u/2009/11/paywall-centre.jpg
 description: A graph showing the effect a paywall had on readership at the National Business Review.
-topics:
+tags:
  - media
  - paywall
 ---

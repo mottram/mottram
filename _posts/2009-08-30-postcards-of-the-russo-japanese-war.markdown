@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/08/japanese-postcard.jpg
 description: Postcards of The Russo-Japanese War
-topics:
+tags:
  - ephemera 
  - japan
  - war

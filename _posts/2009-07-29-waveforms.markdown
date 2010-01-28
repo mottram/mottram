@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/07/music_cd.jpg
 description: Pretty music CD packaging.
-topics:
+tags:
  - design
  - packaging
 ---

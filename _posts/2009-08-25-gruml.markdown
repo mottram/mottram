@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://www.grumlapp.com/
 description: Gruml is an RSS reader for the Mac.
-topics:
+tags:
  - google
  - osx
  - rss

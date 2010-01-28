@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://interviewproject.davidlynch.com/
 description: A new video interview every three days.
-topics:
+tags:
  - documentary
  - lynch
 ---

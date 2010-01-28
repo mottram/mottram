@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://www.worldwidelexicon.org/?page_id=26
 description: It's no Babel fish.
-topics:
+tags:
  - h2g2
  - translation
  - web

@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://kill-or-cure.heroku.com/
 description: Making sense of the Daily Mail's cancer reporting.
-topics:
+tags:
  - cancer
  - daily mail
 ---

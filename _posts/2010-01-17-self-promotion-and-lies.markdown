@@ -5,7 +5,7 @@ type: link
 time: T14:36:03Z
 link_to: http://www.plasticbag.org/archives/2010/01/should_we_encourage_s/
 description: Tom Coates on self-promotion, and making the best thing possible.
-topics:
+tags:
  - web
 ---
 Tom Coates returns with a spirited broadside against aggression, arrogance and untruths in the industry and for, well, making great stuff.

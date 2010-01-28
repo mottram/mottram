@@ -5,7 +5,7 @@ type: link
 time: T12:30:33Z
 link_to: http://stuffandnonsense.co.uk/blog/about/image_management_naming_and_attribute_selectors
 description: Style images with CSS by targeting URL segments, filenames and more.
-topics:
+tags:
  - css
  - design
  - images

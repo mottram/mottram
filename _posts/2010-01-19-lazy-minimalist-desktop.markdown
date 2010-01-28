@@ -4,7 +4,7 @@ layout: post
 type: basic
 time: T10:30:00Z
 description: 
-topics: 
+tags: 
  - osx
  - minimalism
 ---

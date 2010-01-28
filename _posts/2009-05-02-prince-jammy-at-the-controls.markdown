@@ -4,7 +4,7 @@ layout: post
 type: video
 video_link: http://www.youtube.com/watch/v/HrNqUWorGNY
 description: Prince Jammy in the studio. Perfection.
-topics:
+tags:
  - dub
  - music
 ---

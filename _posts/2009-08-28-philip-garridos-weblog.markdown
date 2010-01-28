@@ -4,7 +4,7 @@ layout: post
 type: basic
 short: pg
 description: 
-topics:
+tags:
  - google
  - news
  - web

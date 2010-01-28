@@ -5,7 +5,7 @@ type: photo
 time: T16:19:24Z
 image_url: /u/2010/01/pitch-centre.jpg
 description: Tranmere in depressing image shocker.
-topics:
+tags:
  - trfc
 ---
 

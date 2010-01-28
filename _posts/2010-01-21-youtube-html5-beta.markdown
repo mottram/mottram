@@ -5,7 +5,7 @@ type: link
 time: T13:12:42Z
 link_to: http://www.youtube.com/html5
 description: YouTube now supports HTML5 video.
-topics:
+tags:
  - html5
  - YouTube
 ---

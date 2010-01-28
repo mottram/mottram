@@ -7,7 +7,7 @@ time:
 loc: 
 loc_name: 
 description: 
-topics: 
+tags: 
  - 
  - 
 ---

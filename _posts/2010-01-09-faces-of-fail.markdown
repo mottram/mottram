@@ -5,7 +5,7 @@ type: link
 time: T12:55:12Z
 link_to: http://andialbrecht.wordpress.com/2009/05/09/when-merging-fails/
 description: A funny Python script that tweets your face when a commit fails!
-topics:
+tags:
  - funny
 ---
 

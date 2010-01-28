@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://mapme.at/
 description: Track your location.
-topics:
+tags:
  - location
  - maps
 ---

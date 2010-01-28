@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/11/mars-dunes.jpg
 description: A beautiful photograph of sand dunes on Mars.
-topics:
+tags:
  - mars
 ---
 "Scalloped sand dunes in the southern hemisphere of mars, displaying seasonal frost on the south-facing slopes".

@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://germlin.bandcamp.com/track/nite-eat-ii
 description: A song by Gemlin.
-topics:
+tags:
  - 8bit
  - music
 ---

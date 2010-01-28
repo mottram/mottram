@@ -4,7 +4,7 @@ layout: post
 type: video
 video_link: http://www.youtube.com/watch/v/vVCAjzn4BEI
 description: A Borges documentary.
-topics:
+tags:
  - borges
  - literature
 ---

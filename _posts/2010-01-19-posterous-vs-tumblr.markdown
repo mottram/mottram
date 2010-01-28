@@ -5,7 +5,7 @@ type: link
 time: T19:49:45Z
 link_to: http://pegontech.wordpress.com/2010/01/19/why-tumblr-posterous-ass/
 description: According to Pascal-Emmanuel Gobry, it's down to design.
-topics:
+tags:
  - design
  - posterous
  - tumblr

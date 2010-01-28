@@ -5,7 +5,7 @@ type: audio
 audio_link: http://files.me.com/jack_mottram/kqo5t1.mp3
 song: Kyenkyen Bi Adi Mawu
 description: Ghanain Highlife by K. Frimpong
-topics:
+tags:
  - ghana
  - highlife
 ---

@@ -5,7 +5,7 @@ type: link
 time: T09:00:00Z
 link_to: http://pastie.org/785269
 description: The forthcoming Letters open source email client 
-topics:
+tags:
  - email
  - osx
 ---

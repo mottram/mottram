@@ -4,7 +4,7 @@ layout: post
 type: photo
 time: T22:38:31Z
 description: A few snaps from my trip to Gibraltar with Donny.
-topics:
+tags:
  - gibraltar
 ---
 <img src="http://gallery.me.com/jack_mottram/100036/EPSN4585/web.jpg" alt="Shoppers on Main Street, Gibraltar" width="590" />

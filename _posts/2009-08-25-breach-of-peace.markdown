@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://breachofpeace.com/blog/
 description: Portraits of the Mississippi Freedom Riders.
-topics:
+tags:
  - 1960s
  - photography
 ---

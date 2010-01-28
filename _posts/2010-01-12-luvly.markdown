@@ -5,7 +5,7 @@ type: link
 time: T09:03:59Z
 link_to: http://notes.gilest.org/a-luvly-little-book
 description: Giles Turnbull's self-published book.
-topics:
+tags:
  - books
  - weblogs
 ---

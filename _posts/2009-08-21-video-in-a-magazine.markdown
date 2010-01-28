@@ -4,7 +4,7 @@ layout: post
 type: basic
 short: v
 description: Entertainment Weekly's experiment with video in print.
-topics:
+tags:
  - advertising
  - future
 ---

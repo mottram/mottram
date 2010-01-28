@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/09/reversible-bag.jpg
 description: A nice reversible shopping bag
-topics: 
+tags: 
  - bags
  - fashion
 ---

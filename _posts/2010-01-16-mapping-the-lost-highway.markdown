@@ -5,7 +5,7 @@ type: link
 time: T11:00:00Z
 link_to: http://richardkovitch-thedrift.blogspot.com/2009/11/david-lynch-mapping-lost-highway.html
 description: A report from the Tate Modern's David Lynch symposium.
-topics:
+tags:
  - lynch
 ---
 

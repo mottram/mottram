@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/09/3910802052_216383c4f3_o.jpg
 description: German matchbox designs
-topics:
+tags:
  - design
  - germany
 ---

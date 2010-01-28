@@ -5,7 +5,7 @@ type: link
 link_to: http://taxpayersalliance.org/
 keywords:
 description: The non-evil twin of The Taxpayers Alliance.
-topics:
+tags:
  - politics
  - tax
  - uk

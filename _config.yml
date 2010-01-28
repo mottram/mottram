@@ -1,2 +1,4 @@
 permalink: pretty
 pygments: true
+tag_dir: tag
+tag_title_prefix: "Tag - "

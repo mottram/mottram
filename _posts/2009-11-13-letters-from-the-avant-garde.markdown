@@ -5,7 +5,7 @@ type: photo
 image_url: /u/2009/11/club-dada.jpg
 description: Evidence that graphic design reached its apogee in the first half of the 20th century.
 time: T09:00:00Z
-topics:
+tags:
  - dada
  - design
 ---

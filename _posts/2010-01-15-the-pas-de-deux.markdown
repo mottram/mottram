@@ -5,7 +5,7 @@ time: T15:31:49Z
 type: video
 video_link: http://www.youtube.com/v/DAZFvQ1Uv9k
 description: Pas de Deux, Norman McLaren's 1968 animated film
-topics:
+tags:
  - animation
  - ballet
 ---

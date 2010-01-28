@@ -3,7 +3,7 @@ title: Hot Default Browser Action
 layout: post
 type: basic
 description: How to set the default web browser on Ubuntu.
-topics:
+tags:
  - ubuntu
 ---
 Much as I enjoy running Xubuntu on my Eee PC 701, it can sometimes take me bloody _ages_ to work out how to do something simple. Just so I don't forget, here's one of many ways  to set a default web browser:

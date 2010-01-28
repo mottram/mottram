@@ -4,7 +4,7 @@ layout: post
 type: video
 video_link: http://www.youtube.com/watch/v/jvkhYcTEwRE
 description: Differently abled martial arts experts.
-topics:
+tags:
  - cinema
 ---
 &nbsp;

@@ -5,7 +5,7 @@ type: photo
 image_url: /u/2009/10/barnes.jpg
 keywords: john barnes, barnes, tranmere, trfc
 description: John Barnes sweeping the streets
-topics:
+tags:
  - funny
  - trfc
 ---

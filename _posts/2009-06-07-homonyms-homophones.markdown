@@ -6,7 +6,7 @@ short: hh
 loc: G4,UK
 loc_name: Glasgow
 description: Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.
-topics:
+tags:
  - language
 ---
 Hover over the sentences to see a translation and the language of origin.

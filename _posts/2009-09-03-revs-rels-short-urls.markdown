@@ -4,7 +4,7 @@ layout: post
 type: basic
 short: su
 description: I've made short URLS available for some posts on the site.
-topics:
+tags:
  - meta
  - urls
  - web

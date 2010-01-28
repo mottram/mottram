@@ -5,7 +5,7 @@ type: link
 time: T18:30:37Z
 link_to: http://etherpad.com/ep/blog/posts/google-acquires-appjet
 description: Google acquire AppJet, kill off Etherpad.
-topics:
+tags:
  - etherpad
  - google
 ---

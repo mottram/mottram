@@ -3,7 +3,7 @@ title: Wormpress
 layout: post
 type: basic
 description: On the WordPress security scare
-topics: 
+tags: 
  - wordpress
  - security
 ---

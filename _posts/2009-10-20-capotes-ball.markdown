@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/10/capote-ball.jpg
 description: A photograph of the Black Panthers by Howard Bingham.
-topics:
+tags:
  - boredom
  - glamour
  - photography

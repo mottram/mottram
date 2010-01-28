@@ -5,7 +5,7 @@ type: audio
 audio_link: http://files.me.com/jack_mottram/iz2omc.mp3
 short: eco
 description: A song by Apachie Chief.
-topics:
+tags:
  - dub
 ---
 

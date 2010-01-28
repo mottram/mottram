@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://www.atimes.com/koreas/CH04Dg01.html
 description: Links to a chef's memoir of cooking for the Dear Leader.
-topics:
+tags:
  - DPRK
  - food
 ---

@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://arstechnica.com/open-source/news/2009/08/quickly-new-rails-like-rapid-development-tools-for-ubuntu.ars
 description: Quickly, a framework for Ubuntu
-topics:
+tags:
  - python
  - ubuntu
 ---

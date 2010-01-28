@@ -5,7 +5,7 @@ type: link
 time: T16:01:43Z
 link_to: http://www.simplicidade.org/notes/archives/2007/08/tip_use_growlno.html
 description: A handy script that adds Growl and libnotify notifications to any script or command.
-topics:
+tags:
  - growl
 ---
 

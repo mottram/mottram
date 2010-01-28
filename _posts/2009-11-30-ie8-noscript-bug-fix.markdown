@@ -7,7 +7,7 @@ time: T08:00:00Z
 loc: CH48,UK
 loc_name: Wirral
 description: Internet Explorer 8 won't let you style the noscript tag, here's how to fix it.
-topics: 
+tags: 
  - ie8
  - noscript
 ---

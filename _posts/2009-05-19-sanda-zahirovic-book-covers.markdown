@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/05/eon.jpg
 description: Beautiful book cover designs.
-topics:
+tags:
  - 
  - 
 ---

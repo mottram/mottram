@@ -7,7 +7,7 @@ short: ie5
 loc: CH48,UK
 loc_name: Wirral
 description: Using HTML 5? You should probably tell Internet Explorer users why your site looks rubbish if they have JavaScript turned off.
-topics:
+tags:
  - HTML5
  - IE
 ---

@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://www.bbc.co.uk/blogs/radio4/
 description: A weblog, by and about Radio 4.
-topics:
+tags:
  - bbc
  - radio
 ---

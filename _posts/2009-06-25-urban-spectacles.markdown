@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/06/specs.jpg
 description: Beautiful glasses made out of wood.
-topics:
+tags:
  - design
  - specs
 ---

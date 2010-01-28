@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://bookseer.com/
 description: A book-recommending website.
-topics:
+tags:
  - books
  - web
 ---

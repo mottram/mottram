@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://www.usefulfruit.com/pearnote/
 description: Pear Note records audio and video while you take your notes
-topics:
+tags:
  - applications
  - notes
  - osx

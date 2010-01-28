@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/06/findmyiphone.jpg
 description: Find My iPhone translocation.
-topics:
+tags:
  - iphone
  - location
  - maps

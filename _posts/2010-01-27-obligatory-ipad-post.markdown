@@ -7,7 +7,7 @@ time: T23:29:30Z
 loc: CH48,UK
 loc_name: Wirral
 description: 
-topics: 
+tags: 
  - apple
  - ipad
 ---

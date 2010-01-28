@@ -7,7 +7,7 @@ loc: CH48,UK
 loc_name: Wirral
 time: T18:45:26Z
 description: Chemex pour-over coffee makers look as beautiful as the coffee they make 
-topics:
+tags:
  - chemex
  - coffee
 ---

@@ -5,7 +5,7 @@ type: basic
 time: T14:24:20Z
 short: ph
 description: I just realised that Apple answered my 2004 lazyweb request.
-topics: 
+tags: 
  - iphone
 ---
 On [May 2nd, 2004][1], I pinged [the LazyWeb][4], asking someone to invent an application that would make my mobile 'phone ring, so that I could find it.

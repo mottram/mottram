@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://www.google.com/quicksearchbox/
 description: Quicksilver, only not as good.
-topics:
+tags:
  - google
  - osx
 ---

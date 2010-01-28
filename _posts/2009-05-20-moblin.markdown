@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://arstechnica.com/open-source/reviews/2009/05/hands-on-intel-brings-rich-ui-to-moblin-linux-platform.ars
 description: The latest version of Intel's netbook platform.
-topics:
+tags:
  - linux
  - moblin
 ---

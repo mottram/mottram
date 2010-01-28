@@ -4,7 +4,7 @@ layout: post
 type: video
 video_link: http://www.youtube.com/v/qCp99A2Cni0
 description: Paris is Burning, a superb documentary on the Harlem drag ball scene of the 1980s.
-topics:
+tags:
  - documentary
 ---
 _Paris is Burning_ is one of the best documentary films ever made.

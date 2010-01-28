@@ -5,7 +5,7 @@ type: audio
 audio_link: http://files.me.com/jack_mottram/ostvay.mp3
 short: dh2
 description: Love Mom and Dad, a song by White Mice.
-topics:
+tags:
  - dancehall
  - white mice
 ---

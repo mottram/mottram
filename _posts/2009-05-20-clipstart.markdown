@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://riverfold.com/software/clipstart
 description: Clipstart is like iPhoto, only for videos.
-topics:
+tags:
  - osx
  - video
 ---

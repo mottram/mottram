@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<section>
+<h1>{{ page.year }}</h1>
+
+{% for m in (1..12) reversed %}
+  {% if site.collated_posts[page.year][m] %}
+    <h2>{{ m | to_month }}</h2>
+    <ul>
+    {% for d in (1..31) reversed %}
+      {% if site.collated_posts[page.year][m][d] %}
+        {% for p in site.collated_posts[page.year][m][d] reversed %}
+          <li><a href='{{ p.url }}'>{{ p.title }}</a>
+	</li>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+</section>

@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://www.timesonline.co.uk/tol/sport/football/football_league/article6733622.ece
 description: Tranmere for sale.
-topics:
+tags:
  - ebay
  - trfc
 ---

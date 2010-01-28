@@ -4,7 +4,7 @@ layout: post
 type: basic
 time: T14:50:44Z
 description: A quote from and response to Nick Cernis' article Rise of the Tablog.
-topics: 
+tags: 
  - weblogging
 ---
 > The blog format has devolved. Once a simple gateway to self-publishing, today the blog format is responsible for a thousand tawdry tablogs: hideous half-breeds of tabloid and blog built around odious content, cluttered site designs, and optimised for pageviews alone.

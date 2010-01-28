@@ -4,7 +4,7 @@ layout: post
 type: basic
 short: hr
 description: The books I plan to read on holiday
-topics:
+tags:
  - books
  - sinclair
  - byrne

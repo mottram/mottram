@@ -6,7 +6,7 @@ time: T09:00:00Z
 audio_link: http://files.me.com/jack_mottram/lfp6ni.mp3
 short: grin
 description: A song by Son House
-topics:
+tags:
  - blues
 ---
 

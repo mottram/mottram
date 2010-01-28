@@ -5,7 +5,7 @@ type: link
 time: T16:16:24Z
 link_to: http://speaktheweb.org
 description: A touring web development event.
-topics:
+tags:
  - events
  - web
 ---

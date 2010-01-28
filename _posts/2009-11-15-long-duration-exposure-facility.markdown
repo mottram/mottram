@@ -5,7 +5,7 @@ type: photo
 time: T17:49:10Z
 image_url: /u/2009/11/ldef1.jpg
 description: A panel from the Long Duration Exposure Facility, a scientific satellite.
-topics:
+tags:
  - science
  - space
 ---

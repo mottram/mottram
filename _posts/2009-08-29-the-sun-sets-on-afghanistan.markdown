@@ -4,7 +4,7 @@ layout: post
 type: basic
 short: wr
 description: The Sun, an anti-war paper?!
-topics:
+tags:
  - media
  - politics
  - war

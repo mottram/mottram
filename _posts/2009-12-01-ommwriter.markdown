@@ -5,7 +5,7 @@ type: basic
 short: omw
 time: T14:01:23Z
 description: A review of Omm Writer, a new text editor for the Macintosh.
-topics: 
+tags: 
  - ommwriter
  - osx
  - text

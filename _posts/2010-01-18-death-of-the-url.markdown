@@ -5,7 +5,7 @@ type: link
 time: T18:16:22Z
 link_to: http://factoryjoe.com/blog/2009/11/16/the-death-of-the-url/
 description: Chris Messina of Diso on the URL's imminent demise.
-topics:
+tags:
  - URLs
  - web
 ---

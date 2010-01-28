@@ -5,7 +5,7 @@ type: link
 link_to: http://gwei.org/index.php
 keywords:
 description:
-topics:
+tags:
  - google
 ---
 "By establishing this autocannibalistic model we deconstruct the new global advertisment mechanisms by rendering them into a surreal click-based economic model."

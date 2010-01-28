@@ -5,7 +5,7 @@ type: link
 time: T17:45:50Z
 link_to: http://www.regrettheerror.com/2009/12/16/crunks-2009-the-year-in-media-errors-and-corrections/
 description: Craig Silverman's annual compendium of newspaper howlers.
-topics:
+tags:
  - media
  - news
 ---

@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://www.guardian.co.uk/media/2009/jun/30/martin-freeman-alexander-armstrong-sir-clive-sinclair-bbc4-drama
 description: The geekiest docudrama of the year.
-topics:
+tags:
  - bbc
  - telly
 ---

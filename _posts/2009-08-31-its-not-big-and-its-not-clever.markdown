@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://www.guardian.co.uk/books/2009/aug/29/digital-media-celebrity-snark
 description: David Denby on 'snark'.
-topics:
+tags:
  - culture
  - web
 ---

@@ -4,7 +4,7 @@ layout: post
 type: link
 link_to: http://www.thebeatlesrockband.com/cinematic.php
 description: A lovely animation.
-topics: 
+tags: 
  - animation
  - beatles
 ---

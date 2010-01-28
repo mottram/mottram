@@ -4,7 +4,7 @@ layout: post
 type: photo
 image_url: /u/2009/06/kate.jpg
 description: Photographs taken with a 35 FM.
-topics:
+tags:
  - agfa
  - ricoh
 ---
