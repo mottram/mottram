@@ -4,7 +4,7 @@ layout: post
 type: photo
 time: T14:00:00Z
 image_url: /u/2010/01/velocette/velocette-le-5.jpg
-description: 
+description: Some photographs of the Velocette LE, a beautiful motorbike.
 tags:
  - design
 ---

@@ -3,7 +3,7 @@ title: Lazy Minimalist Desktop
 layout: post
 type: basic
 time: T10:30:00Z
-description: 
+description: Want to unclutter your desktop, but can’t be arsed?
 tags: 
  - osx
  - minimalism

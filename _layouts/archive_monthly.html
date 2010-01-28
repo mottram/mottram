@@ -4,7 +4,7 @@ type: archive
 ---
 
 <section id="archive">
-<h1>{{ page.month | to_month }} <a title="View all posts made in {{ page.year }}" href="/{{ page.year }}">{{ page.year }}</a></h1>
+<h1>Posts made in {{ page.month | to_month }}, <a title="View all posts made in {{ page.year }}" href="/{{ page.year }}">{{ page.year }}</a></h1>
 <ul>
   {% for d in (1..31) reversed %}
     {% if site.collated_posts[page.year][page.month][d] %}

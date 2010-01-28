@@ -10,7 +10,7 @@ body {
 	background: -moz-linear-gradient(0 100%,0 0,color-stop(.3,#fff),color-stop(1,#fafafa)) fixed no-repeat 0 100%;
 	line-height:24px;
 	color:#555;
-	font:normal 16px/24px Helvetica, Arial, sans-serif;
+	font:normal 16px/24px Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
 section {
@@ -24,11 +24,9 @@ dd, h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 }
 
 h1, .about h2, .contact h2 {
-	font-family:Helvetica, "Helvetica Neue", Arial, sans-serif;
 	font-size:28px;
 	font-weight:normal;
 	padding:0 0 12px 0;
-	/* border-bottom:1px solid #ddd; */
 }
 
 .link h1:after {
@@ -203,10 +201,6 @@ footer address, .about address {
 
 article, section#archive, div.contact {
 	margin:0;
-/*	border:1px solid #ddd;
-	-webkit-box-shadow: 3px 3px 3px #ccc;
-	-moz-box-shadow: 3px 3px 3px #ccc;
-	box-shadow: 3px 3px 3px #ccc; in case I want boxes back*/
 	padding:48px 24px 24px 24px;
 	background: transparent;
 }
@@ -227,7 +221,7 @@ section#archive section {
 }
 
 article ul, article ol {
-	padding:0; /* 24px - add if putting boxes back */
+	padding:0;
 }
 
 article ul li {
@@ -302,6 +296,12 @@ nav.archive ul {
 .archive h2 time {
 	font-size:14px;
 	color:#777;
+}
+
+.archive h2.title {
+	font-size:28px;
+	margin-bottom:24px;
+	padding:12px 0;
 }
 
 .archive-nav ul {
