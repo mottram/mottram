@@ -17,7 +17,7 @@ I _sort of_ want one.
 Because:
 
 * I have an Eee PC 701, so I know a device that falls between a 'phone and a proper laptop is useful, and something I would use all the time.
-* The Mail and iCal apps look like they're better than their desktop equivalents.
+* The Mail and iCal apps look like they're *better* than their desktop equivalents.
 * iBook. Assuming you can load it up with ePub texts from Project Gutenburg, and can read on the thing for three hours straight without getting a headache.
 * It's not absurdly expensive.
 
