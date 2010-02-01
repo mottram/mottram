@@ -1,6 +1,7 @@
 Sitemap: http://mottr.am/sitemap.xml
 User-agent: *
 Disallow: /archive/
+Disallow: /tag/
 Disallow: /u/
 Disallow: /2/
 Disallow: /3/

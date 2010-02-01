@@ -1,0 +1,54 @@
+---
+layout: nil
+title: Home
+type: home
+description: Jack Mottram's weblog 
+keywords: art, photography, design, fashion, web development, mottram
+---
+<!DOCTYPE html>
+<html dir="ltr" lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+<div class="container_12" style="background:pink;">
+
+<div id="home_posts" class="grid_6">
+{% for post in site.posts limit: 20 %}
+{% if post.type == 'basic' %}
+	<article>
+	<h1>{{ post.title }}</h1>
+	{% include home_meta.html %}
+	{{ post.content }}
+	</article>
+{% endif %}
+{% endfor %}
+</div>
+
+
+<div id="home_photos" class="grid_3">
+<h1>Images</h1>
+{% for post in site.posts limit: 100 %}
+{% if post.type == 'photo' %}
+
+{% if post.image_url %}<img alt="{{ post.title }}" title="{{ post.title }}" src="http://dl.dropbox.com/u/84981/blog/{{ post.image_url }}" width="190" />{% endif %}
+
+{% endif %}
+{% endfor %}
+</div>
+
+<div id="home_links" class="grid_3">
+		<h1>Links</h1>
+{% for post in site.posts limit: 10 %}
+{% if post.type == 'link' %}
+<h2>{{ post.title }}</h2>
+{{ post.content }}
+
+{% endif %}
+{% endfor %}
+</div>
+
+
+</div><!--end main container-->
+</body>
+</html>

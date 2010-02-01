@@ -1,0 +1,13 @@
+---
+layout: page
+type: archive
+---
+<section id="archive">
+<h1>Posts made on the {{ page.day }}{% if page.day == 1 or page.day == 21 or page.day == 31 %}st{% elsif page.day == 2 or page.day == 22 %}nd{% elsif page.day == 3 or page.day == 23 %}rd{% elsif page.day != 1 or page.day != 21 or page.day != 31 or page.day != 2 or page.day != 22 or page.day != 3 or page.day != 23  %}th{% endif %} of <a title="View all posts made in {{ page.month | to_month }}, {{ page.year }}" href="/{{ page.year }}/{% if page.month < 10 %}0{{ page.month }}{% else %}{{ page.month }}{% endif %}/">{{ page.month | to_month }}</a>, <a title="View all posts made in {{ page.year }}" href="/{{ page.year }}/">{{ page.year }}</a></h1>
+<ul>{% for p in site.collated_posts[page.year][page.month][page.day] %}
+    <li>
+		<h2><a href='{{ p.url }}'>{{ p.title }}</a></h2>
+		<p>{{ p.description }}</p>
+	</li>{% endfor %}
+</ul>
+</section>
