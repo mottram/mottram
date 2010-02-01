@@ -5,4 +5,5 @@ Disallow: /u/
 Disallow: /2/
 Disallow: /3/
 Disallow: /4/
+Disallow: /redesign/
 Disallow: atom.xml

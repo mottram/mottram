@@ -5,22 +5,21 @@ type: archive
 
 <section id="archive">
 <h1>Posts made in {{ page.year }}</h1>
-{% for m in (1..12) reversed %}
-  {% if site.collated_posts[page.year][m] %}
-    <h2 class="title"><a href="/{{ page.year }}/{{ m }}/">{{ m | to_month }}</a></h2>
-    <ul>
-    {% for d in (1..31) reversed %}
-      {% if site.collated_posts[page.year][m][d] %}
-        {% for p in site.collated_posts[page.year][m][d] reversed %}
+
+<nav>
+	<ul>{% for m in (1..12) %}{% if site.collated_posts[page.year][m] %}
+	<li><a href="#{{ m }}">{{ m | to_month }}</a></li>{% endif %}{% endfor %}
+	</ul>
+</nav>
+{% for m in (1..12) %}{% if site.collated_posts[page.year][m] %}
+	<section id="{{ m }}">
+    <h2 class="title">{{ m | to_month }}</h2>
+    <ul>{% for d in (1..31) %}{% if site.collated_posts[page.year][m][d] %}{% for p in site.collated_posts[page.year][m][d] %}
         <li>
-			<a href='{{ p.url }}'>{{ p.title }}</a>
+			<h2><a id="{{ m }}" href='{{ p.url }}'>{{ p.title }}</a> <time datetime="{{ p.date | date: "%Y-%m-%d"  }}">{{ p.date | date_to_long_string }}</time></h2>
 			<p>{{ p.description }}</p>
-		</li>
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
+		</li>{% endfor %}{% endif %}{% endfor %}
     </ul>
-  {% endif %}
-{% endfor %}
+</section>{% endif %}{% endfor %}
 </section>
 

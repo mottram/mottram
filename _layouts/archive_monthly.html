@@ -5,16 +5,10 @@ type: archive
 
 <section id="archive">
 <h1>Posts made in {{ page.month | to_month }}, <a title="View all posts made in {{ page.year }}" href="/{{ page.year }}">{{ page.year }}</a></h1>
-<ul>
-  {% for d in (1..31) reversed %}
-    {% if site.collated_posts[page.year][page.month][d] %}
-      {% for p in site.collated_posts[page.year][page.month][d] reversed %}
+<ul>{% for d in (1..31) %}{% if site.collated_posts[page.year][page.month][d] %}{% for p in site.collated_posts[page.year][page.month][d] %}
         <li>
-			<a href='{{ p.url }}'>{{ p.title }}</a>
+			<h2><a href='{{ p.url }}'>{{ p.title }}</a> <time datetime="{{ p.date | date: "%Y-%m-%d"  }}">{{ p.date | date_to_long_string }}</time></h2>
 			<p>{{ p.description }}</p>
-		</li>
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+		</li>{% endfor %}{% endif %}{% endfor %}
 </ul>
 </section>

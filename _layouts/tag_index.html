@@ -4,13 +4,11 @@ type: archive
 ---
 
 <section id="archive">
-<h1>Posts tagged with &#8216;{{ page.tag }}&#8217</h1>
-<ul>
-{% for post in site.tags[page.tag] %}
+<h1>Posts tagged with &#8216;{{ page.tag }}&#8217;</h1>
+<ul>{% for post in site.tags[page.tag] %}
   <li> 
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 	<p>{{ post.description }}</p>
-  </li>
-{% endfor %}
+  </li>{% endfor %}
 </ul>
 </section>
