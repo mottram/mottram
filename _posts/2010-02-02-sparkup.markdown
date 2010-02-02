@@ -1,0 +1,12 @@
+---
+title: Sparkup 
+layout: post
+type: link
+time: T15:13:35Z
+link_to: http://github.com/rstacruz/sparkup
+description: Sparkup lets you write HTML in a CSS-like syntax.
+tags:
+ - html
+ - vim
+---
+A bundle for TextMate and Vim plugin that lets you write HTML in a CSS-like syntax. The [screencast](http://www.youtube.com/watch?v=Jw3jipcenKc "Sparkup with MacVIM on YouTube") shows that it's pretty powerful, and easy to learn.

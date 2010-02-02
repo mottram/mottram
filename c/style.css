@@ -214,7 +214,7 @@ section#archive section {
 }
 
 .active {
-	text-decoration:underline;
+	color:#777!important;
 }
 
 .about article, div.contact, .photo article, .video article, .link article, .basic article, .audio article, ul.more {
