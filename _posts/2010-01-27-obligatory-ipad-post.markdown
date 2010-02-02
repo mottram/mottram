@@ -30,9 +30,12 @@ But:
 
 **Update**: The iPad *does* have [support for Bluetooth keyboards][4] after all. So that particular 'But' just became a 'Because'.
 
+**Update 02/02/10**: And it *may* [support handwriting recognition][5] at some point in the future. Anything that makes the iPad more like the Newton counts as a definite 'Because'.
+
 <p class="small">I still think it'll be a great thing for <a href="/ipad">music makers</a>, though as a control device above all. Using <a href="http://hexler.net/software/touchosc">TouchOSC</a> on it would be a blast.</p>
 
 [1]:http://keyboard.ringwald.ch/Welcome.html
 [2]:http://code.google.com/p/iphone-backgrounder/wiki/Documentation
 [3]:http://www.9to5mac.com/pro-switcher-app-webos-iPhone-359346
 [4]:http://www.apple.com/ipad/design/ "Scroll down to 'Wireless'"
+[5]:http://arstechnica.com/apple/news/2010/02/ipad-sdk-holds-hints-of-video-calls-handwriting-keyboard.ars "iPad SDK holds hints of video calls, handwriting 'keyboard'"
