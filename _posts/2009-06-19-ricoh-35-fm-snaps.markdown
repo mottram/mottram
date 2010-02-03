@@ -2,7 +2,7 @@
 title: Ricoh 35 FM Snaps
 layout: post
 type: photo
-image_url: /u/2009/06/kate.jpg
+imageurl: /u/2009/06/kate.jpg
 description: Photographs taken with a 35 FM.
 tags:
  - agfa

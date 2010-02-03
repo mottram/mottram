@@ -5,7 +5,7 @@ type: basic
 time: T14:32:51Z
 short: ie5
 loc: CH48,UK
-loc_name: Wirral
+locname: Wirral
 description: Using HTML 5? You should probably tell Internet Explorer users why your site looks rubbish if they have JavaScript turned off.
 tags:
  - HTML5

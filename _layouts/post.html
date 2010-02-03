@@ -14,8 +14,8 @@ layout: default
 <header>
 <h1>{{ page.title }}</h1>
 </header>
-{% include meta.html %}{% if page.image_url %}
-<img alt="{{ page.title }}" title="{{ page.title }}" src="http://dl.dropbox.com/u/84981/blog/{{ page.image_url }}" width="590" />{% endif %}
+{% include meta.html %}{% if page.imageurl %}
+<img alt="{{ page.title }}" title="{{ page.title }}" src="http://dl.dropbox.com/u/84981/blog/{{ page.imageurl }}" width="590" />{% endif %}
 {{ content }}
 </article>
 {% endif %}{% if page.type == 'video' %}

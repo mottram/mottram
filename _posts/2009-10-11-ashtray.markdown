@@ -2,7 +2,7 @@
 title: Ashtray
 layout: post
 type: photo
-image_url: /u/2009/10/ashtray.jpg
+imageurl: /u/2009/10/ashtray.jpg
 description: An amusing ashtray.
 tags:
  - design

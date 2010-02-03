@@ -5,7 +5,7 @@ type: basic
 short: ehic
 time: T19:03:22Z
 loc: CH48,2JN
-loc_name: Wirral
+locname: Wirral
 description: Avoid ehic.org and ehic.uk.com when applying for an EHIC on the web.
 tags: 
  - ehic

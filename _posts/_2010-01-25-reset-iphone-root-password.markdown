@@ -5,7 +5,7 @@ type: basic
 short: 
 time: 
 loc: 
-loc_name: 
+locname: 
 description: 
 tags: 
  - 

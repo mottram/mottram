@@ -5,7 +5,7 @@ type: basic
 short: cl
 time: T18:18:11Z
 loc: CH48,UK
-loc_name: Wirral
+locname: Wirral
 description: The courier firm City Link
 tags: 
  - analytics

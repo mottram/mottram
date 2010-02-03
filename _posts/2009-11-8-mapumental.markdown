@@ -4,7 +4,7 @@ layout: post
 type: basic
 short: mm
 loc: CH48,UK
-loc_name: Wirral
+locname: Wirral
 description: Mapumental offers interactive choropleth maps that you can filter by transport, house prices, and 'scenicness'.
 tags:
  - data

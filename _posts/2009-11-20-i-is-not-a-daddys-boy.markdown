@@ -3,7 +3,7 @@ title: I is not a daddy's boy!
 layout: post
 type: photo
 time: T16:04:09Z
-image_url: /u/2009/11/if1.jpg
+imageurl: /u/2009/11/if1.jpg
 description: A cartoon by Steve Bell, skewering Murdoch and son.
 tags:
  - bell

@@ -2,7 +2,7 @@
 title: The Idea of a Tree
 layout: post
 type: photo
-image_url: /u/2009/09/idea-of-a-tree.jpg
+imageurl: /u/2009/09/idea-of-a-tree.jpg
 description: The Idea of a Tree, a hybrid combination of natural input and mechanical process.
 tags:
  - art

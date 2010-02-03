@@ -5,7 +5,7 @@ type: basic
 short: ien
 time: T08:00:00Z
 loc: CH48,UK
-loc_name: Wirral
+locname: Wirral
 description: Internet Explorer 8 won't let you style the noscript tag, here's how to fix it.
 tags: 
  - ie8

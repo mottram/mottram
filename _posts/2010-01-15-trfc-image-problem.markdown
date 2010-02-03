@@ -3,7 +3,7 @@ title: TRFC Image Problem
 layout: post
 type: photo
 time: T16:19:24Z
-image_url: /u/2010/01/pitch-centre.jpg
+imageurl: /u/2010/01/pitch-centre.jpg
 description: Tranmere in depressing image shocker.
 tags:
  - trfc

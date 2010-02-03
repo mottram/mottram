@@ -5,7 +5,7 @@ type: basic
 short: ipad
 time: T10:00:41Z
 loc: CH48,UK
-loc_name: Wirral
+locname: Wirral
 description: The forthcoming Apple iPad will be a great touch-sensitive tool for musicians weaned on the likes of Ableton Live.
 tags: 
  - apple

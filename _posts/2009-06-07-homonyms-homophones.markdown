@@ -4,7 +4,7 @@ layout: post
 type: basic
 short: hh
 loc: G4,UK
-loc_name: Glasgow
+locname: Glasgow
 description: Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.
 tags:
  - language

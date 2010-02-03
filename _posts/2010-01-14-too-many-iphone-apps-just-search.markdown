@@ -5,7 +5,7 @@ type: basic
 short: iphone
 time: T14:28:32Z
 loc: CH48,UK
-loc_name: Wirral
+locname: Wirral
 description: Don't organise your iPhone apps, search for them. It's the modern way.
 tags: 
  - iphone

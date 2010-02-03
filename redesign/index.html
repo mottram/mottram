@@ -31,7 +31,7 @@ keywords: art, photography, design, fashion, web development, mottram
 {% for post in site.posts limit: 100 %}
 {% if post.type == 'photo' %}
 
-{% if post.image_url %}<img alt="{{ post.title }}" title="{{ post.title }}" src="http://dl.dropbox.com/u/84981/blog/{{ post.image_url }}" width="190" />{% endif %}
+{% if post.imageurl %}<img alt="{{ post.title }}" title="{{ post.title }}" src="http://dl.dropbox.com/u/84981/blog/{{ post.imageurl }}" width="190" />{% endif %}
 
 {% endif %}
 {% endfor %}

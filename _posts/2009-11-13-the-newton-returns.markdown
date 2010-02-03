@@ -4,7 +4,7 @@ layout: post
 type: basic
 short: newt
 loc: CH48,UK
-loc_name: Wirral
+locname: Wirral
 time: T14:17:00Z
 description: Apple's latest patent application points to a new tablet with a stylus, just like the Newton.
 tags:
