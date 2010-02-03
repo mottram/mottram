@@ -43,7 +43,7 @@ h1, .about h2, .contact h2 {
 	}
 
 .link h1 {
-	font-size:1.13;
+	font-size:1.2em;
 } 
 
 h3 {
@@ -98,6 +98,10 @@ a, a:link, a:visited, a:active{
 	
 a:hover {
 	color:#777;
+}
+
+p:hover a, footer:hover a, ul:hover a {
+	text-decoration:underline;
 }
 	
 /* nav - gratuitous CSS 3 abuse! */
@@ -161,7 +165,7 @@ nav ul li {
 article footer {
 	font-size:0.81em;
 	font-weight:lighter;
-	margin:-1.5em 0 1.5em 0;
+	margin:-3em 0 1.5em 0;
 }
 
 article nav h1 {
