@@ -14,7 +14,7 @@ Five-and-a-bit years later, on June 17th 2009, Apple answered my call, releasing
 
 But, <a href="http://submitresponse.co.uk/weblog/2003/08/13/t610-on-the-desktop/">back in <em>2003</em></a>, my Sony Ericsson [t610][3] would display pop-up notifications on my Mac whenever I received a call, and even let me carry on SMS conversations from the computer, without so much as touching the 'phone:
 
-<img src="/u/2009/11/incoming-centre.jpg" width="300" alt="A desktop alert from 2003" />
+<img src="http://dl.dropbox.com/u/84981/blog/u/2009/11/incoming-centre.jpg" width="300" alt="A desktop alert from 2003" />
 
 As far as I can tell, six years later, my iPhone--which makes the t610, a great 'phone in its day, look like a relic of a bygone age--can't show me who's calling on my Mac, and won't let me chat via SMS from the comfort of my keyboard.
 
