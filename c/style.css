@@ -4,48 +4,51 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 /* Styles - this is still a work in progress, so everything is a bit messy at the moment - sorry! */
 
+html {
+	font-size:100%;
+}
+
 body {
 	background: #fff;
-	line-height:24px;
 	color:#555;
-	font:normal 16px/24px Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font:normal 1em/1.5em Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
 section {
 	background:transparent;
-	width:640px;
-	margin:96px auto;
+	width:40em;
+	margin:6em auto;
 }
 
 dd, h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
-	margin-bottom:24px;
+	margin-bottom:1.5em;
 }
 
 h1, .about h2, .contact h2 {
-	font-size:28px;
+	font-size:1.75em;
 	font-weight:normal;
-	padding:0 0 12px 0;
+	padding:0 0 0.75em 0;
 }
 
 .link h1:after {
 	font-family:Baskerville, Palatino, "Book Antiqua", Georgia, serif;
 	color:#aaa;
 	font-weight:normal !important;
-	font-size:18px;
+	font-size:1.13em;
 	content:" \261b";
 	}
 
 .link p {
-	font-size:14px;
+	font-size:0.88em;
 	}
 
 .link h1 {
-	font-size:18px;
+	font-size:1.13;
 } 
 
 h3 {
-	font-size:16px;
-	line-height:24px;
+	font-size:1em;
+	line-height:1.5em;
 	font-weight:normal;
 }
 
@@ -59,14 +62,14 @@ ul {
 
 pre, code {
 	font-family:Monaco, Consolas, "Andale Mono", "monotype.com", "Bitstream Vera Sans Mono", monospace;
-	font-size:14px;
+	font-size:0.88em;
 }
 
 blockquote {
 	color:#777;
 	text-align:justify;
-	padding:12px 12px;
-	margin:0 0 24px 0 0;
+	padding:0.75em 0.75em;
+	margin:0 0 1.5em 0 0;
 	border-top:1px solid #ddd;
 	border-bottom:1px solid #ddd;
 }
@@ -78,7 +81,7 @@ blockquote p {
 blockquote + p > em {
 	display:block;
 	text-align:right;
-	margin:-12px 66px 24px 0;
+	margin:-0.75em 4.13em 1.5em 0;
 }
 
 blockquote + p > em:before {
@@ -86,7 +89,7 @@ blockquote + p > em:before {
 }
 
 a, a:link, a:visited, a:active{
-	color:#008;
+	color:#800;
 	text-decoration:none;
 	-moz-transition: all 0.3s ease-in-out;
    	-webkit-transition: color 0.3s ease-in-out; /* all causes Safari for iPhone to wig out  */
@@ -107,8 +110,8 @@ nav#main {
 	background:#fff;
 	background: #fff;
 	opacity:.8;
-	height:24px;
-	padding:12px 0;
+	height:1.5em;
+	padding:0.75em 0;
 	-webkit-box-shadow: 0px 4px 4px #ddd;
 	-moz-box-shadow: 0px 4px 4px #ddd;
 	box-shadow: 0px 4px 4px #ddd;
@@ -117,7 +120,7 @@ nav#main {
 
 nav#main ul {
 	position:relative;
-	width:590px;
+	width:36.88em;
 	margin:0 auto;
 }
 
@@ -129,8 +132,8 @@ nav#main ul li form {
 
 nav#main input.idle {
 	color:#999;
-	font-size:13px;
-	line-height:15px;
+	font-size:0.81em;
+	line-height:0.94em;
 	border:1px solid #dedede;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -150,30 +153,30 @@ nav#main input.focus {
 nav ul li {
 	display:inline;
 	list-style-type:none;
-	margin:0 7px 0 0;
+	margin:0 0.44em 0 0;
 }
 
 /* Metadata */
 
 article footer {
-	font-size:13px;
+	font-size:0.81em;
 	font-weight:lighter;
-	margin:-24px 0 24px 0;
+	margin:-1.5em 0 1.5em 0;
 }
 
 article nav h1 {
-	font-size:16px;
+	font-size:1em;
 }
 
 article nav ul {
 	padding:0;
 	margin:0;
-	font-size:14px;
+	font-size:0.88em;
 }
 
 article nav ul li {
 	display:block;
-	margin:0 0 12px;
+	margin:0 0 0.75em;
 	padding:0;
 }
 
@@ -194,18 +197,18 @@ footer address, .about address {
 }
 
 .about h2, .contact h2 {
-	margin-top:48px;
+	margin-top:3em;
 }
 
 article, section#archive, div.contact {
 	margin:0;
-	padding:48px 24px 24px 24px;
+	padding:3em 1.5em 1.5em 1.5em;
 	background: transparent;
 }
 
 section#archive {
-	width:590px;
-	margin:96px auto;
+	width:36.88em;
+	margin:6em auto;
 	background:#fff;
 }
 
@@ -218,8 +221,8 @@ section#archive section {
 }
 
 .about article, div.contact, .photo article, .video article, .link article, .basic article, .audio article, ul.more {
-	width:590px;
-	margin:96px auto;
+	width:36.88em;
+	margin:6em auto;
 }
 
 article ul, article ol {
@@ -227,34 +230,34 @@ article ul, article ol {
 }
 
 article ul li {
-	margin:0 0 24px 0;
+	margin:0 0 1.5em 0;
 }
 
 .home article {
-	margin:0 0 120px 0;
+	margin:0 0 7.5em 0;
 }
 
 ul.more {
 text-align:center;
-padding:4px 24px 4px 24px;
-height:24px !important;
+padding:0.25em 1.5em 4px 1.5em;
+height:1.5em !important;
 }
 
 ul.more li {
-	font-size: 13px;
-	padding:0 14px 0 0;
+	font-size: 0.81em;
+	padding:0 0.88em 0 0;
 }
 
 /* Tidy up pygments code highlighting a bit */
 
 div.highlight pre {
-	font-size:13px;
+	font-size:0.81em;
 }
 
 div.highlight {
-	width:600px;
+	width:36.88em;
 	overflow:auto;
-	margin:0 0 12px 0;
+	margin:0 0 0.75em 0;
 }
 
 div.highlight li p {
@@ -264,11 +267,11 @@ div.highlight li p {
 /* archive page */
 
 nav.archive {
-	margin:24px 0 0;
+	margin:1.5em 0 0;
 }
 
 nav.archive ul {
-	padding:0 0 12px 0;
+	padding:0 0 0.75em 0;
 	border-bottom:1px solid #ddd;
 }
 
@@ -281,33 +284,33 @@ nav.archive ul {
 }
 
 .archive ol li, .archive ul li {
-	margin-bottom:24px;
+	margin-bottom:1.5em;
 }
 
 .archive ol p, .archive ul p {
-	font-size:14px;
+	font-size:0.88em;
 	width:80%;
 }
 
 .archive h2 {
-	font-size:16px;
+	font-size:1em;
 	margin:0px;
 	font-weight:normal;
 }
 
 .archive h2 time {
-	font-size:14px;
+	font-size:0.88em;
 	color:#777;
 }
 
 .archive h2.title {
-	font-size:28px;
-	margin-bottom:24px;
-	padding:12px 0;
+	font-size:1.75em;
+	margin-bottom:1.5em;
+	padding:0.75em 0;
 }
 
 .archive-nav ul {
-	margin-top:-24px;
+	margin-top:-1.5em;
 }
 
 /* maps */
@@ -324,22 +327,22 @@ img.map {
 
 div.contact li {
 	list-style:none;
-	margin:0 0 4px 0;
+	margin:0 0 0.25em 0;
 }
 
 /* twitter nonsense */
 
 article section {
-	margin-top:48px;
-	padding-top:16px;
-	font-size:13px;
-	margin:24px auto;
-	width:590px;
+	margin-top:3em;
+	padding-top:1em;
+	font-size:0.81em;
+	margin:1.5em auto;
+	width:100%;
 	border-top:1px solid #ddd;
 }
 
 article section h1 {
-	font-size:16px;
+	font-size:1em;
 }
 
 #comments ul {
@@ -348,8 +351,8 @@ article section h1 {
 }
 
 #comments ul li {
-	padding:24px 0 0 0;
-	margin:24px 0 0 0;
+	padding:1.5em 0 0 0;
+	margin:1.5em 0 0 0;
 	height:72px;
 }
 
@@ -371,7 +374,7 @@ article section h1 {
 }
 
 #comments a.JRM {
-	margin:0 0 0 8px;
+	margin:0 0 0 0.5em;
 }
 
 #commentshelp {
@@ -379,19 +382,19 @@ article section h1 {
 	}
 	
 #fancy_div h1 {
-	padding:24px;
+	padding:1em 1.5em 0 1.5em;
 }
 
 #fancy_div p {
-	font-size:14px;
-	padding:0 24px;
+	font-size:0.88em;
+	padding:0 1.5em;
 }
 	
 img.juitterAvatar {
 	border:1px solid #ddd;
-	width:40px;
-	height:40px;
-	margin:0 16px 24px 0;
+	width:2.5em;
+	height:2.5em;
+	margin:0 1em 1.5em 0;
 	float:left;
 	opacity:.7;
 }
@@ -404,15 +407,15 @@ img.juitterAvatar:hover {
 
 article aside {
 	border-top:1px solid #ddd;
-	font-size:14px;
+	font-size:0.88em;
 }
 
 article aside ol {
-	margin:12px 0 0 24px;
+	margin:0.75em 0 0 1.5em;
 }
 
 sup {
-	font-size:12px;
+	font-size:0.75em;
 	height: 0;
 	line-height: 1;
 	vertical-align: baseline;
@@ -422,20 +425,13 @@ sup {
 }
 
 sub {
-	font-size:12px;
+	font-size:0.75em;
 }
 
 /* misc. */
 
 em {
 	font-style:italic;
-}
-
-::selection {
-	background: #6495ed; /* Safari */
-	}
-::-moz-selection {
-	background: #6495ed; /* Firefox */
 }
 
 .clearfix:after {
@@ -455,8 +451,8 @@ p:hover abbr[title] {
 /* The extra div is for IE8 - see http://mottr.am/ien  */
 
 noscript div {
-	margin:60px;
-	padding:10px;
+	margin:3.75em;
+	padding:0.75em;
 	color:#ff0000;
 	background:#ffffe0;
 	border:1px solid #ff0000;
@@ -487,27 +483,27 @@ img[src*="centre"] {
 /* Becase the small tag in HTML5 is for small print, in the legal sense */
 
 p.small {
-	font-size:14px;
+	font-size:0.88em;
 }
 
 .link p.small {
-	font-size:13px;
+	font-size:0.81em;
 }
 
 /* Intense Debate - specificity overload */
 
 #idc-container-parent h3, #idc-container-parent .idc-message, #idc-container-parent .idc-new, #idc-container-parent #IDCommentNewThreadText, #idc-container-parent .idc-postnav-list {
-	margin-bottom:24px !important;
+	margin-bottom:1.5em !important;
 }
 
 #idc-container-parent #IDNewThreadSubmitLI {
 	float:left !important;
-	margin-top:24px;
+	margin-top:1.5em;
 }
 
 #idc-container-parent .idc-comments .idc-c {
-	margin-bottom:24px !important;
-	padding-bottom:24px !important;
+	margin-bottom:1.5em !important;
+	padding-bottom:1.5em !important;
 	border-bottom:1px solid #ddd;
 }
 
@@ -527,7 +523,7 @@ p.small {
 	background:transparent !important;
 	text-indent:0 !important;
 	width:auto !important;
-	font-size:10px !important;
+	font-size:0.63em !important;
 }
 
 #idc-container-parent #IDCommentsNoCommentsDiv {
@@ -535,7 +531,7 @@ p.small {
 }
 
 #idc-container-parent .idc-signup {
-	margin-top:24px;
+	margin-top:1.5em;
 }
 
 #idc-container-parent a.idc-id {
@@ -551,7 +547,7 @@ p.small {
 
 /* future-proofing - only applies to /audio-test/ for the moment */
 
-audio, video {margin-bottom:24px;}
+audio, video {margin-bottom:1.5em;}
 
 /* code highlighting */
 .highlight{background:#fff;}.highlight .err{color:#a61717;background-color:#e3d2d2;}.highlight .cp{color:#999;font-weight:700;}.highlight .cs{color:#999;font-weight:700;font-style:italic;}.highlight .gd{color:#000;background-color:#fdd;}.highlight .gd .x{color:#000;background-color:#faa;}.highlight .ge{font-style:italic;}.highlight .gi{color:#000;background-color:#dfd;}.highlight .gi .x{color:#000;background-color:#afa;}.highlight .go{color:#888;}.highlight .gu{color:#aaa;}.highlight .nb{color:#0086B3;}.highlight .ni{color:purple;}.highlight .nt{color:navy;}.highlight .w{color:#bbb;}.highlight .sr{color:#009926;}.highlight .ss{color:#990073;}.highlight .c,.highlight .cm,.highlight .c1{color:#998;font-style:italic;}.highlight .k,.highlight .o,.highlight .gs,.highlight .kc,.highlight .kd,.highlight .kp,.highlight .kr,.highlight .ow{font-weight:700;}.highlight .gr,.highlight .gt{color:#a00;}.highlight .gh,.highlight .bp{color:#999;}.highlight .gp,.highlight .nn{color:#555;}.highlight .kt,.highlight .nc{color:#458;font-weight:700;}.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo,.highlight .il{color:#099;}.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx,.highlight .s1{color:#d14;}.highlight .na,.highlight .no,.highlight .nv,.highlight .vc,.highlight .vg,.highlight .vi{color:teal;}.highlight .ne,.highlight .nf{color:#900;font-weight:700;}
