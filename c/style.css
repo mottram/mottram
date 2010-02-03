@@ -27,7 +27,6 @@ dd, h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 h1, .about h2, .contact h2 {
 	font-size:1.75em;
 	font-weight:normal;
-	padding:0 0 0.75em 0;
 }
 
 .link h1:after {
@@ -166,6 +165,10 @@ article footer {
 	font-size:0.81em;
 	font-weight:lighter;
 	margin:-3em 0 1.5em 0;
+}
+
+article.link footer {
+	margin:-1.75em 0 1.5em 0;
 }
 
 article nav h1 {
