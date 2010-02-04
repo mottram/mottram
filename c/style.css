@@ -570,8 +570,8 @@ table#reading, table#reading th, table#reading td {
 }
 
 table#reading {
-	width:60em;
-	margin-left:-10em;
+	width:66em;
+	margin:0 0 1.5em -9em; 
 	border:1px solid #777;
 }
 
@@ -587,14 +587,14 @@ table#reading thead th, table#reading tbody td {
 }
 
 table#reading tr td:nth-child(1), table#reading tr td:nth-child(2) {
-	width:12em;
+	width:10em;
 }
 
 table#reading tr td:nth-child(3) {
-	width:32em;
+	width:30em;
 }
 
-table#reading tr td:nth-child(4), table#reading tr td:nth-child(5), table#reading tr td:nth-child(6) {
+table#reading tr td:nth-child(4), table#reading tr td:nth-child(5), table#reading tr td:nth-child(6), table#reading tr td:nth-child(7)  {
 	width:6em;
 }
 
