@@ -23,13 +23,13 @@ The site is marked up in <a title="Until the spec is finalised, it's hard to say
 <p>Here is a list of recent changes to the site:</p>
 
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAPga5T2DTe8Ai3o7Fpk3qFRSNqByKE8YBn9C1iebjkz1yKGB-5xTKcMhYnDGfQXXHiCqs3tCKJS2cxQ"></script>
- <script type="text/javascript">
+<script type="text/javascript">
 
  google.load("feeds", "1");
 
  function initialize() {
 	 var feed = new google.feeds.Feed("http://github.com/feeds/mottram/commits/mottram/master");
-	feed.setNumEntries(20); 
+   feed.setNumEntries(20); 
    feed.load(function(result) {
      if (!result.error) {
        var container = document.getElementById("feed");
