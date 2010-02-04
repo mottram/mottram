@@ -551,6 +551,13 @@ p.small {
 	margin-right:1em;
 }
 
+
+.amp {
+	font-family: Baskerville, Palatino, Constantina, "Palatino Linotype", "Book Antiqua", serif;
+	font-style: italic;
+}
+
+
 /* future-proofing - only applies to /audio-test/ for the moment */
 
 audio, video {margin-bottom:1.5em;}

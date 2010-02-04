@@ -8,4 +8,4 @@ tags:
  - DPRK
  - food
 ---
-Parts [2](http://www.atimes.com/koreas/CH11Dg02.html) & [3](http://www.atimes.com/koreas/CH17Dg03.html).
+Parts [2](http://www.atimes.com/koreas/CH11Dg02.html) <span class="amp">&amp;</span> [3](http://www.atimes.com/koreas/CH17Dg03.html).
