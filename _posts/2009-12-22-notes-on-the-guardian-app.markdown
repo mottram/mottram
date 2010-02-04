@@ -3,7 +3,7 @@ title: Notes on designing the Guardian iPhone app
 layout: post
 type: link
 time: 
-link_to: http://johnhenrybarac.com/http:/johnhenrybarac.com/notes-on-designing-the-guardian-iphone-app/
+linkto: http://johnhenrybarac.com/http:/johnhenrybarac.com/notes-on-designing-the-guardian-iphone-app/
 description: John-Henry Barac on the evolution of the Grauniad's app.
 tags:
  - guardian

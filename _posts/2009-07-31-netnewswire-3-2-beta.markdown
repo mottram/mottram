@@ -2,7 +2,7 @@
 title: NetNewsWire 3.2 Beta
 layout: post
 type: link
-link_to: http://nnwbeta.com/
+linkto: http://nnwbeta.com/
 tags:
  - nnw
  - rss

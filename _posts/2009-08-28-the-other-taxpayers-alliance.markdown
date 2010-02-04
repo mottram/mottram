@@ -2,7 +2,7 @@
 title: The Other Taxpayers Alliance
 layout: post
 type: link
-link_to: http://taxpayersalliance.org/
+linkto: http://taxpayersalliance.org/
 keywords:
 description: The non-evil twin of The Taxpayers Alliance.
 tags:

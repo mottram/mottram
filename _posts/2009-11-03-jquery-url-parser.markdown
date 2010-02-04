@@ -2,7 +2,7 @@
 title: jQuery URL Parser
 layout: post
 type: link
-link_to: http://projects.allmarkedup.com/jquery_url_parser/
+linkto: http://projects.allmarkedup.com/jquery_url_parser/
 description: A jQuery plugin to parse urls
 tags:
  - jquery

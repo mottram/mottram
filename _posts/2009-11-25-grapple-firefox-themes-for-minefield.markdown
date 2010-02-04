@@ -3,7 +3,7 @@ title: GrApple Themes for Minefield
 layout: post
 type: link
 time: T23:02:53Z
-link_to: http://www.takebacktheweb.org/
+linkto: http://www.takebacktheweb.org/
 description: Aronax GrApple themes for Minefield, or Firefox 3.7
 tags:
  - firefox

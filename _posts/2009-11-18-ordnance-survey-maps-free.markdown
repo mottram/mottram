@@ -3,7 +3,7 @@ title: Ordnance Survey Maps Free
 layout: post
 type: link
 time: T00:03:35Z
-link_to: http://www.guardian.co.uk/technology/2009/nov/17/ordnance-survey-maps-online
+linkto: http://www.guardian.co.uk/technology/2009/nov/17/ordnance-survey-maps-online
 description: The government is to explore ways of making all Ordnance Survey maps freely available online.
 tags:
  - data

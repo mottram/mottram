@@ -3,7 +3,7 @@ title: YouTube HTML5 Beta
 layout: post
 type: link
 time: T13:12:42Z
-link_to: http://www.youtube.com/html5
+linkto: http://www.youtube.com/html5
 description: YouTube now supports HTML5 video.
 tags:
  - html5

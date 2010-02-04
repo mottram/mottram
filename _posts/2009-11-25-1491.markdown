@@ -3,7 +3,7 @@ title: 1491
 layout: post
 type: link
 time: T12:13:35Z
-link_to: http://www.theatlantic.com/doc/print/200203/mann
+linkto: http://www.theatlantic.com/doc/print/200203/mann
 description:
 tags:
  - america

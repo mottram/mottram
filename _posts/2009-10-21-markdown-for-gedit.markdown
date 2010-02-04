@@ -2,7 +2,7 @@
 title: Markdown for Gedit
 layout: post
 type: link
-link_to: http://www.jpfleury.net/gedit-markdown
+linkto: http://www.jpfleury.net/gedit-markdown
 description: This is the first post on my jekyll site.
 tags:
  - markdown

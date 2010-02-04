@@ -3,7 +3,7 @@ title: Use growlnotify for long running Terminal tasks
 layout: post
 type: link
 time: T16:01:43Z
-link_to: http://www.simplicidade.org/notes/archives/2007/08/tip_use_growlno.html
+linkto: http://www.simplicidade.org/notes/archives/2007/08/tip_use_growlno.html
 description: A handy script that adds Growl and libnotify notifications to any script or command.
 tags:
  - growl

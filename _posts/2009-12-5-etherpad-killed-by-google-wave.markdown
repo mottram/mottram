@@ -3,7 +3,7 @@ title: Etherpad Killed by Google Wave
 layout: post
 type: link
 time: T18:30:37Z
-link_to: http://etherpad.com/ep/blog/posts/google-acquires-appjet
+linkto: http://etherpad.com/ep/blog/posts/google-acquires-appjet
 description: Google acquire AppJet, kill off Etherpad.
 tags:
  - etherpad

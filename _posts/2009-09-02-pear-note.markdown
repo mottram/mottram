@@ -2,7 +2,7 @@
 title: Pear Note
 layout: post
 type: link
-link_to: http://www.usefulfruit.com/pearnote/
+linkto: http://www.usefulfruit.com/pearnote/
 description: Pear Note records audio and video while you take your notes
 tags:
  - applications

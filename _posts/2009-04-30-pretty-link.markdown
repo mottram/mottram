@@ -3,7 +3,7 @@ title: Pretty Link
 layout: post
 type: link
 short: pl
-link_to: http://wordpress.org/extend/plugins/pretty-link/ 
+linkto: http://wordpress.org/extend/plugins/pretty-link/ 
 description: Short URLs for Wordpress
 tags:
  - wordpress

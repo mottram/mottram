@@ -3,7 +3,7 @@ title: Speak the Web
 layout: post
 type: link
 time: T16:16:24Z
-link_to: http://speaktheweb.org
+linkto: http://speaktheweb.org
 description: A touring web development event.
 tags:
  - events

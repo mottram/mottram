@@ -3,7 +3,7 @@ title: A primer on the late night telly kerfuffle in the US
 layout: post
 type: link
 time: T09:00:00Z
-link_to: http://littleredboat.co.uk/?p=3132
+linkto: http://littleredboat.co.uk/?p=3132
 description: Kimmel, Leno, Letterman and O'Brien versus Bing Hitler in the world series of telly in America.
 tags:
  - america

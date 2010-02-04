@@ -45,7 +45,7 @@ layout: nil
 {% if post.type == 'link' %}
 <entry>
   <title>{{ post.title }}</title>
-  <link href="{{ post.link_to }}"/>
+  <link href="{{ post.linkto }}"/>
   <updated>{{ post.date | date: "%Y-%m-%d" }}{% if post.time %}{{ post.time }}{% endif %}</updated>
   <id>http://mottr.am{{ post.id }}</id>
   <content type="html">{{ post.content | xml_escape }}&lt;p&gt; &lt;a href=&quot;http://mottr.am{{ post.url }}&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>

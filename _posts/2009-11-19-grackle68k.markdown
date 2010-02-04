@@ -3,7 +3,7 @@ title: Grackle68k
 layout: post
 type: link
 time: T17:09:56Z
-link_to: 
+linkto: 
 description: A twitter client for Macs running anything from System 6 to OS9.
 tags:
  - twitter

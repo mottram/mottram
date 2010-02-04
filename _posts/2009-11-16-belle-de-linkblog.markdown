@@ -3,7 +3,7 @@ title: Belle de Linkblog
 layout: post
 type: link
 time: T11:44:25Z
-link_to: http://web.archive.org/web/20011211052546/tfn.net/~brooke/dook.htm
+linkto: http://web.archive.org/web/20011211052546/tfn.net/~brooke/dook.htm
 description: Belle de Jour was a geeky linkblogger and MeFi member.
 tags:
  - weblogging

@@ -2,7 +2,7 @@
 title: Breach of Peace
 layout: post
 type: link
-link_to: http://breachofpeace.com/blog/
+linkto: http://breachofpeace.com/blog/
 description: Portraits of the Mississippi Freedom Riders.
 tags:
  - 1960s

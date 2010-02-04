@@ -3,7 +3,7 @@ title: vim Overload
 layout: post
 type: link
 time: T02:07:12Z
-link_to: http://www.metafilter.com/87246/Text-Editor-a-la-Mode
+linkto: http://www.metafilter.com/87246/Text-Editor-a-la-Mode
 description: A vim-tastic post at MetaFilter
 tags:
  - editors

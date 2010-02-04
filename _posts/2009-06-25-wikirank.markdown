@@ -2,7 +2,7 @@
 title: Wikirank
 layout: post
 type: link
-link_to: http://wikirank.com/en
+linkto: http://wikirank.com/en
 description: Popular items on WikiPedia
 tags:
  - web

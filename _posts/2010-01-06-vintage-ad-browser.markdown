@@ -3,7 +3,7 @@ title: Vintage Ad Browser
 layout: post
 type: link
 time: T14:52:47Z
-link_to: http://www.vintageadbrowser.com/
+linkto: http://www.vintageadbrowser.com/
 description: More than 100,000 advertisements, organised by category.
 tags:
  - advertising

@@ -2,7 +2,7 @@
 title: Pagehand
 layout: post
 type: link
-link_to: http://pagehand.com/download.html
+linkto: http://pagehand.com/download.html
 description: A word processor.
 tags:
  - applications

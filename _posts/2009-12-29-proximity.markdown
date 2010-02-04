@@ -3,7 +3,7 @@ title: Proximity
 layout: post
 type: link
 time: T17:37:46Z
-link_to: http://code.google.com/p/reduxcomputing-proximity/
+linkto: http://code.google.com/p/reduxcomputing-proximity/
 description: An application that executes AppleScripts depending on the proximity of your Bluetooth device.
 tags:
  - bluetooth

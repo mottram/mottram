@@ -3,6 +3,7 @@ title: shutup.css
 layout: post
 type: link
 time: T20:44:21Z
+linkto: http://stevenf.com/pages/shutup/
 description: A user stylesheet to block comments on the web. 
 tags: 
  - comments

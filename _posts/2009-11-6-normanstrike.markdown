@@ -2,7 +2,7 @@
 title: Normanstrike
 layout: post
 type: link
-link_to: http://normanstrike.wordpress.com/
+linkto: http://normanstrike.wordpress.com/
 description: Normanstrike is blogging the Miners Strike, 25 years on
 tags:
  - 1980s

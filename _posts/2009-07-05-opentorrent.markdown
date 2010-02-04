@@ -2,7 +2,7 @@
 title: OpenBitTorrent
 layout: post
 type: link
-link_to: http://openbittorrent.com/
+linkto: http://openbittorrent.com/
 description: A free-to-use bittorrent tracker.
 tags:
  - bittorrent

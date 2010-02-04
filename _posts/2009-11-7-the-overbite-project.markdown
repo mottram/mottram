@@ -2,7 +2,7 @@
 title: The Overbite Project
 layout: post
 type: link
-link_to: http://gopher.floodgap.com/overbite/
+linkto: http://gopher.floodgap.com/overbite/
 tags:
  - gopher
 ---

@@ -2,7 +2,7 @@
 title: Google Quick Search Box
 layout: post
 type: link
-link_to: http://www.google.com/quicksearchbox/
+linkto: http://www.google.com/quicksearchbox/
 description: Quicksilver, only not as good.
 tags:
  - google

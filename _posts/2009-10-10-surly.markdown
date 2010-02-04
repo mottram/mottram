@@ -2,7 +2,7 @@
 title: Surly
 layout: post
 type: link
-link_to: http://sur.ly
+linkto: http://sur.ly
 description: A link to Sur.ly, a new web design firm
 tags:
  - surly

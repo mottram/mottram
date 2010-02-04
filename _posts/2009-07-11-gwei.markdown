@@ -2,7 +2,7 @@
 title: Google Will Eat Itself
 layout: post
 type: link
-link_to: http://gwei.org/index.php
+linkto: http://gwei.org/index.php
 keywords:
 description:
 tags:

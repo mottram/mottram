@@ -2,7 +2,7 @@
 title: AudioBoo
 layout: post
 type: link
-link_to: http://audioboo.fm/
+linkto: http://audioboo.fm/
 description: An audioblogging iPhone app/website.
 tags:
  - audio

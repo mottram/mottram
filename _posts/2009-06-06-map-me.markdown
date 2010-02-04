@@ -2,7 +2,7 @@
 title: mapme.at
 layout: post
 type: link
-link_to: http://mapme.at/
+linkto: http://mapme.at/
 description: Track your location.
 tags:
  - location
