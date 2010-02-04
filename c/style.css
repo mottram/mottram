@@ -562,5 +562,41 @@ p.small {
 
 audio, video {margin-bottom:1.5em;}
 
+/* Reading List Table */
+
+table#reading, table#reading th, table#reading td {
+	border-collapse:collapse;
+	padding:4px 4px 4px 6px;
+}
+
+table#reading {
+	width:60em;
+	margin-left:-12em;
+	border:1px solid #777;
+}
+
+tbody tr:nth-child(2n+1) {
+	background:#fafafa;
+}
+
+table#reading thead th, table#reading tbody td {
+	font-size:0.75em;
+	text-align:left;
+	border-bottom:1px solid #777;
+	border-right:1px solid #777;
+}
+
+table#reading tr td:nth-child(1), table#reading tr td:nth-child(2) {
+	width:12em;
+}
+
+table#reading tr td:nth-child(3) {
+	width:32em;
+}
+
+table#reading tr td:nth-child(4), table#reading tr td:nth-child(5), table#reading tr td:nth-child(6) {
+	width:6em;
+}
+
 /* code highlighting */
 .highlight{background:#fff;}.highlight .err{color:#a61717;background-color:#e3d2d2;}.highlight .cp{color:#999;font-weight:700;}.highlight .cs{color:#999;font-weight:700;font-style:italic;}.highlight .gd{color:#000;background-color:#fdd;}.highlight .gd .x{color:#000;background-color:#faa;}.highlight .ge{font-style:italic;}.highlight .gi{color:#000;background-color:#dfd;}.highlight .gi .x{color:#000;background-color:#afa;}.highlight .go{color:#888;}.highlight .gu{color:#aaa;}.highlight .nb{color:#0086B3;}.highlight .ni{color:purple;}.highlight .nt{color:navy;}.highlight .w{color:#bbb;}.highlight .sr{color:#009926;}.highlight .ss{color:#990073;}.highlight .c,.highlight .cm,.highlight .c1{color:#998;font-style:italic;}.highlight .k,.highlight .o,.highlight .gs,.highlight .kc,.highlight .kd,.highlight .kp,.highlight .kr,.highlight .ow{font-weight:700;}.highlight .gr,.highlight .gt{color:#a00;}.highlight .gh,.highlight .bp{color:#999;}.highlight .gp,.highlight .nn{color:#555;}.highlight .kt,.highlight .nc{color:#458;font-weight:700;}.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo,.highlight .il{color:#099;}.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx,.highlight .s1{color:#d14;}.highlight .na,.highlight .no,.highlight .nv,.highlight .vc,.highlight .vg,.highlight .vi{color:teal;}.highlight .ne,.highlight .nf{color:#900;font-weight:700;}
