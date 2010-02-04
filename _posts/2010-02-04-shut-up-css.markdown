@@ -1,5 +1,5 @@
 ---
-title: Shut Up CSS
+title: shutup.css
 layout: post
 type: link
 time: T20:44:21Z
