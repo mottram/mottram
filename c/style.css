@@ -557,7 +557,17 @@ p.small {
 	font-style: italic;
 }
 
+small {
+	display:block;
+	-moz-column-count:2;
+	-webkit-column-count: 2;
+	font-size:0.75em;
+	color:#777;
+}
 
+small p {
+	margin:0;
+}
 /* future-proofing - only applies to /audio-test/ for the moment */
 
 audio, video {margin-bottom:1.5em;}
