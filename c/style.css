@@ -99,7 +99,7 @@ a:hover {
 	color:#777;
 }
 
-p:hover a, footer:hover a, ul:hover a {
+p:hover a, footer:hover a, ul:hover a, ol:hover a {
 	text-decoration:underline;
 }
 	
@@ -601,11 +601,11 @@ table#reading tr td:nth-child(1), table#reading tr td:nth-child(2) {
 }
 
 table#reading tr td:nth-child(3) {
-	width:30em;
+	width:20em;
 }
 
 table#reading tr td:nth-child(4), table#reading tr td:nth-child(5), table#reading tr td:nth-child(6), table#reading tr td:nth-child(7)  {
-	width:6em;
+	width:7em;
 }
 
 /* code highlighting */

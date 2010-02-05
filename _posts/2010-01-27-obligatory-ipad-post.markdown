@@ -6,7 +6,7 @@ short: ipad2
 time: T23:29:30Z
 loc: CH48,UK
 locname: Wirral
-description: 
+description: In which I persuade myself that I need Apple's latest gadget, the iPad. 
 tags: 
  - apple
  - ipad
