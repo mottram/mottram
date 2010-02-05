@@ -572,7 +572,7 @@ table#reading, table#reading th, table#reading td {
 table#reading {
 	width:66em;
 	margin:0 0 1.5em -9em; 
-	border:1px solid #777;
+	border:1px solid #aaa;
 }
 
 tbody tr:nth-child(2n+1) {
@@ -582,8 +582,8 @@ tbody tr:nth-child(2n+1) {
 table#reading thead th, table#reading tbody td {
 	font-size:0.75em;
 	text-align:left;
-	border-bottom:1px solid #777;
-	border-right:1px solid #777;
+	border-bottom:1px solid #aaa;
+	border-right:1px solid #aaa;
 }
 
 table#reading tr td:nth-child(1), table#reading tr td:nth-child(2) {
