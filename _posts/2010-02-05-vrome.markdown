@@ -1,0 +1,12 @@
+---
+title: Vrome
+layout: post
+type: link
+time: T15:08:17Z
+linkto: http://github.com/jinzhu/vrome
+description: A Chrome extension that provides vim-like keyboard shortcuts.
+tags: 
+ - chrome
+---
+
+A Chrome extension that provides vim-like keyboard shortcuts. 
