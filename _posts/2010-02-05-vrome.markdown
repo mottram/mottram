@@ -9,4 +9,4 @@ tags:
  - chrome
 ---
 
-A Chrome extension that provides vim-like keyboard shortcuts. 
+A Chrome extension that provides vim-like keyboard shortcuts, some incredibly useful: `o` lets you open a URL in the current tab, `/` and `?` enable forward and backward search, `gi` puts the cursor in the next input area on the page, `[[` and `]]` take you to the previous or next page, <span class="amp">&amp;</span>c..
