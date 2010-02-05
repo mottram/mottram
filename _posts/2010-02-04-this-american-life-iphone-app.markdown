@@ -11,5 +11,6 @@ tags:
 ---
 
 This American Life is sort of a bit like [FOOC](http://news.bbc.co.uk/1/hi/programmes/from_our_own_correspondent/default.stm)--a radio show with short, factual stories told with a personal, often wry perspective--only it's American, and so a bit cheesier. The new iPhone app lets you access the programme's archives, all the way back to the first show in 1995. Which, considering back episodes are 99&#162; a pop, makes it a bit of a bargain.
+<p class="small">And, like all streaming audio apps, it only works well if you've jailbroken your iPhone and can run it in the background.</p>
 
 *[FOOC]: From Our Own Correspondent
