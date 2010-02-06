@@ -1,0 +1,16 @@
+---
+title: Broke
+layout: post
+type: link
+time: T13:01:17Z
+linkto: http://github.com/brokenseal/broke/
+description: 
+tags: 
+ - django
+ - javascript
+---
+
+"The Broke Javascript Framework is a porting of the fantastic Django Web Framework 
+on Javascript. It summarizes all the best concepts present in Django like
+url resolving, decoupling, DRY principle, project-specific settings and a pretty
+simple template engine."
