@@ -4,7 +4,7 @@ layout: post
 type: link
 time: T13:01:17Z
 linkto: http://github.com/brokenseal/broke/
-description: 
+description: A Django-like Javascript framework 
 tags: 
  - django
  - javascript
