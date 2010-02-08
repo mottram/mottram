@@ -1,0 +1,13 @@
+---
+layout: default
+title: Home
+type: home
+description: Jack Mottram's weblog 
+---
+
+ <section id="#redes">
+ {% for post in site.categories.basic limit:3 %}
+		<h1>{{ post.title  }}</h1>
+	{% endfor  %}
+ </section>
+
