@@ -6,4 +6,5 @@ Disallow: /2/
 Disallow: /3/
 Disallow: /4/
 Disallow: /redesign/
+Disallow: /index2.html
 Disallow: atom.xml

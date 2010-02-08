@@ -10,7 +10,7 @@ html {
 
 body {
 	background: #fff;
-	color:#777;
+	color:#666;
 	font-weight:300;
 	font:normal 1em/1.5em Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
@@ -98,7 +98,7 @@ a, a:link, a:visited, a:active{
 }
 	
 a:hover {
-	color:#008;
+	color:#a00;
 }
 
 article a {
@@ -132,12 +132,12 @@ nav#main ul li a {
 	color:#fff!important;
 }
 
-nav#main ul li a:hover {
-	color:#aaa!important;
+nav#main ul li a {
+	color:#fff;
 }
 
-nav#main ul:hover a {
-	text-decoration:none!important;
+nav#main ul li a:hover {
+	color:#a00;
 }
 
 nav#main ul li form {
@@ -234,7 +234,7 @@ section#archive section {
 	color:#777!important;
 }
 
-.about article, div.contact, .photo article, .video article, .link article, .basic article, .audio article {
+.about article, div.contact, .photo article, .video article, .link article, .basic article, .audio article, ul.more {
 	width:36.88em;
 	margin:6em auto;
 }
@@ -258,7 +258,7 @@ height:1.5em !important;
 }
 
 ul.more li {
-	font-size: 0.81em;
+	font-size: 0.750em;
 	padding:0 0.88em 0 0;
 }
 
