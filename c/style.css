@@ -611,53 +611,35 @@ table#reading tr td:nth-child(4), table#reading tr td:nth-child(5), table#readin
 /* new front page */
 
 
-div#newhome {
-	width:940px;
-	margin:3em auto;
-}
-
 #posts {
-	padding:0 1em;
-	width:620px;
-	float:left;
+	width:36.88em;
 }
 
 #posts div {
-	width:44%;
+	width:12.29333em;
 	float:left;
 	margin:1.5em 0 0 0;
-	padding:0 5% 0 0;
-	border-right:1px solid #aeaeae;
-}
-
-#posts div + div {
-	border:none;
-	padding:0 0 0 5%;
 }
 
 #posts article {
-	margin:0;
-	padding:1em 0.5em 0 0.5em;
-	border-bottom:1px solid #aeaeae;
-}
-
-#posts article:last-child {
+	width:36.88em;
+	padding:0;
 	margin-bottom:0;
 }
 
 #posts ul li {
 	font-size:0.75em;
-	margin-bottom:1.5em;
+	margin:0 0 1.5em 0;
+	padding:0 1em 0 0;
 	list-style-type:none;
 }
 
 #posts ul li p, #posts ul li time, #posts ul li h2 {
-	display:inline;
 	margin:0;
-	line-height:1em;
+	line-height:1.5em;
 }
 
-#posts div h2 a:after {
+#posts ul.links h2 a:after {
 	font-family:Baskerville, Palatino, "Book Antiqua", Georgia, serif;
 	color:#aaa;
 	font-weight:normal !important;
@@ -665,16 +647,10 @@ div#newhome {
 	content:" \261b";
 	}
 
-#photos {
-	width:284px;
-	height:2500px;
-	float:right;
-	padding:0 0 0 1em;
-	border-left:1px solid #aeaeae;
-}
 
-#photos ul {
-	list-style-type:none;
+#posts img[src*="centre"] {
+	border:none;
+	margin:0!important;
 }
 
 /* code highlighting */
