@@ -10,7 +10,8 @@ html {
 
 body {
 	background: #fff;
-	color:#555;
+	color:#777;
+	font-weight:300;
 	font:normal 1em/1.5em Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -88,7 +89,8 @@ blockquote + p > em:before {
 }
 
 a, a:link, a:visited, a:active{
-	color:#800;
+	color:#000;
+	font-weight:400;
 	text-decoration:none;
 	-moz-transition: all 0.3s ease-in-out;
    	-webkit-transition: color 0.3s ease-in-out; /* all causes Safari for iPhone to wig out  */
@@ -96,11 +98,15 @@ a, a:link, a:visited, a:active{
 }
 	
 a:hover {
-	color:#777;
+	color:#008;
 }
 
-p:hover a, footer:hover a, ul:hover a, ol:hover a {
-	text-decoration:underline;
+article a {
+	text-decoration:underline!important;
+}
+
+article footer a, article header a {
+	text-decoration:none!important;
 }
 	
 /* nav - gratuitous CSS 3 abuse! */
@@ -109,43 +115,44 @@ nav#main {
 	position:fixed;
 	top:0;
 	width:100%;
-	border-bottom:1px solid #ddd;
-	background:#fff;
-	background: #fff;
-	opacity:.8;
 	height:1.5em;
-	padding:0.75em 0;
-	-webkit-box-shadow: 0px 4px 4px #ddd;
-	-moz-box-shadow: 0px 4px 4px #ddd;
-	box-shadow: 0px 4px 4px #ddd;
+	line-height:1.5em;
+	background:#800;
+	background:rgba(0,0,0,1);
+	border-bottom:1px solid #000;
 	z-index:99;
 }
 
 nav#main ul {
-	position:relative;
-	width:36.88em;
-	margin:0 auto;
+	font-size:0.750em;
+	margin:0 0.250em;
+}
+
+nav#main ul li a {
+	color:#fff!important;
+}
+
+nav#main ul li a:hover {
+	color:#aaa!important;
+}
+
+nav#main ul:hover a {
+	text-decoration:none!important;
 }
 
 nav#main ul li form {
 	display:inline;
 	position:absolute;
-	right:0;
+	right:0.5em;
 }
 
 nav#main input.idle {
 	color:#999;
-	font-size:0.81em;
-	line-height:0.94em;
-	border:1px solid #dedede;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
+	font-size:0.75em;
+	border:1px solid #800;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
 	padding:1px;
-	-webkit-box-shadow: 1px 1px 1px #ccc;
-	-moz-box-shadow: 1px 1px 1px #ccc;
-	box-shadow: 1px 1px 1px #ccc;
-:q
-
 }
 
 nav#main input.focus {
@@ -227,7 +234,7 @@ section#archive section {
 	color:#777!important;
 }
 
-.about article, div.contact, .photo article, .video article, .link article, .basic article, .audio article, ul.more {
+.about article, div.contact, .photo article, .video article, .link article, .basic article, .audio article {
 	width:36.88em;
 	margin:6em auto;
 }
