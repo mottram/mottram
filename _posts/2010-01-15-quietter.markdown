@@ -5,6 +5,7 @@ type: basic
 time: T14:33:30Z
 description: An idea for a new Twitter client.
 tags: 
+ - idea
  - noise
  - twitter
 ---

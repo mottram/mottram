@@ -8,8 +8,8 @@
 <title>{{ page.title }} | Mottr.am</title>
 <meta name="author" content="Jack Mottram" />
 <meta name="viewport" content="width = 680" />{% if page.description %}
-<meta name="description" content="{{ page.description }}" />{% endif %}{% if page.topics %}
-<meta name="keywords" content="{% for topic in page.topics %}{{ topic }},{% endfor %}" />{% endif %}
+<meta name="description" content="{{ page.description }}" />{% endif %}{% if page.tags %}
+<meta name="keywords" content="{% for tag in page.tags %}{{ tag }},{% endfor %}" />{% endif %}
 <link rel="canonical" href="http://mottr.am{{ page.url }}" />{% if page.short %}
 <link rel="shorturl" href="http://mottr.am/{{ page.short }}" />{% endif %}
 <link rel="apple-touch-icon" href="/u/iphone.png"/>

@@ -1,4 +1,4 @@
-permalink: pretty
+permalink: /:year/:month/:day/:title
 pygments: true
 tag_dir: tag
 tag_title_prefix: ""

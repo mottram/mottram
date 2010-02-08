@@ -9,4 +9,4 @@ tags:
  - idea
 ---
 
-Idea: register the domain aroba.se, offer email addresses to mildly amuse typophiles (and, perhaps, the French); reserve arobase@aroba.se for personal use/amusement.
+Here's an idea: register the domain aroba.se, offer email addresses to mildly amuse typophiles (and, perhaps, the French); reserve arobase@aroba.se for personal use/amusement.
