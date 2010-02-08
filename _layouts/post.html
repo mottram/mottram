@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% if page.type == 'link' %}
+{% if page.category == 'link' %}
 <article class="link">
 <header>
 <h1><a href="{{ page.linkto }}">{{ page.title }}</a></h1>
@@ -9,7 +9,7 @@ layout: default
 {% include meta.html %}
 {{ content }}
 </article>
-{% endif %}{% if page.type == 'photo' %}
+{% endif %}{% if page.category == 'photo' %}
 <article>
 <header>
 <h1>{{ page.title }}</h1>
@@ -18,7 +18,7 @@ layout: default
 <img alt="{{ page.title }}" title="{{ page.title }}" src="http://dl.dropbox.com/u/84981/blog/{{ page.imageurl }}" width="590" />{% endif %}
 {{ content }}
 </article>
-{% endif %}{% if page.type == 'video' %}
+{% endif %}{% if page.category == 'video' %}
 <article>
 <header>
 <h1>{{ page.title }}</h1>
@@ -29,7 +29,7 @@ layout: default
 </object>
 {{ content }}
 </article>
-{% endif %}{% if page.type == 'audio' %}
+{% endif %}{% if page.category == 'audio' %}
 <article>
 <header>
 <h1>{{ page.title }}</h1>
@@ -43,7 +43,7 @@ layout: default
 {% endif %}
 {{ content }}
 </article>
-{% endif %}{% if page.type == 'basic' %}
+{% endif %}{% if page.category == 'basic' %}
 <article>
 <header>
 <h1>{{ page.title }}</h1>

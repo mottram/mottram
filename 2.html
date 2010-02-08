@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Page 2
-type: home
+category: home
 has_code: yes
 description: Jack Mottram's weblog 
 keywords: art, photography, design, fashion, web development, mottram
 ---
 <section>
-{% for post in site.posts limit: 10 offset: 10 %}{% if post.type == 'photo' %}
+{% for post in site.posts limit: 10 offset: 10 %}{% if post.category == 'photo' %}
 <article>
 	
 <header>
@@ -22,7 +22,7 @@ keywords: art, photography, design, fashion, web development, mottram
 
 </article>
 {% endif %}
-{% if post.type == 'link' %}
+{% if post.category == 'link' %}
 <article class="link">
 
 <header>
@@ -35,7 +35,7 @@ keywords: art, photography, design, fashion, web development, mottram
 
 </article>
 {% endif %}
-{% if post.type == 'video' %}
+{% if post.category == 'video' %}
 <article>
 
 <header>
@@ -51,7 +51,7 @@ keywords: art, photography, design, fashion, web development, mottram
 
 </article>
 {% endif %}
-{% if post.type == 'audio' %}
+{% if post.category == 'audio' %}
 <article>
 
 <header>
@@ -69,7 +69,7 @@ AudioPlayer.embed("audioplayer_1", {soundFile: "{{ post.audio_link }}"});
 
 </article>
 {% endif %}
-{% if post.type == 'basic'%}
+{% if post.category == 'basic'%}
 <article>
 
 <header>

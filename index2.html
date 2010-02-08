@@ -1,13 +1,52 @@
 ---
 layout: default
 title: Home
-type: home
-description: Jack Mottram's weblog 
+category: newhome
+description: Jack Mottram's weblog
 ---
-
- <section id="#redes">
- {% for post in site.categories.basic limit:3 %}
+<div id="newhome">
+<section id="posts">
+	<article>
+{% for post in site.categories.basic limit:1 %}
 		<h1>{{ post.title  }}</h1>
-	{% endfor  %}
- </section>
+		{% include home_meta.html %}
+		{{ post.content }}
+{% endfor  %}
+	</article>
+	
+	<div>
+	<ul>
+{% for post in site.categories.basic limit:20 offset:1 %}
+		<li>
+			<h2>{{ post.title }} <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+			<p>{{ post.description }} <a rel="bookmark" href="{{ post.url }}" title="Permanent link to '{{ post.title }}'">Read more...</a></p>
+		</li>
+		
+{% endfor %}
+	</ul>
+	</div>
+	
+	<div>
+	<ul>
+	{% for post in site.categories.link limit:10 %}
+	<li>
+		<h2><a href="{{ post.linkto }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
+		<p>{{ post.content }}</p>
+	</li>		
+	{% endfor %}
+	</ul>
+	</div>
+</section>
 
+<section id="photos">
+	<ul>
+		{% for post in site.categories.photo limit:15 %}
+		{% if post.imageurl %}
+		<li><a href="{{ post.url }}"><img width="200" src="http://dl.dropbox.com/u/84981/blog/{{ post.imageurl }}" /></a></li>
+		{% endif %}
+		{% endfor %}
+	</ul>	
+</section>
+
+<br clear="all" />
+</div>

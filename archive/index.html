@@ -1,7 +1,7 @@
 ---
 title: Archive
 layout: default
-type: archive
+category: archive
 description: The Mottr.am weblog archives
 keywords: art, design, photography, mottram
 ---
@@ -42,7 +42,7 @@ keywords: art, design, photography, mottram
 <p>Links to other websites, with commentary (sometimes).</p>
 
 <ol>
-{% for post in site.posts %}{% if post.type == 'link' %}
+{% for post in site.posts %}{% if post.category == 'link' %}
 <li>
 <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 <p>{{ post.description }}</p>
@@ -57,7 +57,7 @@ keywords: art, design, photography, mottram
 <p>Pieces of writing, usually brief, plus the odd quotation.</p>
 
 <ol>
-{% for post in site.posts %}{% if post.type == 'basic' %}
+{% for post in site.posts %}{% if post.category == 'basic' %}
 <li>
 <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 <p>{{ post.description }}</p>
@@ -72,7 +72,7 @@ keywords: art, design, photography, mottram
 <p>Art, design, illustration, photography; stuff for your eyes.</p>
 
 <ol>
-{% for post in site.posts %}{% if post.type == 'photo' %}
+{% for post in site.posts %}{% if post.category == 'photo' %}
 <li>
 <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 <p>{{ post.description }}</p>
@@ -87,7 +87,7 @@ keywords: art, design, photography, mottram
 <p>Songs, noises, field recordings; stuff for your ears.</p>
 
 <ol>
-{% for post in site.posts %}{% if post.type == 'audio' %}
+{% for post in site.posts %}{% if post.category == 'audio' %}
 <li>
 <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 <p>{{ post.description }}</p>
@@ -102,7 +102,7 @@ keywords: art, design, photography, mottram
 <p>Art, cinema, long photographs; stuff for your eyes (that moves).</p>
 
 <ol>
-{% for post in site.posts %}{% if post.type == 'video' %}
+{% for post in site.posts %}{% if post.category == 'video' %}
 <li>
 <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%d"  }}">{{ post.date | date_to_long_string }}</time></h2>
 <p>{{ post.description }}</p>

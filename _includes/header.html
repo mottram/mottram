@@ -35,12 +35,12 @@
 		});
 		});
 	/* ]]> */
-</script>{% endif %}{% if page.type == 'audio' or page.type == 'home' %}
+</script>{% endif %}{% if page.category == 'audio' or page.category == 'home' %}
 <script type="text/javascript">  
 	        AudioPlayer.setup("http://mottr.am/s/player.swf", {  
 	            width: 300  
 	        });  
-</script>{% endif %}{% if page.type == 'home' %}
+</script>{% endif %}{% if page.category == 'home' %}
 <link rel="openid.server" href="http://www.myopenid.com/server" />
 <link rel="openid.delegate" href="http://mottram.myopenid.com/" />
 <link rel="openid2.local_id" href="http://mottram.myopenid.com" />

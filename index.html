@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Home
-type: home
+category: home
 description: Jack Mottram's weblog 
 keywords: art, photography, design, fashion, web development, mottram
 ---
 <section>
-{% for post in site.posts limit: 6 %}{% if post.type == 'photo' %}
+{% for post in site.posts limit: 6 %}{% if post.category == 'photo' %}
 <article>
 
 <header>
@@ -20,7 +20,7 @@ keywords: art, photography, design, fashion, web development, mottram
 {{ post.content }}
 
 </article>
-{% endif %}{% if post.type == 'link' %}
+{% endif %}{% if post.category == 'link' %}
 <article class="link">
 
 <header>
@@ -32,7 +32,7 @@ keywords: art, photography, design, fashion, web development, mottram
 {{ post.content }}
 
 </article>
-{% endif %}{% if post.type == 'video' %}
+{% endif %}{% if post.category == 'video' %}
 <article>
 <header>
 <h1>{{ post.title }}</h1>
@@ -47,7 +47,7 @@ keywords: art, photography, design, fashion, web development, mottram
 {{ post.content }}
 
 </article>
-{% endif %}{% if post.type == 'audio' %}
+{% endif %}{% if post.category == 'audio' %}
 <article>
 <header>
 <h1>{{ post.title }}</h1>
@@ -63,7 +63,7 @@ AudioPlayer.embed("audioplayer_1", {soundFile: "{{ post.audio_link }}"});
 {{ post.content }}
 
 </article>
-{% endif %}{% if post.type == 'basic'%}
+{% endif %}{% if post.category == 'basic'%}
 <article>
 
 <header>

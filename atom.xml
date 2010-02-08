@@ -14,7 +14,7 @@ layout: nil
    <email>j@ck.mottr.am</email>
  </author>
 {% for post in site.posts limit: 20 %}
-{% if post.type == 'photo' %}
+{% if post.category == 'photo' %}
 <entry>
   <title>{{ post.title }}</title>
   <link href="http://mottr.am{{ post.url }}"/>
@@ -23,7 +23,7 @@ layout: nil
   <content type="html">&lt;img src=&quot;http://dl.dropbox.com/u/84981/blog/{{ post.imageurl }}&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;{{ post.content | xml_escape }}</content>
 </entry>
 {% endif %}
-{% if post.type == 'video' %}
+{% if post.category == 'video' %}
 <entry>
   <title>{{ post.title }}</title>
   <link href="http://mottr.am{{ post.url }}"/>
@@ -32,7 +32,7 @@ layout: nil
   <content type="html">&lt;p&gt;&lt;em&gt;Please click through to the website to view this video.&lt;/em&gt;&lt;/p&gt;{{ post.content | xml_escape }}</content>
 </entry>
 {% endif %}
-{% if post.type == 'audio' %}
+{% if post.category == 'audio' %}
 <entry>
   <title>{{ post.title }}</title>
   <link href="http://mottr.am{{ post.url }}"/>
@@ -42,7 +42,7 @@ layout: nil
   <link rel="enclosure" type="audio/mpeg" title="MP3" href="{{ post.audio_link }}" />
 </entry>
 {% endif %}
-{% if post.type == 'link' %}
+{% if post.category == 'link' %}
 <entry>
   <title>{{ post.title }}</title>
   <link href="{{ post.linkto }}"/>
@@ -51,7 +51,7 @@ layout: nil
   <content type="html">{{ post.content | xml_escape }}&lt;p&gt; &lt;a href=&quot;http://mottr.am{{ post.url }}&quot; title=&quot;Link to this post at Mottr.am&quot;&gt;&amp;para;&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 {% endif %}
-{% if post.type == 'basic' %}
+{% if post.category == 'basic' %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://mottr.am{{ post.url }}"/>
