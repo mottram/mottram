@@ -1,0 +1,21 @@
+---
+title: 404 Error
+layout: default
+---
+<section>
+<h1>Error 404 - Page Not Found</h1>
+
+<p>Oops-a-daisy! You seem to be looking for a page on <a href="http://mottr.am">Mottr.am</a> that doesn't exist.</p>
+
+<p>Try searching the site using the box above.</p>
+
+<p>If you have the time, I'd appreciate an <a href="mailto:j@ck.mottr.am?subject=Mottr.am%20Error">email</a> to report the missing page.</p>
+
+<p>Or you could have a read of some recent posts:</p>
+
+<ul>
+{% for post in site.posts limit: 10 %}
+	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+</section>

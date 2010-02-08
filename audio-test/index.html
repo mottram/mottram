@@ -1,0 +1,45 @@
+---
+title: Audio Test
+layout: default
+category: audio
+---
+<article>
+<header>
+<h1>HTML5 Audio Test Page</h1>
+</header>
+<p>This is a test page, while I work out how to add HTML5 audio tag support to this website. It'll be updated as I learn new stuff (so I remember it!).</p>
+<audio controls="controls">
+<source src="http://dl.dropbox.com/u/84981/blog/u/2009/11/apachie-chief-economic-crisis.ogg" />
+<source src="http://files.me.com/jack_mottram/iz2omc.mp3" />
+<p id="audioplayer_1"><em>It looks like you have JavaScript and/or Flash switched off: switch them on and reload, or <a title="Download the audio file - right-click and 'Save As'." href="http://files.me.com/jack_mottram/iz2omc.mp3">download the file</a></em></p>
+<script type="text/javascript">  
+AudioPlayer.embed("audioplayer_1", {soundFile: "http://files.me.com/jack_mottram/iz2omc.mp3"});  
+</script>
+</audio>
+<p>
+In theory, you should be able to play the above song natively in Firefox 3.5+ (Ogg format), Safari 4 and Google Chrome/Chromium (MP3 format); many older browsers, and all versions of Internet Explorer and Opera should play the song using a Flash player. Browsers with Flash and/or Javascript switched off will show a warning, and a link to the MP3 file.
+</p>
+<p>
+On my computer, Chrome is far and away the fastest browser--the file is loaded and ready to play almost instantly--followed by Firefox 3.7a1pre (<abbr>AKA</abbr> "Minefield").
+</p>
+<p>
+The only problem left to solve, presumably with some JavaScript jiggery-pokery, is that some browsers (all bar Firefox 3.7a1pre, that I've tried) start loading up the audio file once the page loads, even though I've explicitly asked them not to by omitting the <code>autobuffer</code> attribute from the <code>audio</code> tag. I'm not sure if this is a bug or a feature.
+<p>
+In case you're interested, the source code looks like this (I'm using the <a href="http://wpaudioplayer.com/standalone">this</a> Flash audio player):
+</p>
+{% highlight html %}
+<audio controls="controls">
+<source src="song.ogg" />
+<source src="song.mp3" />
+<p id="audioplayer_1">
+It looks like you have JavaScript and/or Flash switched off:
+switch them on and reload to play this file,
+or <a href="song.mp3">download it here</a>.
+</p>
+<script type="text/javascript">  
+AudioPlayer.embed("audioplayer_1", {soundFile: "song.mp3"});  
+</script>
+</audio>
+{% endhighlight %}
+<strong>Update</strong>: I'm not sure about <code>audio controls="controls"</code>. As far as I can tell, <code>audio controls</code> <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/video.html#user-interface">is correct</a> too and arguably neater, but, since I was raised on XHTML, I'm more comfy doing things the quotey way.
+</article>
