@@ -1,7 +1,7 @@
 ---
 title: How to Fix the IE8 noscript Bug
 layout: post
-type: basic
+category: basic
 short: ien
 time: T08:00:00Z
 loc: CH48,UK

@@ -1,7 +1,7 @@
 ---
 title: Ubuntu on Rails
 layout: post
-type: link
+category: link
 linkto: http://arstechnica.com/open-source/news/2009/08/quickly-new-rails-like-rapid-development-tools-for-ubuntu.ars
 description: Quickly, a framework for Ubuntu
 tags:

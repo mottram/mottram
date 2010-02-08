@@ -1,7 +1,7 @@
 ---
 title: Ricoh 35 FM Snaps
 layout: post
-type: photo
+category: photo
 imageurl: /u/2009/06/kate.jpg
 description: Photographs taken with a 35 FM.
 tags:

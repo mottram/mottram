@@ -1,7 +1,7 @@
 ---
 title: How Do You Look When Merging Fails?
 layout: post
-type: link
+category: link
 time: T12:55:12Z
 linkto: http://andialbrecht.wordpress.com/2009/05/09/when-merging-fails/
 description: A funny Python script that tweets your face when a commit fails!

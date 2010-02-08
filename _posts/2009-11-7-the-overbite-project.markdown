@@ -1,7 +1,7 @@
 ---
 title: The Overbite Project
 layout: post
-type: link
+category: link
 linkto: http://gopher.floodgap.com/overbite/
 tags:
  - gopher

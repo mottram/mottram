@@ -1,7 +1,7 @@
 ---
 title: Postcards of The Russo-Japanese War
 layout: post
-type: photo
+category: photo
 imageurl: /u/2009/08/japanese-postcard.jpg
 description: Postcards of The Russo-Japanese War
 tags:

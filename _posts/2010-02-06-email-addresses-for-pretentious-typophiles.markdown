@@ -1,7 +1,7 @@
 ---
 title: Email Addresses for Pretentious Typophiles
 layout: post
-type: basic
+category: basic
 time: T12:36:32Z
 description: A silly idea for an email service with a faintly amusing name. 
 tags: 

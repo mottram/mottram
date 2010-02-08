@@ -1,7 +1,7 @@
 ---
 title: Reset
 layout: post
-type: basic
+category: basic
 short: 
 time: 
 loc: 

@@ -1,7 +1,7 @@
 ---
 title: Hot Default Browser Action
 layout: post
-type: basic
+category: basic
 description: How to set the default web browser on Ubuntu.
 tags:
  - ubuntu

@@ -1,7 +1,7 @@
 ---
 title: Apollo 11 Code
 layout: post
-type: basic
+category: basic
 short: 11
 description: The moon mission's source code. 
 tags:

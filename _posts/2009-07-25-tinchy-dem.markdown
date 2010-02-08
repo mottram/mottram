@@ -1,7 +1,7 @@
 ---
 title: Tinchy Dem
 layout: post
-type: link
+category: link
 linkto: http://www.guardian.co.uk/music/2009/jul/25/tinchy-stryder-rapper
 description: Tinchy Strider, funded by a Lib Dem MP.
 tags:

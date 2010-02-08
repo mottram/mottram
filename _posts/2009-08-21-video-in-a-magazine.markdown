@@ -1,7 +1,7 @@
 ---
 title: Video in a Magazine
 layout: post
-type: basic
+category: basic
 short: v
 description: Entertainment Weekly's experiment with video in print.
 tags:

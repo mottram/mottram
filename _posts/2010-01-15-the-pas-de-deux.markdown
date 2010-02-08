@@ -2,7 +2,7 @@
 title: Pas de Deux
 layout: post
 time: T15:31:49Z
-type: video
+category: video
 video_link: http://www.youtube.com/v/DAZFvQ1Uv9k
 description: Pas de Deux, Norman McLaren's 1968 animated film
 tags:

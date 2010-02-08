@@ -1,7 +1,7 @@
 ---
 title: It's Not Big, And It's Not Clever
 layout: post
-type: link
+category: link
 linkto: http://www.guardian.co.uk/books/2009/aug/29/digital-media-celebrity-snark
 description: David Denby on 'snark'.
 tags:

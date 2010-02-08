@@ -1,7 +1,7 @@
 ---
 title: Airlock
 layout: post
-type: link
+category: link
 time: T20:34:24Z
 linkto: http://themha.com/airlock/
 description: Belated Bluetooth proximity features for the iPhone, thanks to Airlock

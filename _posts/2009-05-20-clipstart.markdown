@@ -1,7 +1,7 @@
 ---
 title: Clipstart
 layout: post
-type: link
+category: link
 linkto: http://riverfold.com/software/clipstart
 description: Clipstart is like iPhoto, only for videos.
 tags:

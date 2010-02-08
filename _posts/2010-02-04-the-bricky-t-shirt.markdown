@@ -1,7 +1,7 @@
 ---
 title: Bricky
 layout: post
-type: photo
+category: photo
 time: T21:08:59Z
 imageurl: u/2010/02/bricky-t-shirt.jpg
 description: 

@@ -1,7 +1,7 @@
 ---
 title: Jekyll Extensions Equal Pain
 layout: post
-type: link
+category: link
 time: T22:10:43Z
 linkto: http://rfelix.com/2010/01/19/jekyll-extensions-minus-equal-pain/
 description: Raoul Felix has made jekyll extensible. Bravo.

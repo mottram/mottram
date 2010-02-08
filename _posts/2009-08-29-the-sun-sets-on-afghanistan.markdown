@@ -1,7 +1,7 @@
 ---
 title: The Sun Sets on Afghanistan
 layout: post
-type: basic
+category: basic
 short: wr
 description: The Sun, an anti-war paper?!
 tags:

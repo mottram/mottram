@@ -1,7 +1,7 @@
 ---
 title: Circle
 layout: post
-type: video
+category: video
 video_link: http://vimeo.com/moogaloop.swf?clip_id=4458359
 description: A time lapse video of a circle being drawn.
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Paris is Burning
 layout: post
-type: video
+category: video
 video_link: http://www.youtube.com/v/qCp99A2Cni0
 description: Paris is Burning, a superb documentary on the Harlem drag ball scene of the 1980s.
 tags:

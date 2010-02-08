@@ -2,7 +2,7 @@
 title: The Finches
 layout: post
 time: T09:00:00Z
-type: video
+category: video
 video_link: http://www.youtube.com/v/89Kz8Nxb-Bg
 description: On guitar, some Zebra Finches
 tags:

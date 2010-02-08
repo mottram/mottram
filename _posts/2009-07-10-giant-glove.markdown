@@ -1,7 +1,7 @@
 ---
 title: Giant Glove
 layout: post
-type: video
+category: video
 video_link: http://www.youtube.com/watch/v/UPnR-zIwvQ0
 description: An example of white glove tracking.
 tags:

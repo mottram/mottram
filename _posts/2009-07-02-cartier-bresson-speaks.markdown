@@ -1,7 +1,7 @@
 ---
 title: Cartier-Bresson Speaks
 layout: post
-type: link
+category: link
 linkto: http://boogiewoogieflu.blogspot.com/2009/06/weegee-speaks.html
 description: Cartier-Bresson and Weegie interviewed.
 tags:

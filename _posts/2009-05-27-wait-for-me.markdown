@@ -1,7 +1,7 @@
 ---
 title: Wait For Me
 layout: post
-type: video
+category: video
 video_link: http://vimeo.com/moogaloop.swf?clip_id=3013863
 description: A three minute documentary.
 tags:

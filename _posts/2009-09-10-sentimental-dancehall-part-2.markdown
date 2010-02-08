@@ -1,7 +1,7 @@
 ---
 title: Sentimental Dancehall, Part II
 layout: post
-type: audio
+category: audio
 audio_link: http://files.me.com/jack_mottram/ostvay.mp3
 short: dh2
 description: Love Mom and Dad, a song by White Mice.

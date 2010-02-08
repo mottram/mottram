@@ -1,7 +1,7 @@
 ---
 title: Outer Space 1999
 layout: post
-type: video
+category: video
 video_link: http://www.youtube.com/watch/v/Unw8YYKYZPQ
 description: Peter Tscherkassky versus The Entity
 tags:

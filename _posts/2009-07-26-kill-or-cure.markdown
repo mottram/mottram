@@ -1,7 +1,7 @@
 ---
 title: Kill Or Cure?
 layout: post
-type: link
+category: link
 linkto: http://kill-or-cure.heroku.com/
 description: Making sense of the Daily Mail's cancer reporting.
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Rise of the Tablog, Decline of the Weblog
 layout: post
-type: basic
+category: basic
 time: T14:50:44Z
 description: A quote from and response to Nick Cernis' article Rise of the Tablog.
 tags: 

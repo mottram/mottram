@@ -1,7 +1,7 @@
 ---
 title: Echo Nest
 layout: post
-type: link
+category: link
 linkto: http://code.google.com/p/echo-nest-remix/
 description: A tool for manipulating music and video
 tags:

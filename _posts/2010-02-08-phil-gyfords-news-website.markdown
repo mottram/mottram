@@ -1,7 +1,7 @@
 ---
 title: Phil Gyford's News Website
 layout: post
-type: link
+category: link
 time:  T11:45:56Z
 linkto: http://www.gyford.com/phil/writing/2010/01/28/weekly_news.php
 description: A link to Phil's announcement of his forthcoming news website.

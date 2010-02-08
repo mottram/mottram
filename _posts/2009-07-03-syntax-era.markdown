@@ -1,7 +1,7 @@
 ---
 title: ZX Spectrum vs. BBC Micro
 layout: post
-type: link
+category: link
 linkto: http://www.guardian.co.uk/media/2009/jun/30/martin-freeman-alexander-armstrong-sir-clive-sinclair-bbc4-drama
 description: The geekiest docudrama of the year.
 tags:

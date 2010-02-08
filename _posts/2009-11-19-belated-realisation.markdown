@@ -1,7 +1,7 @@
 ---
 title: Belated Realisation
 layout: post
-type: basic
+category: basic
 time: T14:24:20Z
 short: ph
 description: I just realised that Apple answered my 2004 lazyweb request.

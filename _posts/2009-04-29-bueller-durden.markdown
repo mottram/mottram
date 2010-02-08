@@ -1,7 +1,7 @@
 ---
 title: Bueller Durden
 layout: post
-type: basic
+category: basic
 category: basic
 description: A quote about Ferris Bueller
 tags:

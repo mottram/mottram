@@ -1,7 +1,7 @@
 ---
 title: TRFC on eBay
 layout: post
-type: link
+category: link
 linkto: http://www.timesonline.co.uk/tol/sport/football/football_league/article6733622.ece
 description: Tranmere for sale.
 tags:

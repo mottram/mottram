@@ -1,7 +1,7 @@
 ---
 title: Scrotwm
 layout: post
-type: link
+category: link
 linkto: http://www.scrotwm.org/
 description: The perfect window manager for the Eee PC 701?
 tags:

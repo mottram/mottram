@@ -1,7 +1,7 @@
 ---
 title: nice_find
 layout: post
-type: link
+category: link
 linkto: http://github.com/briancollins/nice_find
 description: nice_find is a Textmate plugin.
 tags:

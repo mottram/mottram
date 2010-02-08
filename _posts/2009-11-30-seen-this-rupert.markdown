@@ -1,7 +1,7 @@
 ---
 title: Seen This, Rupert?
 layout: post
-type: photo
+category: photo
 time: T14:08:54Z
 imageurl: /u/2009/11/paywall-centre.jpg
 description: A graph showing the effect a paywall had on readership at the National Business Review.

@@ -1,7 +1,7 @@
 ---
 title: An Empty Space
 layout: post
-type: basic 
+category: basic 
 time: T00:45:04Z
 description: A quote from Peter Brooke. 
 tags: 

@@ -1,7 +1,7 @@
 ---
 title: The Newton Returns
 layout: post
-type: basic
+category: basic
 short: newt
 loc: CH48,UK
 locname: Wirral

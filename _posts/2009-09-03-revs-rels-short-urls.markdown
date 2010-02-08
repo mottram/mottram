@@ -1,7 +1,7 @@
 ---
 title: Revs, Rels &amp; Short URLs
 layout: post
-type: basic
+category: basic
 short: su
 description: I've made short URLS available for some posts on the site.
 tags:

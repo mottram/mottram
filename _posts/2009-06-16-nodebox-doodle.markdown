@@ -1,7 +1,7 @@
 ---
 title: Nodebox Doodle
 layout: post
-type: video
+category: video
 video_link: http://www.youtube.com/watch/v/L5Q3G9GRuOo
 description: A little animation experiment.
 short: n

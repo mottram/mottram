@@ -1,7 +1,7 @@
 ---
 title: Waveforms
 layout: post
-type: photo
+category: photo
 imageurl: /u/2009/07/music_cd.jpg
 description: Pretty music CD packaging.
 tags:

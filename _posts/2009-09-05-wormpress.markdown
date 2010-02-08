@@ -1,7 +1,7 @@
 ---
 title: Wormpress
 layout: post
-type: basic
+category: basic
 description: On the WordPress security scare
 tags: 
  - wordpress

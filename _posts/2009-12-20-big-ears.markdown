@@ -1,7 +1,7 @@
 ---
 title: Big Ears
 layout: post
-type: photo
+category: photo
 time: T15:44:25Z
 imageurl: /u/2009/12/big-ears.jpg
 description: A photograph of a soldier using a wearable listening device.

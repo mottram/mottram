@@ -1,7 +1,7 @@
 ---
 title: Mapumental
 layout: post
-type: basic
+category: basic
 short: mm
 loc: CH48,UK
 locname: Wirral

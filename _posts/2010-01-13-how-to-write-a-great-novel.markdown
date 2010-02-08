@@ -1,7 +1,7 @@
 ---
 title: How to Write a Great Novel
 layout: post
-type: link
+category: link
 time: T23:50:02Z
 linkto: http://online.wsj.com/article/SB10001424052748703740004574513463106012106.html
 description: The writing methods of authors revealed.

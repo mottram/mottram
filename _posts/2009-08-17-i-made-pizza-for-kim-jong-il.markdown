@@ -1,7 +1,7 @@
 ---
 title: "I made pizza for Kim Jong-il"
 layout: post
-type: link
+category: link
 linkto: http://www.atimes.com/koreas/CH04Dg01.html
 description: Links to a chef's memoir of cooking for the Dear Leader.
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Gib
 layout: post
-type: photo
+category: photo
 time: T22:38:31Z
 description: A few snaps from my trip to Gibraltar with Donny.
 tags:

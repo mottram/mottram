@@ -1,7 +1,7 @@
 ---
 title: Speak the Web
 layout: post
-type: link
+category: link
 time: T16:16:24Z
 linkto: http://speaktheweb.org
 description: A touring web development event.

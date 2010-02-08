@@ -1,7 +1,7 @@
 ---
 title: Scanners, collectors and aggregators
 layout: post
-type: link
+category: link
 time: T01:10:03Z
 linkto: http://openreflections.wordpress.com/2009/09/20/scanners-collectors-and-aggregators-on-the-‘underground-movement’-of-pirated-theory-text-sharing/
 description: An overview of pirate text websites.

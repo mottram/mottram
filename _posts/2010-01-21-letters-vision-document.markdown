@@ -1,7 +1,7 @@
 ---
 title: The Letters vision document 
 layout: post
-type: link
+category: link
 time: T09:00:00Z
 linkto: http://pastie.org/785269
 description: The forthcoming Letters open source email client 

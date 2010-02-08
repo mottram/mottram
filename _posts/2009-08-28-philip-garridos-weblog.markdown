@@ -1,7 +1,7 @@
 ---
 title: Phillip Garrido's Weblog
 layout: post
-type: basic
+category: basic
 short: pg
 description: 
 tags:

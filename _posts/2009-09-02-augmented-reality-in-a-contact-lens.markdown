@@ -1,7 +1,7 @@
 ---
 title: Augmented Reality in a Contact Lens
 layout: post
-type: link
+category: link
 linkto: http://spectrum.ieee.org/biomedical/bionics/augmented-reality-in-a-contact-lens/0
 description:
 tags:

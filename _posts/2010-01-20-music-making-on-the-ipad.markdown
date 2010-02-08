@@ -1,7 +1,7 @@
 ---
 title: Music Making on the iPad
 layout: post
-type: basic
+category: basic
 short: ipad
 time: T10:00:41Z
 loc: CH48,UK

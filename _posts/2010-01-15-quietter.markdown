@@ -1,7 +1,7 @@
 ---
 title: Quietter
 layout: post
-type: basic
+category: basic
 time: T14:33:30Z
 description: An idea for a new Twitter client.
 tags: 

@@ -2,7 +2,7 @@
 title: Open Source Sixth Sense
 layout: post
 time: T14:59:44Z
-type: video
+category: video
 video_link: http://www.youtube.com/v/nZ-VjUKAsao
 description: MIT's Pranav Mistry is open sourcing the technologies that provide a wearable ubicomp sixth sense.
 tags:

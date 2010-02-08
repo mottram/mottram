@@ -1,7 +1,7 @@
 ---
 title: Jailhouse Tech
 layout: post
-type: basic
+category: basic
 short: jt
 time: T09:00:00Z
 description: Examples of prisoner-made tools.

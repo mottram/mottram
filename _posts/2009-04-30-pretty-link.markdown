@@ -1,7 +1,7 @@
 ---
 title: Pretty Link
 layout: post
-type: link
+category: link
 short: pl
 linkto: http://wordpress.org/extend/plugins/pretty-link/ 
 description: Short URLs for Wordpress

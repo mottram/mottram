@@ -1,7 +1,7 @@
 ---
 title: City Link, Still Rubbish
 layout: post
-type: basic
+category: basic
 short: cl
 time: T18:18:11Z
 loc: CH48,UK

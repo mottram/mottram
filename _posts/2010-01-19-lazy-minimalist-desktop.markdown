@@ -1,7 +1,7 @@
 ---
 title: Lazy Minimalist Desktop
 layout: post
-type: basic
+category: basic
 time: T10:30:00Z
 description: Want to unclutter your desktop, but can’t be arsed?
 tags: 

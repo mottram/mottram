@@ -1,7 +1,7 @@
 ---
 title: sc140
 layout: post
-type: link
+category: link
 time: T13:04:25Z
 linkto: http://supercollider.sourceforge.net/sc140/
 description: Music created in just 140 characters of Supercollider code.

@@ -1,7 +1,7 @@
 ---
 title: TRFC Image Problem
 layout: post
-type: photo
+category: photo
 time: T16:19:24Z
 imageurl: /u/2010/01/pitch-centre.jpg
 description: Tranmere in depressing image shocker.

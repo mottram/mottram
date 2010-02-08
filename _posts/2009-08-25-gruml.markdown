@@ -1,7 +1,7 @@
 ---
 title: Gruml
 layout: post
-type: link
+category: link
 linkto: http://www.grumlapp.com/
 description: Gruml is an RSS reader for the Mac.
 tags:

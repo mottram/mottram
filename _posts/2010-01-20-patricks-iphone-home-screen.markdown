@@ -1,7 +1,7 @@
 ---
 title: Patrick's iPhone home screen experiment
 layout: post
-type: link
+category: link
 time: T13:00:00Z
 linkto: http://minimalmac.com/post/343270855/as-promised-here-are-the-survivors-of-my-little
 description: Patrick Rhone's iPhone home screen experiment results.

@@ -1,7 +1,7 @@
 ---
 title: DHT, PEX and Magnet Links Explained
 layout: post
-type: link
+category: link
 time: T22:15:37Z
 linkto: http://torrentfreak.com/bittorrents-future-dht-pex-and-magnet-links-explained-091120/
 description: DHT, PEX and Magnet links explained.

@@ -1,7 +1,7 @@
 ---
 title: Breach of Peace
 layout: post
-type: link
+category: link
 linkto: http://breachofpeace.com/blog/
 description: Portraits of the Mississippi Freedom Riders.
 tags:

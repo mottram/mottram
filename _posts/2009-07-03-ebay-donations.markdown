@@ -1,7 +1,7 @@
 ---
 title: Ebay Donations
 layout: post
-type: photo
+category: photo
 imageurl: /u/2009/07/Ebay-Charity.jpg
 description: Charitable donations, now on eBay.
 tags:

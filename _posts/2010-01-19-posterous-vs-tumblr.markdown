@@ -1,7 +1,7 @@
 ---
 title: Why Tumblr is kicking Posterous’s ass
 layout: post
-type: link
+category: link
 time: T19:49:45Z
 linkto: http://pegontech.wordpress.com/2010/01/19/why-tumblr-posterous-ass/
 description: According to Pascal-Emmanuel Gobry, it's down to design.

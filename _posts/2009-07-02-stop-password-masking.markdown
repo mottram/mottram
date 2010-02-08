@@ -1,7 +1,7 @@
 ---
 title: Stop Password Masking
 layout: post
-type: link
+category: link
 linkto: http://www.useit.com/alertbox/passwords.html
 description: Jakob Neilson is against password masking.
 tags:

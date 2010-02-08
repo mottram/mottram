@@ -1,7 +1,7 @@
 ---
 title: This American Life iPhone App
 layout: post
-type: link
+category: link
 time: T22:01:34Z
 linkto: http://clk.tradedoubler.com/click?p=23708&amp;a=1755858&amp;url=http%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fthis-american-life%2Fid348530331%3Fmt%3D8%26uo%3D6%26partnerId%3D2003
 description: The radio show now has an app. 

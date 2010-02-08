@@ -1,7 +1,7 @@
 ---
 title: PhotoVoice
 layout: post
-type: link
+category: link
 linkto: http://www.photovoice.org/
 description: Putting cameras in the hands of documentary photography subjects.
 tags:

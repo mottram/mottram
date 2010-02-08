@@ -1,7 +1,7 @@
 ---
 title: Too Many iPhone Apps? Just Search
 layout: post
-type: basic
+category: basic
 short: iphone
 time: T14:28:32Z
 loc: CH48,UK

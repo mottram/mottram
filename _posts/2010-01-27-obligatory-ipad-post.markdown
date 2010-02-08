@@ -1,7 +1,7 @@
 ---
 title: Obligatory iPad Post
 layout: post
-type: basic
+category: basic
 short: ipad2
 time: T23:29:30Z
 loc: CH48,UK

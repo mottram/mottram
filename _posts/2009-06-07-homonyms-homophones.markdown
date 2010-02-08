@@ -1,7 +1,7 @@
 ---
 title: Homonyms &amp; Homophones
 layout: post
-type: basic
+category: basic
 short: hh
 loc: G4,UK
 locname: Glasgow

@@ -1,7 +1,7 @@
 ---
 title: Purple Aki
 layout: post
-type: link
+category: link
 linkto: http://news.bbc.co.uk/1/hi/england/merseyside/8027540.stm
 description: Purple Aki, actually real.
 tags:

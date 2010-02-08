@@ -1,7 +1,7 @@
 ---
 title: The Intubator
 layout: post
-type: link
+category: link
 linkto: http://www.tomscott.com/intubator/
 description: A stream of youtube videos that no-one bothered to tag, title, or describe.
 tags:

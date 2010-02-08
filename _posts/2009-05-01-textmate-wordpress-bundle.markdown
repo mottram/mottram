@@ -1,7 +1,7 @@
 ---
 title: Textmate Wordpress Bundle
 layout: post
-type: link
+category: link
 linkto: http://yoast.com/articles/wordpress-textmate-bundle/
 tags:
  - textmate

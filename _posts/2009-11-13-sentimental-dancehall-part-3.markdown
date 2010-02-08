@@ -1,7 +1,7 @@
 ---
 title: Sentimental Dancehall, Part III
 layout: post
-type: audio
+category: audio
 audio_link: http://files.me.com/jack_mottram/ojoqsm.mp3
 short: dh3
 time: T11:00:00Z

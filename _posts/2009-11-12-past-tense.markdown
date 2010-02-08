@@ -1,7 +1,7 @@
 ---
 title: Past Tense
 layout: post
-type: link
+category: link
 linkto: http://www.past-tense.org.uk/
 description: A link to Past Tense, a site about radical history in London.
 tags:

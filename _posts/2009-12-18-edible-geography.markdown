@@ -1,7 +1,7 @@
 ---
 title: Edible Geography
 layout: post
-type: link
+category: link
 time: T09:42:11Z
 linkto: http://www.ediblegeography.com/
 description: A link to Edible Geography, a weblog about food.

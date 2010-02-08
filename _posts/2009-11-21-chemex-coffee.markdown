@@ -1,7 +1,7 @@
 ---
 title: Chemex Coffee
 layout: post
-type: basic
+category: basic
 short: cc
 loc: CH48,UK
 locname: Wirral

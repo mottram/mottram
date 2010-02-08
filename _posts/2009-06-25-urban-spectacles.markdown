@@ -1,7 +1,7 @@
 ---
 title: Urban Spectacles
 layout: post
-type: photo
+category: photo
 imageurl: /u/2009/06/specs.jpg
 description: Beautiful glasses made out of wood.
 tags:

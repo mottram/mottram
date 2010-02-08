@@ -1,7 +1,7 @@
 ---
 title: 3 Frames
 layout: post
-type: photo
+category: photo
 imageurl: /u/2009/06/pacino.gif
 description: Animated film sequences, three frames long.
 tags:

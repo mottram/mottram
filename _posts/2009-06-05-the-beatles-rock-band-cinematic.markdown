@@ -1,7 +1,7 @@
 ---
 title: The Beatles - Rock Band Cinematic
 layout: post
-type: link
+category: link
 linkto: http://www.thebeatlesrockband.com/cinematic.php
 description: A lovely animation.
 tags: 

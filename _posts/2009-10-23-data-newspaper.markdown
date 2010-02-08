@@ -1,7 +1,7 @@
 ---
 title: Data Newspaper
 layout: post
-type: link
+category: link
 linkto: http://blog.newspaperclub.co.uk/2009/10/16/data-gov-uk-newspaper/
 description: A link to Newspaper Club's postcode newspaper.
 tags:

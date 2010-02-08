@@ -1,7 +1,7 @@
 ---
 title: My iPhone Thinks I'm Welsh
 layout: post
-type: photo
+category: photo
 imageurl: /u/2009/06/findmyiphone.jpg
 description: Find My iPhone translocation.
 tags:

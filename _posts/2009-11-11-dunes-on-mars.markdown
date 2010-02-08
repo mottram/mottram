@@ -1,7 +1,7 @@
 ---
 title: Dunes on Mars
 layout: post
-type: photo
+category: photo
 imageurl: /u/2009/11/mars-dunes.jpg
 description: A beautiful photograph of sand dunes on Mars.
 tags:

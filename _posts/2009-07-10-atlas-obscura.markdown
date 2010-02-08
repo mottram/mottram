@@ -1,7 +1,7 @@
 ---
 title: Atlas Obscura
 layout: post
-type: basic
+category: basic
 description: A quote from Atlas Obscura.
 tags:
  - esoterica

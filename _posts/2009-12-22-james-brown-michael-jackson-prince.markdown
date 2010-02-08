@@ -2,7 +2,7 @@
 title: Brown Jackson Nelson
 layout: post
 time: T09:00:00Z
-type: video
+category: video
 video_link: http://www.youtube.com/v/1CoxNzOOoQU
 description: All three on stage. Prince is fucked up.
 tags:

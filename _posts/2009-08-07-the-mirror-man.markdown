@@ -1,7 +1,7 @@
 ---
 title: The Mirror Man
 layout: post
-type: video
+category: video
 video_link: http://www.youtube.com/watch/v/vVCAjzn4BEI
 description: A Borges documentary.
 tags:

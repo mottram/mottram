@@ -1,7 +1,7 @@
 ---
 title: HTML 5 &amp; Internet Explorer - Fair Warning
 layout: post
-type: basic
+category: basic
 time: T14:32:51Z
 short: ie5
 loc: CH48,UK

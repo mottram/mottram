@@ -1,7 +1,7 @@
 ---
 title: Bookseer
 layout: post
-type: link
+category: link
 linkto: http://bookseer.com/
 description: A book-recommending website.
 tags:

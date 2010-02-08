@@ -1,7 +1,7 @@
 ---
 title: Old Browser Testing
 layout: post
-type: basic
+category: basic
 time: T17:42:55Z
 description: Screenshots of this site, taken in some elderly browsers.
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Sentimental Dancehall
 layout: post
-type: audio
+category: audio
 audio_link: http://files.me.com/jack_mottram/b1hzoe.mp3 
 short: dh
 description: Letter to Mommy and Daddy, a song by Chaka Demus and Yellowman.

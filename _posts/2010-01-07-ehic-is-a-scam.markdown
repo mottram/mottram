@@ -1,7 +1,7 @@
 ---
 title: EHIC Scams
 layout: post
-type: basic
+category: basic
 short: ehic
 time: T19:03:22Z
 loc: CH48,2JN

@@ -1,7 +1,7 @@
 ---
 title: Tokyo Camera Style
 layout: post
-type: link
+category: link
 linkto: http://tokyocamerastyle.com/
 description: Photographs of cameras in Tokyo.
 tags:

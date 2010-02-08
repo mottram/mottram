@@ -1,7 +1,7 @@
 ---
 title: Should we encourage self-promotion and lies?
 layout: post
-type: link
+category: link
 time: T14:36:03Z
 linkto: http://www.plasticbag.org/archives/2010/01/should_we_encourage_s/
 description: Tom Coates on self-promotion, and making the best thing possible.

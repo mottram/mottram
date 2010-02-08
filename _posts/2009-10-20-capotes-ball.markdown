@@ -1,7 +1,7 @@
 ---
 title: Capote's Ball
 layout: post
-type: photo
+category: photo
 imageurl: /u/2009/10/capote-ball.jpg
 description: A photograph of the Black Panthers by Howard Bingham.
 tags:

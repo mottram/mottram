@@ -1,7 +1,7 @@
 ---
 title: Letters from the Avant-Garde
 layout: post
-type: photo
+category: photo
 imageurl: /u/2009/11/club-dada.jpg
 description: Evidence that graphic design reached its apogee in the first half of the 20th century.
 time: T09:00:00Z

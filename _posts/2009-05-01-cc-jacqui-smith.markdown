@@ -1,7 +1,7 @@
 ---
 title: CC All Your Emails to Jacqui Smith
 layout: post
-type: link
+category: link
 linkto: http://www.ccjacquismith.co.uk/
 tags:
  - politics

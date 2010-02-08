@@ -1,7 +1,7 @@
 ---
 title: MP's Expenses
 layout: post
-type: link
+category: link
 linkto: http://mps-expenses.guardian.co.uk/user/jack/
 description: My user page at the Guardian's MP's Expenses site.
 tags:

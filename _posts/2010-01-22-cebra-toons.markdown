@@ -1,7 +1,7 @@
 ---
 title: CEBRA_toons
 layout: post
-type: photo
+category: photo
 time: T09:00:00Z
 imageurl: /u/2010/01/cebra-toon.jpg
 description: Mikkel Frost of CEBRA draws cartoons to summarise his architectural projects.

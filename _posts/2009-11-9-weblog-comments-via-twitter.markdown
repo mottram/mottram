@@ -1,7 +1,7 @@
 ---
 title: Weblog Comments via Twitter
 layout: post
-type: basic
+category: basic
 short: tw
 time: T14:56:45Z
 loc: CH48,UK
@@ -24,7 +24,7 @@ First, you'll need to add some [YAML Front Matter][10] to your posts that can be
 ---
 title: Weblog Comments via Twitter
 layout: post
-type: basic
+category: basic
 short: tw
 description: Add comments from Twitter to your jekyll blog.
 tags:

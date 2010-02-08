@@ -1,7 +1,7 @@
 ---
 title: Pinboard &amp; Conkeror
 layout: post
-type: basic
+category: basic
 short: pc
 description: 
 tags:

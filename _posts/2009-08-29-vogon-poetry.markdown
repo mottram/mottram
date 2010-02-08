@@ -1,7 +1,7 @@
 ---
 title: Vogon Poetry
 layout: post
-type: link
+category: link
 linkto: http://www.worldwidelexicon.org/?page_id=26
 description: It's no Babel fish.
 tags:

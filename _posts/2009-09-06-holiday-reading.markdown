@@ -1,7 +1,7 @@
 ---
 title: Holiday Reading
 layout: post
-type: basic
+category: basic
 short: hr
 description: The books I plan to read on holiday
 tags:

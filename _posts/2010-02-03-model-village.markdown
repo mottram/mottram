@@ -1,7 +1,7 @@
 ---
 title: Model Town
 layout: post
-type: photo
+category: photo
 time: T16:15:56Z
 imageurl: /u/2010/02/model-town.jpg
 description: Wonderful models of a 1950s American town

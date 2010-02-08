@@ -1,7 +1,7 @@
 ---
 title: myTexts
 layout: post
-type: link
+category: link
 linkto: http://myownapp.com/site/moapp3.0/applications_leo/writing/mytexts/mytexts.html
 description:
 tags:

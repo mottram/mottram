@@ -1,7 +1,7 @@
 ---
 title: David Byrne’s Studio
 layout: post
-type: video
+category: video
 video_link: http://blip.tv/play/60%2BBhPcwAg%2Em4v
 description: A tour of Byrne's studio.
 tags:
