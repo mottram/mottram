@@ -109,8 +109,6 @@ article footer a, article header a {
 	text-decoration:none!important;
 }
 	
-/* nav - gratuitous CSS 3 abuse! */
-
 nav#main {
 	position:fixed;
 	top:0;
@@ -125,11 +123,9 @@ nav#main {
 
 nav#main ul {
 	font-size:0.750em;
-	margin:0 0.250em;
-}
-
-nav#main ul li a {
-	color:#fff!important;
+	position:relative;
+	width:49em;
+	margin:0 auto;
 }
 
 nav#main ul li a {
@@ -143,7 +139,7 @@ nav#main ul li a:hover {
 nav#main ul li form {
 	display:inline;
 	position:absolute;
-	right:0.5em;
+	right:0;
 }
 
 nav#main input.idle {
@@ -221,7 +217,7 @@ article, section#archive, div.contact {
 }
 
 section#archive {
-	width:36.88em;
+	width:36.875em;
 	margin:6em auto;
 	background:#fff;
 }
@@ -235,7 +231,7 @@ section#archive section {
 }
 
 .about article, div.contact, .photo article, .video article, .link article, .basic article, .audio article, ul.more {
-	width:36.88em;
+	width:36.875em;
 	margin:6em auto;
 }
 
@@ -269,7 +265,7 @@ div.highlight pre {
 }
 
 div.highlight {
-	width:36.88em;
+	width:36.875em;
 	overflow:auto;
 	margin:0 0 0.75em 0;
 }
@@ -619,7 +615,7 @@ table#reading tr td:nth-child(4), table#reading tr td:nth-child(5), table#readin
 
 
 #posts {
-	width:36.88em;
+	width:36.875em;
 }
 
 #posts div {
@@ -629,7 +625,7 @@ table#reading tr td:nth-child(4), table#reading tr td:nth-child(5), table#readin
 }
 
 #posts article {
-	width:36.88em;
+	width:36.875em;
 	padding:0;
 	margin-bottom:0;
 }
