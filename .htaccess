@@ -1,9 +1,12 @@
 ---
 template: nil
 ---
-Options +FollowSymlinks
-# Force Firefox 2, Camino et al to recognise HTML 5
+# Standard stuff
 RewriteEngine on
+ServerSignature Off
+Options +FollowSymlinks
+
+# Force Firefox 2, Camino 1.x et al to recognise HTML 5
 RewriteCond %{REQUEST_URI} \.html$
 RewriteCond %{HTTP_USER_AGENT} rv:1\.(([1-8]|9pre|9a|9b[0-4])\.[0-9.]+).*Gecko
 RewriteRule .* - [T=application/xhtml+xml]
@@ -12,9 +15,14 @@ RewriteRule .* - [T=application/xhtml+xml]
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
+# Redirect stupid requests for robots.txt and favicon.ico in the wrong places
+RedirectMatch 301 ^/(.*)/robots\.txt http://mottr.am/robots.txt
+RedirectMatch 301 ^/(.*)/favicon\.(ico|gif) http://mottr.am/favicon.ico
+
 ErrorDocument 404 /404/
 
-# Redirect old Wordpress stuff, redirect short URLs to canonical URLs
+# Redirect old Wordpress stuff, changed URLS, short URLs to canonical URLs
+redirect 301 /2009/08/26/pinboard-in-conkeror/ http://mottr.am/2009/08/26/pinboard-and-conkeror/
 redirect 301 /page/2/ http://mottr.am/2/
 redirect 301 /page/3/ http://mottr.am/3/
 redirect 301 /page/4/ http://mottr.am/4/
@@ -23,15 +31,14 @@ redirect 301 /feed/ http://mottr.am/atom.xml
 {% for post in site.posts %}{% if post.short %}redirect 301 /{{ post.short }} http://mottr.am{{ post.id }}
 {% endif %}{% endfor %}
 
-# BEGIN Compress text files
+# Compress text files
 <IfModule mod_deflate.c>
   <FilesMatch "\.(css|js|x?html?|php)$">
     SetOutputFilter DEFLATE
   </FilesMatch>
 </IfModule>
-# END Compress text files
  
-# BEGIN Expire headers
+# Expire headers
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresDefault "access plus 1 seconds"
@@ -46,9 +53,8 @@ redirect 301 /feed/ http://mottr.am/atom.xml
   ExpiresByType text/html "access plus 600 seconds"
   ExpiresByType application/xhtml+xml "access plus 600 seconds"
 </IfModule>
-# END Expire headers
  
-# BEGIN Cache-Control Headers
+# Cache-Control Headers
 <IfModule mod_headers.c>
   <FilesMatch "\\.(ico|jpe?g|png|gif|swf)$">
     Header set Cache-Control "max-age=2592000, public"
@@ -63,17 +69,14 @@ redirect 301 /feed/ http://mottr.am/atom.xml
     Header set Cache-Control "max-age=600, private, must-revalidate"
   </FilesMatch>
 </IfModule>
-# END Cache-Control Headers
  
-# BEGIN Turn ETags Off
+# Turn ETags Off
 <IfModule mod_headers.c>
   Header unset ETag
 </IfModule>
 FileETag None
-# END Turn ETags Off
  
-# BEGIN Remove Last-Modified Header
+# Remove Last-Modified Header
 <IfModule mod_headers.c>
   Header unset Last-Modified
 </IfModule>
-# END Remove Last-Modified Header

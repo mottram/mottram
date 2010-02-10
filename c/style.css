@@ -127,6 +127,12 @@ nav#main ul {
 	position:relative;
 	width:49em;
 	margin:0 auto;
+/*	background:rgba(0,0,0,0.1);
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+*/
 }
 
 nav#main ul li a {
