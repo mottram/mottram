@@ -1,7 +1,7 @@
 ---
 title:  Search vs. Swipe
 layout: post
-type: link
+category: link
 time: T17:55:00Z
 linkto: http://minimalmac.com/post/384170651/iphone-search-vs-swipe-a-couple-of-more-thoughts
 description: Patrick Rhone spots another advantage of search to launch on the iPhone
