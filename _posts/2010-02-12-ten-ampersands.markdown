@@ -5,7 +5,7 @@ category: link
 time: T22:45:10Z
 linkto: http://www.haafe.com/
 description: A selection of display ampersands, for a tenner.
-topics:
+tags:
  - ampersand
  - type
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-type: archive
+category: archive
 ---
 
 <section id="archive">
@@ -11,4 +11,30 @@ type: archive
 	<p>{{ post.description }}</p>
   </li>{% endfor %}
 </ul>
+
+<div class="bookmarks">
+<p>See also: web pages I've <a title="Web pages I've bookmarked at Pinboard, and tagged {{ page.tag }}" href="http://pinboard.in/u:mottram/t:{{ page.tag }}/">bookmarked, and tagged with &#8216;{{ page.tag }}&#8217;</a>.</p>
+
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAPga5T2DTe8Ai3o7Fpk3qFRSNqByKE8YBn9C1iebjkz1yKGB-5xTKcMhYnDGfQXXHiCqs3tCKJS2cxQ"></script><!-- TODO: stick this in head for relevant pages -->
+<script type="text/javascript">
+//<![CDATA[
+      google.load("feeds", "1");
+ 
+      function OnLoad() {
+ 
+        var feedControl = new google.feeds.FeedControl();
+ 
+        feedControl.addFeed("http://feeds.pinboard.in/rss/u:mottram/t:{{ page.tag }}");
+ 		
+		feedControl.setNumEntries(10);
+
+        feedControl.draw(document.getElementById("feed"));
+      }
+      google.setOnLoadCallback(OnLoad);
+//]]>
+</script>
+
+<div id="feed"></div>
+</div>
+
 </section>
