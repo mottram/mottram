@@ -26,6 +26,7 @@ dd, h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 }
 
 h1, .about h2, .contact h2 {
+/*	font-family:Georgia, serif; -- maybe? */
 	font-size:1.75em;
 	font-weight:normal;
 }
@@ -88,7 +89,7 @@ blockquote + p > em:before {
 	content:" \2014";
 }
 
-a, a:link, a:visited, a:active{
+a, a:link, a:visited, a:active {
 	color:#000;
 	font-weight:400;
 	text-decoration:none;
