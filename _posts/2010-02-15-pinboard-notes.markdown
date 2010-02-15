@@ -5,7 +5,7 @@ category: link
 time: T18:00:32Z
 linkto: http://pinboard.in/blog/84/ 
 description: The bookmarking service Pinboard now lets you take notes.
-topics:
+tags:
  - pinboard
  - notes
 ---
