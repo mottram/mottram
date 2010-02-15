@@ -36,7 +36,7 @@ h1, .about h2, .contact h2 {
 	color:#aaa;
 	font-weight:normal !important;
 	font-size:1.13em;
-	content:" \261b";
+	content:" \261b"; 
 	}
 
 .link p {
@@ -636,52 +636,6 @@ table#reading tr td:nth-child(3) {
 table#reading tr td:nth-child(4), table#reading tr td:nth-child(5), table#reading tr td:nth-child(6), table#reading tr td:nth-child(7)  {
 	width:7em;
 }
-
-/* new front page */
-
-
-#posts {
-	width:36.875em;
-}
-
-#posts div {
-	width:12.29333em;
-	float:left;
-	margin:1.5em 0 0 0;
-}
-
-#posts article {
-	width:36.875em;
-	padding:0;
-	margin-bottom:0;
-}
-
-#posts ul li {
-	font-size:0.75em;
-	margin:0 0 1.5em 0;
-	padding:0 1em 0 0;
-	list-style-type:none;
-}
-
-#posts ul li p, #posts ul li time, #posts ul li h2 {
-	margin:0;
-	line-height:1.5em;
-}
-
-#posts ul.links h2 a:after {
-	font-family:Baskerville, Palatino, "Book Antiqua", Georgia, serif;
-	color:#aaa;
-	font-weight:normal !important;
-	font-size:1.13em;
-	content:" \261b";
-	}
-
-
-#posts img[src*="centre"] {
-	border:none;
-	margin:0!important;
-}
-
 
 /* Feeds on tag pages */
 
