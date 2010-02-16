@@ -6,14 +6,6 @@ nav#main {
 	filter: alpha(opacity=80);
 }
 /*
-	I'm experimenting with improving IE's @font-face rendering here.
-	See http://allcreatives.net/2009/12/05/smoother-font-face-embedding-in-ie-7-8/	
-*/
-h1, .about h2, .contact h2, .museo {
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/u/hIEfix.png,sizingMethod=crop);
-	zoom:1;
-}
-/*
 	IE 7 doesn't like position: fixed for some reason, so it gets a hack
 */
 *:first-child+html {} nav#main {

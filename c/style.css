@@ -97,7 +97,12 @@ a, a:link, a:visited, a:active {
    	-webkit-transition: color 0.3s ease-in-out; /* all causes Safari for iPhone to wig out  */
 	transition: all 0.3s ease-in-out;
 }
-	
+
+a:active {
+	background:#eee;
+	background:rgba(170,170,170,0.5);
+}
+
 a:hover {
 	color:#a00;
 }
@@ -643,11 +648,7 @@ table#reading tr td:nth-child(4), table#reading tr td:nth-child(5), table#readin
 	font-size:0.875em;
 }
 
-#feed .gf-snippet, 
-      #feed .gf-author, 
-      #feed .gf-spacer, 
-	  #feed .gfc-resultsHeader,
-      #feed .gf-relativePublishedDate { 
+#feed .gf-snippet, #feed .gf-author, #feed .gf-spacer, #feed .gfc-resultsHeader, #feed .gf-relativePublishedDate { 
         display : none;
       }
 
