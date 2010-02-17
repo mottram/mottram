@@ -1,5 +1,5 @@
 ---
-title: The Dropbox API is Coming!   
+title: The Dropbox API is Coming   
 layout: post
 category: basic
 short: d
@@ -18,9 +18,9 @@ tags:
 
 That's pretty cool. And I reckon it's a sign of some very exciting things to come, too. Here's why: in order to do its stuff, QMCS must be using the as-yet-unreleased [Dropbox API](http://code.google.com/p/dropbox-api/ "A currently empty repository on Google Code"). 
 
-At present, there are many great ways to keep stuff on your Mac synchronised with your iPhone, with the emphasis on 'many': I have to use a total of four applications, and a pair of user accounts, just to make a directory of plain text files on my Mac available in two of my favourite iPhone apps, [WriteRoom](http://www.hogbaysoftware.com/products/writeroom_iphone) and [Simplenote](http://simplenoteapp.com/). Which is silly: synchronisation and cloud storage should be platform and application agnostic.
+At present, there are many great ways to keep stuff on your Mac synchronised with your iPhone, with the emphasis on 'many': I have to use a total of four applications, and a pair of user accounts, just to make a directory of plain text files on my Mac available in two of my favourite iPhone apps, [WriteRoom](http://www.hogbaysoftware.com/products/writeroom_iphone) and [Simplenote](http://simplenoteapp.com/). Which is silly. Synchronisation and cloud storage should be platform and application agnostic.
 
-When the Dropbox API launches--it's due [in March](https://www.dropbox.com/votebox/9/dropbox-api "See the first comment, from Arash F."), apparently--it could well put an end to per-app sync solutions, and offer instead synchronisation that 'just works': sign up for one account, and all your files, whatever their format, will be accessible from any application, on any device, that supports Dropbox.
+When the Dropbox API launches--it's due [in March](https://www.dropbox.com/votebox/9/dropbox-api "See the first comment, from Arash F."), apparently--it could well put an end to per-app sync solutions, and offer instead synchronisation that 'just works': sign up for one account, and all your files, whatever their format, will be accessible from any application that supports Dropbox, on any device. 
 
 Can't wait.
 
