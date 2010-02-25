@@ -7,7 +7,7 @@ keywords: art, photography, design, fashion, web development, mottram
 ---
 <section>
 {% for post in site.posts limit: 10 %}{% if post.category == 'photo' %}
-<article>
+<article class="photo">
 
 <header>
 <h1>{{ post.title }}</h1>
@@ -33,7 +33,7 @@ keywords: art, photography, design, fashion, web development, mottram
 
 </article>
 {% endif %}{% if post.category == 'video' %}
-<article>
+<article class="video">
 <header>
 <h1>{{ post.title }}</h1>
 </header>
@@ -48,7 +48,7 @@ keywords: art, photography, design, fashion, web development, mottram
 
 </article>
 {% endif %}{% if post.category == 'audio' %}
-<article>
+<article class="audio">
 <header>
 <h1>{{ post.title }}</h1>
 </header>
@@ -64,7 +64,7 @@ AudioPlayer.embed("audioplayer_1", {soundFile: "{{ post.audio_link }}"});
 
 </article>
 {% endif %}{% if post.category == 'basic'%}
-<article>
+<article class="basic">
 
 <header>
 <h1>{{ post.title }}</h1>

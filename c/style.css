@@ -26,10 +26,12 @@ dd, h1, h2, p, cite, quote, blockquote, object, ol, ul, img, pre {
 }
 
 h1, .about h2, .contact h2 {
-/*	font-family:Georgia, serif; -- maybe? */
 	font-size:1.75em;
+	line-height:1.5em;
 	font-weight:normal;
+	text-shadow: 0px 2px 3px rgba(255,255,255,1);
 }
+ 
 
 .link h1:after {
 	font-family:Baskerville, Palatino, "Book Antiqua", Georgia, serif;
@@ -104,7 +106,7 @@ a:active {
 }
 
 a:hover {
-	color:#a00;
+	color:#aaa!important;
 }
 
 article a {
@@ -122,7 +124,7 @@ nav#main {
 	height:1.5em;
 	line-height:1.5em;
 	background:#fff;
-	background:rgba(255,255,255,0.6);
+	background:rgba(255,255,255,0.2);
 	border-bottom:1px solid #fff;
 	border-bottom:1px solid rgba(255,255,255,0.8);
 	z-index:99;
@@ -192,6 +194,50 @@ nav ul li {
 	list-style-type:none;
 	margin:0 0.44em 0 0;
 }
+
+/* Category styles - colours need work...
+
+body.basic {
+	background:rgba(36,83,125,0.1);
+}
+
+body.basic a {
+	color:rgba(36,83,125,1);
+}
+
+body.home .basic a:hover {
+	color:rgba(36,83,125,1);
+}
+
+
+body.link {
+	background:rgba(105,160,143,0.1);
+}
+
+body.link a {
+	color:rgba(105,160,143,1);
+
+}
+
+body.home .link a:hover {
+	color:rgba(105,160,143,1);
+
+}
+
+
+body.audio , body.photo , body.video  {
+	background:rgba(79,97,29,0.1);
+}
+
+body.audio a, body.photo a, body.video a {
+	color:rgba(79,97,29,1);
+}
+
+body.home .audio a:hover, body.home .photo a:hover, body.home .video a:hover {
+	color:rgba(79,97,29,1);
+}
+
+*/
 
 /* Metadata */
 

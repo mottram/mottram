@@ -7,6 +7,9 @@ linkto: http://github.com/jinzhu/vrome
 description: A Chrome extension that provides vim-like keyboard shortcuts.
 tags: 
  - chrome
+ - vim
 ---
 
 A Chrome extension that provides vim-like keyboard shortcuts, some incredibly useful: `o` lets you open a URL in the current tab, `/` and `?` enable forward and backward search, `gi` puts the cursor in the next input area on the page, `[[` and `]]` take you to the previous or next page, <span class="amp">&amp;</span>c..
+
+**Update 25/02/10**: I'm now using [Vimium](https://chrome.google.com/extensions/detail/dbepggeogbaibhgnhhndojpepiihcmeb), which doesn't have quite so many keybindings, but is both less intrusive and much more stable.
