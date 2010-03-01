@@ -1,0 +1,13 @@
+---
+title: pwsafe
+layout: post
+category: link
+time: T14:33:22Z
+linkto: http://nsd.dyndns.org/pwsafe/
+description: pwsafe is a nice, simple password manager
+tags:
+ - passwords
+---
+
+A nice, simple command line password generator and manager.
+
