@@ -1,0 +1,17 @@
+---
+title: Surf
+layout: post
+category: link
+time: T18:57:27Z
+linkto: http://surf.suckless.org 
+description: Surf is a minimalist web browser for Linux
+tags:
+ - browsers
+ - linux
+ - surf
+ - webkit
+---
+
+Surf is a _very_ minimal Webkit- and GTK-based web browser. It will 'display web pages and follow links', but not much else. I'm using it as an SSB for Gmail on my Eee PC, but might just give it a go as my main browser. 
+
+*[SSB]:Site Specific Browser
