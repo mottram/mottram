@@ -2,7 +2,6 @@
 title: Bueller Durden
 layout: post
 category: basic
-category: basic
 description: A quote about Ferris Bueller
 tags:
  - film
