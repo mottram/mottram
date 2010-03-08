@@ -1,0 +1,14 @@
+---
+title: Penguin iPad Book Concepts
+layout: post
+category: video
+description: Penguin mockups for children's, travel and textbooks.
+tags:
+ - books
+ - ipad
+ - fiction
+---
+
+Watching this demo of Penguin's post-book concepts for the iPad, I was struck by the possibilities for fiction. Imagine novels with text that changes depending on your location, chapters that reorder themselves according to the time of day, characters who don sunglasses when it's sunny where you're reading, <span class="amp">&amp;</span>c.. I'm imagining something in tradition of, say, BS Johnson's <i><a href="http://www.amazon.co.uk/gp/product/0330353292?ie=UTF8&tag=submirespo-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0330353292">The Unfortunates</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=submirespo-21&l=as2&o=2&a=0330353292" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></i>--a book in a box, with loose chapters that follow each other in any order--but I suppose Choose Your Own Adventure type books with with added GPS are more likely.
+
+We can expect, too, location-aware equivalents of Fay Weldon's rather grubby product placement page-turner, _[The Bulgari Connection](http://www.guardian.co.uk/books/2001/oct/06/fiction.fayweldon)_. If you're in range of a Starbucks, our heroine might sip thoughtfully from her Frappuccino, but nibble pensively on the Sandwich of the Week when there's a Pret A Manger over the road. Enter the franchise in question and your iPad will ping, signalling the arrival of a promotional coupon in your inbox.][p]
