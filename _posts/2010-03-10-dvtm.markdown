@@ -1,0 +1,18 @@
+---
+title: dvtm
+layout: post
+category: photo
+time:  T15:58:09Z
+imageurl: /u/2010/03/dvtm.jpg
+description: dvtm is a tiling window manager for your terminal 
+tags:
+ - dvtm
+ - linux
+ - osx
+---
+
+I may have been spending too much time on the Eee PC lately. The iTerm window you see above is split using [dvtm](http://www.brain-dump.org/projects/dvtm/), a brilliant little utility that brings the features of a tiling window manager to your terminal. It works particularly well with a tabbed terminal emulator, and/or the likes of [screen](http://www.manpagez.com/man/1/screen/)  and [tmux](http://tmux.sourceforge.net/ "A terminal multiplexer, which I find a lot easier to use than the venerable screen"). 
+
+<p class="small"><a href="http://dl.dropbox.com/u/84981/blog//u/2010/03/dvtm.jpg">View a larger version of the screenshot</a></p>
+
+*[dvtm]: dynamic virtual terminal manager 
