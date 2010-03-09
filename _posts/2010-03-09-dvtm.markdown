@@ -1,0 +1,14 @@
+---
+title: dvxt
+layout: post
+category: photo
+time: T14:57:12Z
+imageurl: /u/
+description: 
+tags:
+ - dvxt
+ - linux
+ - osx
+---
+
+I may have been spending too much time on the Eee PC lately. The iTerm window you see above is split using dvxt, a brilliant little utility that brings the features of a tiling window manager to the terminal.
