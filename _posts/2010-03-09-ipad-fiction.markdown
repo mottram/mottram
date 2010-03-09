@@ -3,6 +3,7 @@ title: Penguin iPad Book Concepts
 layout: post
 time: T19:28:37Z
 category: video
+video_link: http://www.youtube.com/watch/v/jdExukJVUGI
 description: Penguin mockups for children's, travel and textbooks.
 tags:
  - books
