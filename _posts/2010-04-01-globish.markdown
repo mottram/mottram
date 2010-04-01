@@ -1,0 +1,11 @@
+---
+title: Globish, the worldwide dialect of the third millenium
+layout: post
+category: link
+time: T13:55:51Z
+linkto: http://www.guardian.co.uk/books/booksblog/2010/mar/29/globish-international-language 
+description: A simplified version of English may be the new lingua franca. 
+tags:
+ - language
+---
+
