@@ -316,7 +316,7 @@ article ul, article ol {
 	padding:0;
 }
 
-article ul li {
+article ul li, article ol li {
 	margin:0 0 1.5em 0;
 }
 
