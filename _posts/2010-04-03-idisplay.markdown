@@ -1,0 +1,15 @@
+---
+title: iDisplay
+layout: post
+category: link
+time: T11:37:54Z
+linkto: http://www.shapeservices.com/en/products/details.php?product=idisplay&platform=iphone
+description: An app that turns your iPhone or iPad into a second display for your Mac. 
+tags:
+ - ipad
+ - iphone
+ - apps
+---
+
+iDisplay turns an iPad or (less usefully) an iPhone into a secondary display for your Mac. It's a bit flakey, but it works.
+
