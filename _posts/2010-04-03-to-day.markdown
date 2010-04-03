@@ -1,0 +1,13 @@
+---
+title: As It Is To-Day
+layout: post
+category: link
+time: T13:37:51Z
+linkto: http://asitistoday.com/newsagent/
+description: A newspaper culled from past periodicals 
+tags:
+ - media
+ - newspapers
+ - print
+---
+"A 12 page newsprint periodical collecting and collating the best of literature from travel guides, treatises, pamphlets, books, receipts and ephemera. Each looks through the lens "of to-day", revelling in the present and present history, whether from the 18th Century or the 20th." Made with [Newspaper Club](http://www.newspaperclub.co.uk/). 
