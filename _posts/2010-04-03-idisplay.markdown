@@ -3,7 +3,7 @@ title: iDisplay
 layout: post
 category: link
 time: T11:37:54Z
-linkto: http://www.shapeservices.com/en/products/details.php?product=idisplay&platform=iphone
+linkto: http://www.shapeservices.com/en/products/details.php?product=idisplay&amp;platform=iphone
 description: An app that turns your iPhone or iPad into a second display for your Mac. 
 tags:
  - ipad
