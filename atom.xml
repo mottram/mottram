@@ -7,7 +7,7 @@ layout: nil
  <title>Mottr.am</title>
  <link href="http://mottr.am/atom.xml" rel="self"/>
  <link href="http://mottr.am/"/>
- <updated>{{ site.time | date: "%Y-%m-%d" }}</updated>
+ <updated>{{ site.time | date: "%Y-%m-%d" }}T00:00:00Z</updated>
  <id>http://mottr.am/</id>
  <author>
    <name>Jack Mottram</name>
