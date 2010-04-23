@@ -10,4 +10,4 @@ tags:
  - web
 ---
 
-An alternative to the various static site generator.
+An alternative to the various static site generators.
