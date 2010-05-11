@@ -624,7 +624,7 @@ p.small {
 	background:transparent !important;
 }
 
-#idc-container-parent .idc-loginbtn_openid, #idc-container-parent .idc-loginbtn_intensedebate, #idc-container-parent .idc-loginbtn_twitter {
+#idc-container-parent .idc-loginbtn_openid, #idc-container-parent .idc-loginbtn_intensedebate, #idc-container-parent .idc-loginbtn_twitter, #idc-container-parent .idc-loginbtn_wordpress {
 	background:transparent !important;
 	text-indent:0 !important;
 	width:auto !important;
