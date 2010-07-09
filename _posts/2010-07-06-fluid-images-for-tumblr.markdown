@@ -6,7 +6,7 @@ short: fluid
 time:  T13:12:19Z
 loc: CH48,UK 
 locname: Wirral 
-description: 
+description: Shrink images to fit with CSS attribute selectors.
 tags: 
  - css
  - images
@@ -18,7 +18,7 @@ I ran into one problem: how to resize wide images for smaller browser windows wi
 
 Handily, when Tumblr resizes large images, it appends the width of an image to its filename--eg.,`tumblr_guagfduyfa_500.png`--so I could use CSS [attribute selectors](http://forabeautifulweb.com/blog/about/css_a_tribute_to_selectors "A piece on attribute selectors by Andy Clarke"):
 
-{% highlight pygments %}
+{% highlight css %}
 img[src$="_500"] {
 width:100%;
 max-width:500px;
