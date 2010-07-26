@@ -1,0 +1,12 @@
+---
+title: E-Blogs
+layout: post
+category: link
+time: T14:55:38Z
+linkto: http://e-blogs.wikio.co.uk/
+description: Blogs in translation.
+tags:
+ - weblogs 
+---
+
+> Each day, we select blogposts from 5 countries: The United-Kingdom, France, Germany, Italy, Spain. We have them translated into 5 languages.
