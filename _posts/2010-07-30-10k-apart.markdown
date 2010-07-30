@@ -1,0 +1,14 @@
+---
+title: 10K Apart
+layout: post
+type: link
+time:  T11:44:40Z
+linkto: http://10k.aneventapart.com/
+description: A competition to build a web app in 10k. 
+tags: 
+ - web
+---
+
+A competition to build a web app in less than ten kilobytes, although you're allowed to cheat by using jQuery, Prototype and Typekit.
+
+I can't quite believe it's been eight years since the last [The 5k](http://www.the5k.org/), the original, rather more rigorous competition (and the site which, in a roundabout way, led me to the Game Neverending, which had a chatroom with a photo-sharing feature, which eventually morphed into Flickr).
