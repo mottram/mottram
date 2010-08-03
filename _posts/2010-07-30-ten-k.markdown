@@ -1,0 +1,14 @@
+---
+title: 10k Apart
+layout: post
+category: link
+time:  T11:55:12Z
+linkto: http://10k.aneventapart.com/
+description: Design a tiny web app, win money.
+tags:
+ - web 
+---
+
+A competition to design a web app in less than ten kilobytes of code, though you can use external libraries, which is a bit of a swizz.
+
+I can't believe it's been eight years since the last edition of [The 5k](http://www.the5k.org/), the original, rather more rigorous comp. that, in a roundabout way, introduced me to the Game Neverending, which had a chatroom with photo-sharing built in, a handy feature which eventually morphed into Flickr.
