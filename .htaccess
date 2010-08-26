@@ -1,6 +1,7 @@
 ---
 template: nil
 ---
+
 # Standard stuff
 RewriteEngine on
 ServerSignature Off
@@ -30,6 +31,7 @@ redirect 301 /page/3/ http://mottr.am/3/
 redirect 301 /page/4/ http://mottr.am/4/
 redirect 301 /feed/atom/ http://mottr.am/atom.xml
 redirect 301 /feed/ http://mottr.am/atom.xml
+
 {% for post in site.posts %}{% if post.short %}redirect 301 /{{ post.short }} http://mottr.am{{ post.id }}
 {% endif %}{% endfor %}
 
