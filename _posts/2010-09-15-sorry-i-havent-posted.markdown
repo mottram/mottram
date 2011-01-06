@@ -4,7 +4,7 @@ layout: post
 category: link
 time:  T14:57:41Z
 linkto: http://sorry.coryarcangel.com/
-description: A collection of weblog apologies.j 
+description: A collection of weblog apologies.
 tags: 
  - meta
 ---
