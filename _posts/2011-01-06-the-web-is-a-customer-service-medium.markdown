@@ -1,8 +1,8 @@
 ---
 title: The Web is a Customer Service Medium
 layout: post
-type: link
-time: 
+category: link
+time: T21:19:15Z
 linkto: http://www.ftrain.com/wwic.html
 description: A thoughtful look at the web by Paul Ford.
 tags: 
