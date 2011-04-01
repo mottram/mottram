@@ -1,0 +1,13 @@
+---
+title: EDU
+layout: post
+category: photo
+time: T10:15:02Z
+imageurl: u/2011/04/edu.jpg
+description: A picture of a desk.
+tags: 
+ - eames
+ - design
+---
+
+[Eames Desk Unit](http://www.vitra.com/en-gb/home/products/eames-desk-unit-edu/overview/).
