@@ -3,7 +3,7 @@ title: BNP Membership List Legal Threat
 layout: post
 category: basic
 short: bnp
-time:  
+time:  T10:15:02Z
 loc: CH48,UK 
 locname: Wirral
 description: Someone wants to sue me for a link.
@@ -16,20 +16,13 @@ I received an interesting email today:
 
 > To the proprietor of the website http://submitresponse.co.uk/weblog/2008/11/23/todays-links-231108/
 Identified here as Mr Jack Mottram of Glasgow or any other relevant person in control of the entries identified in the above link and its connected pages.
-
 > URGENT, do not ignore.
- 
 > You have linked to the British National Party (BNP) membership list which is prohibited from being published in the UK by a High Court injunction in 2008 (still in force).
- 
 > Breach of an injunction can result in committal proceedings for contempt of court, which is
 punishable by a fine, imprisonment or the seizure of assets.
- 
 > This list was obtained illegally in breach of the Data Protection Act 1998 section 55 and it lists the private details and postcodes of individuals. It breaches UK misuse of Private Information laws (Campbell v MGN, Mosley v NGN), breaches UK confidentiality laws (Coco v A N Clark), breaches the European Convention on Human Rights Article 8, right to privacy, and the person who originally leaked the list (Matthew Single) was prosecuted and convicted of a criminal offence in Nottingham Magistrates Court UK on September 1st 2009.
- 
 > People listed on this have been subject to violence and attacks.  Please remove this link and any other similar immediately from your location.
-
 > If these links are not removed forthwith you will not be notified before further action is taken.
- 
 > Please do not ignore this message. 
 
 If you look at [the web page in question](http://submitresponse.co.uk/weblog/2008/11/23/todays-links-231108/), you'll see that I linked to the [BNP Member Proximity Search](http://www.fishmech.net/bnp/), a handy service which lets you enter your Post Code and find out if any BNP members live in your neighbourhood.
