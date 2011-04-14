@@ -36,5 +36,6 @@ If you look at [the web page in question](http://submitresponse.co.uk/weblog/200
 
 I didn't republish the list, nor did I quote from it: I just linked to what is, arguably, a version of the list. So, I'm guessing I'm on the right side of the law.
 
-NB: The second case cited,[_Max Mosley v News Group Newspapers Ltd._](http://en.wikipedia.org/wiki/Max_Mosley_v_News_Group_Newspapers_Limited) is the one involving the News of the World's revelation that the son of a notorious fascist was paying prostitutes to act out S&M fantasiesthat, according to [The Hon. Mr Justice Eady](http://en.wikipedia.org/wiki/David_Eady), _definitely did not_ have a Nazi concentration camp theme.
+If you've received a similar mail, I'd love to [hear about it](mailto:j@ck.mottr.am)
 
+NB: The second case cited is [_Max Mosley v News Group Newspapers Ltd._](http://en.wikipedia.org/wiki/Max_Mosley_v_News_Group_Newspapers_Limited)--the one involving the News of the World's revelation that the son of a notorious fascist was paying prostitutes to act out S&M fantasies that, according to [The Hon. Mr Justice Eady](http://en.wikipedia.org/wiki/David_Eady), _definitely did not_ have a Nazi concentration camp theme. Amusing.
