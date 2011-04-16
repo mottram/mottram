@@ -20,7 +20,7 @@ The Juitter developer shall have no responsability for data loss or damage of an
 		loadMSG="There are no comments on this post.", // Loading message, if you want to show an image, fill it with "image/gif" and go to the next variable to set which image you want to use on 
 		imgName="loader.gif", // Loading image, to enable it, go to the loadMSG var above and change it to "image/gif"
 		readMore="&#10025;", // read more message to be show after the tweet content
-		nameUser="image" // insert "image" to show avatar of "text" to show the name of the user that sent the tweet 
+		nameUser="text" // insert "image" to show avatar of "text" to show the name of the user that sent the tweet 
 		live:"live-20", //optional, disabled by default, the number after "live-" indicates the time in seconds to wait before request the Twitter API for updates, I do not recommend to use less than 60 seconds.
 		// end of configuration
 	
