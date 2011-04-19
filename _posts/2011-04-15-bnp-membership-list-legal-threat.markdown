@@ -55,13 +55,15 @@ blockquote p {margin-bottom:1.5em!important;}
 > 
 >Please do not ignore this message. 
 
-If you look at [the web page in question](http://submitresponse.co.uk/weblog/2008/11/23/todays-links-231108/), you'll see that I linked to the [BNP Member Proximity Search](http://www.fishmech.net/bnp/), a handy service which lets you enter your Post Code and find out if any BNP members live in your neighbourhood.
+If you look at [the web page in question](http://submitresponse.co.uk/weblog/2008/11/23/todays-links-231108/), you'll see that I linked to the 'BNP Member Proximity Search', a handy service which lets you enter your Post Code and find out if any BNP members live in your neighbourhood.
 
 It seems this BNP activist can't tell the difference between linking and publishing<sup id="r2-041511"><a href="#f2-041511">2</a></sup>, but it'll be interesting to see what the threatened 'further action' might be.
 
 If you've received a similar mail, I'd love to [hear about it](mailto:j@ck.mottr.am)
 
 _Update_: [Regulation 17](http://www.legislation.gov.uk/uksi/2002/2013/regulation/17/made) of [The Electronic Commerce (EC Directive) Regulations 2002](http://www.legislation.gov.uk/uksi/2002/2013/contents/made) appears to give a full defense in England and Wales for linking to another site's content--to borrow the regulation's rather nice phrase, by linking to another site I am acting as a 'mere conduit'.
+
+_Update II_: More info [here](http://mottr.am/bnp2).
 
 <aside>
 <ol>
