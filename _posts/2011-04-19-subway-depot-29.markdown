@@ -3,7 +3,7 @@ title: Subway Depot 29
 layout: post
 category: photo
 time: T17:02:59Z
-imageurl: http://farm4.static.flickr.com/3430/3242128134_60550c1342_d.jpg
+imageurl: u/2011/04/subway.jpg 
 description: A Glasgow subway train in the depot. 
 tags: 
  - glasgow
