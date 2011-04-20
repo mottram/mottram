@@ -10,7 +10,7 @@ tags:
  - transport
 ---
 
-Via [Paul Mison][1].
+By [Ben Cooper][2]. Via [Paul Mison][1].
 
 [1]: http://notes.husk.org/post/4747679362/glasgow-subway-depot
-
+[2]: http://www.flickr.com/photos/cycleologist/3242128134/
