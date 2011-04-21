@@ -3,7 +3,7 @@ title: Marwencol
 layout: post
 category: photo
 time: T17:54:46Z
-imageurl: /u/2010/03/marwencol.jpg
+imageurl: u/2010/03/marwencol.jpg
 description: Marwencol is not your average model village
 tags:
  - art

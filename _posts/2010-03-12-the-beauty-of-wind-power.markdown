@@ -3,7 +3,7 @@ title: The Beauty of Wind Power
 layout: post
 category: photo
 time: T11:51:57Z
-imageurl: /u/2010/03/wind-turbines.jpg
+imageurl: u/2010/03/wind-turbines.jpg
 description: Beautiful photographs of wind turbines
 tags:
  - photography

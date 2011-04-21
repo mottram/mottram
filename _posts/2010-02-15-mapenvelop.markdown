@@ -3,7 +3,7 @@ title: Mapenvelop
 layout: post
 category: photo
 time: T11:00:00Z
-imageurl: /u/2010/02/mapenvelop.jpg
+imageurl: u/2010/02/mapenvelop.jpg
 description: Evnvelopes with a Google Maps interior.
 tags:
  - maps

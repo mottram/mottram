@@ -3,7 +3,7 @@ title: French Lunch
 layout: post
 category: photo
 time: T14:42:55Z
-imageurl: /u/2010/06/french-lunch.jpg
+imageurl: u/2010/06/french-lunch.jpg
 description: Some oysters, the other week.
 tags:
  - food

@@ -3,7 +3,7 @@ title: Grooves
 layout: post
 category: photo
 time: T14:40:33Z
-imageurl: /u/2010/03/groove.jpg
+imageurl: u/2010/03/groove.jpg
 description: 
 tags:
  - vinyl

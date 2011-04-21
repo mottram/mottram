@@ -3,7 +3,7 @@ title: The Shooter's Sandwich
 layout: post
 category: photo
 time: T17:07:16Z
-imageurl: /u/2010/04/sandwich.jpg
+imageurl: u/2010/04/sandwich.jpg
 description: 
 tags:
  - food 
