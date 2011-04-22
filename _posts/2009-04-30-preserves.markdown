@@ -2,7 +2,7 @@
 title: Preserves
 layout: post
 category: photo
-imageurl: /u/2009/04/nzryard05.jpg
+imageurl: u/2009/04/nzryard05.jpg
 description: Hand-painted signage.
 tags:
  - signage

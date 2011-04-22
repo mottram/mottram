@@ -3,7 +3,7 @@ title: Curtain
 layout: post
 category: photo
 time: T18:43:13Z
-imageurl: /u/2009/12/curtain.jpg
+imageurl: u/2009/12/curtain.jpg
 description: Curtain, a sculpture by Daniel Arsham
 tags:
  - sculpture

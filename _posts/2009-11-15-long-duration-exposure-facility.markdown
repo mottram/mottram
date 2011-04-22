@@ -3,7 +3,7 @@ title: The Long Duration Exposure Facility
 layout: post
 category: photo
 time: T17:49:10Z
-imageurl: /u/2009/11/ldef1.jpg
+imageurl: u/2009/11/ldef1.jpg
 description: A panel from the Long Duration Exposure Facility, a scientific satellite.
 tags:
  - science

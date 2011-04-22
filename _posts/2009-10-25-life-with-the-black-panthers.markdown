@@ -2,7 +2,7 @@
 title: Life with the Black Panthers
 layout: post
 category: photo
-imageurl: /u/2009/10/black-panthers.jpg
+imageurl: u/2009/10/black-panthers.jpg
 description: A photograph of the Black Panthers by Howard Bingham.
 tags:
  - 1960s

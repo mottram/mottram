@@ -2,7 +2,7 @@
 title: Neo-Polaroid
 layout: post
 category: photo
-imageurl: /u/2009/10/tehran-photobooth.jpg
+imageurl: u/2009/10/tehran-photobooth.jpg
 description: Documenting mementos.
 tags:
  - future

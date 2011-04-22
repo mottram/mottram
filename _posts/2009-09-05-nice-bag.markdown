@@ -2,7 +2,7 @@
 title: Nice Bag
 layout: post
 category: photo
-imageurl: /u/2009/09/reversible-bag.jpg
+imageurl: u/2009/09/reversible-bag.jpg
 description: A nice reversible shopping bag
 tags: 
  - bags

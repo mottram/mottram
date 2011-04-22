@@ -2,7 +2,7 @@
 title: See Ya
 layout: post
 category: photo
-imageurl: /u/2009/10/barnes.jpg
+imageurl: u/2009/10/barnes.jpg
 keywords: john barnes, barnes, tranmere, trfc
 description: John Barnes sweeping the streets
 tags:

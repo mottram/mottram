@@ -2,7 +2,7 @@
 title: Sanda Zahirovic Book Covers
 layout: post
 category: photo
-imageurl: /u/2009/05/eon.jpg
+imageurl: u/2009/05/eon.jpg
 description: Beautiful book cover designs.
 tags:
  - 
