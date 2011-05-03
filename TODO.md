@@ -1,4 +1,10 @@
-1. Remove ejekyll stuff
-2. Remove Google Maps
-3. Remove tooltips, other js
-4. Media queries, responsive, etc.
+### Remove
+
+1. All ejekyll stuff
+2. Google Maps
+3. tooltips
+
+### Add
+
+1. Media queries, responsive, etc.
+2. Serif.
