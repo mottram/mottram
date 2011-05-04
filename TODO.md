@@ -10,4 +10,6 @@
 2. Serif.
 
 ### Notes
-1. 410 gone the tag pages - generate .htaccess with ejekyll?
+
+0. Clone branch from github to generate new site.
+1. 410 gone the tag pages - generate .htaccess with jekyll?
