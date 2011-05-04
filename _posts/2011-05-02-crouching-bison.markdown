@@ -13,6 +13,6 @@ tags:
 
 > Were there traveling artists, migrant or traveling artists, who would go from cave to cave, with some of the patterns in their pockets, recreating the bison?
 
-Herzog, [interviewed][1] in the _Paris Review_.
+[Herzog][1], interviewed in the <i>Paris Review</i>
 
 [1]: http://www.theparisreview.org/blog/2011/05/02/the-spring-issue-werner-herzog-and-jan-simek-on-caves/
