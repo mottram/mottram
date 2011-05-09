@@ -1,0 +1,14 @@
+---
+title: Full Moon
+layout: post
+category: video
+video_link: http://www.youtube.com/v/sFmZ6WDkuj0
+time: T15:27:53Z
+description: A song by Death Grips.
+tags: 
+ - hiphop
+---
+Via [MeFi][1]. Album available at the [Death Grips website][2].
+
+[1]: http://www.metafilter.com/103292/Death-Grips-Zombie-holocaust-in-seconds
+[2]: http://thirdworlds.net/
