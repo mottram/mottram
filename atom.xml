@@ -20,7 +20,7 @@ layout: nil
   <link href="http://mottr.am{{ post.url }}"/>
   <updated>{{ post.date | date: "%Y-%m-%d" }}{% if post.time %}{{ post.time }}{% endif %}</updated>
   <id>http://mottr.am{{ post.id }}</id>
-  <content type="html">&lt;img src=&quot;http://media.1tw.org/u/84981/blog/{{ post.imageurl }}&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;{{ post.content | xml_escape }}</content>
+  <content type="html">&lt;img src=&quot;http://media.1tw.org/u/blog/{{ post.imageurl }}&quot; width=&quot;500&quot; /&gt;&lt;br /&gt;{{ post.content | xml_escape }}</content>
 </entry>
 {% endif %}
 {% if post.category == 'video' %}
