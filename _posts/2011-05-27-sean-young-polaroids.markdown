@@ -2,8 +2,8 @@
 title: Sean Young
 layout: post
 category: photo
-time: u/2011/05/sean-young.jpg
-imageurl: 
+time: T16:55:00Z
+imageurl: u/2011/05/sean-young.jpg
 description: A Polaroid of Sean Young taken on the set of Blade Runner.
 tags: 
  - polaroid
