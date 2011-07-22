@@ -14,10 +14,6 @@ tags:
 
 I received an interesting email today, from someone who will remain anonymous (because Google tells me there's quite a few folk with the same name):
 
-<style>
-blockquote {text-align:left!important;}
-blockquote p {margin-bottom:1.5em!important;}
-</style>
 > To the proprietor of the website
 > http://submitresponse.co.uk/weblog/2008/11/23/todays-links-231108/ Identified
 > here as Mr Jack Mottram of Glasgow or any other relevant person in control of
