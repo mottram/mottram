@@ -1,0 +1,14 @@
+---
+title: Own Label
+layout: post
+category: photo
+time: T21:27:59Z 
+imageurl: u/2011/10/sainsburys.jpg
+description: Sainsbury's Own Label range used to be pretty.
+tags: 
+ - design
+---
+
+Sainsbury's Own Label biscuit assortment, 1967. Lovely.
+
+From Fuel's history of Sainsbury's design studio, [Own Label](http://www.fuel-design.com/index.php?menu=3&pic=287&detail=1). More at [Creative Review](http://www.creativereview.co.uk/cr-blog/2011/august/sainsburys-own-label-book).
