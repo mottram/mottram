@@ -1,0 +1,15 @@
+---
+title: Lytro
+layout: post
+category: link
+time: T18:13:55Z
+linkto: https://www.lytro.com/
+description: Future photography
+tags: 
+ - photography
+ - cameras
+---
+
+> Unlike a conventional camera that captures a single plane of light, the Lytro camera captures the entire light field, which is all the light traveling in every direction in every point in space.
+
+Which means you can focus <i>after</i> taking a picture. [Some example images](https://www.lytro.com/lytro-camera-launch/298), which you can click to re-focus.

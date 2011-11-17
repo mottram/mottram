@@ -1,5 +1,5 @@
 permalink: /:year/:month/:day/:title/
 pygments: true
-markdown: maruku
+markdown: kramdown
 tag_dir: tag
 tag_title_prefix: ""
